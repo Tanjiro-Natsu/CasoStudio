@@ -1,0 +1,177 @@
+2023-10-27 17:03:36,013 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-10-27 17:04:37,142 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [267])
+2023-10-27 17:04:37,147 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2023-10-27 17:04:37,147 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2023-10-27 17:04:37,148 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2023-10-27 17:04:37,148 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2023-10-27 17:04:37,148 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2023-10-27 17:04:37,148 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2023-10-27 17:04:37,149 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2023-10-27 17:04:37,149 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2023-10-27 17:04:37,149 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2023-10-27 17:04:37,149 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2023-10-27 17:04:37,149 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2023-10-27 17:04:37,149 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2023-10-27 17:04:37,150 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2023-10-27 17:04:37,150 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2023-10-27 17:04:37,150 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2023-10-27 17:04:37,150 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2023-10-27 17:04:37,151 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2023-10-27 17:04:37,151 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-10-27 17:04:37,151 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2023-10-27 17:04:37,151 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2023-10-27 17:04:37,151 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2023-10-27 17:04:37,151 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-10-27 17:04:37,152 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2023-10-27 17:04:37,152 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2023-10-27 17:04:37,152 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2023-10-27 17:04:37,152 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2023-10-27 17:04:37,152 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2023-10-27 17:04:37,152 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2023-10-27 17:04:37,153 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-10-27 17:04:37,153 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-10-27 17:04:37,153 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2023-10-27 17:04:37,153 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2023-10-27 17:04:37,153 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2023-10-27 17:04:37,154 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2023-10-27 17:04:37,154 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2023-10-27 17:04:37,154 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2023-10-27 17:04:37,154 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2023-10-27 17:04:37,154 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2023-10-27 17:04:37,154 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2023-10-27 17:04:37,157 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_30.1.0.v20221112-0806 [8])
+2023-10-27 17:04:37,158 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\com.google.guava_30.1.0.v20221112-0806.jar
+2023-10-27 17:04:37,159 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [431])
+2023-10-27 17:04:37,160 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\slf4j.api_1.7.36.jar
+2023-10-27 17:04:37,160 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [18])
+2023-10-27 17:04:37,161 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-10-27 17:04:37,162 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [16])
+2023-10-27 17:04:37,163 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\Marco\.p2\pool\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2023-10-27 17:04:37,171 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Marco\AppData\Local\Temp\m2e-archetypeGenerator17782614201716288333":
+2023-10-27 17:04:37,177 [Worker-2: Launching mavenrun-b74295f2-f8aa-4205-91e1-be91d9767cc8] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.1 -DgroupId=Plutone_Project -DartifactId=23-24 -Dversion=0.0.1-SNAPSHOT -Dpackage=main -DoutputDirectory="C:\Users\Marco\Desktop\CasoStudio Qualita" -B -Dstyle.color=always -U archetype:generate
+2023-10-27 17:04:48,159 [Worker-3: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\Marco\Desktop\CasoStudio Qualita\23-24\pom.xml
+2023-10-27 17:04:49,067 [Worker-3: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Plutone_Project:23-24:0.0.1-SNAPSHOT @ C:\Users\Marco\Desktop\CasoStudio Qualita\23-24\pom.xml.
+2023-10-27 17:04:49,816 [Worker-3: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /23-24/src/main/java
+2023-10-27 17:04:49,823 [Worker-3: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /23-24/src/test/java
+2023-10-27 17:04:49,827 [Worker-3: Creating maven-archetype-quickstart] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'J2SE-1.5', falling back to workspace default
+2023-10-27 17:04:49,947 [Worker-3: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2023-10-27 17:04:50,780 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:04:50,781 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\23-24\src\main\resources
+2023-10-27 17:04:50,785 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:04:50,785 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\23-24\src\test\resources
+2023-10-27 17:05:28,354 [Worker-7: Launching mavenrun-66acb4e8-ed1b-4fba-8461-7758c596b694] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\Marco\AppData\Local\Temp\m2e-archetypeGenerator3556543253758318903":
+2023-10-27 17:05:28,355 [Worker-7: Launching mavenrun-66acb4e8-ed1b-4fba-8461-7758c596b694] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.1 -DgroupId=Plutone_Project -DartifactId=Plutone_Project -Dversion=0.0.1-SNAPSHOT -Dpackage=main -DoutputDirectory="C:\Users\Marco\Desktop\CasoStudio Qualita" -Dstyle.color=always -U archetype:generate
+2023-10-27 17:05:42,604 [Worker-6: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\pom.xml
+2023-10-27 17:05:43,039 [Worker-6: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Plutone_Project:Plutone_Project:0.0.1-SNAPSHOT @ C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\pom.xml.
+2023-10-27 17:05:43,339 [Worker-6: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Plutone_Project/src/main/java
+2023-10-27 17:05:43,347 [Worker-6: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Plutone_Project/src/test/java
+2023-10-27 17:05:43,348 [Worker-6: Creating maven-archetype-quickstart] ERROR o.e.m.j.i.AbstractJavaProjectConfigurator - Failed to find a compatible VM for environment id 'J2SE-1.5', falling back to workspace default
+2023-10-27 17:05:43,410 [Worker-6: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2023-10-27 17:05:43,680 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:05:43,681 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:05:43,687 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:05:43,688 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:05:53,030 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:05:53,030 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:05:53,033 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:05:53,033 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:06:01,585 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:06:01,586 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:06:01,589 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:06:01,590 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:06:19,092 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:06:19,093 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:06:19,096 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:06:19,096 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:06:34,164 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:06:34,165 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:06:34,168 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:06:34,168 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:06:46,197 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:06:46,198 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:06:46,202 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:06:46,202 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:06:56,957 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:06:56,958 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:06:56,960 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:06:56,961 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:07:01,873 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:07:01,873 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:07:01,876 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:07:01,876 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:07:09,045 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:07:09,045 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:07:09,048 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:07:09,048 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:07:13,872 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:07:13,873 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:07:13,878 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:07:13,879 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:07:27,846 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:07:27,847 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:07:27,850 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:07:27,850 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:07:34,358 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:07:34,359 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:07:34,362 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:07:34,362 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:07:44,096 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:07:44,097 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:07:44,103 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:07:44,103 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:07:53,727 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:07:53,727 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:07:53,730 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:07:53,731 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:08:15,033 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:08:15,033 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:08:15,037 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:08:15,040 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:08:25,692 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:08:25,693 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:08:25,696 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:08:25,696 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:08:48,538 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:08:48,539 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:08:48,541 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:08:48,542 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:08:51,668 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:08:51,668 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:08:51,671 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:08:51,672 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:09:03,894 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:09:03,895 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:09:03,898 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:09:03,898 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:09:07,675 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:09:07,676 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:09:07,678 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:09:07,678 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:09:39,569 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:09:39,570 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:09:39,573 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:09:39,574 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:10:22,332 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:10:22,332 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:10:22,334 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:10:22,334 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:11:05,506 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:11:05,506 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:11:05,511 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:11:05,511 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:11:12,228 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:11:12,229 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:11:12,233 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:11:12,234 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:11:15,195 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:11:15,195 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:11:15,198 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:11:15,199 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:12:06,930 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:12:06,930 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:12:06,933 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:12:06,933 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-10-27 17:12:17,970 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:12:17,970 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-10-27 17:12:17,974 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-10-27 17:12:17,974 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
