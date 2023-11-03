@@ -1,0 +1,24 @@
+package main;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class MenuSearchTest {
+	MenuSearch Menu;
+	JTeatArea d=new JTextArea();
+@BeforeEach
+public void CreateMenuSearch() {
+	MenuSearch Menu=new MenuSearch();
+}
+	@Test
+	public void getColorxTest() {
+		Assertions.assertAll("getColor x Test",
+				()->assertTrue()
+				);
+	}
+
+
+}

@@ -25,7 +25,15 @@ public class MetaData extends JFrame{
 	private JLabel a7=null;
 	private JLabel a8=null;
 	private JLabel a9=null;
-
+public JLabel geta1() {return a1;}
+public JLabel geta2() {return a2;}
+public JLabel geta3() {return a3;}
+public JLabel geta4() {return a4;}
+public JLabel geta5() {return a5;}
+public JLabel geta6() {return a6;}
+public JLabel geta7() {return a7;}
+public JLabel geta8() {return a8;}
+public JLabel geta9() {return a9;}
 	public String toString() {
 		return "\nPath:"+d+"\nCreationTime:"+a1.getText()+"\nLastAccessTime:"+a2.getText()+"\nLastModifiedTime:"+a3.getText()+"\nIsDirectory:"+a4.getText()+"\nisOther:"+a5.getText()+"\nisRegularFile:"+a6.getText()+"\nisSymbolicLink:"+a7.getText()+"\nSize:"+a8.getText();
 	}

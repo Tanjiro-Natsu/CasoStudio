@@ -1,0 +1,91 @@
+package main;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+
+public class ImageMenu extends JMenuBar{
+	private JMenuItem BiancoNero;
+	private JMenuItem Red;
+	private JMenuItem Green;
+	private  JMenuItem Blue;
+	private  JMenuItem Standard;
+	private BufferedImage image;
+	private BufferedImage image1;
+	private int height;
+	private int width;
+	private JMenu Color;
+	private  int vai=0;
+	private String v;
+	public int getvai() {return vai;}
+	public void set() {vai=1;}
+	public  ImageMenu(BufferedImage dd,JLabel s,String v1) {
+			image=dd;
+			image1=dd;
+			 v=v1;
+		height=image.getHeight();
+		width=image.getWidth();
+		Color =new JMenu("Color");
+		BiancoNero=new JMenuItem("BiancoNero");
+		Red=new JMenuItem("Rosso");
+		Green=new JMenuItem("Verde");
+		Blue=new JMenuItem("Blu");
+		Standard=new JMenuItem("Standard");
+		Color.add(BiancoNero);
+		Color.add(Red);
+		Color.add(Green);
+		Color.add(Blue);
+		Color.add(Standard);
+		BiancoNero.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {set();FileChooser.setJLabel(Color(height,width,image,"BiancoNero"),v);}});
+		Red.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {set();FileChooser.setJLabel(Color(height,width,image,"Red"),(v));}});
+		Green.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {set();FileChooser.setJLabel(Color(height,width,image,"Green"),(v));}});
+		Blue.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {set();FileChooser.setJLabel(Color(height,width,image,"Blue"),v);}});
+		Standard.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {set();FileChooser.setJLabel(image,v);}});
+
+		add(Color);
+	}
+	public BufferedImage Color(int height1,int width1,BufferedImage t1,String s) {
+		BufferedImage ok=t1;
+		if(s.equalsIgnoreCase("Red")){
+			for(int i=0;i<height1;i++) {
+				for(int t=0;t<width;t++) {
+					int rgbA=ok.getRGB(t, i);
+					ok.setRGB(t, i,rgbA & 0xff0000);//blu =(rgbA>>16) & 0xff
+				}
+		}}
+		if(s.equalsIgnoreCase("Green")){
+			for(int i=0;i<height1;i++) {
+				for(int t=0;t<width;t++) {
+					int rgbA=ok.getRGB(t, i);
+					ok.setRGB(t, i,rgbA & 0x00CC00);//blu =(rgbA>>16) & 0xff
+				}
+		}
+		}
+		if(s.equalsIgnoreCase("Blue")){
+			for(int i=0;i<height1;i++) {
+				for(int t=0;t<width;t++) {
+					int rgbA=ok.getRGB(t, i);
+					ok.setRGB(t, i,rgbA & 0x0000CC);//blu =(rgbA>>16) & 0xff
+				}
+		}
+		}
+		if(s.equalsIgnoreCase("BiancoNero")){
+			for(int i=0;i<height1;i++) {
+				for(int t=0;t<width;t++) {
+					int rgbA=ok.getRGB(t, i);
+					ok.setRGB(t, i,rgbA & 0xA0A0A0);//blu =(rgbA>>16) & 0xff
+				}
+		}
+		}
+		return ok;	
+	}
+
+}

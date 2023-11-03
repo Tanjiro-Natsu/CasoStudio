@@ -1,0 +1,3 @@
+main.GUI2#sett1()V
+==
+setText javax.swing.text.JTextComponent#setText(Ljava/lang/String;)V

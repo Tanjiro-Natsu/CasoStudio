@@ -1,0 +1,92 @@
+package main;
+
+import static org.junit.Assert.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import java.util.ArrayList;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+
+import junit.framework.TestCase;
+
+public class AppTest extends TestCase {
+	ArrayList<String> txt=new ArrayList<String>();
+	ArrayList<String> image=new ArrayList<String>();
+	
+	
+public void test()
+{
+	
+	assertTrue("ok".equals("ok"));
+
+        assertTrue(!Accesso.getjdbc().isBlank());
+       assertTrue(!Accesso.getjdbc().isEmpty());
+        assertTrue(Accesso.getjdbc().equals("jdbc:sqlserver://localhost:1433;databaseName=Plutone_Project"));
+
+        assertTrue(!Accesso.getUser().isBlank());
+        assertTrue(!Accesso.getUser().isEmpty());
+        assertTrue(Accesso.getUser().equals("sa"));
+
+        assertTrue(!Accesso.getPassword().isBlank());
+        assertTrue(!Accesso.getPassword().isEmpty());
+        assertTrue(Accesso.getPassword().equals("Cacca1989"));
+        GUI a=new GUI();
+        assertTrue(a!=null);
+        GUI a2=new GUI();
+        assertTrue(a2!=null);
+        main a3=new main();
+        assertTrue(a3!=null);
+        assertTrue(a3.getb()!=null);
+        assertTrue(a3.getr()==false);
+        assertTrue(a3.getr1()==false);
+        Menu a4=new Menu();
+        assertTrue(a4.getColor10().toString().equals("Rosso"));
+        assertTrue(a4.getColor11().toString().equals("Blue"));
+        assertTrue(a4.getColor12().toString().equals("Verde"));
+        assertTrue(a4.getColor13().toString().equals("Arancione"));
+        assertTrue(a4.getColor14().toString().equals("Giallo"));
+        assertTrue(a4.getColor15().toString().equals("Magenta"));
+        assertTrue(a4.getColor16().toString().equals("Nero"));
+        assertTrue(a4.getColor17().toString().equals("Rosa"));
+        assertTrue(a4.getColor18().toString().equals("Grigio"));
+        assertTrue(a4.getColor20().toString().equals("Rosso"));
+        assertTrue(a4.getColor21().toString().equals("Blue"));
+        assertTrue(a4.getColor22().toString().equals("Verde"));
+        assertTrue(a4.getColor23().toString().equals("Arancione"));
+        assertTrue(a4.getColor24().toString().equals("Giallo"));
+        assertTrue(a4.getColor25().toString().equals("Magenta"));
+        assertTrue(a4.getColor26().toString().equals("Nero"));
+        assertTrue(a4.getColor27().toString().equals("Rosa"));
+        assertTrue(a4.getColor28().toString().equals("Grigio"));
+        Menu2 a5=new Menu2();
+        assertTrue(a5.getColor10().toString().equals("Rosso"));
+        assertTrue(a5.getColor11().toString().equals("Blue"));
+        assertTrue(a5.getColor12().toString().equals("Verde"));
+        assertTrue(a5.getColor13().toString().equals("Arancione"));
+        assertTrue(a5.getColor14().toString().equals("Giallo"));
+        assertTrue(a5.getColor15().toString().equals("Magenta"));
+        assertTrue(a5.getColor16().toString().equals("Nero"));
+        assertTrue(a5.getColor17().toString().equals("Rosa"));
+        assertTrue(a5.getColor18().toString().equals("Grigio"));
+        assertTrue(a5.getColor20().toString().equals("Rosso"));
+        assertTrue(a5.getColor21().toString().equals("Blue"));
+        assertTrue(a5.getColor22().toString().equals("Verde"));
+        assertTrue(a5.getColor23().toString().equals("Arancione"));
+        assertTrue(a5.getColor24().toString().equals("Giallo"));
+        assertTrue(a5.getColor25().toString().equals("Magenta"));
+        assertTrue(a5.getColor26().toString().equals("Nero"));
+        assertTrue(a5.getColor27().toString().equals("Rosa"));
+        assertTrue(a5.getColor28().toString().equals("Grigio"));
+        MetaData a6=new MetaData()
+        
+       
+        
+        
+        
+        
+}
+
+}

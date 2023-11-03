@@ -1,0 +1,4 @@
+main.Info#<init>()V
+==
+setSize java.awt.Window#setSize(II)V
+setDefaultCloseOperation javax.swing.JFrame#setDefaultCloseOperation(I)V

@@ -1,0 +1,12 @@
+package main;
+
+import junit.framework.TestCase;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+public class AccessoTest extends TestCase {
+	void getjdbcTest() {
+		Assertions.assertAll(){
+		assertTrue(Accesso.getjdbc().isEmpty());
+		assertTrue(Accesso.getjdbc().isBlank());
+	}}
+}

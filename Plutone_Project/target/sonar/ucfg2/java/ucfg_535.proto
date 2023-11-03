@@ -1,0 +1,824 @@
+
+Jmain.ImageMenu#Color(II[BLjava/lang/String;)Ljava/awt/image/BufferedImage;h
+\/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/ImageMenu.java£ £("77*˚
+68
+≠ ≠(‹Ÿ
+
+≠ ≠(	
+%6int"(java.awt.image.BufferedImage#getRGB(II)I*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2
+getRGB(II)ÉÄ
+
+Æ Æ(&
+
+%7void")java.awt.image.BufferedImage#setRGB(III)V*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2setRGB(III)*
+69*≤
+47
+¿ ¿(ï
+í
+
+¿ ¿(
+%19boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+41
+45*±
+69
+¨ ¨(î
+ë
+
+¨ ¨(
+%5boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+68
+71*ˆ
+25
+‘ ‘(Ÿ÷
+
+‘ ‘( 
+%33boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*3
+
+__unknown_file (
+
+sjava.lang.String*%
+
+__unknown_file (	
+Green2$equalsIgnoreCase(Ljava/lang/String;)*
+17
+23*ı
+49
+ø ø(ÿ’
+
+ø ø(
+%18boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*3
+
+__unknown_file (
+
+sjava.lang.String*$
+
+__unknown_file (
+Pink2$equalsIgnoreCase(Ljava/lang/String;)*
+47
+41*˝
+28
+– –(›⁄
+
+– –(
+
+%31int"(java.awt.image.BufferedImage#getRGB(II)I*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2
+getRGB(II)ÑÅ
+
+— —(&
+%32void")java.awt.image.BufferedImage#setRGB(III)V*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2setRGB(III)*
+29*≤
+29
+œ œ(ï
+í
+
+œ œ(
+%30boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+28
+31*±
+71
+´ ´(î
+ë
+
+´ ´(
+%4boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+69
+65*Û
+73
+™ ™(÷”
+
+™ ™(
+%3boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*3
+
+__unknown_file (
+
+sjava.lang.String*#
+
+__unknown_file (
+Red2$equalsIgnoreCase(Ljava/lang/String;)*
+71
+65*˝
+52
+ª ª(›⁄
+
+ª ª(
+
+%16int"(java.awt.image.BufferedImage#getRGB(II)I*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2
+getRGB(II)ÑÅ
+
+º º(&
+%17void")java.awt.image.BufferedImage#setRGB(III)V*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2setRGB(III)*
+53*î
+74
+ß ß(|
+z
+
+ß ß($
+imgBjava.awt.image.BufferedImage"__id*@
+
+__unknown_file ($
+"
+%2java.awt.image.BufferedImage*
+73*≤
+53
+∫ ∫(ï
+í
+
+∫ ∫(
+%15boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+52
+55*≤
+31
+Œ Œ(ï
+í
+
+Œ Œ(
+%29boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+25
+29*ó
+76
+ß
+ ß(˛
+˚
+
+ß
+ ß("
+%2java.awt.image.BufferedImage"Ojavax.imageio.ImageIO#read(Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;*5
+
+__unknown_file ("
+javax.imageio.ImageIO*A
+
+__unknown_file (%
+#
+bisjava.io.ByteArrayInputStream*
+74*≤
+55
+π π(ï
+í
+
+π π(
+%14boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+49
+53*ı
+77
+§7 §(9PN
+
+§" §(6"
+%0java.io.ByteArrayInputStream"java.io.ByteArrayInputStream≠
+™
+
+§ §(:
+%1"(java.io.ByteArrayInputStream#<init>([B)V*@
+
+__unknown_file ($
+"
+%0java.io.ByteArrayInputStream**
+
+__unknown_file (
+
+okbyte[]{
+y
+
+§ §(;#
+bisjava.io.ByteArrayInputStream"__id*@
+
+__unknown_file ($
+"
+%0java.io.ByteArrayInputStream^
+\
+
+• •($
+imgBjava.awt.image.BufferedImage"__id*"
+
+__unknown_file (
+""*
+76*˜
+33
+Õ Õ(⁄◊
+
+Õ Õ(!
+%28boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*3
+
+__unknown_file (
+
+sjava.lang.String*&
+
+__unknown_file (
+
+Orange2$equalsIgnoreCase(Ljava/lang/String;)*
+25
+31*˝
+12
+ﬂ ﬂ(›⁄
+
+ﬂ ﬂ(
+
+%41int"(java.awt.image.BufferedImage#getRGB(II)I*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2
+getRGB(II)ÑÅ
+
+‡ ‡(&
+%42void")java.awt.image.BufferedImage#setRGB(III)V*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2setRGB(III)*
+13*˜
+57
+∏ ∏(⁄◊
+
+∏ ∏(!
+%13boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*3
+
+__unknown_file (
+
+sjava.lang.String*&
+
+__unknown_file (
+
+Violet2$equalsIgnoreCase(Ljava/lang/String;)*
+49
+55*≤
+13
+ﬁ ﬁ(ï
+í
+
+ﬁ ﬁ(
+%40boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+15
+12*˝
+36
+… …(›⁄
+
+… …(
+
+%26int"(java.awt.image.BufferedImage#getRGB(II)I*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2
+getRGB(II)ÑÅ
+
+   (&
+%27void")java.awt.image.BufferedImage#setRGB(III)V*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2setRGB(III)*
+37*≤
+37
+» »(ï
+í
+
+» »(
+%25boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+36
+39*±
+15
+› ›(ï
+í
+
+› ›(
+%39boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+13
+9*≤
+39
+« «(ï
+í
+
+« «(
+%24boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+37
+33*Ù
+17
+‹ ‹(ÿ’
+
+‹ ‹(
+%38boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*3
+
+__unknown_file (
+
+sjava.lang.String*$
+
+__unknown_file (
+Blue2$equalsIgnoreCase(Ljava/lang/String;)*
+15
+9*E
+1
+Ï	 Ï("4
+
+Ï Ï(&
+$
+imgBjava.awt.image.BufferedImage*˚
+4
+Á Á(›⁄
+
+Á Á(
+
+%46int"(java.awt.image.BufferedImage#getRGB(II)I*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2
+getRGB(II)ÑÅ
+
+Ë Ë(&
+%47void")java.awt.image.BufferedImage#setRGB(III)V*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2setRGB(III)*
+5*Ø
+5
+Ê Ê(ï
+í
+
+Ê Ê(
+%45boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+4
+7*Ø
+7
+Â Â(ï
+í
+
+Â Â(
+%44boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+5
+1*¯
+9
+‰ ‰(ﬁ€
+
+‰ ‰(%
+%43boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*3
+
+__unknown_file (
+
+sjava.lang.String**
+
+__unknown_file (
+
+BiancoNero2$equalsIgnoreCase(Ljava/lang/String;)*
+7
+1*˝
+60
+¥ ¥(›⁄
+
+¥ ¥(
+
+%11int"(java.awt.image.BufferedImage#getRGB(II)I*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2
+getRGB(II)ÑÅ
+
+µ µ(&
+%12void")java.awt.image.BufferedImage#setRGB(III)V*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2setRGB(III)*
+61*≤
+61
+≥ ≥(ï
+í
+
+≥ ≥(
+%10boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+60
+63*¯
+41
+∆ ∆(€ÿ
+
+∆ ∆("
+%23boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*3
+
+__unknown_file (
+
+sjava.lang.String*'
+
+__unknown_file (	
+Magenta2$equalsIgnoreCase(Ljava/lang/String;)*
+39
+33*±
+63
+≤ ≤(î
+ë
+
+≤ ≤(
+%9boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+57
+61*˝
+20
+◊ ◊(›⁄
+
+◊ ◊(
+
+%36int"(java.awt.image.BufferedImage#getRGB(II)I*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2
+getRGB(II)ÑÅ
+
+ÿ ÿ(&
+%37void")java.awt.image.BufferedImage#setRGB(III)V*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2setRGB(III)*
+21*ˆ
+65
+± ±(Ÿ÷
+
+± ±(!
+%8boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*3
+
+__unknown_file (
+
+sjava.lang.String*&
+
+__unknown_file (
+
+Yellow2$equalsIgnoreCase(Ljava/lang/String;)*
+57
+63*≤
+21
+÷ ÷(ï
+í
+
+÷ ÷(
+%35boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+20
+23*˝
+44
+¬ ¬(›⁄
+
+¬ ¬(
+
+%21int"(java.awt.image.BufferedImage#getRGB(II)I*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2
+getRGB(II)ÑÅ
+
+√ √(&
+%22void")java.awt.image.BufferedImage#setRGB(III)V*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2setRGB(III)*
+45*≤
+45
+¡ ¡(ï
+í
+
+¡ ¡(
+%20boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+47
+44*≤
+23
+’ ’(ï
+í
+
+’ ’(
+%34boolean"	__compare*!
+
+__unknown_file (
+<*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*
+17
+21: 
+
+__unknown_file (
+"": 
+
+__unknown_file (
+"":
+
+£3 £(>
+okbyte[]:#
+
+£> £(F
+sjava.lang.StringB
+main.ImageMenuH

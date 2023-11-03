@@ -1,0 +1,38 @@
+package main;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import javax.swing.JTextArea;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class MenuSearchTest {
+	MenuSearch Menu;
+	JTextArea d=new JTextArea();
+@BeforeEach
+public void CreateMenuSearch() {
+	MenuSearch Menu=new MenuSearch(d);
+}
+	@Test
+	public void getColorxTest() {
+		Assertions.assertAll("getColor x Test",
+				()->assertTrue(Menu.getq1()!=null),
+				()->assertTrue(Menu.getq2()!=null),
+				()->assertTrue(Menu.getq3()!=null),
+				()->assertTrue(Menu.getq4()!=null),
+				()->assertTrue(Menu.getq5()!=null),
+				()->assertTrue(Menu.getq6()!=null),
+				()->assertTrue(Menu.getq7()!=null),
+				()->assertTrue(Menu.getq8()!=null),
+				()->assertTrue(Menu.getq9()!=null),
+				()->assertTrue(Menu.getq10()!=null),
+				()->assertTrue(Menu.getq11()!=null),
+				()->assertTrue(Menu.getq12()!=null)
+				
+				);
+	}
+
+
+}

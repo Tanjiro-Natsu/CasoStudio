@@ -1,0 +1,21 @@
+
+&main.GUI2#getText4()Ljava/lang/String;a
+W/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/GUI2.javaf f("1*Ä
+1g	 g(c
+a
+g	 g(
+%0javax.swing.JTextField"__id*1
+
+__unknown_file (*
+	main.GUI2"
+t4©¦
+g	 g(
+%1java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*:
+
+__unknown_file (
+
+%0javax.swing.JTextField2	getText()"$
+g g(
+
+%1java.lang.StringB"
+	main.GUI2H

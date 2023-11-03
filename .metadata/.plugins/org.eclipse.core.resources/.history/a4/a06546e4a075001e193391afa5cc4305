@@ -1,0 +1,181 @@
+package main;
+
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.text.NumberFormat.Style;
+
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JTextPane;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.StyleConstants;
+import javax.swing.text.StyledDocument;
+
+
+public class MenuWriter extends JMenuBar{
+	
+    private static String s1=Font.DIALOG;
+    private static String s2=Font.DIALOG_INPUT;
+    private static String s3=Font.MONOSPACED;
+    private static String s4=Font.SANS_SERIF;
+    private static String s5=Font.SERIF;
+    private int y1=Font.BOLD;
+    private int y2=Font.CENTER_BASELINE;
+    private int y3=Font.HANGING_BASELINE;
+    private int y4=Font.ITALIC;
+    private int y5=Font.LAYOUT_LEFT_TO_RIGHT;
+    private int y6=Font.LAYOUT_NO_LIMIT_CONTEXT;
+    private int y7=Font.LAYOUT_NO_START_CONTEXT;
+    private int y8=Font.LAYOUT_RIGHT_TO_LEFT;
+    private int y9=Font.PLAIN;
+    private int y10=Font.ROMAN_BASELINE;
+    private int y11=Font.TRUETYPE_FONT;
+    private int y12=Font.TYPE1_FONT;
+	private Color q1=Color.RED	;
+	private Color q2=Color.GREEN;
+	private Color q3=Color.BLUE;
+	private Color q4=Color.YELLOW;
+	private Color q5=Color.PINK;
+	private Color q6=Color.WHITE;
+	private Color q7=Color.BLACK;
+	private Color q8=Color.GRAY;
+	private Color q9=Color.ORANGE;
+	private Color q10=Color.CYAN;
+	private Color q11=Color.DARK_GRAY;
+	private Color q12=Color.MAGENTA;
+	private Color previousColor=Color.BLACK;
+	public Color getq1() {return q1;}
+	public Color getq2() {return q2;}
+	public Color getq3() {return q3;}
+	public Color getq4() {return q4;}
+	public Color getq5() {return q5;}
+	public Color getq6() {return q6;}
+	public Color getq7() {return q7;}
+	public Color getq8() {return q8;}
+	public Color getq9() {return q9;}
+	public Color getq10() {return q10;}
+	public Color getq11() {return q11;}
+	public Color getq12() {return q12;}
+	public Color getq13() {return previousColor;}
+	private JMenuItem DIALOG=new JMenuItem("DIALOG");
+	private JMenuItem DIALOG_INPUT=new JMenuItem("DIALOG_INPUT");
+	private JMenuItem MONOSPACE=new JMenuItem("MONOSPACE");
+	private JMenuItem SANS_SERIF=new JMenuItem("SANS_SERIF");
+	private JMenuItem SERIF=new JMenuItem("SERIF");
+	private JMenuItem y111=new JMenuItem("BOLD");
+	private JMenuItem y112=new JMenuItem("CENTER_BASELINE");
+	private JMenuItem y113=new JMenuItem("HANGING_BASELINE");
+	private JMenuItem y114=new JMenuItem("ITALIC");
+	private JMenuItem y115=new JMenuItem("LAYOUT_LEFT_TO_RIGHT");
+	private JMenuItem y116=new JMenuItem("LAYOUT_NO_LIMIT_CONTEXT");
+	private JMenuItem y117=new JMenuItem("LAYOUT_NO_START_CONTEXT");
+	private JMenuItem y118=new JMenuItem("LAYOUT_RIGHT_TO_LEFT");
+	private JMenuItem y119=new JMenuItem("PLAIN");
+	private JMenuItem y120=new JMenuItem("ROMAN_BASELINE");
+	private JMenuItem y121=new JMenuItem("TRUETYPE_FONT");
+	private JMenuItem y122=new JMenuItem("TYPE1_FONT");
+	private static String yo=s5;
+	private static int yo1=3;
+	private static int yo2=20;
+	private static Font sss=new Font(yo,yo1,yo2);
+	
+private String  r=null;
+private String r2=null;
+	
+	public MenuWriter(final JTextPane d) {
+			Font r=d.getFont();
+			
+	    
+		JMenu k=new JMenu("Size");
+		JMenu k2=new JMenu("Color");
+		JMenu k3=new JMenu("BackGroundColor");
+		JMenu k4=new JMenu("LayoutStyle");
+		JMenuItem z1=new JMenuItem("Red");
+		JMenuItem z2=new JMenuItem("Green");
+		JMenuItem z3=new JMenuItem("Blue");
+		JMenuItem z4=new JMenuItem("Yellow");
+		JMenuItem z5=new JMenuItem("Pink");
+		JMenuItem z6=new JMenuItem("White");
+		JMenuItem z7=new JMenuItem("Black");
+		JMenuItem z8=new JMenuItem("Gray");
+		JMenuItem z9=new JMenuItem("Orange");
+		JMenuItem z10=new JMenuItem("Cyan");
+		JMenuItem z11=new JMenuItem("Dark_Gray");
+		JMenuItem z12=new JMenuItem("Magenta");
+		k4.add(DIALOG);
+		k4.add(DIALOG_INPUT);
+		k4.add(MONOSPACE);
+		k4.add(SANS_SERIF);
+		k4.add(SERIF);
+		k4.add(y111);
+		k4.add(y112);
+		k4.add(y113);
+		k4.add(y114);
+		k4.add(y115);
+		k4.add(y116);
+		k4.add(y117);
+		k4.add(y118);
+		k4.add(y119);
+		k4.add(y120);
+		k4.add(y121);
+		k4.add(y122);
+		k2.add(z1);
+		k2.add(z2);
+		k2.add(z3);
+		k2.add(z4);
+		k2.add(z5);
+		k2.add(z6);
+		k2.add(z7);
+		k2.add(z8);
+		k2.add(z9);
+		k2.add(z10);
+		k2.add(z11);
+		k2.add(z12);
+		z1.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {
+			d.setForeground(q1);
+	
+		}});
+		z2.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q2);}});
+		z3.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q3);}});
+		z4.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q4);}});
+		z5.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q5);}});
+		z6.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q6);}});
+		z7.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q7);}});
+		z8.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q8);}});
+		z9.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q9);}});
+		z10.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q10);}});
+		z11.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q11);}});
+		z12.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q12);}});
+		DIALOG.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo=s1;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+		DIALOG_INPUT.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo=s2;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+		MONOSPACE.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo=s3;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+		SANS_SERIF.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo=s4;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+		SERIF.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo=s5;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+		y111.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y1;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+		y112.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y2;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+		y113.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y3;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+		y114.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y4;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+		y115.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y5;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+		y116.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y6;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+		y117.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y7;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+		y118.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y8;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+		y119.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y9;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+		y120.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y10;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+		y121.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y11;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+		y122.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y12;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+		k.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
+		k4.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
+		k2.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
+		k3.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
+		k4.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
+		add(k);
+		add(k4);
+		add(k2);
+		add(k3);
+		
+	}
+
+}

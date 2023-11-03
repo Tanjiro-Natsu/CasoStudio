@@ -1,0 +1,41 @@
+package main;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.ButtonGroup;
+import javax.swing.JFrame;
+import javax.swing.JRadioButton;
+
+public class Chooser extends JFrame{
+	public Chooser() {
+		setSize(300,280);
+    	setDefaultCloseOperation(EXIT_ON_CLOSE);
+    	setVisible(true);
+    	setLocation(650, 200);
+    	ButtonGroup i=new ButtonGroup();
+    	JRadioButton Search=new JRadioButton("Search Information");
+    	JRadioButton Write=new JRadioButton("Write Information");
+    	JRadioButton Check=new JRadioButton("Check Information");
+    	Search.addActionListener(new ActionListener() {
+ public void actionPerformed(ActionEvent e) {
+	 if(e.getActionCommand().equals("Search Information")) {}
+ }
+    	});
+    	Write.addActionListener(new ActionListener() {
+    		 public void actionPerformed(ActionEvent e) {
+    			 if(e.getActionCommand().equals("Write Information")) {}
+    		 }
+    		    	});
+    	Check.addActionListener(new ActionListener() {
+    		 public void actionPerformed(ActionEvent e) {
+    			 if(e.getActionCommand().equals("Check Information")) {
+    				 main a=new main();
+    			 }
+    		 }
+    		    	});
+		
+    	
+	}
+
+}

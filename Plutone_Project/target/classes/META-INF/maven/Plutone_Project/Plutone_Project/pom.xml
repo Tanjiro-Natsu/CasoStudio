@@ -11,6 +11,8 @@
   <url>http://maven.apache.org</url>
 
   <properties>
+    <sonar.organization>2023-mmqs-org</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -22,4 +24,28 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+    <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <version>3.4.1</version>
+        <executions>
+          <execution>
+            <id>enforce-maven</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <rules>
+                <requireMavenVersion>
+                  <version>3.0</version>
+                </requireMavenVersion>
+              </rules>    
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
 </project>

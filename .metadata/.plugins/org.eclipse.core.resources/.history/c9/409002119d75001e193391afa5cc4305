@@ -1,0 +1,113 @@
+package main;
+
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.text.NumberFormat.Style;
+
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JTextPane;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.StyleConstants;
+import javax.swing.text.StyledDocument;
+
+
+public class MenuWriter extends JMenuBar{
+    private String s1=Font.DIALOG;
+    private String s2=Font.DIALOG_INPUT;
+    private String s3=Font.MONOSPACED;
+    private String s4=Font.SANS_SERIF;
+    private String s5=Font.SERIF;
+	private Color q1=Color.RED	;
+	private Color q2=Color.GREEN;
+	private Color q3=Color.BLUE;
+	private Color q4=Color.YELLOW;
+	private Color q5=Color.PINK;
+	private Color q6=Color.WHITE;
+	private Color q7=Color.BLACK;
+	private Color q8=Color.GRAY;
+	private Color q9=Color.ORANGE;
+	private Color q10=Color.CYAN;
+	private Color q11=Color.DARK_GRAY;
+	private Color q12=Color.MAGENTA;
+	private Color previousColor=Color.BLACK;
+	public Color getq1() {return q1;}
+	public Color getq2() {return q2;}
+	public Color getq3() {return q3;}
+	public Color getq4() {return q4;}
+	public Color getq5() {return q5;}
+	public Color getq6() {return q6;}
+	public Color getq7() {return q7;}
+	public Color getq8() {return q8;}
+	public Color getq9() {return q9;}
+	public Color getq10() {return q10;}
+	public Color getq11() {return q11;}
+	public Color getq12() {return q12;}
+	public Color getq13() {return previousColor;}
+	private JMenuItem DIALOG;
+	private JMenuItem DIALOG_INPUT;
+	private JMenuItem MONOSPACE;
+	private JMenuItem SANS_SERIF;
+	private JMenuItem SERIF;
+private String  r=null;
+private String r2=null;
+	
+	public MenuWriter(final JTextPane d) {
+	    
+		JMenu k=new JMenu("Size");
+		JMenu k1=new JMenu("CharacterStyle");
+		JMenu k2=new JMenu("Color");
+		JMenu k3=new JMenu("BackGroundColor");
+		JMenuItem z1=new JMenuItem("Red");
+		JMenuItem z2=new JMenuItem("Green");
+		JMenuItem z3=new JMenuItem("Blue");
+		JMenuItem z4=new JMenuItem("Yellow");
+		JMenuItem z5=new JMenuItem("Pink");
+		JMenuItem z6=new JMenuItem("White");
+		JMenuItem z7=new JMenuItem("Black");
+		JMenuItem z8=new JMenuItem("Gray");
+		JMenuItem z9=new JMenuItem("Orange");
+		JMenuItem z10=new JMenuItem("Cyan");
+		JMenuItem z11=new JMenuItem("Dark_Gray");
+		JMenuItem z12=new JMenuItem("Magenta");
+		k2.add(z1);
+		k2.add(z2);
+		k2.add(z3);
+		k2.add(z4);
+		k2.add(z5);
+		k2.add(z6);
+		k2.add(z7);
+		k2.add(z8);
+		k2.add(z9);
+		k2.add(z10);
+		k2.add(z11);
+		k2.add(z12);
+		z1.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {
+			d.setForeground(q1);
+	
+		}});
+		z2.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q2);}});
+		z3.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q3);}});
+		z4.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q4);}});
+		z5.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q5);}});
+		z6.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q6);}});
+		z7.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q7);}});
+		z8.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q8);}});
+		z9.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q9);}});
+		z10.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q10);}});
+		z11.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q11);}});
+		z12.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {d.setForeground(q12);}});
+		k.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
+		k1.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
+		k2.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
+		k3.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
+		add(k);
+		add(k1);
+		add(k2);
+		add(k3);
+	}
+
+}

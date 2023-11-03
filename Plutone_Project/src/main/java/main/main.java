@@ -25,19 +25,23 @@ import javax.swing.JTextField;
 public class main {
 	
 	
-	static public Accesso b=null;
+	static public  JFrame b=null;
 	static public GUI a=null;
+	static public GUI2 a1=null;
 	static private boolean r=false;
 	static private boolean r1=false;
-	
 	public static void close() {
 		a.dispose();
 	}
-	
-    public static void main(String [] args) {
-       // windows a=new windows();
+	public JFrame getb(){return b;}
+	public GUI2 geta1() {return a1;}
+	public GUI  geta(){return a;}
+	public boolean getr() {return r;}
+	public boolean getr1() {return r1;}
 
-    	final JFrame b=new JFrame("Scelta Utente");
+	
+    public main() {
+    	b=new JFrame("Scelta Utente");
     	b.setSize(300,280);
     	b.setDefaultCloseOperation(b.EXIT_ON_CLOSE);
     	b.setLayout(new GridLayout(2,1));
@@ -53,9 +57,9 @@ public class main {
     	left.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {
     		if(e.getActionCommand().equals("Checker")) {
     			b.dispose();
-    			a=new GUI();
-    			a.getMenu().getjMenu().disable();
-    	    	a.setVisible(true);
+    			a1=new GUI2();
+    	
+    	    	a1.setVisible(true);
     			
     		}
     	}});
@@ -114,14 +118,6 @@ public class main {
     	//a=new GUI();
     	//a.setVisible(true);
     	
-    	
-    	
-      
-       
-    	
-    
-     
-   
     }
 
 	

@@ -1,0 +1,67 @@
+package main;
+
+import static org.junit.Assert.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import java.util.ArrayList;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+
+import junit.framework.TestCase;
+
+public class AppTest extends TestCase {
+	ArrayList<String> txt=new ArrayList<String>();
+	ArrayList<String> image=new ArrayList<String>();
+	FileChooser a=new FileChooser(txt,image);
+	
+public void test()
+{
+	
+	assertTrue("ok".equals("ok"));
+Assertions.assertAll("Test getjdbc",
+        ()->assertTrue(!Accesso.getjdbc().isBlank()),
+        ()->assertTrue(!Accesso.getjdbc().isEmpty()),
+        ()->assertTrue(Accesso.getjdbc().equals("jdbc:sqlserver://localhost:1433;databaseName=Plutone_Project")));
+Assertions.assertAll("Test getUser",
+        ()->assertTrue(!Accesso.getUser().isBlank()),
+        ()->assertTrue(!Accesso.getUser().isEmpty()),
+        ()->assertTrue(Accesso.getUser().equals("sa")));
+Assertions.assertAll("Test getPassword",
+        ()->assertTrue(!Accesso.getPassword().isBlank()),
+        ()->assertTrue(!Accesso.getPassword().isEmpty()),
+        ()->assertTrue(Accesso.getPassword().equals("Cacca1989")));
+Assertions.assertAll("Chooser Costructor Test",
+		()->assertTrue(!(create==null)));
+assertTrue(a!=null);
+assertTrue(a.getk()!=null);
+assertTrue(a.getk1()!=null);
+
+
+}
+@ParameterizedTest
+@ValueSource(strings={"AHTornado.jpg","diluvio2.jpg","doluvio1.jpg","eruzione-vulcanica-prevista-dai-droni.jpg","foresta1.jpg","FORESTE.jpg","tornado1.jpg","vulcano1.jpg","vulcano2.jpg"})
+public void getbyteimgTest(String g) {
+	Assertions.assertAll("getbyteimg Test",
+			()->assertTrue(a.getbyteimg(g).length>0),
+			()->assertTrue(a.getbyteimg(g)!=null));
+	
+}
+@ParameterizedTest
+@ValueSource(strings={"diluvio.txt","Foresta.txt","tornado.txt","vulcanoyes.txt"})
+public void getextTest(String g) {
+	Assertions.assertAll("getext Test",
+			()->assertTrue(!a.getext(g).isEmpty()),
+			()->assertTrue(!a.getext(g).isBlank()));
+	
+}
+@Test
+public void FinestraimageTest() {
+	
+	
+	assertThrows(Exception.class,()->a.Finestraimage("caso"));
+
+}
+}

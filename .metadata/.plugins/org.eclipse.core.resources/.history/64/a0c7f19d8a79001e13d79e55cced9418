@@ -1,0 +1,17 @@
+package main;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Apptest {
+
+	@Test
+	public void IntegrationTest() {
+	AccessoTest a=new AccessoTest();
+	ChooserTest b=new ChooserTest();
+	FileChooserTest c =new FileChooserTest();
+	MenuSearchTest d=new MenuSearchTest();
+	}
+
+}

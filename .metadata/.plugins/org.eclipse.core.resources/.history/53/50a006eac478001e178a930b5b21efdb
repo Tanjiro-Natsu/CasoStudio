@@ -1,0 +1,26 @@
+package main;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.ArrayList;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class FileChooserTest {
+	ArrayList<String> txt=new ArrayList<String>();
+	ArrayList<String> image=new ArrayList<String>();
+
+	@BeforeEach
+	public void CreateFileChooser() {
+		FileChooser a=new FileChooser(txt,image);
+	}
+	@Test
+	public void FileChooserCostructorTest() {
+		assertTrue(a!=null);
+	}
+	
+	
+
+}
