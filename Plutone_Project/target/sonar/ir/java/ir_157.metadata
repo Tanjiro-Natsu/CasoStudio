@@ -1,1 +1,1 @@
-main.Menu#getColor10()Ljavax/swing/JMenuItem;
+main.Accesso#getPassword()Ljava/lang/String;

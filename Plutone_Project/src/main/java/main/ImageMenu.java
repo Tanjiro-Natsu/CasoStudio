@@ -8,6 +8,7 @@ import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
+import java.io.Serializable;
 
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
@@ -18,7 +19,7 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JTextArea;
 
-public class ImageMenu extends JMenuBar{
+public class ImageMenu extends JMenuBar {
     private static String s1=Font.DIALOG;
     private static String s2=Font.DIALOG_INPUT;
     private static String s3=Font.MONOSPACED;
@@ -36,7 +37,12 @@ public class ImageMenu extends JMenuBar{
     private int y10=Font.ROMAN_BASELINE;
     private int y11=Font.TRUETYPE_FONT;
     private int y12=Font.TYPE1_FONT;
-	
+    private static String magenta="Magenta";
+    private static String biancoNero="BiancoNero";
+    private static String greene="Green";
+    private static String Orangee="Orange";
+    private static String Violete="Violet";
+    private static String Yellowe="Yellow";
 	private JMenuItem f1=new JMenuItem("10");
 	private JMenuItem f2=new JMenuItem("12");
 	private JMenuItem f3=new JMenuItem("14");
@@ -116,19 +122,19 @@ public class ImageMenu extends JMenuBar{
 	public JMenuItem getf18() {return f18;}
 	private JMenuItem colore10=new JMenuItem("Rosso");
 	private  JMenuItem colore11=new JMenuItem("Blue");
-	private JMenuItem colore12=new JMenuItem("Verde");
-	private  JMenuItem colore13=new JMenuItem("Arancione");
-	private JMenuItem colore14=new JMenuItem("Giallo");
-	private  JMenuItem colore15=new JMenuItem("Magenta");
+	private JMenuItem colore12=new JMenuItem(greene);
+	private  JMenuItem colore13=new JMenuItem(Orangee);
+	private JMenuItem colore14=new JMenuItem(Yellowe);
+	private  JMenuItem colore15=new JMenuItem(magenta);
 	private JMenuItem colore16=new JMenuItem("Nero");
 	private JMenuItem colore17=new JMenuItem("Rosa");
 	private JMenuItem colore18=new JMenuItem("Grigio");
 	private JMenuItem colore20=new JMenuItem("Rosso");
 	private JMenuItem colore21=new JMenuItem("Blue");
-	private JMenuItem colore22=new JMenuItem("Verde");
-	private JMenuItem colore23=new JMenuItem("Arancione");
-	private JMenuItem colore24=new JMenuItem("Giallo");
-	private JMenuItem colore25=new JMenuItem("Magenta");
+	private JMenuItem colore22=new JMenuItem(greene);
+	private JMenuItem colore23=new JMenuItem(Orangee);
+	private JMenuItem colore24=new JMenuItem(Yellowe);
+	private JMenuItem colore25=new JMenuItem(magenta);
 	private JMenuItem colore26=new JMenuItem("Nero");
 	private JMenuItem colore27=new JMenuItem("Rosa");
 	private JMenuItem colore28=new JMenuItem("Grigio");
@@ -188,16 +194,16 @@ public ImageIcon getImageIcon10() {return Image10;}
 	private  JMenuItem Violet;
 	private  JMenuItem Yellow;
 	private  JMenuItem Magenta;
-	private final String Color1="BiancoNero";
+	private final String Color1=biancoNero;
 	private final String Color2="Red";
-	private final String Color3="Green";
+	private final String Color3=greene;
 	private final String Color4="Blue";
 	private final String Color5="Standard";
-	private final String Color6="Orange";
+	private final String Color6=Orangee;
 	private final String Color7="Pink";
-	private final String Color8="Violet";
-	private final String Color9="Yellow";
-	private final String Color10="Magenta";
+	private final String Color8=Violete;
+	private final String Color9=Yellowe;
+	private final String Color10=magenta;
 	public String getcolor1() {return Color1;}
 	public String getcolor2() {return Color2;}
 	public String getcolor3() {return Color3;}
@@ -232,8 +238,7 @@ public ImageIcon getImageIcon10() {return Image10;}
 	private static int yo1;
 	private static int yo2;
 	private static Font sss=new Font(yo,yo1,yo2);
-	private BufferedImage image;
-	private BufferedImage image1;
+	private transient BufferedImage image;
 	private int height;
 	private int width;
 	private JMenu Color;
@@ -244,7 +249,6 @@ public ImageIcon getImageIcon10() {return Image10;}
 	public void set() {vai=1;}
 	public  ImageMenu(BufferedImage dd,String v1,byte [] ok) {
 			image=dd;
-			image1=dd;
 			v=v1;
 			JMenu k=new JMenu("Size");
 			JMenu k5=new JMenu("Save");
@@ -252,29 +256,29 @@ public ImageIcon getImageIcon10() {return Image10;}
 			JMenu k3=new JMenu("BackGroundColor");
 			JMenu k4=new JMenu("LayoutStyle");
 			JMenuItem z1=new JMenuItem("Red");
-			JMenuItem z2=new JMenuItem("Green");
+			JMenuItem z2=new JMenuItem(greene);
 			JMenuItem z3=new JMenuItem("Blue");
-			JMenuItem z4=new JMenuItem("Yellow");
+			JMenuItem z4=new JMenuItem(Yellowe);
 			JMenuItem z5=new JMenuItem("Pink");
 			JMenuItem z6=new JMenuItem("White");
 			JMenuItem z7=new JMenuItem("Black");
 			JMenuItem z8=new JMenuItem("Gray");
-			JMenuItem z9=new JMenuItem("Orange");
+			JMenuItem z9=new JMenuItem(Orangee);
 			JMenuItem z10=new JMenuItem("Cyan");
 			JMenuItem z11=new JMenuItem("Dark_Gray");
-			JMenuItem z12=new JMenuItem("Magenta");
+			JMenuItem z12=new JMenuItem(magenta);
 			JMenuItem z111=new JMenuItem("Red");
-			JMenuItem z22=new JMenuItem("Green");
+			JMenuItem z22=new JMenuItem(greene);
 			JMenuItem z33=new JMenuItem("Blue");
-			JMenuItem z44=new JMenuItem("Yellow");
+			JMenuItem z44=new JMenuItem(Yellowe);
 			JMenuItem z55=new JMenuItem("Pink");
 			JMenuItem z66=new JMenuItem("White");
 			JMenuItem z77=new JMenuItem("Black");
 			JMenuItem z88=new JMenuItem("Gray");
-			JMenuItem z99=new JMenuItem("Orange");
+			JMenuItem z99=new JMenuItem(Orangee);
 			JMenuItem z101=new JMenuItem("Cyan");
 			JMenuItem z110=new JMenuItem("Dark_Gray");
-			JMenuItem z121=new JMenuItem("Magenta");
+			JMenuItem z121=new JMenuItem(magenta);
 			JMenuItem Save=new JMenuItem("Save");
 			k4.add(Standard);
 			k4.add(DIALOG);
@@ -402,16 +406,16 @@ public ImageIcon getImageIcon10() {return Image10;}
 		Color.add(Magenta);
 		Color.add(Standard);
 		final byte []ok1 =ok;
-		BiancoNero.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,"BiancoNero"),"BiancoNero.jpg");}});
+		BiancoNero.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,biancoNero),"BiancoNero.jpg");}});
 		Red.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,"Red"),"Red.jpg");}});
-		Green.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,"Green"),"Green.jpg");}});
+		Green.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,greene),"Green.jpg");}});
 		Blue.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,"Blue"),"Blue.jpg");}});
 		Standard.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {set();FileChooser.reset(v);}});
-		Orange.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,"Orange"),"Orange.jpg");}});
-		Yellow.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,"Yellow"),"Yellow.jpg");}});
-		Violet.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,"Violet"),"Violet.jpg");}});
+		Orange.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,Orangee),"Orange.jpg");}});
+		Yellow.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,Yellowe),"Yellow.jpg");}});
+		Violet.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,Violete),"Violet.jpg");}});
 		Pink.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,"Pink"),"Pink.jpg");}});
-		Magenta.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,"Magenta"),"Magenta.jpg");}});
+		Magenta.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,magenta),"Magenta.jpg");}});
 		
 
 		add(Color);
@@ -430,14 +434,14 @@ public ImageIcon getImageIcon10() {return Image10;}
 					imgB.setRGB(t, i,rgbA & 0xff0000);//blu =(rgbA>>16) & 0xff
 				}
 		}}
-		if(s.equalsIgnoreCase("Yellow")){
+		if(s.equalsIgnoreCase(Yellowe)){
 			for(int i=0;i<height1;i++) {
 				for(int t=0;t<width;t++) {
 					int rgbA=imgB.getRGB(t, i);
 					imgB.setRGB(t, i,rgbA & 0xffff00);//blu =(rgbA>>16) & 0xff
 				}
 		}}
-		if(s.equalsIgnoreCase("Violet")){
+		if(s.equalsIgnoreCase(Violete)){
 			for(int i=0;i<height1;i++) {
 				for(int t=0;t<width;t++) {
 					int rgbA=imgB.getRGB(t, i);
@@ -451,21 +455,21 @@ public ImageIcon getImageIcon10() {return Image10;}
 					imgB.setRGB(t, i,rgbA & 0xff33ff);//blu =(rgbA>>16) & 0xff
 				}
 		}}
-		if(s.equalsIgnoreCase("Magenta")){
+		if(s.equalsIgnoreCase(magenta)){
 			for(int i=0;i<height1;i++) {
 				for(int t=0;t<width;t++) {
 					int rgbA=imgB.getRGB(t, i);
 					imgB.setRGB(t, i,rgbA & 0xff3399);//blu =(rgbA>>16) & 0xff
 				}
 		}}
-		if(s.equalsIgnoreCase("Orange")){
+		if(s.equalsIgnoreCase(Orangee)){
 			for(int i=0;i<height1;i++) {
 				for(int t=0;t<width;t++) {
 					int rgbA=imgB.getRGB(t, i);
 					imgB.setRGB(t, i,rgbA & 0xff8000);//blu =(rgbA>>16) & 0xff
 				}
 		}}
-		if(s.equalsIgnoreCase("Green")){
+		if(s.equalsIgnoreCase(greene)){
 			for(int i=0;i<height1;i++) {
 				for(int t=0;t<width;t++) {
 					int rgbA=imgB.getRGB(t, i);
@@ -481,7 +485,7 @@ public ImageIcon getImageIcon10() {return Image10;}
 				}
 		}
 		}
-		if(s.equalsIgnoreCase("BiancoNero")){
+		if(s.equalsIgnoreCase(biancoNero)){
 			for(int i=0;i<height1;i++) {
 				for(int t=0;t<width;t++) {
 					int rgbA=imgB.getRGB(t, i);

@@ -3539,7 +3539,7 @@ iterator()4java.sql.SQLException#iterator()Ljava/util/Iterator;m
 main.VerificaImmaginejava.lang.Object+
 <init>()main.VerificaImmagine#<init>()VG
 databaseconfermation()-main.VerificaImmagine#databaseconfermation()IS
-imagec(Ljava/lang/String;[B)3main.VerificaImmagine#imagec(Ljava/lang/String;[B)DÆ
+imagec(Ljava/lang/String;[B)3main.VerificaImmagine#imagec(Ljava/lang/String;[B)D©	
 	main.GUI2java.awt.event.ActionListenerjava.lang.Runnablejavax.swing.JFrame
 <init>()main.GUI2#<init>()V
 Color1()main.GUI2#Color1()V
@@ -3557,7 +3557,8 @@ getText4()&main.GUI2#getText4()Ljava/lang/String;<
 getfonte()&main.GUI2#getfonte()Ljava/lang/String;%
 getresult()main.GUI2#getresult()Z,
 getv()"main.GUI2#getv()Ljava/lang/String;<
-metadatisave()*main.GUI2#metadatisave()Ljava/lang/String;!
+metadatisave()*main.GUI2#metadatisave()Ljava/lang/String;9
+metav(Ljava/io/File;) main.GUI2#metav(Ljava/io/File;)V!
 	refresh()main.GUI2#refresh()V
 run()main.GUI2#run()VE
 setColor1(Ljava/awt/Color;)&main.GUI2#setColor1(Ljava/awt/Color;)VE
@@ -3565,7 +3566,8 @@ getfonte()&main.GUI2#getfonte()Ljava/lang/String;%
 sett1()main.GUI2#sett1()V
 sett2()main.GUI2#sett2()V
 sett3()main.GUI2#sett3()V
-sett4()main.GUI2#sett4()Vê
+sett4()main.GUI2#sett4()V>
+verificaFonte()+main.GUI2#verificaFonte()Ljava/lang/String;ê
 main.MetaDatajavax.swing.JFrameK
 <init>(Ljava/nio/file/Path;)+main.MetaData#<init>(Ljava/nio/file/Path;)V4
 geta1())main.MetaData#geta1()Ljavax/swing/JLabel;4
@@ -4460,8 +4462,8 @@ updateUI()%javax.swing.JToggleButton#updateUI()Vq
 'setIconFromAction(Ljavax/swing/Action;)Ajavax.swing.JRadioButton#setIconFromAction(Ljavax/swing/Action;)V2
 
 updateUI()$javax.swing.JRadioButton#updateUI()Vp
-)writeObject(Ljava/io/ObjectOutputStream;)Cjavax.swing.JRadioButton#writeObject(Ljava/io/ObjectOutputStream;)V≠
-main.FileChooserjavax.swing.JFramez
+)writeObject(Ljava/io/ObjectOutputStream;)Cjavax.swing.JRadioButton#writeObject(Ljava/io/ObjectOutputStream;)V√
+main.FileChooserjava.io.Serializablejavax.swing.JFramez
 2<init>(Ljava/util/ArrayList;Ljava/util/ArrayList;)Dmain.FileChooser#<init>(Ljava/util/ArrayList;Ljava/util/ArrayList;)VX
 !Finestraimage(Ljava/lang/String;)3main.FileChooser#Finestraimage(Ljava/lang/String;)VT
 Finestratxt(Ljava/lang/String;)1main.FileChooser#Finestratxt(Ljava/lang/String;)V5

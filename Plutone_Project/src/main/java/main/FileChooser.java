@@ -9,6 +9,7 @@ import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
+import java.io.Serializable;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -31,15 +32,17 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
+import javax.swing.WindowConstants;
 import javax.swing.border.TitledBorder;
 
-public class FileChooser extends JFrame{
+public class FileChooser extends JFrame implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
 	private JPanel k=null;
 	private JPanel k1=null;
-	private   BufferedImage imgB;
+	private static   BufferedImage imgB;
 	private static  JLabel s;
+	private static String jdbc="com.microsoft.sqlserver.jdbc.SQLServerDriver";
 	
 	public void setimg(BufferedImage dd) {imgB=dd;}
 	public JPanel getk() {return k;}
@@ -49,8 +52,8 @@ public class FileChooser extends JFrame{
 	public FileChooser(ArrayList<String> txt,ArrayList<String> image) {
 		setTitle("Choose");
 		setSize(800,600);
-		  this.setLocation(350,100 );
-		setDefaultCloseOperation(this.HIDE_ON_CLOSE);
+		  this.setLocation(350,100);
+		setDefaultCloseOperation(WindowConstants.HIDE_ON_CLOSE);
 		setLayout(new GridLayout(2,1));
 		k=new JPanel();
 		k1=new JPanel();
@@ -94,10 +97,10 @@ ss.add(dd);
 	}
 	
 	public void Finestratxt(String v) {
-		JFrame g=new JFrame(v);
+		 JFrame g=new JFrame(v);
 		g.setSize(800,600);
 		  g.setLocation(350,100 );
-		  g.setDefaultCloseOperation(this.HIDE_ON_CLOSE);
+		  g.setDefaultCloseOperation(WindowConstants.HIDE_ON_CLOSE);
 		  
 		  JTextArea b=new JTextArea();
 		  MenuSearch jj=new MenuSearch(b);
@@ -114,15 +117,15 @@ ss.add(dd);
 			
 		  g.setVisible(true);
 	}
-	private JFrame b;
-	private ByteArrayInputStream bis;
+	private static  JFrame b;
+	private transient static ByteArrayInputStream bis;
 	public ByteArrayInputStream getbis() {return bis;} 
 	public JFrame getb() {return b;}
-	public void Finestraimage(String v)  {
+	public static void Finestraimage(String v)  {
 		b=new JFrame(v);
 		b.setSize(1500, 900);
 		b.setLocation(50,10);
-		b.setDefaultCloseOperation(b.HIDE_ON_CLOSE);
+		b.setDefaultCloseOperation(WindowConstants.HIDE_ON_CLOSE);
 		
 		
 	 bis = new ByteArrayInputStream(getbyteimg(v));
@@ -167,12 +170,12 @@ ss.add(dd);
 		String dd = null;
 		  byte []e=null;
 			try {
-				 Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+				 Class.forName(jdbc);
 				 
 		          String sqlUser = Accesso.getUser();
 		          String sqlPassword = Accesso.getPassword(); //passwrod sa account
 		          String connectionUrl =Accesso.getjdbc()+";encrypt=false";
-		          Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+		          Class.forName(jdbc);
 
 		          
 		         
@@ -212,16 +215,16 @@ ss.add(dd);
 			return xx;
 	}
 	
-	public byte[] getbyteimg(String v) {
+	public static byte[] getbyteimg(String v) {
 		
 		  byte []e=null;
 			try {
-				 Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+				 Class.forName(jdbc);
 				 
 		          String sqlUser = Accesso.getUser();
 		          String sqlPassword = Accesso.getPassword(); //passwrod sa account
 		          String connectionUrl =Accesso.getjdbc()+";encrypt=false";
-		          Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+		          Class.forName(jdbc);
 
 		          
 		         

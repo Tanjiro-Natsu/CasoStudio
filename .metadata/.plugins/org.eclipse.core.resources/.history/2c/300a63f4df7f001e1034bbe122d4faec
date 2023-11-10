@@ -1,0 +1,499 @@
+package main;
+
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JTextArea;
+
+public class ImageMenu extends JMenuBar{
+    private static String s1=Font.DIALOG;
+    private static String s2=Font.DIALOG_INPUT;
+    private static String s3=Font.MONOSPACED;
+    private static String s4=Font.SANS_SERIF;
+    private static String s5=Font.SERIF;
+    private int y1=Font.BOLD;
+    private int y2=Font.CENTER_BASELINE;
+    private int y3=Font.HANGING_BASELINE;
+    private int y4=Font.ITALIC;
+    private int y5=Font.LAYOUT_LEFT_TO_RIGHT;
+    private int y6=Font.LAYOUT_NO_LIMIT_CONTEXT;
+    private int y7=Font.LAYOUT_NO_START_CONTEXT;
+    private int y8=Font.LAYOUT_RIGHT_TO_LEFT;
+    private int y9=Font.PLAIN;
+    private int y10=Font.ROMAN_BASELINE;
+    private int y11=Font.TRUETYPE_FONT;
+    private int y12=Font.TYPE1_FONT;
+    private static String magenta="Magenta";
+    private static String biancoNero="BiancoNero";
+    private static String greene="Green";
+    private static String Orangee="Orange";
+    private static String Violete="Violet";
+	private JMenuItem f1=new JMenuItem("10");
+	private JMenuItem f2=new JMenuItem("12");
+	private JMenuItem f3=new JMenuItem("14");
+	private JMenuItem f4=new JMenuItem("16");
+	private JMenuItem f5=new JMenuItem("18");
+	private JMenuItem f6=new JMenuItem("20");
+	private JMenuItem f7=new JMenuItem("22");
+	private JMenuItem f8=new JMenuItem("26");
+	private JMenuItem f9=new JMenuItem("30");
+	private JMenuItem f10=new JMenuItem("34");
+	private JMenuItem f11=new JMenuItem("38");
+	private JMenuItem f12=new JMenuItem("40");
+	private JMenuItem f13=new JMenuItem("42");
+	private JMenuItem f14=new JMenuItem("44");
+	private JMenuItem f15=new JMenuItem("48");
+	private JMenuItem f16=new JMenuItem("50");
+	private JMenuItem f17=new JMenuItem("55");
+	private JMenuItem f18=new JMenuItem("60");
+	private JMenuItem DIALOG=new JMenuItem("DIALOG");
+	private JMenuItem DIALOG_INPUT=new JMenuItem("DIALOG_INPUT");
+	private JMenuItem MONOSPACE=new JMenuItem("MONOSPACE");
+	private JMenuItem SANS_SERIF=new JMenuItem("SANS_SERIF");
+	private JMenuItem SERIF=new JMenuItem("SERIF");
+	private JMenuItem y111=new JMenuItem("BOLD");
+	private JMenuItem y112=new JMenuItem("CENTER_BASELINE");
+	private JMenuItem y113=new JMenuItem("HANGING_BASELINE");
+	private JMenuItem y114=new JMenuItem("ITALIC");
+	private JMenuItem y115=new JMenuItem("LAYOUT_LEFT_TO_RIGHT");
+	private JMenuItem y116=new JMenuItem("LAYOUT_NO_LIMIT_CONTEXT");
+	private JMenuItem y117=new JMenuItem("LAYOUT_NO_START_CONTEXT");
+	private JMenuItem y118=new JMenuItem("LAYOUT_RIGHT_TO_LEFT");
+	private JMenuItem y119=new JMenuItem("PLAIN");
+	private JMenuItem y120=new JMenuItem("ROMAN_BASELINE");
+	private JMenuItem y121=new JMenuItem("TRUETYPE_FONT");
+	private JMenuItem y122=new JMenuItem("TYPE1_FONT");
+	public JMenuItem gety111() {return y111;}
+	public JMenuItem gety112() {return y112;}
+	public JMenuItem gety113() {return y113;}
+	public JMenuItem gety114() {return y114;}
+	public JMenuItem gety115() {return y115;}
+	public JMenuItem gety116() {return y116;}
+	public JMenuItem gety117() {return y117;}
+	public JMenuItem gety118() {return y118;}
+	public JMenuItem gety119() {return y119;}
+	public JMenuItem gety120() {return y120;}
+	public JMenuItem gety121() {return y121;}
+	public JMenuItem gety122() {return y122;}
+	public int gety1() {return y1;}
+	public int gety2() {return y2;}
+	public int gety3() {return y3;}
+	public int gety4() {return y4;}
+	public int gety5() {return y5;}
+	public int gety6() {return y6;}
+	public int gety7() {return y7;}
+	public int gety8() {return y8;}
+	public int gety9() {return y9;}
+	public int gety10() {return y10;}
+	public int gety11() {return y11;}
+	public int gety12() {return y12;}
+	public JMenuItem getf1() {return f1;}
+	public JMenuItem getf2() {return f2;}
+	public JMenuItem getf3() {return f3;}
+	public JMenuItem getf4() {return f4;}
+	public JMenuItem getf5() {return f5;}
+	public JMenuItem getf6() {return f6;}
+	public JMenuItem getf7() {return f7;}
+	public JMenuItem getf8() {return f8;}
+	public JMenuItem getf9() {return f9;}
+	public JMenuItem getf10() {return f10;}
+	public JMenuItem getf11() {return f11;}
+	public JMenuItem getf12() {return f12;}
+	public JMenuItem getf13() {return f13;}
+	public JMenuItem getf14() {return f14;}
+	public JMenuItem getf15() {return f15;}
+	public JMenuItem getf16() {return f16;}
+	public JMenuItem getf17() {return f17;}
+	public JMenuItem getf18() {return f18;}
+	private JMenuItem colore10=new JMenuItem("Rosso");
+	private  JMenuItem colore11=new JMenuItem("Blue");
+	private JMenuItem colore12=new JMenuItem(greene);
+	private  JMenuItem colore13=new JMenuItem(Orangee);
+	private JMenuItem colore14=new JMenuItem("Giallo");
+	private  JMenuItem colore15=new JMenuItem(magenta);
+	private JMenuItem colore16=new JMenuItem("Nero");
+	private JMenuItem colore17=new JMenuItem("Rosa");
+	private JMenuItem colore18=new JMenuItem("Grigio");
+	private JMenuItem colore20=new JMenuItem("Rosso");
+	private JMenuItem colore21=new JMenuItem("Blue");
+	private JMenuItem colore22=new JMenuItem(greene);
+	private JMenuItem colore23=new JMenuItem(Orangee);
+	private JMenuItem colore24=new JMenuItem("Giallo");
+	private JMenuItem colore25=new JMenuItem(magenta);
+	private JMenuItem colore26=new JMenuItem("Nero");
+	private JMenuItem colore27=new JMenuItem("Rosa");
+	private JMenuItem colore28=new JMenuItem("Grigio");
+	private ImageIcon Image1=null;
+	private ImageIcon Image2=null;
+	private ImageIcon Image3=null;
+	private ImageIcon Image4=null;
+	private ImageIcon Image5=null;
+	private ImageIcon Image6=null;
+	private ImageIcon Image7=null;
+	private ImageIcon Image8=null;
+	private ImageIcon Image9=null;
+	private ImageIcon Image10=null;
+	private JMenuItem bloccaFonte;
+	private JMenuItem sbloccaFonte;
+	private JButton accetta=null;
+	private JButton accetta1=null;
+	private JButton rifiuta=null;
+	private JButton rifiuta1=null;
+	private JTextArea zzz=null;
+private String versioneprodotto="1.0.0";
+public  JMenuItem getColor10() {return colore10;}
+public  JMenuItem getColor11() {return colore11;}
+public  JMenuItem getColor12() {return colore12;}
+public  JMenuItem getColor13() {return colore13;}
+public  JMenuItem getColor14() {return colore14;}
+public  JMenuItem getColor15() {return colore15;}
+public  JMenuItem getColor16() {return colore16;}
+public  JMenuItem getColor17() {return colore17;}
+public  JMenuItem getColor18() {return colore18;}
+public  JMenuItem getColor20() {return colore20;}
+public  JMenuItem getColor21() {return colore21;}
+public  JMenuItem getColor22() {return colore22;}
+public  JMenuItem getColor23() {return colore23;}
+public  JMenuItem getColor24() {return colore24;}
+public  JMenuItem getColor25() {return colore25;}
+public  JMenuItem getColor26() {return colore26;}
+public  JMenuItem getColor27() {return colore27;}
+public  JMenuItem getColor28() {return colore28;}
+public ImageIcon getImageIcon1() {return Image1;}
+public ImageIcon getImageIcon2() {return Image2;}
+public ImageIcon getImageIcon3() {return Image3;}
+public ImageIcon getImageIcon4() {return Image4;}
+public ImageIcon getImageIcon5() {return Image5;}
+public ImageIcon getImageIcon6() {return Image6;}
+public ImageIcon getImageIcon7() {return Image7;}
+public ImageIcon getImageIcon8() {return Image8;}
+public ImageIcon getImageIcon9() {return Image9;}
+public ImageIcon getImageIcon10() {return Image10;}
+	private JMenuItem BiancoNero;
+	private JMenuItem Red;
+	private JMenuItem Green;
+	private  JMenuItem Blue;
+	private  JMenuItem Standard;
+	private  JMenuItem Orange;
+	private  JMenuItem Pink;
+	private  JMenuItem Violet;
+	private  JMenuItem Yellow;
+	private  JMenuItem Magenta;
+	private final String Color1=biancoNero;
+	private final String Color2="Red";
+	private final String Color3=greene;
+	private final String Color4="Blue";
+	private final String Color5="Standard";
+	private final String Color6=Orangee;
+	private final String Color7="Pink";
+	private final String Color8=Violete;
+	private final String Color9="Yellow";
+	private final String Color10=magenta;
+	public String getcolor1() {return Color1;}
+	public String getcolor2() {return Color2;}
+	public String getcolor3() {return Color3;}
+	public String getcolor4() {return Color4;}
+	public String getcolor5() {return Color5;}
+	public String getcolor6() {return Color6;}
+	public String getcolor7() {return Color7;}
+	public String getcolor8() {return Color8;}
+	public String getcolor9() {return Color9;}
+	public String getcolor10() {return Color10;}
+	public JMenuItem getcolor100() {return BiancoNero;}
+	public JMenuItem getcolor101() {return Red;}
+	public JMenuItem getcolor102() {return Green;}
+	public JMenuItem getcolor103() {return Blue;}
+	public JMenuItem getcolor104() {return Standard;}
+	public JMenuItem getcolor105() {return Orange;}
+	public JMenuItem getcolor106() {return Pink;}
+	public JMenuItem getcolor107() {return Violet;}
+	public JMenuItem getcolor108() {return Yellow;}
+	public JMenuItem getcolor110() {return Magenta;}
+	public void setcolor1() {BiancoNero=new JMenuItem();}
+	public void setcolor2() {Red=new JMenuItem();}
+	public void setcolor3() {Blue=new JMenuItem();}
+	public void setcolor4() {Green=new JMenuItem();}
+	public void setcolor5() {Yellow=new JMenuItem();}
+	public void setcolor6() {Violet=new JMenuItem();}
+	public void setcolor7() {Magenta=new JMenuItem();}
+	public void setcolor8() {Pink=new JMenuItem();}
+	public void setcolor9() {Standard=new JMenuItem();}
+	public void setcolor10() {Orange=new JMenuItem();}
+	private static String yo;
+	private static int yo1;
+	private static int yo2;
+	private static Font sss=new Font(yo,yo1,yo2);
+	private BufferedImage image;
+	private BufferedImage image1;
+	private int height;
+	private int width;
+	private JMenu Color;
+	private  int vai=0;
+	private String v;
+	public int getvai() {return vai;}
+	private JTextArea d;
+	public void set() {vai=1;}
+	public  ImageMenu(BufferedImage dd,String v1,byte [] ok) {
+			image=dd;
+			image1=dd;
+			v=v1;
+			JMenu k=new JMenu("Size");
+			JMenu k5=new JMenu("Save");
+			JMenu k2=new JMenu("Color");
+			JMenu k3=new JMenu("BackGroundColor");
+			JMenu k4=new JMenu("LayoutStyle");
+			JMenuItem z1=new JMenuItem("Red");
+			JMenuItem z2=new JMenuItem(greene);
+			JMenuItem z3=new JMenuItem("Blue");
+			JMenuItem z4=new JMenuItem("Yellow");
+			JMenuItem z5=new JMenuItem("Pink");
+			JMenuItem z6=new JMenuItem("White");
+			JMenuItem z7=new JMenuItem("Black");
+			JMenuItem z8=new JMenuItem("Gray");
+			JMenuItem z9=new JMenuItem(Orangee);
+			JMenuItem z10=new JMenuItem("Cyan");
+			JMenuItem z11=new JMenuItem("Dark_Gray");
+			JMenuItem z12=new JMenuItem(magenta);
+			JMenuItem z111=new JMenuItem("Red");
+			JMenuItem z22=new JMenuItem(greene);
+			JMenuItem z33=new JMenuItem("Blue");
+			JMenuItem z44=new JMenuItem("Yellow");
+			JMenuItem z55=new JMenuItem("Pink");
+			JMenuItem z66=new JMenuItem("White");
+			JMenuItem z77=new JMenuItem("Black");
+			JMenuItem z88=new JMenuItem("Gray");
+			JMenuItem z99=new JMenuItem(Orangee);
+			JMenuItem z101=new JMenuItem("Cyan");
+			JMenuItem z110=new JMenuItem("Dark_Gray");
+			JMenuItem z121=new JMenuItem(magenta);
+			JMenuItem Save=new JMenuItem("Save");
+			k4.add(Standard);
+			k4.add(DIALOG);
+			k4.add(DIALOG_INPUT);
+			k4.add(MONOSPACE);
+			k4.add(SANS_SERIF);
+			k4.add(SERIF);
+			k4.add(y111);
+			k4.add(y112);
+			k4.add(y113);
+			k4.add(y114);
+			k4.add(y115);
+			k4.add(y116);
+			k4.add(y117);
+			k4.add(y118);
+			k4.add(y119);
+			k4.add(y120);
+			k4.add(y121);
+			k4.add(y122);
+			k2.add(z1);
+			k2.add(z2);
+			k2.add(z3);
+			k2.add(z4);
+			k2.add(z5);
+			k2.add(z6);
+			k2.add(z7);
+			k2.add(z8);
+			k2.add(z9);
+			k2.add(z10);
+			k2.add(z11);
+			k2.add(z12);
+			k3.add(z111);
+			k3.add(z22);
+			k3.add(z33);
+			k3.add(z44);
+			k3.add(z55);
+			k3.add(z66);
+			k3.add(z77);
+			k3.add(z88);
+			k3.add(z99);
+			k3.add(z101);
+			k3.add(z110);
+			k3.add(z121);
+			k.add(f1);
+			k.add(f2);
+			k.add(f3);
+			k.add(f4);
+			k.add(f5);
+			k.add(f6);
+			k.add(f7);
+			k.add(f8);
+			k.add(f9);
+			k.add(f10);
+			k.add(f11);
+			k.add(f12);
+			k.add(f13);
+			k.add(f14);
+			k.add(f15);
+			k.add(f16);
+			k.add(f17);
+			k.add(f18);
+			k5.add(Save);
+			DIALOG.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo=s1;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			DIALOG_INPUT.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo=s2;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			MONOSPACE.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo=s3;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			SANS_SERIF.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo=s4;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			f1.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo2=10;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			f2.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo2=12;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			f3.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo2=14;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			f4.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo2=16;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			f5.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo2=18;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			f6.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo2=20;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			f7.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo2=22;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			f8.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo2=26;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			f9.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo2=30;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			f10.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo2=34;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			f11.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo2=38;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			f12.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo2=40;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			f13.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo2=42;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			f14.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo2=44;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			f15.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo2=48;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			f16.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo2=50;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			f17.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo2=55;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			f18.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo2=60;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			SERIF.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo=s5;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			y111.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y1;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			y112.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y2;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			y113.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y3;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			y114.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y4;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			y115.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y5;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			y116.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y6;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			y117.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y7;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			y118.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y8;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			y119.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y9;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			y120.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y10;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			y121.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y11;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			y122.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y12;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
+			k.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
+			k4.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
+			k2.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
+			k3.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
+			k4.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
+			k5.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
+		height=image.getHeight();
+		width=image.getWidth();
+		Color =new JMenu("Color");
+		BiancoNero=new JMenuItem(Color1);
+		Red=new JMenuItem(Color2);
+		Green=new JMenuItem(Color3);
+		Blue=new JMenuItem(Color4);
+		Pink=new JMenuItem(Color7);
+		Yellow=new JMenuItem(Color9);
+		Magenta=new JMenuItem(Color10);
+		Orange=new JMenuItem(Color6);
+		Violet=new JMenuItem(Color8);
+		Standard=new JMenuItem(Color5);
+		Color.add(BiancoNero);
+		Color.add(Red);
+		Color.add(Green);
+		Color.add(Blue);
+		Color.add(Orange);
+		Color.add(Pink);
+		Color.add(Yellow);
+		Color.add(Violet);
+		Color.add(Magenta);
+		Color.add(Standard);
+		final byte []ok1 =ok;
+		BiancoNero.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,biancoNero),"BiancoNero.jpg");}});
+		Red.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,"Red"),"Red.jpg");}});
+		Green.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,greene),"Green.jpg");}});
+		Blue.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,"Blue"),"Blue.jpg");}});
+		Standard.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {set();FileChooser.reset(v);}});
+		Orange.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,Orangee),"Orange.jpg");}});
+		Yellow.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,"Yellow"),"Yellow.jpg");}});
+		Violet.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,Violete),"Violet.jpg");}});
+		Pink.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,"Pink"),"Pink.jpg");}});
+		Magenta.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {FileChooser.setJLabel(Color(height,width,ok1,magenta),"Magenta.jpg");}});
+		
+
+		add(Color);
+	}
+	public BufferedImage Color(int height1,int width1,byte [] ok,String s) {
+		 ByteArrayInputStream bis = new ByteArrayInputStream(ok);
+		 BufferedImage imgB=null;
+		try {
+			imgB = ImageIO.read(bis);}
+		catch(Exception e) {}
+		
+		if(s.equalsIgnoreCase("Red")){
+			for(int i=0;i<height1;i++) {
+				for(int t=0;t<width;t++) {
+					int rgbA=imgB.getRGB(t, i);
+					imgB.setRGB(t, i,rgbA & 0xff0000);//blu =(rgbA>>16) & 0xff
+				}
+		}}
+		if(s.equalsIgnoreCase("Yellow")){
+			for(int i=0;i<height1;i++) {
+				for(int t=0;t<width;t++) {
+					int rgbA=imgB.getRGB(t, i);
+					imgB.setRGB(t, i,rgbA & 0xffff00);//blu =(rgbA>>16) & 0xff
+				}
+		}}
+		if(s.equalsIgnoreCase(Violete)){
+			for(int i=0;i<height1;i++) {
+				for(int t=0;t<width;t++) {
+					int rgbA=imgB.getRGB(t, i);
+					imgB.setRGB(t, i,rgbA & 0x9933ff);//blu =(rgbA>>16) & 0xff
+				}
+		}}
+		if(s.equalsIgnoreCase("Pink")){
+			for(int i=0;i<height1;i++) {
+				for(int t=0;t<width;t++) {
+					int rgbA=imgB.getRGB(t, i);
+					imgB.setRGB(t, i,rgbA & 0xff33ff);//blu =(rgbA>>16) & 0xff
+				}
+		}}
+		if(s.equalsIgnoreCase(magenta)){
+			for(int i=0;i<height1;i++) {
+				for(int t=0;t<width;t++) {
+					int rgbA=imgB.getRGB(t, i);
+					imgB.setRGB(t, i,rgbA & 0xff3399);//blu =(rgbA>>16) & 0xff
+				}
+		}}
+		if(s.equalsIgnoreCase(Orangee)){
+			for(int i=0;i<height1;i++) {
+				for(int t=0;t<width;t++) {
+					int rgbA=imgB.getRGB(t, i);
+					imgB.setRGB(t, i,rgbA & 0xff8000);//blu =(rgbA>>16) & 0xff
+				}
+		}}
+		if(s.equalsIgnoreCase(greene)){
+			for(int i=0;i<height1;i++) {
+				for(int t=0;t<width;t++) {
+					int rgbA=imgB.getRGB(t, i);
+					imgB.setRGB(t, i,rgbA & 0x00CC00);//blu =(rgbA>>16) & 0xff
+				}
+		}
+		}
+		if(s.equalsIgnoreCase("Blue")){
+			for(int i=0;i<height1;i++) {
+				for(int t=0;t<width;t++) {
+					int rgbA=imgB.getRGB(t, i);
+					imgB.setRGB(t, i,rgbA & 0x0000CC);//blu =(rgbA>>16) & 0xff
+				}
+		}
+		}
+		if(s.equalsIgnoreCase(biancoNero)){
+			for(int i=0;i<height1;i++) {
+				for(int t=0;t<width;t++) {
+					int rgbA=imgB.getRGB(t, i);
+					imgB.setRGB(t, i,rgbA & 0x808080);//blu =(rgbA>>16) & 0xff
+				}
+		}
+		}
+		return imgB;	
+	}
+
+}

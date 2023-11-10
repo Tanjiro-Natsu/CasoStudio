@@ -1,6 +1,9 @@
-main.GUI2#run()V
-main.Menu2#setSave(Z)V
+main.GUI2#verificaFonte()Ljava/lang/String;
+java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
+main.VerificaFonte#fonteverificata(Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z
 ==
 getText javax.swing.text.JTextComponent#getText()Ljava/lang/String;
-setEnabled javax.swing.AbstractButton#setEnabled(Z)V
+println java.io.PrintStream#println(Ljava/lang/String;)V
+setBackground javax.swing.JComponent#setBackground(Ljava/awt/Color;)V

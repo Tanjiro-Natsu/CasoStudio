@@ -1,18 +1,18 @@
 
-3main.ImageMenu#getcolor101()Ljavax/swing/JMenuItem;h
-\/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/ImageMenu.javaÔ Ô("1*¨
+-main.ImageMenu#getcolor10()Ljava/lang/String;h
+\/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/ImageMenu.javaØ Ø("1*¢
 1
-Ô( Ô(+j
-h
+Ø$ Ø(+i
+g
 
-Ô( Ô(+
-%0javax.swing.JMenuItem"__id*7
+Ø$ Ø(+
+%0java.lang.String"__id*;
 
-__unknown_file (*
-main.ImageMenu"
-Red"+
+__unknown_file (*
+main.ImageMenu"	
+Color10"&
 
-Ô! Ô(,
-
-%0javax.swing.JMenuItemB
+Ø Ø(,
+
+%0java.lang.StringB
 main.ImageMenuH

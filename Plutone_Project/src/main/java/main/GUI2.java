@@ -37,8 +37,10 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 public class GUI2 extends JFrame  implements ActionListener,Runnable {
 	private static Menu2 ss;
 	 private static  MetaData dc=null;
+	 private String cooper="Cooper Black";
 	 private static boolean result;
 	private JFrame xc=null;
+	private static String blankSpace="^\\s+";
 	private JButton vvv=null;
 	 private static JTextField t1=new JTextField(" ");
 	  private static JTextField t2=new JTextField(" ");
@@ -138,7 +140,7 @@ public class GUI2 extends JFrame  implements ActionListener,Runnable {
 	
 	a.setLayout(new GridLayout(5,2));
 	JLabel r=new JLabel("   Inserire la fonte ");
-	r.setFont(new Font("Cooper Black",Font.PLAIN,14));
+	r.setFont(new Font(cooper,Font.PLAIN,14));
 	a.add(r);
 	a.add(new JLabel());
 	
@@ -188,7 +190,7 @@ public class GUI2 extends JFrame  implements ActionListener,Runnable {
    a.add(u);
 
 	JLabel r1=new JLabel("   Inserire l'argomento");
-	r1.setFont(new Font("Cooper Black",Font.PLAIN,14));
+	r1.setFont(new Font(cooper,Font.PLAIN,14));
 	a.add(r1);
 	a.add(new JLabel());
 	
@@ -220,7 +222,7 @@ a2.add(new JLabel());
 	JPanel b1=new JPanel();
 	b1.setLayout(new GridLayout(2,2));
 	JLabel r2=new JLabel("   File da verificare");
-	r2.setFont(new Font("Cooper Black",Font.PLAIN,14));
+	r2.setFont(new Font(cooper,Font.PLAIN,14));
 	b1.add(r2);
 	b1.add(new JLabel());
 	t3.setEditable(false);
@@ -277,7 +279,7 @@ a2.add(new JLabel());
   // b2.add(new JPanel(),BorderLayout.EAST);
    
     JLabel r3=new JLabel("   Fonti certificate ");
-    r3.setFont(new Font("Cooper Black",Font.PLAIN,14));
+    r3.setFont(new Font(cooper,Font.PLAIN,14));
     b2.add(r3,BorderLayout.NORTH);
    
 
@@ -308,46 +310,13 @@ loop.start();
 	    	    }
 	public static String getargomento() {
 	    	    	return argomento;
-	    	    }
-				
-	public void actionPerformed(ActionEvent e) {
-		
-		
-		
-	
-    		if(e.getActionCommand().equalsIgnoreCase("Cerca..")) {
-    			argomento=t2.getText();
-    			argomento=argomento.replaceAll("^\\s+","");
-    			String ciao=VerificaFonte.fonteverificata(argomento);
-    			System.out.println(ciao);
-    			String [] ciao1=ciao.split(" ");
-    			int t=0;
-    			int f1=0;
-    			String h=""+t1.getText();
-    			System.out.println(h.replaceAll("^\\s+",""));
-    			for(int i=0;i<ciao1.length;i++) {
-    					if(t1.getText().replaceAll("^\\s+","").equalsIgnoreCase(ciao1[i])) {
-    						System.out.println("ok1");
-    						t=1;
-    						f1=0;
-    						break;
-    					}	
-    					else {
-    						System.out.println("ok2");
-    						f1=1;
-    					}
-    					
-    			}
-    			if(t==1) {
-    				j1.setBackground(Colore1);
-    			}
-    			if(f1==1) {
-    				j1.setBackground(Colore2);
-    			}
+	    	    }	
+	public  void actionPerformed(ActionEvent e) {
+    		if(e.getActionCommand().equalsIgnoreCase("Cerca...")) {
+    			String ciao=verificaFonte();
     		JFileChooser chooser1=new JFileChooser("C:\\");
             FileNameExtensionFilter filter1=new FileNameExtensionFilter("Text","txt","Image","jpg");
             chooser1.setFileFilter(filter1);
-            
             int returnVal1=chooser1.showOpenDialog(a);
             if(returnVal1==JFileChooser.APPROVE_OPTION){}
                 
@@ -377,56 +346,71 @@ loop.start();
                     y=1;
                 }
                 }
-                System.out.println(v);
-                
-                
-               
-            
-             dc=new MetaData(chooser1.getSelectedFile().toPath());
-   
-    		
-    		if(v.equalsIgnoreCase("txt")){
-                percentuale=VeerificaTesto.reader(chooser1.getSelectedFile().getAbsolutePath())*100;
-               
-                if(percentuale>60.00) {
-                	j2.setBackground(Colore1);
-                	result=true;
-                }
-                else if(percentuale<60.00) {
-                	j2.setBackground(Colore2);
-                	result=false;
-                }}
-            else if(v.equalsIgnoreCase("jpg")){
-             	
-             	percentuale=VerificaFonte.databasejpg(chooser1.getSelectedFile().getAbsolutePath());
-             	
-                 System.out.println(percentuale);
-                 if(percentuale==0.00) {
-                 	j2.setBackground(Colore1);
-                 	result=true;
-                 }
-                 else if(percentuale>0.00) {
-                 	j2.setBackground(Colore2);
-                 	result=false;
-                 }
-             	
-             }
-     System.out.println("Percentuale:"+percentuale);
+                metav(chooser1.getSelectedFile());
      t4.setText(ciao);
-}
-             
-                     
-       
-                
+}        
                 
              
-	}	
-				
-	/*public   void loop() {
-	    loop=new Thread(this);
-	    loop.start();
-	    
-	}*/
+	} 
+    public static String verificaFonte() {
+   	 argomento=t2.getText();
+			argomento=argomento.replaceAll(blankSpace,"");
+			String ciao=VerificaFonte.fonteverificata(argomento);
+			String [] ciao1=ciao.split(" ");
+			int t=0;
+			int f1=0;
+			String h=""+t1.getText();
+			System.out.println(h.replaceAll(blankSpace,""));
+			for(int i=0;i<ciao1.length;i++) {
+					if(t1.getText().replaceAll(blankSpace,"").equalsIgnoreCase(ciao1[i])) {
+						t=1;
+						f1=0;
+						break;
+					}	
+					else {
+						f1=1;
+					}
+					
+			}
+			if(t==1) {
+				j1.setBackground(Colore1);
+			}
+			if(f1==1) {
+				j1.setBackground(Colore2);
+			}
+			return ciao;
+    }   
+	public static void  metav(File a) {
+		 dc=new MetaData(a.toPath());
+		   
+ 		
+ 		if(v.equalsIgnoreCase("txt")){
+             percentuale=VeerificaTesto.reader(a.getAbsolutePath())*100;
+            
+             if(percentuale>60.00) {
+             	j2.setBackground(Colore1);
+             	result=true;
+             }
+             else if(percentuale<60.00) {
+             	j2.setBackground(Colore2);
+             	result=false;
+             }}
+         else if(v.equalsIgnoreCase("jpg")){
+          	
+          	percentuale=VerificaFonte.databasejpg(a.getAbsolutePath());
+          	
+              System.out.println(percentuale);
+              if(percentuale==0.00) {
+              	j2.setBackground(Colore1);
+              	result=true;
+              }
+              else if(percentuale>0.00) {
+              	j2.setBackground(Colore2);
+              	result=false;
+              }
+          	
+          }
+	}
 	
 	public void run() {
 		while(true) {

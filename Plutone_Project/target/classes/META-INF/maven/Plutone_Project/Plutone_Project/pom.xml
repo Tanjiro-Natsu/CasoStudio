@@ -11,7 +11,7 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-    <sonar.organization>2023-mmqs-org</sonar.organization>
+    <sonar.organization>2023-mmqs-org1</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>

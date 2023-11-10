@@ -138,6 +138,7 @@ return m;
         	}
         	f++;
         	
+        	stmt.close();
         }
         
         

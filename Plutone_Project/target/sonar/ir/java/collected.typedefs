@@ -134,7 +134,7 @@
 databaseconfermation*main.VerificaFonte#databaseconfermation()IB
 databasejpg3main.VerificaFonte#databasejpg(Ljava/lang/String;)D1
 databasetxt"main.VerificaFonte#databasetxt()[B[
-fonteverificataHmain.VerificaFonte#fonteverificata(Ljava/lang/String;)Ljava/lang/String;java.lang.ObjectÈ
+fonteverificataHmain.VerificaFonte#fonteverificata(Ljava/lang/String;)Ljava/lang/String;java.lang.Object±
 	main.GUI2
 <init>main.GUI2#<init>()V
 Color1main.GUI2#Color1()V
@@ -148,7 +148,8 @@
 getfonte&main.GUI2#getfonte()Ljava/lang/String;#
 	getresultmain.GUI2#getresult()Z*
 getv"main.GUI2#getv()Ljava/lang/String;:
-metadatisave*main.GUI2#metadatisave()Ljava/lang/String;
+metadatisave*main.GUI2#metadatisave()Ljava/lang/String;)
+metav main.GUI2#metav(Ljava/io/File;)V
 refreshmain.GUI2#refresh()V
 runmain.GUI2#run()V3
 	setColor1&main.GUI2#setColor1(Ljava/awt/Color;)V3
@@ -156,7 +157,8 @@
 sett1main.GUI2#sett1()V
 sett2main.GUI2#sett2()V
 sett3main.GUI2#sett3()V
-sett4main.GUI2#sett4()Vjava.awt.event.ActionListenerjava.lang.Runnablejavax.swing.JFrameë
+sett4main.GUI2#sett4()V<
+verificaFonte+main.GUI2#verificaFonte()Ljava/lang/String;java.awt.event.ActionListenerjava.lang.Runnablejavax.swing.JFrameë
 main.Accesso 
 <init>main.Accesso#<init>()V;
 getPassword,main.Accesso#getPassword()Ljava/lang/String;3
@@ -282,7 +284,7 @@ getaccetta,main.Menu2#getaccetta()Ljavax/swing/JButton;<
 
 getrifiuta,main.Menu2#getrifiuta()Ljavax/swing/JButton;<
 getrifiuta1-main.Menu2#getrifiuta1()Ljavax/swing/JButton;!
-setSavemain.Menu2#setSave(Z)Vjava.awt.event.ActionListenerjavax.swing.JMenuBarÂ
+setSavemain.Menu2#setSave(Z)Vjava.awt.event.ActionListenerjavax.swing.JMenuBarØ
 main.FileChooserN
 <init>Dmain.FileChooser#<init>(Ljava/util/ArrayList;Ljava/util/ArrayList;)VD
 Finestraimage3main.FileChooser#Finestraimage(Ljava/lang/String;)V@
@@ -296,7 +298,7 @@ getbyteimg1main.FileChooser#getbyteimg(Ljava/lang/String;)[BG
 getk1,main.FileChooser#getk1()Ljavax/swing/JPanel;4
 reset+main.FileChooser#reset(Ljava/lang/String;)VZ
 	setJLabelMmain.FileChooser#setJLabel(Ljava/awt/image/BufferedImage;Ljava/lang/String;)VB
-setimg8main.FileChooser#setimg(Ljava/awt/image/BufferedImage;)Vjavax.swing.JFrame—/
+setimg8main.FileChooser#setimg(Ljava/awt/image/BufferedImage;)Vjava.io.Serializablejavax.swing.JFrame—/
 main.ImageMenuT
 <init>Jmain.ImageMenu#<init>(Ljava/awt/image/BufferedImage;Ljava/lang/String;[B)VS
 ColorJmain.ImageMenu#Color(II[BLjava/lang/String;)Ljava/awt/image/BufferedImage;@
