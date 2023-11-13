@@ -1,6 +1,8 @@
 package main;
 import java.sql.*;
 public class VerificaFonte {
+	private static String sqldriverString="com.microsoft.sqlserver.jdbc.SQLServerDriver";
+	private static String encrypt=";encrypt=false";
 	private static int y=0;
 	public static  int databaseconfermation() {
 		return y;
@@ -12,12 +14,12 @@ public class VerificaFonte {
 		 String query=null;
 		 byte[] m=null;
 		try {
-		 Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+		 Class.forName(sqldriverString);
 		 
           String sqlUser = Accesso.getUser();
           String sqlPassword = Accesso.getPassword(); //passwrod sa account
-          String connectionUrl =Accesso.getjdbc()+";encrypt=false";
-          Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+          String connectionUrl =Accesso.getjdbc()+encrypt;
+          Class.forName(sqldriverString);
 
           
          
@@ -57,12 +59,12 @@ return m;
 		 String query=null;
 		double m=0;
 		try {
-		 Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+		 Class.forName(sqldriverString);
 		 
           String sqlUser = Accesso.getUser();
           String sqlPassword = Accesso.getPassword(); //passwrod sa account
-          String connectionUrl = Accesso.getjdbc()+";encrypt=false";
-          Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+          String connectionUrl = Accesso.getjdbc()+encrypt;
+          Class.forName(sqldriverString);
 
           
          
@@ -109,14 +111,14 @@ return m;
 		 
         String sqlUser = Accesso.getUser();
         String sqlPassword = Accesso.getPassword(); //passwrod sa account
-        String connectionUrl = Accesso.getjdbc()+";encrypt=false";
+        String connectionUrl = Accesso.getjdbc()+encrypt;
         ResultSet k=null;
 		 String query=null;
         String result=" ";
         
         
 		try {
-			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+			Class.forName(sqldriverString);
 	
 	
 

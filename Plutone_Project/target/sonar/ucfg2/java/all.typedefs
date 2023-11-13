@@ -1947,9 +1947,10 @@ updateUI()javax.swing.JButton#updateUI()Vk
 !setUI(Ljavax/swing/plaf/PanelUI;)5javax.swing.JPanel#setUI(Ljavax/swing/plaf/PanelUI;)V,
 
 updateUI()javax.swing.JPanel#updateUI()Vj
-)writeObject(Ljava/io/ObjectOutputStream;)=javax.swing.JPanel#writeObject(Ljava/io/ObjectOutputStream;)VÒ
+)writeObject(Ljava/io/ObjectOutputStream;)=javax.swing.JPanel#writeObject(Ljava/io/ObjectOutputStream;)Vû
 main.VeerificaTestojava.lang.Object)
-<init>()main.VeerificaTesto#<init>()V/
+<init>()main.VeerificaTesto#<init>()V'
+check()main.VeerificaTesto#check()I/
 confronto() main.VeerificaTesto#confronto()DM
 reader(Ljava/lang/String;)/main.VeerificaTesto#reader(Ljava/lang/String;)D(
 java.lang.Comparablejava.lang.Objectñ
@@ -3151,22 +3152,7 @@ readLine()3java.io.BufferedReader#readLine()Ljava/lang/String;G
 -actionPerformed(Ljava/awt/event/ActionEvent;)Amain.MenuWriter$59#actionPerformed(Ljava/awt/event/ActionEvent;)V³
 main.MenuWriter$60java.awt.event.ActionListenerjava.lang.Objectx
 0<init>(Lmain/MenuWriter;Ljavax/swing/JTextPane;)Dmain.MenuWriter$60#<init>(Lmain/MenuWriter;Ljavax/swing/JTextPane;)Vr
--actionPerformed(Ljava/awt/event/ActionEvent;)Amain.MenuWriter$60#actionPerformed(Ljava/awt/event/ActionEvent;)V…
-main.MenuWriter$61java.awt.event.ActionListenerjava.lang.ObjectJ
-<init>(Lmain/MenuWriter;)-main.MenuWriter$61#<init>(Lmain/MenuWriter;)Vr
--actionPerformed(Ljava/awt/event/ActionEvent;)Amain.MenuWriter$61#actionPerformed(Ljava/awt/event/ActionEvent;)V…
-main.MenuWriter$62java.awt.event.ActionListenerjava.lang.ObjectJ
-<init>(Lmain/MenuWriter;)-main.MenuWriter$62#<init>(Lmain/MenuWriter;)Vr
--actionPerformed(Ljava/awt/event/ActionEvent;)Amain.MenuWriter$62#actionPerformed(Ljava/awt/event/ActionEvent;)V…
-main.MenuWriter$63java.awt.event.ActionListenerjava.lang.ObjectJ
-<init>(Lmain/MenuWriter;)-main.MenuWriter$63#<init>(Lmain/MenuWriter;)Vr
--actionPerformed(Ljava/awt/event/ActionEvent;)Amain.MenuWriter$63#actionPerformed(Ljava/awt/event/ActionEvent;)V…
-main.MenuWriter$64java.awt.event.ActionListenerjava.lang.ObjectJ
-<init>(Lmain/MenuWriter;)-main.MenuWriter$64#<init>(Lmain/MenuWriter;)Vr
--actionPerformed(Ljava/awt/event/ActionEvent;)Amain.MenuWriter$64#actionPerformed(Ljava/awt/event/ActionEvent;)V…
-main.MenuWriter$65java.awt.event.ActionListenerjava.lang.ObjectJ
-<init>(Lmain/MenuWriter;)-main.MenuWriter$65#<init>(Lmain/MenuWriter;)Vr
--actionPerformed(Ljava/awt/event/ActionEvent;)Amain.MenuWriter$65#actionPerformed(Ljava/awt/event/ActionEvent;)V³
+-actionPerformed(Ljava/awt/event/ActionEvent;)Amain.MenuWriter$60#actionPerformed(Ljava/awt/event/ActionEvent;)V³
 main.WriteInformationjavax.swing.JFrame+
 <init>()main.WriteInformation#<init>()VY
 setColorForeground()Amain.WriteInformation#setColorForeground()Ljavax/swing/JTextPane; 
@@ -3463,7 +3449,7 @@ HgetConnection(Ljava/lang/String;Ljava/util/Properties;Ljava/lang/Class;)tjava.
 <setShardingKey(Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;)Qjava.sql.Connection#setShardingKey(Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;)Vu
 .setShardingKeyIfValid(Ljava/sql/ShardingKey;I)Cjava.sql.Connection#setShardingKeyIfValid(Ljava/sql/ShardingKey;I)Z¡
 DsetShardingKeyIfValid(Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;I)Yjava.sql.Connection#setShardingKeyIfValid(Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;I)Z&
-java.lang.Runnablejava.lang.Object—
+java.lang.Runnablejava.lang.Object	
 main.GUIjava.awt.event.ActionListenerjava.lang.Runnablejavax.swing.JFrame
 <init>()main.GUI#<init>()V
 Color1()main.GUI#Color1()V
@@ -3481,7 +3467,8 @@ getText4()%main.GUI#getText4()Ljava/lang/String;;
 getfonte()%main.GUI#getfonte()Ljava/lang/String;$
 getresult()main.GUI#getresult()Z+
 getv()!main.GUI#getv()Ljava/lang/String;;
-metadatisave())main.GUI#metadatisave()Ljava/lang/String; 
+metadatisave())main.GUI#metadatisave()Ljava/lang/String;8
+metav(Ljava/io/File;)main.GUI#metav(Ljava/io/File;)V 
 	refresh()main.GUI#refresh()V
 run()main.GUI#run()VD
 setColor1(Ljava/awt/Color;)%main.GUI#setColor1(Ljava/awt/Color;)VD
@@ -3489,7 +3476,8 @@ getfonte()%main.GUI#getfonte()Ljava/lang/String;$
 sett1()main.GUI#sett1()V
 sett2()main.GUI#sett2()V
 sett3()main.GUI#sett3()V
-sett4()main.GUI#sett4()VÚ	
+sett4()main.GUI#sett4()V=
+verificaFonte()*main.GUI#verificaFonte()Ljava/lang/String;Ú	
 java.sql.Statementjava.lang.AutoCloseablejava.lang.Objectjava.sql.Wrapperu
 &enquoteIdentifier(Ljava/lang/String;Z)Kjava.sql.Statement#enquoteIdentifier(Ljava/lang/String;Z)Ljava/lang/String;m
 "enquoteLiteral(Ljava/lang/String;)Gjava.sql.Statement#enquoteLiteral(Ljava/lang/String;)Ljava/lang/String;w
@@ -3917,7 +3905,7 @@ toString()0java.lang.Character#toString()Ljava/lang/String;@
 toUpperCaseCharArray(I)-java.lang.Character#toUpperCaseCharArray(I)[C9
 toUpperCaseEx(I)%java.lang.Character#toUpperCaseEx(I)IA
 
-valueOf(C)3java.lang.Character#valueOf(C)Ljava/lang/Character;Â
+valueOf(C)3java.lang.Character#valueOf(C)Ljava/lang/Character;ç
 	main.Menujava.awt.event.ActionListenerjavax.swing.JMenuBar
 <init>()main.Menu#<init>()Vi
 -actionPerformed(Ljava/awt/event/ActionEvent;)8main.Menu#actionPerformed(Ljava/awt/event/ActionEvent;)V=
@@ -3956,7 +3944,54 @@ getjMenu()'main.Menu#getjMenu()Ljavax/swing/JMenu;;
 getrifiuta()+main.Menu#getrifiuta()Ljavax/swing/JButton;=
 getrifiuta1(),main.Menu#getrifiuta1()Ljavax/swing/JButton;#
 
-setSave(Z)main.Menu#setSave(Z)V”
+setSave(Z)main.Menu#setSave(Z)V
+split1()main.Menu#split1()V
+split2()main.Menu#split2()V
+split3()main.Menu#split3()V
+split4()main.Menu#split4()V
+split5()main.Menu#split5()V˜
+	main.mainjava.lang.Object
+<init>()main.main#<init>()V
+close()main.main#close()V$
+geta()main.main#geta()Lmain/GUI;'
+geta1()main.main#geta1()Lmain/GUI2;.
+getb()$main.main#getb()Ljavax/swing/JFrame;
+getr()main.main#getr()Z
+getr1()main.main#getr1()Zò
+java.awt.Desktopjava.lang.Object&
+<init>()java.awt.Desktop#<init>()VŒ
+;addAppEventListener(Ljava/awt/desktop/SystemEventListener;)Mjava.awt.Desktop#addAppEventListener(Ljava/awt/desktop/SystemEventListener;)VB
+browse(Ljava/net/URI;)(java.awt.Desktop#browse(Ljava/net/URI;)V\
+#browseFileDirectory(Ljava/io/File;)5java.awt.Desktop#browseFileDirectory(Ljava/io/File;)V>
+checkAWTPermission()&java.awt.Desktop#checkAWTPermission()Vp
+-checkActionSupport(Ljava/awt/Desktop$Action;)?java.awt.Desktop#checkActionSupport(Ljava/awt/Desktop$Action;)VX
+!checkEventsProcessingPermission()3java.awt.Desktop#checkEventsProcessingPermission()V,
+checkExec()java.awt.Desktop#checkExec()V\
+#checkFileValidation(Ljava/io/File;)5java.awt.Desktop#checkFileValidation(Ljava/io/File;)V@
+checkQuitPermission()'java.awt.Desktop#checkQuitPermission()V,
+checkRead()java.awt.Desktop#checkRead()VJ
+disableSuddenTermination(),java.awt.Desktop#disableSuddenTermination()V>
+edit(Ljava/io/File;)&java.awt.Desktop#edit(Ljava/io/File;)VH
+enableSuddenTermination()+java.awt.Desktop#enableSuddenTermination()V?
+getDesktop()/java.awt.Desktop#getDesktop()Ljava/awt/Desktop;>
+isDesktopSupported()&java.awt.Desktop#isDesktopSupported()Zb
+&isSupported(Ljava/awt/Desktop$Action;)8java.awt.Desktop#isSupported(Ljava/awt/Desktop$Action;)Z"
+mail()java.awt.Desktop#mail()V>
+mail(Ljava/net/URI;)&java.awt.Desktop#mail(Ljava/net/URI;)VL
+moveToTrash(Ljava/io/File;)-java.awt.Desktop#moveToTrash(Ljava/io/File;)Z>
+open(Ljava/io/File;)&java.awt.Desktop#open(Ljava/io/File;)V6
+openHelpViewer()"java.awt.Desktop#openHelpViewer()V@
+print(Ljava/io/File;)'java.awt.Desktop#print(Ljava/io/File;)V’
+>removeAppEventListener(Ljava/awt/desktop/SystemEventListener;)Pjava.awt.Desktop#removeAppEventListener(Ljava/awt/desktop/SystemEventListener;)V>
+requestForeground(Z)&java.awt.Desktop#requestForeground(Z)Vv
+0setAboutHandler(Ljava/awt/desktop/AboutHandler;)Bjava.awt.Desktop#setAboutHandler(Ljava/awt/desktop/AboutHandler;)Vh
+)setDefaultMenuBar(Ljavax/swing/JMenuBar;);java.awt.Desktop#setDefaultMenuBar(Ljavax/swing/JMenuBar;)V„
+7setOpenFileHandler(Ljava/awt/desktop/OpenFilesHandler;)Ijava.awt.Desktop#setOpenFileHandler(Ljava/awt/desktop/OpenFilesHandler;)V~
+4setOpenURIHandler(Ljava/awt/desktop/OpenURIHandler;)Fjava.awt.Desktop#setOpenURIHandler(Ljava/awt/desktop/OpenURIHandler;)VŽ
+<setPreferencesHandler(Ljava/awt/desktop/PreferencesHandler;)Njava.awt.Desktop#setPreferencesHandler(Ljava/awt/desktop/PreferencesHandler;)Vˆ
+9setPrintFileHandler(Ljava/awt/desktop/PrintFilesHandler;)Kjava.awt.Desktop#setPrintFileHandler(Ljava/awt/desktop/PrintFilesHandler;)Vr
+.setQuitHandler(Ljava/awt/desktop/QuitHandler;)@java.awt.Desktop#setQuitHandler(Ljava/awt/desktop/QuitHandler;)Vv
+0setQuitStrategy(Ljava/awt/desktop/QuitStrategy;)Bjava.awt.Desktop#setQuitStrategy(Ljava/awt/desktop/QuitStrategy;)V”
 java.awt.FlowLayoutjava.awt.LayoutManagerjava.io.Serializablejava.lang.Object)
 <init>()java.awt.FlowLayout#<init>()V+
 	<init>(I)java.awt.FlowLayout#<init>(I)V/
@@ -4076,15 +4111,7 @@ dwrite(Ljava/nio/file/Path;Ljava/lang/Iterable;Ljava/nio/charset/Charset;[Ljava/
 Jwrite(Ljava/nio/file/Path;Ljava/lang/Iterable;[Ljava/nio/file/OpenOption;)rjava.nio.file.Files#write(Ljava/nio/file/Path;Ljava/lang/Iterable;[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;œ
 8write(Ljava/nio/file/Path;[B[Ljava/nio/file/OpenOption;)`java.nio.file.Files#write(Ljava/nio/file/Path;[B[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;‰
 nwriteString(Ljava/nio/file/Path;Ljava/lang/CharSequence;Ljava/nio/charset/Charset;[Ljava/nio/file/OpenOption;)–java.nio.file.Files#writeString(Ljava/nio/file/Path;Ljava/lang/CharSequence;Ljava/nio/charset/Charset;[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;Ô
-TwriteString(Ljava/nio/file/Path;Ljava/lang/CharSequence;[Ljava/nio/file/OpenOption;)|java.nio.file.Files#writeString(Ljava/nio/file/Path;Ljava/lang/CharSequence;[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;˜
-	main.mainjava.lang.Object
-<init>()main.main#<init>()V
-close()main.main#close()V$
-geta()main.main#geta()Lmain/GUI;'
-geta1()main.main#geta1()Lmain/GUI2;.
-getb()$main.main#getb()Ljavax/swing/JFrame;
-getr()main.main#getr()Z
-getr1()main.main#getr1()ZÀ
+TwriteString(Ljava/nio/file/Path;Ljava/lang/CharSequence;[Ljava/nio/file/OpenOption;)|java.nio.file.Files#writeString(Ljava/nio/file/Path;Ljava/lang/CharSequence;[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;À
 java.lang.Numberjava.io.Serializablejava.lang.Object&
 <init>()java.lang.Number#<init>()V,
 byteValue()java.lang.Number#byteValue()B.
@@ -4157,41 +4184,7 @@ toString().java.lang.Integer#toString()Ljava/lang/String;>
 
 valueOf(I)/java.lang.Integer#valueOf(I)Ljava/lang/Integer;_
 valueOf(Ljava/lang/String;)@java.lang.Integer#valueOf(Ljava/lang/String;)Ljava/lang/Integer;a
-valueOf(Ljava/lang/String;I)Ajava.lang.Integer#valueOf(Ljava/lang/String;I)Ljava/lang/Integer;ò
-java.awt.Desktopjava.lang.Object&
-<init>()java.awt.Desktop#<init>()VŒ
-;addAppEventListener(Ljava/awt/desktop/SystemEventListener;)Mjava.awt.Desktop#addAppEventListener(Ljava/awt/desktop/SystemEventListener;)VB
-browse(Ljava/net/URI;)(java.awt.Desktop#browse(Ljava/net/URI;)V\
-#browseFileDirectory(Ljava/io/File;)5java.awt.Desktop#browseFileDirectory(Ljava/io/File;)V>
-checkAWTPermission()&java.awt.Desktop#checkAWTPermission()Vp
--checkActionSupport(Ljava/awt/Desktop$Action;)?java.awt.Desktop#checkActionSupport(Ljava/awt/Desktop$Action;)VX
-!checkEventsProcessingPermission()3java.awt.Desktop#checkEventsProcessingPermission()V,
-checkExec()java.awt.Desktop#checkExec()V\
-#checkFileValidation(Ljava/io/File;)5java.awt.Desktop#checkFileValidation(Ljava/io/File;)V@
-checkQuitPermission()'java.awt.Desktop#checkQuitPermission()V,
-checkRead()java.awt.Desktop#checkRead()VJ
-disableSuddenTermination(),java.awt.Desktop#disableSuddenTermination()V>
-edit(Ljava/io/File;)&java.awt.Desktop#edit(Ljava/io/File;)VH
-enableSuddenTermination()+java.awt.Desktop#enableSuddenTermination()V?
-getDesktop()/java.awt.Desktop#getDesktop()Ljava/awt/Desktop;>
-isDesktopSupported()&java.awt.Desktop#isDesktopSupported()Zb
-&isSupported(Ljava/awt/Desktop$Action;)8java.awt.Desktop#isSupported(Ljava/awt/Desktop$Action;)Z"
-mail()java.awt.Desktop#mail()V>
-mail(Ljava/net/URI;)&java.awt.Desktop#mail(Ljava/net/URI;)VL
-moveToTrash(Ljava/io/File;)-java.awt.Desktop#moveToTrash(Ljava/io/File;)Z>
-open(Ljava/io/File;)&java.awt.Desktop#open(Ljava/io/File;)V6
-openHelpViewer()"java.awt.Desktop#openHelpViewer()V@
-print(Ljava/io/File;)'java.awt.Desktop#print(Ljava/io/File;)V’
->removeAppEventListener(Ljava/awt/desktop/SystemEventListener;)Pjava.awt.Desktop#removeAppEventListener(Ljava/awt/desktop/SystemEventListener;)V>
-requestForeground(Z)&java.awt.Desktop#requestForeground(Z)Vv
-0setAboutHandler(Ljava/awt/desktop/AboutHandler;)Bjava.awt.Desktop#setAboutHandler(Ljava/awt/desktop/AboutHandler;)Vh
-)setDefaultMenuBar(Ljavax/swing/JMenuBar;);java.awt.Desktop#setDefaultMenuBar(Ljavax/swing/JMenuBar;)V„
-7setOpenFileHandler(Ljava/awt/desktop/OpenFilesHandler;)Ijava.awt.Desktop#setOpenFileHandler(Ljava/awt/desktop/OpenFilesHandler;)V~
-4setOpenURIHandler(Ljava/awt/desktop/OpenURIHandler;)Fjava.awt.Desktop#setOpenURIHandler(Ljava/awt/desktop/OpenURIHandler;)VŽ
-<setPreferencesHandler(Ljava/awt/desktop/PreferencesHandler;)Njava.awt.Desktop#setPreferencesHandler(Ljava/awt/desktop/PreferencesHandler;)Vˆ
-9setPrintFileHandler(Ljava/awt/desktop/PrintFilesHandler;)Kjava.awt.Desktop#setPrintFileHandler(Ljava/awt/desktop/PrintFilesHandler;)Vr
-.setQuitHandler(Ljava/awt/desktop/QuitHandler;)@java.awt.Desktop#setQuitHandler(Ljava/awt/desktop/QuitHandler;)Vv
-0setQuitStrategy(Ljava/awt/desktop/QuitStrategy;)Bjava.awt.Desktop#setQuitStrategy(Ljava/awt/desktop/QuitStrategy;)VÛ
+valueOf(Ljava/lang/String;I)Ajava.lang.Integer#valueOf(Ljava/lang/String;I)Ljava/lang/Integer;Û
 java.io.InputStreamjava.io.Closeablejava.lang.Object)
 <init>()java.io.InputStream#<init>()V/
 available() java.io.InputStream#available()I'
@@ -4395,7 +4388,7 @@ toString()9java.awt.image.BufferedImage#toString()Ljava/lang/String;Â!
 main([Ljava/lang/String;)'main.Chooser#main([Ljava/lang/String;)Vó
 main.Chooser$1java.awt.event.ActionListenerjava.lang.Object@
 <init>(Lmain/Chooser;)&main.Chooser$1#<init>(Lmain/Chooser;)Vn
--actionPerformed(Ljava/awt/event/ActionEvent;)=main.Chooser$1#actionPerformed(Ljava/awt/event/ActionEvent;)Vì
+-actionPerformed(Ljava/awt/event/ActionEvent;)=main.Chooser$1#actionPerformed(Ljava/awt/event/ActionEvent;)VÍ
 main.Searchjavax.swing.JFrame!
 <init>()main.Search#<init>()Vg
 +error(Ljava/lang/String;Ljava/lang/String;)8main.Search#error(Ljava/lang/String;Ljava/lang/String;)V#
@@ -4408,7 +4401,10 @@ getFonte()(main.Search#getFonte()Ljava/lang/String;C
 main([Ljava/lang/String;)&main.Search#main([Ljava/lang/String;)V
 ok()main.Search#ok()V
 sets()main.Search#sets()V
-sets1()main.Search#sets1()Vó
+sets1()main.Search#sets1()VI
+split1(Ljava/sql/Statement;))main.Search#split1(Ljava/sql/Statement;)II
+split2(Ljava/sql/Statement;))main.Search#split2(Ljava/sql/Statement;)II
+split3(Ljava/sql/Statement;))main.Search#split3(Ljava/sql/Statement;)Ió
 main.Chooser$2java.awt.event.ActionListenerjava.lang.Object@
 <init>(Lmain/Chooser;)&main.Chooser$2#<init>(Lmain/Chooser;)Vn
 -actionPerformed(Ljava/awt/event/ActionEvent;)=main.Chooser$2#actionPerformed(Ljava/awt/event/ActionEvent;)Vó
@@ -4790,9 +4786,9 @@ getTitle()<javax.swing.border.TitledBorder#getTitle()Ljava/lang/String;R
 -actionPerformed(Ljava/awt/event/ActionEvent;):main.main$1#actionPerformed(Ljava/awt/event/ActionEvent;)Vä
 main.main$2java.awt.event.ActionListenerjava.lang.Object7
 <init>(Lmain/main;) main.main$2#<init>(Lmain/main;)Vk
--actionPerformed(Ljava/awt/event/ActionEvent;):main.main$2#actionPerformed(Ljava/awt/event/ActionEvent;)VÇ
-main.main$2$1java.awt.event.ActionListenerjava.lang.Object•
-A<init>(Lmain/main$2;Ljavax/swing/JTextField;Ljavax/swing/JFrame;)Pmain.main$2$1#<init>(Lmain/main$2;Ljavax/swing/JTextField;Ljavax/swing/JFrame;)Vm
+-actionPerformed(Ljava/awt/event/ActionEvent;):main.main$2#actionPerformed(Ljava/awt/event/ActionEvent;)Vž
+main.main$2$1java.awt.event.ActionListenerjava.lang.Objectm
+-<init>(Lmain/main$2;Ljavax/swing/JTextField;)<main.main$2$1#<init>(Lmain/main$2;Ljavax/swing/JTextField;)Vm
 -actionPerformed(Ljava/awt/event/ActionEvent;)<main.main$2$1#actionPerformed(Ljava/awt/event/ActionEvent;)V?
 +java.nio.file.attribute.BasicFileAttributesjava.lang.Object‚
  java.nio.file.attribute.FileTimejava.lang.Comparablejava.lang.Objectœ
@@ -4902,4 +4898,19 @@ valueOf(J))java.lang.Long#valueOf(J)Ljava/lang/Long;Y
 -actionPerformed(Ljava/awt/event/ActionEvent;)<main.Search$5#actionPerformed(Ljava/awt/event/ActionEvent;)V–
 main.Search$6java.awt.event.ActionListenerjava.lang.Objecte
 )<init>(Lmain/Search;Ljavax/swing/JFrame;)8main.Search$6#<init>(Lmain/Search;Ljavax/swing/JFrame;)Vm
--actionPerformed(Ljava/awt/event/ActionEvent;)<main.Search$6#actionPerformed(Ljava/awt/event/ActionEvent;)V
+-actionPerformed(Ljava/awt/event/ActionEvent;)<main.Search$6#actionPerformed(Ljava/awt/event/ActionEvent;)V…
+main.MenuWriter$61java.awt.event.ActionListenerjava.lang.ObjectJ
+<init>(Lmain/MenuWriter;)-main.MenuWriter$61#<init>(Lmain/MenuWriter;)Vr
+-actionPerformed(Ljava/awt/event/ActionEvent;)Amain.MenuWriter$61#actionPerformed(Ljava/awt/event/ActionEvent;)V…
+main.MenuWriter$62java.awt.event.ActionListenerjava.lang.ObjectJ
+<init>(Lmain/MenuWriter;)-main.MenuWriter$62#<init>(Lmain/MenuWriter;)Vr
+-actionPerformed(Ljava/awt/event/ActionEvent;)Amain.MenuWriter$62#actionPerformed(Ljava/awt/event/ActionEvent;)V…
+main.MenuWriter$63java.awt.event.ActionListenerjava.lang.ObjectJ
+<init>(Lmain/MenuWriter;)-main.MenuWriter$63#<init>(Lmain/MenuWriter;)Vr
+-actionPerformed(Ljava/awt/event/ActionEvent;)Amain.MenuWriter$63#actionPerformed(Ljava/awt/event/ActionEvent;)V…
+main.MenuWriter$64java.awt.event.ActionListenerjava.lang.ObjectJ
+<init>(Lmain/MenuWriter;)-main.MenuWriter$64#<init>(Lmain/MenuWriter;)Vr
+-actionPerformed(Ljava/awt/event/ActionEvent;)Amain.MenuWriter$64#actionPerformed(Ljava/awt/event/ActionEvent;)V…
+main.MenuWriter$65java.awt.event.ActionListenerjava.lang.ObjectJ
+<init>(Lmain/MenuWriter;)-main.MenuWriter$65#<init>(Lmain/MenuWriter;)Vr
+-actionPerformed(Ljava/awt/event/ActionEvent;)Amain.MenuWriter$65#actionPerformed(Ljava/awt/event/ActionEvent;)V

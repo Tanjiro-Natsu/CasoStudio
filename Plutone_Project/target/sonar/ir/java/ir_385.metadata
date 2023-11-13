@@ -1,3 +1,1 @@
-main.Search#instance-init#
-java.util.ArrayList#<init>()V
-java.util.ArrayList#instance-init#
+main.GUI#getargomento()Ljava/lang/String;

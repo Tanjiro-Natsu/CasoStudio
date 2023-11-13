@@ -1,1 +1,3 @@
-main.GUI2#getMenu()Lmain/Menu2;
+main.GUI2#metadatisave()Ljava/lang/String;
+==
+toString main.MetaData#toString()Ljava/lang/String;

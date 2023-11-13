@@ -1,4 +1,3 @@
-main.GUI#refresh()V
+main.GUI#Metadata()V
 ==
-setEnabled javax.swing.AbstractButton#setEnabled(Z)V
-setBackground javax.swing.JComponent#setBackground(Ljava/awt/Color;)V
+dispose java.awt.Window#dispose()V

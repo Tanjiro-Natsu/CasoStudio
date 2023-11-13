@@ -1,1 +1,3 @@
-main.GUI#getMenu()Lmain/Menu;
+main.MetaData#toString()Ljava/lang/String;
+==
+getText javax.swing.JLabel#getText()Ljava/lang/String;

@@ -312,7 +312,7 @@ loop.start();
 	    	    	return argomento;
 	    	    }	
 	public  void actionPerformed(ActionEvent e) {
-    		if(e.getActionCommand().equalsIgnoreCase("Cerca...")) {
+    		if(e.getActionCommand().equalsIgnoreCase("Cerca..")) {
     			String ciao=verificaFonte();
     		JFileChooser chooser1=new JFileChooser("C:\\");
             FileNameExtensionFilter filter1=new FileNameExtensionFilter("Text","txt","Image","jpg");

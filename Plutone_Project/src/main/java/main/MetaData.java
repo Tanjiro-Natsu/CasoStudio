@@ -15,7 +15,7 @@ import javax.swing.JLabel;
 import javax.swing.JTextArea;
 
 public class MetaData extends JFrame{
-	private Path d=null;
+	private transient Path d=null;
 	private JLabel a1=null;
 	private JLabel a2=null;
 	private JLabel a3=null;
@@ -25,6 +25,7 @@ public class MetaData extends JFrame{
 	private JLabel a7=null;
 	private JLabel a8=null;
 	private JLabel a9=null;
+	private String cooper="Cooper Black";
 public JLabel geta1() {return a1;}
 public JLabel geta2() {return a2;}
 public JLabel geta3() {return a3;}
@@ -59,15 +60,15 @@ public JLabel geta9() {return a9;}
 		JLabel j6=new JLabel("  isRegularFile");
 		JLabel j7=new JLabel("  isSymbolicLink");
 		JLabel j8=new JLabel("  Size");
-		j9.setFont(new Font("Cooper Black",Font.PLAIN,14));
-		j1.setFont(new Font("Cooper Black",Font.PLAIN,14));
-		j2.setFont(new Font("Cooper Black",Font.PLAIN,14));
-		j3.setFont(new Font("Cooper Black",Font.PLAIN,14));
-		j4.setFont(new Font("Cooper Black",Font.PLAIN,14));
-		j5.setFont(new Font("Cooper Black",Font.PLAIN,14));
-		j6.setFont(new Font("Cooper Black",Font.PLAIN,14));
-		j7.setFont(new Font("Cooper Black",Font.PLAIN,14));
-		j8.setFont(new Font("Cooper Black",Font.PLAIN,14));
+		j9.setFont(new Font(cooper,Font.PLAIN,14));
+		j1.setFont(new Font(cooper,Font.PLAIN,14));
+		j2.setFont(new Font(cooper,Font.PLAIN,14));
+		j3.setFont(new Font(cooper,Font.PLAIN,14));
+		j4.setFont(new Font(cooper,Font.PLAIN,14));
+		j5.setFont(new Font(cooper,Font.PLAIN,14));
+		j6.setFont(new Font(cooper,Font.PLAIN,14));
+		j7.setFont(new Font(cooper,Font.PLAIN,14));
+		j8.setFont(new Font(cooper,Font.PLAIN,14));
 		 a1=new JLabel();
 		 a2=new JLabel();
 		 a3=new JLabel();

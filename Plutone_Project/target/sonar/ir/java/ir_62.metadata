@@ -1,1 +1,7 @@
-main.Reader#instance-init#
+main.VeerificaTesto#confronto()D
+main.VeerificaTesto#check()I
+java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z
+==
+println java.io.PrintStream#println(Ljava/lang/String;)V
+get java.util.ArrayList#get(I)Ljava/lang/Object;
+size java.util.ArrayList#size()I

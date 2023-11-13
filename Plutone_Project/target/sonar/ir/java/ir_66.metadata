@@ -1,13 +1,9 @@
-main.Reader#main([Ljava/lang/String;)V
-javax.swing.JFrame#<init>()V
-javax.swing.JButton#<init>(Ljava/lang/String;)V
-javax.swing.JPanel#<init>()V
-javax.swing.JFrame#instance-init#
-javax.swing.JButton#instance-init#
-javax.swing.JPanel#instance-init#
+main.Reader#chooser(Ljavax/swing/JPanel;)Ljava/io/File;
+javax.swing.filechooser.FileNameExtensionFilter#instance-init#
+javax.swing.JFileChooser#<init>(Ljava/lang/String;)V
+javax.swing.filechooser.FileNameExtensionFilter#<init>(Ljava/lang/String;[Ljava/lang/String;)V
+javax.swing.JFileChooser#instance-init#
 ==
-add java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;
-setVisible java.awt.Window#setVisible(Z)V
-setSize java.awt.Window#setSize(II)V
-addActionListener javax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V
-setDefaultCloseOperation javax.swing.JFrame#setDefaultCloseOperation(I)V
+setFileFilter javax.swing.JFileChooser#setFileFilter(Ljavax/swing/filechooser/FileFilter;)V
+showOpenDialog javax.swing.JFileChooser#showOpenDialog(Ljava/awt/Component;)I
+getSelectedFile javax.swing.JFileChooser#getSelectedFile()Ljava/io/File;

@@ -24,10 +24,10 @@ import javax.swing.JTextField;
 
 public class main {
 	
-	
+	static private  JFrame d;
 	static public  JFrame b=null;
 	static public GUI a=null;
-	static public GUI2 a1=null;
+	 public GUI2 a1=null;
 	static private boolean r=false;
 	static private boolean r1=false;
 	public static void close() {
@@ -65,7 +65,7 @@ public class main {
     	}});
     	right.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {
     		if(e.getActionCommand().equals("Ceo")) {
-    			final JFrame d=new JFrame("Password");
+    			 d=new JFrame("Password");
     			d.setSize(300,100);
     	    	d.setDefaultCloseOperation(b.EXIT_ON_CLOSE);
     	    	d.setLayout(new GridLayout(2,1));

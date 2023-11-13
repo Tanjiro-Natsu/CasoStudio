@@ -58,9 +58,10 @@
 gety6main.MenuSearch#gety6()I!
 gety7main.MenuSearch#gety7()I!
 gety8main.MenuSearch#gety8()I!
-gety9main.MenuSearch#gety9()Ijavax.swing.JMenuBarº
+gety9main.MenuSearch#gety9()Ijavax.swing.JMenuBará
 main.VeerificaTesto'
-<init>main.VeerificaTesto#<init>()V-
+<init>main.VeerificaTesto#<init>()V%
+checkmain.VeerificaTesto#check()I-
 	confronto main.VeerificaTesto#confronto()D9
 reader/main.VeerificaTesto#reader(Ljava/lang/String;)Djava.lang.Object°
 main.Reader
@@ -163,7 +164,7 @@
 <init>main.Accesso#<init>()V;
 getPassword,main.Accesso#getPassword()Ljava/lang/String;3
 getUser(main.Accesso#getUser()Ljava/lang/String;3
-getjdbc(main.Accesso#getjdbc()Ljava/lang/String;javax.swing.JFrameÝ
+getjdbc(main.Accesso#getjdbc()Ljava/lang/String;javax.swing.JFrameø
 	main.Menu
 <init>main.Menu#<init>()VK
 actionPerformed8main.Menu#actionPerformed(Ljava/awt/event/ActionEvent;)V;
@@ -220,7 +221,12 @@ getaccetta+main.Menu#getaccetta()Ljavax/swing/JButton;;
 
 getrifiuta+main.Menu#getrifiuta()Ljavax/swing/JButton;;
 getrifiuta1,main.Menu#getrifiuta1()Ljavax/swing/JButton; 
-setSavemain.Menu#setSave(Z)Vjava.awt.event.ActionListenerjavax.swing.JMenuBarÚ
+setSavemain.Menu#setSave(Z)V
+split1main.Menu#split1()V
+split2main.Menu#split2()V
+split3main.Menu#split3()V
+split4main.Menu#split4()V
+split5main.Menu#split5()Vjava.awt.event.ActionListenerjavax.swing.JMenuBarÚ
 main.VerificaImmagine)
 <init>main.VerificaImmagine#<init>()VE
 databaseconfermation-main.VerificaImmagine#databaseconfermation()I=
@@ -443,7 +449,7 @@ setcolor10main.ImageMenu#setcolor10()V(
 geta7)main.MetaData#geta7()Ljavax/swing/JLabel;2
 geta8)main.MetaData#geta8()Ljavax/swing/JLabel;2
 geta9)main.MetaData#geta9()Ljavax/swing/JLabel;6
-toString*main.MetaData#toString()Ljava/lang/String;javax.swing.JFrame±
+toString*main.MetaData#toString()Ljava/lang/String;javax.swing.JFrame˜
 main.GUI
 <init>main.GUI#<init>()V
 Color1main.GUI#Color1()V
@@ -457,7 +463,8 @@ setcolor10main.ImageMenu#setcolor10()V(
 getfonte%main.GUI#getfonte()Ljava/lang/String;"
 	getresultmain.GUI#getresult()Z)
 getv!main.GUI#getv()Ljava/lang/String;9
-metadatisave)main.GUI#metadatisave()Ljava/lang/String;
+metadatisave)main.GUI#metadatisave()Ljava/lang/String;(
+metavmain.GUI#metav(Ljava/io/File;)V
 refreshmain.GUI#refresh()V
 runmain.GUI#run()V2
 	setColor1%main.GUI#setColor1(Ljava/awt/Color;)V2
@@ -465,7 +472,8 @@ setcolor10main.ImageMenu#setcolor10()V(
 sett1main.GUI#sett1()V
 sett2main.GUI#sett2()V
 sett3main.GUI#sett3()V
-sett4main.GUI#sett4()Vjava.awt.event.ActionListenerjava.lang.Runnablejavax.swing.JFrameŸ
+sett4main.GUI#sett4()V;
+verificaFonte*main.GUI#verificaFonte()Ljava/lang/String;java.awt.event.ActionListenerjava.lang.Runnablejavax.swing.JFrame¾
 main.Search
 <init>main.Search#<init>()VA
 error8main.Search#error(Ljava/lang/String;Ljava/lang/String;)V!
@@ -478,4 +486,7 @@ getFileTxt-main.Search#getFileTxt()Ljava/util/ArrayList;?
 main&main.Search#main([Ljava/lang/String;)V
 okmain.Search#ok()V
 setsmain.Search#sets()V
-sets1main.Search#sets1()Vjavax.swing.JFrame
+sets1main.Search#sets1()V3
+split1)main.Search#split1(Ljava/sql/Statement;)I3
+split2)main.Search#split2(Ljava/sql/Statement;)I3
+split3)main.Search#split3(Ljava/sql/Statement;)Ijavax.swing.JFrame

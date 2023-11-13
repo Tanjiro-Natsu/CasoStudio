@@ -139,9 +139,9 @@ public class MenuWriter extends JMenuBar{
 	public int gety11() {return y11;}
 	public int gety12() {return y12;}
 	private static String yo=s5;
-	private static int yo1=3;
-	private static int yo2=20;
-	private static Font sss=new Font(yo,yo1,yo2);
+	private  int yo1=3;
+	private  int yo2=20;
+	private  Font sss=new Font(yo,yo1,yo2);
 	
 private String  r=null;
 private String r2=null;
@@ -298,11 +298,6 @@ private String r2=null;
 		y120.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y10;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
 		y121.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y11;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
 		y122.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y12;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
-		k.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
-		k4.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
-		k2.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
-		k3.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
-		k4.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
 		add(k);
 		add(k4);
 		add(k2);

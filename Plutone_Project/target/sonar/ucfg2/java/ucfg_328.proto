@@ -1,397 +1,8 @@
 
-3main.VerificaImmagine#imagec(Ljava/lang/String;[B)Dm
-c/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/VerificaImmagine.java ( "22*¨
-13( ((í
-è
-( ((
-%14boolean"	__compare*"
-
-__unknown_file (
-==*"
-
-__unknown_file (
-""* 
-
-__unknown_file (2*
-12
-1*Æ
-14'" '()î
-ë
-'" '(2
-%13boolean"	__compare*"
-
-__unknown_file (
-!=*"
-
-__unknown_file (
-""*"
-
-__unknown_file (
-""*
-13
-8*â
-15# #(íè
-# #(#	
-%8int"(java.awt.image.BufferedImage#getWidth()I*B
-
-__unknown_file (&
-$
-imgAjava.awt.image.BufferedImage2
-getWidth()íè
-$ $(#	
-%9int"(java.awt.image.BufferedImage#getWidth()I*B
-
-__unknown_file (&
-$
-imgBjava.awt.image.BufferedImage2
-getWidth()ïí
-% %(%
-
-%10int")java.awt.image.BufferedImage#getHeight()I*B
-
-__unknown_file (&
-$
-imgAjava.awt.image.BufferedImage2getHeight()ïí
-& &(%
-
-%11int")java.awt.image.BufferedImage#getHeight()I*B
-
-__unknown_file (&
-$
-imgBjava.awt.image.BufferedImage2getHeight()î
-ë
-' '(
-%12boolean"	__compare*"
-
-__unknown_file (
-!=*"
-
-__unknown_file (
-""*"
-
-__unknown_file (
-""*
-13
-14*ê
-16 (%z
-x
- (%$
-imgBjava.awt.image.BufferedImage"__id*@
-
-__unknown_file ($
-"
-%7java.awt.image.BufferedImage*
-15*é
-18 (Cy
-w
- (C#
-bisjava.io.ByteArrayInputStream"__id*@
-
-__unknown_file ($
-"
-%5java.io.ByteArrayInputStream¸
-˘
- (%"
-%7java.awt.image.BufferedImage"Ojavax.imageio.ImageIO#read(Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;*5
-
-__unknown_file ("
-javax.imageio.ImageIO*A
-
-__unknown_file (%
-#
-bisjava.io.ByteArrayInputStream*
-16*ç
-19 (*z
-x
- (*$
-imgAjava.awt.image.BufferedImage"__id*@
-
-__unknown_file ($
-"
-%4java.awt.image.BufferedImageNL
-+ (?"
-%5java.io.ByteArrayInputStream"java.io.ByteArrayInputStream™
-ß
-' (B
-%6"(java.io.ByteArrayInputStream#<init>([B)V*@
-
-__unknown_file ($
-"
-%5java.io.ByteArrayInputStream*)
-
-__unknown_file (
-
-bbyte[]*
-18*!
-1Q Q("
-Q	 Q(
-""*≠
-2H H(P
-N
-M M(
-
-%32java.io.PrintStream"__id*"
-
-__unknown_file (
-""l
-j
-M M(8
-%33java.lang.String"__concat*'
-M M(,
-Differenza percentuale *
-M- M(8
-""ÿ’
-M M(9
-%34void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
-
-__unknown_file (
-
-%32java.io.PrintStream*5
-
-__unknown_file (
-
-%33java.lang.String2println(Ljava/lang/String;)*
-1*Ê
-5; ;(!€ÿ
-; ;(.
-
-%27int"(java.awt.image.BufferedImage#getRGB(II)I*B
-
-__unknown_file (&
-$
-imgAjava.awt.image.BufferedImage*"
-
-__unknown_file (
-""*"
-
-__unknown_file (
-""2
-getRGB(II)€ÿ
-< <(.
-
-%28int"(java.awt.image.BufferedImage#getRGB(II)I*B
-
-__unknown_file (&
-$
-imgBjava.awt.image.BufferedImage*"
-
-__unknown_file (
-""*"
-
-__unknown_file (
-""2
-getRGB(II)Ö
-Ç
-D  D(3
-
-%29int"java.lang.Math#abs(I)I*.
-
-__unknown_file ("
-java.lang.Math*"
-
-__unknown_file (
-""Ö
-Ç
-E  E(7
-
-%30int"java.lang.Math#abs(I)I*.
-
-__unknown_file ("
-java.lang.Math*"
-
-__unknown_file (
-""Ö
-Ç
-F  F(5
-
-%31int"java.lang.Math#abs(I)I*.
-
-__unknown_file ("
-java.lang.Math*"
-
-__unknown_file (
-""*
-6*´
-6: :(ì
-ê
-: :($
-%26boolean"	__compare*!
-
-__unknown_file (
-<*"
-
-__unknown_file (
-""*"
-
-__unknown_file (
-""*
-5
-8*´
-89 9(ì
-ê
-9 9(!
-%25boolean"	__compare*!
-
-__unknown_file (
-<*"
-
-__unknown_file (
-""*"
-
-__unknown_file (
-""*
-2
-6*˚
-20 (*‰
-·
- (*"
-%4java.awt.image.BufferedImage"Hjavax.imageio.ImageIO#read(Ljava/io/File;)Ljava/awt/image/BufferedImage;*5
-
-__unknown_file ("
-javax.imageio.ImageIO*0
-
-__unknown_file (
-
-%2java.io.File*
-19*Î
-21 (.,
-" (&
-%2java.io.File"java.io.File§
-°
- ()
-%3"(java.io.File#<init>(Ljava/lang/String;)V*0
-
-__unknown_file (
-
-%2java.io.File*3
-
-__unknown_file (
-
-ajava.lang.String*
-20*Ì
-22 (Q
-O
- (
-%0java.io.PrintStream"__id*"
-
-__unknown_file (
-""«ƒ
- (
-
-%1void"0java.io.PrintStream#println(Ljava/lang/String;)V*7
-
-__unknown_file (
-
-%0java.io.PrintStream*$
-
-__unknown_file (
-ciao2println(Ljava/lang/String;)\
-Z
- ( $
-imgAjava.awt.image.BufferedImage"__id*"
-
-__unknown_file (
-""\
-Z
- ( $
-imgBjava.awt.image.BufferedImage"__id*"
-
-__unknown_file (
-""*
-21*≤
-12) )(';9
-) )(
-%15javax.swing.JFrame"javax.swing.JFrame•
-¢
-) )((
-%16".javax.swing.JFrame#<init>(Ljava/lang/String;)V*7
-
-__unknown_file (
-
-%15javax.swing.JFrame*&
-
-__unknown_file (
-
-Erroree
-c
-)
- )()
-yyjavax.swing.JFrame"__id*7
-
-__unknown_file (
-
-%15javax.swing.JFrame√¿
-* *(
-%17void"java.awt.Window#setSize(II)V*6
-
-__unknown_file (
-
-yyjavax.swing.JFrame*!
-
-__unknown_file (2¨*!
-
-__unknown_file (2»2setSize(II);9
-+ +(
-%18javax.swing.JLabel"javax.swing.JLabelœ
-Ã
-+ +(M
-%19".javax.swing.JLabel#<init>(Ljava/lang/String;)V*7
-
-__unknown_file (
-
-%18javax.swing.JLabel*P
-
-__unknown_file (42
-0    Immagine inserita non rispetta gli standard ˆÛ
-+ +(N
-%20java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*6
-
-__unknown_file (
-
-yyjavax.swing.JFrame*7
-
-__unknown_file (
-
-%18javax.swing.JLabel2add(Ljava/awt/Component;)À»
-,	 ,(!
-%21void" java.awt.Window#setLocation(II)V*6
-
-__unknown_file (
-
-yyjavax.swing.JFrame*!
-
-__unknown_file (2ÿ*!
-
-__unknown_file (2¨2setLocation(II)B
-@
--$ -(7
-
-%22int"__id*"
-
-__unknown_file (
-"" «
-- -(8
-%23void"/javax.swing.JFrame#setDefaultCloseOperation(I)V*6
-
-__unknown_file (
-
-yyjavax.swing.JFrame*(
-
-__unknown_file (
-
-
-%22int2setDefaultCloseOperation(I)£†
-. .(
-%24void"java.awt.Window#setVisible(Z)V*6
-
-__unknown_file (
-
-yyjavax.swing.JFrame* 
-
-__unknown_file (22setVisible(Z)*
-1:!
-! (*
-ajava.lang.String:
-* (2
-bbyte[]B"
+-main.VerificaImmagine#databaseconfermation()Im
+c/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/VerificaImmagine.java (("1*!
+1	 (
+"
+ (
+""B"
 main.VerificaImmagineHX

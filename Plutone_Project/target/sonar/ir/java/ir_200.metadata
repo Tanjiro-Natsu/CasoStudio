@@ -1,1 +1,17 @@
-main.Menu2#getColor10()Ljavax/swing/JMenuItem;
+main.Chooser#<init>()V
+java.awt.GridLayout#<init>(II)V
+javax.swing.ButtonGroup#instance-init#
+javax.swing.ButtonGroup#<init>()V
+javax.swing.JRadioButton#instance-init#
+java.awt.GridLayout#instance-init#
+javax.swing.JRadioButton#<init>(Ljava/lang/String;)V
+==
+setLocation java.awt.Window#setLocation(II)V
+add java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;
+setVisible java.awt.Window#setVisible(Z)V
+setSize java.awt.Window#setSize(II)V
+setTitle java.awt.Frame#setTitle(Ljava/lang/String;)V
+add javax.swing.ButtonGroup#add(Ljavax/swing/AbstractButton;)V
+addActionListener javax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V
+setLayout javax.swing.JFrame#setLayout(Ljava/awt/LayoutManager;)V
+setDefaultCloseOperation javax.swing.JFrame#setDefaultCloseOperation(I)V

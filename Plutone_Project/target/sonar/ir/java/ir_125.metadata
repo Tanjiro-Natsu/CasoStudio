@@ -1,1 +1,3 @@
-main.WriteInformation#setColorForeground()Ljavax/swing/JTextPane;
+main.WriteInformation#instance-init#
+javax.swing.JTextPane#instance-init#
+javax.swing.JTextPane#<init>()V

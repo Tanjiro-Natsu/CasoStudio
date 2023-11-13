@@ -1,18 +1,18 @@
 
-,main.ImageMenu#getcolor3()Ljava/lang/String;h
-\/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/ImageMenu.javaÑ Ñ("1*¡
+,main.ImageMenu#getcolor2()Ljava/lang/String;h
+\/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/ImageMenu.javaÐ Ð("1*¡
 1
-Ñ# Ñ()h
+Ð# Ð()h
 f
 
-Ñ# Ñ()
+Ð# Ð()
 %0java.lang.String"__id*:
 
 __unknown_file (*
 main.ImageMenu"
-Color3"&
+Color2"&
 
-Ñ Ñ(*
+Ð Ð(*
 
 %0java.lang.StringB
 main.ImageMenuH

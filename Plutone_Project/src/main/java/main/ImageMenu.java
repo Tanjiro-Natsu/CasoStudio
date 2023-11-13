@@ -234,10 +234,10 @@ public ImageIcon getImageIcon10() {return Image10;}
 	public void setcolor8() {Pink=new JMenuItem();}
 	public void setcolor9() {Standard=new JMenuItem();}
 	public void setcolor10() {Orange=new JMenuItem();}
-	private static String yo;
-	private static int yo1;
-	private static int yo2;
-	private static Font sss=new Font(yo,yo1,yo2);
+	private  String yo;
+	private  int yo1;
+	private  int yo2;
+	private  Font sss=new Font(yo,yo1,yo2);
 	private transient BufferedImage image;
 	private int height;
 	private int width;
@@ -425,7 +425,9 @@ public ImageIcon getImageIcon10() {return Image10;}
 		 BufferedImage imgB=null;
 		try {
 			imgB = ImageIO.read(bis);}
-		catch(Exception e) {}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
 		
 		if(s.equalsIgnoreCase("Red")){
 			for(int i=0;i<height1;i++) {

@@ -1,1 +1,1 @@
-main.ImageMenu#getcolor3()Ljava/lang/String;
+main.ImageMenu#getImageIcon10()Ljavax/swing/ImageIcon;

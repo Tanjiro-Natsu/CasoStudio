@@ -1,1 +1,3 @@
-main.Menu2#getColor11()Ljavax/swing/JMenuItem;
+main.Chooser#main([Ljava/lang/String;)V
+main.Chooser#instance-init#
+main.Chooser#<init>()V

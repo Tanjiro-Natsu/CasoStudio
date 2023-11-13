@@ -1,3 +1,3 @@
-main.Search#sets()V
-==
-setText javax.swing.text.JTextComponent#setText(Ljava/lang/String;)V
+main.Search#instance-init#
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#

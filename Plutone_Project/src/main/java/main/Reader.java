@@ -83,7 +83,7 @@ public class Reader {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		catch(IOException e) {System.out.println(e.getMessage());}
+		
 		catch(Exception  e) {System.out.println(e.getMessage());}
 		int t=0;
 		while(b.hasNext()){

@@ -1,1 +1,3 @@
-main.GUI#getv()Ljava/lang/String;
+main.GUI#sett4()V
+==
+setText javax.swing.text.JTextComponent#setText(Ljava/lang/String;)V
