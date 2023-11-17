@@ -1,1 +1,4 @@
-main.MetaData#geta1()Ljavax/swing/JLabel;
+main.ImageMenu#blue(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+==
+getRGB java.awt.image.BufferedImage#getRGB(II)I
+setRGB java.awt.image.BufferedImage#setRGB(III)V

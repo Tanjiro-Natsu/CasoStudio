@@ -1,19 +1,15 @@
 
-main.GUI#getMenu()Lmain/Menu;`
-V/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/GUI.java@ @("1*ƒ
-1A
- A(U
-S
-A
- A(
-%0	main.Menu"__id*0
+)main.MetaData#geta5()Ljavax/swing/JLabel;e
+[/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/MetaData.java! !("1*š
+1! !( c
+a
+! !( 
+%0javax.swing.JLabel"__id*5
 
-__unknown_file (*
-
-main.GUI"
-ss"
-A A(
-
-%0	main.MenuB
-
-main.GUIH
+__unknown_file (*
+main.MetaData"
+a5"&
+! !(!
+
+%0javax.swing.JLabelB
+main.MetaDataH

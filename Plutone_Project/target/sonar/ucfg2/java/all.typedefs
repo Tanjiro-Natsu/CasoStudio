@@ -3640,7 +3640,7 @@ getImage()0javax.swing.ImageIcon#getImage()Ljava/awt/Image;C
 0setImageObserver(Ljava/awt/image/ImageObserver;)Gjavax.swing.ImageIcon#setImageObserver(Ljava/awt/image/ImageObserver;)V@
 
 toString()2javax.swing.ImageIcon#toString()Ljava/lang/String;m
-)writeObject(Ljava/io/ObjectOutputStream;)@javax.swing.ImageIcon#writeObject(Ljava/io/ObjectOutputStream;)V¯
+)writeObject(Ljava/io/ObjectOutputStream;)@javax.swing.ImageIcon#writeObject(Ljava/io/ObjectOutputStream;)VÙ
 
 main.Menu2java.awt.event.ActionListenerjavax.swing.JMenuBar 
 <init>()main.Menu2#<init>()Vj
@@ -3678,7 +3678,12 @@ main.Menu2java.awt.event.ActionListenerjavax.swing.JMenuBar
 getrifiuta(),main.Menu2#getrifiuta()Ljavax/swing/JButton;>
 getrifiuta1()-main.Menu2#getrifiuta1()Ljavax/swing/JButton;$
 
-setSave(Z)main.Menu2#setSave(Z)VÜG
+setSave(Z)main.Menu2#setSave(Z)V 
+split1()main.Menu2#split1()V 
+split2()main.Menu2#split2()V 
+split3()main.Menu2#split3()V 
+split4()main.Menu2#split4()V 
+split5()main.Menu2#split5()VÜG
 java.lang.Threadjava.lang.Objectjava.lang.Runnable&
 <init>()java.lang.Thread#<init>()VN
 <init>(Ljava/lang/Runnable;).java.lang.Thread#<init>(Ljava/lang/Runnable;)Vr
@@ -4522,10 +4527,12 @@ getTitle()<javax.swing.border.TitledBorder#getTitle()Ljava/lang/String;R
 setTitleColor(Ljava/awt/Color;)@javax.swing.border.TitledBorder#setTitleColor(Ljava/awt/Color;)V_
 setTitleFont(Ljava/awt/Font;)>javax.swing.border.TitledBorder#setTitleFont(Ljava/awt/Font;)VU
 setTitleJustification(I)9javax.swing.border.TitledBorder#setTitleJustification(I)VK
-setTitlePosition(I)4javax.swing.border.TitledBorder#setTitlePosition(I)V°1
+setTitlePosition(I)4javax.swing.border.TitledBorder#setTitlePosition(I)V¹:
 main.ImageMenujavax.swing.JMenuBarˆ
 :<init>(Ljava/awt/image/BufferedImage;Ljava/lang/String;[B)Jmain.ImageMenu#<init>(Ljava/awt/image/BufferedImage;Ljava/lang/String;[B)Vk
-Color(II[BLjava/lang/String;)Jmain.ImageMenu#Color(II[BLjava/lang/String;)Ljava/awt/image/BufferedImage;B
+Color(II[BLjava/lang/String;)Jmain.ImageMenu#Color(II[BLjava/lang/String;)Ljava/awt/image/BufferedImage;}
+&blue(IILjava/awt/image/BufferedImage;)Smain.ImageMenu#blue(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;y
+$bn(IILjava/awt/image/BufferedImage;)Qmain.ImageMenu#bn(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;B
 getColor10()2main.ImageMenu#getColor10()Ljavax/swing/JMenuItem;B
 getColor11()2main.ImageMenu#getColor11()Ljavax/swing/JMenuItem;B
 getColor12()2main.ImageMenu#getColor12()Ljavax/swing/JMenuItem;B
@@ -4616,7 +4623,12 @@ getTitle()<javax.swing.border.TitledBorder#getTitle()Ljava/lang/String;R
 gety6()main.ImageMenu#gety6()I"
 gety7()main.ImageMenu#gety7()I"
 gety8()main.ImageMenu#gety8()I"
-gety9()main.ImageMenu#gety9()I
+gety9()main.ImageMenu#gety9()I
+'green(IILjava/awt/image/BufferedImage;)Tmain.ImageMenu#green(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;ƒ
+)magenta(IILjava/awt/image/BufferedImage;)Vmain.ImageMenu#magenta(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+(orange(IILjava/awt/image/BufferedImage;)Umain.ImageMenu#orange(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;}
+&pink(IILjava/awt/image/BufferedImage;)Smain.ImageMenu#pink(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;{
+%red(IILjava/awt/image/BufferedImage;)Rmain.ImageMenu#red(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
 set()main.ImageMenu#set()V*
 setcolor1()main.ImageMenu#setcolor1()V,
 setcolor10()main.ImageMenu#setcolor10()V*
@@ -4627,7 +4639,9 @@ getTitle()<javax.swing.border.TitledBorder#getTitle()Ljava/lang/String;R
 setcolor6()main.ImageMenu#setcolor6()V*
 setcolor7()main.ImageMenu#setcolor7()V*
 setcolor8()main.ImageMenu#setcolor8()V*
-setcolor9()main.ImageMenu#setcolor9()Vý
+setcolor9()main.ImageMenu#setcolor9()V
+(violet(IILjava/awt/image/BufferedImage;)Umain.ImageMenu#violet(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+(yellow(IILjava/awt/image/BufferedImage;)Umain.ImageMenu#yellow(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;ý
 main.ImageMenu$1java.awt.event.ActionListenerjava.lang.ObjectF
 <init>(Lmain/ImageMenu;)*main.ImageMenu$1#<init>(Lmain/ImageMenu;)Vp
 -actionPerformed(Ljava/awt/event/ActionEvent;)?main.ImageMenu$1#actionPerformed(Ljava/awt/event/ActionEvent;)Vý
@@ -4732,24 +4746,24 @@ getTitle()<javax.swing.border.TitledBorder#getTitle()Ljava/lang/String;R
 -actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$34#actionPerformed(Ljava/awt/event/ActionEvent;)V€
 main.ImageMenu$35java.awt.event.ActionListenerjava.lang.ObjectG
 <init>(Lmain/ImageMenu;)+main.ImageMenu$35#<init>(Lmain/ImageMenu;)Vq
--actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$35#actionPerformed(Ljava/awt/event/ActionEvent;)V€
-main.ImageMenu$36java.awt.event.ActionListenerjava.lang.ObjectG
-<init>(Lmain/ImageMenu;)+main.ImageMenu$36#<init>(Lmain/ImageMenu;)Vq
--actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$36#actionPerformed(Ljava/awt/event/ActionEvent;)V€
-main.ImageMenu$37java.awt.event.ActionListenerjava.lang.ObjectG
-<init>(Lmain/ImageMenu;)+main.ImageMenu$37#<init>(Lmain/ImageMenu;)Vq
--actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$37#actionPerformed(Ljava/awt/event/ActionEvent;)V€
-main.ImageMenu$38java.awt.event.ActionListenerjava.lang.ObjectG
-<init>(Lmain/ImageMenu;)+main.ImageMenu$38#<init>(Lmain/ImageMenu;)Vq
--actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$38#actionPerformed(Ljava/awt/event/ActionEvent;)V€
-main.ImageMenu$39java.awt.event.ActionListenerjava.lang.ObjectG
-<init>(Lmain/ImageMenu;)+main.ImageMenu$39#<init>(Lmain/ImageMenu;)Vq
+-actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$35#actionPerformed(Ljava/awt/event/ActionEvent;)V„
+main.ImageMenu$36java.awt.event.ActionListenerjava.lang.ObjectK
+<init>(Lmain/ImageMenu;[B)-main.ImageMenu$36#<init>(Lmain/ImageMenu;[B)Vq
+-actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$36#actionPerformed(Ljava/awt/event/ActionEvent;)V„
+main.ImageMenu$37java.awt.event.ActionListenerjava.lang.ObjectK
+<init>(Lmain/ImageMenu;[B)-main.ImageMenu$37#<init>(Lmain/ImageMenu;[B)Vq
+-actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$37#actionPerformed(Ljava/awt/event/ActionEvent;)V„
+main.ImageMenu$38java.awt.event.ActionListenerjava.lang.ObjectK
+<init>(Lmain/ImageMenu;[B)-main.ImageMenu$38#<init>(Lmain/ImageMenu;[B)Vq
+-actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$38#actionPerformed(Ljava/awt/event/ActionEvent;)V„
+main.ImageMenu$39java.awt.event.ActionListenerjava.lang.ObjectK
+<init>(Lmain/ImageMenu;[B)-main.ImageMenu$39#<init>(Lmain/ImageMenu;[B)Vq
 -actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$39#actionPerformed(Ljava/awt/event/ActionEvent;)V€
 main.ImageMenu$40java.awt.event.ActionListenerjava.lang.ObjectG
 <init>(Lmain/ImageMenu;)+main.ImageMenu$40#<init>(Lmain/ImageMenu;)Vq
--actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$40#actionPerformed(Ljava/awt/event/ActionEvent;)V€
-main.ImageMenu$41java.awt.event.ActionListenerjava.lang.ObjectG
-<init>(Lmain/ImageMenu;)+main.ImageMenu$41#<init>(Lmain/ImageMenu;)Vq
+-actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$40#actionPerformed(Ljava/awt/event/ActionEvent;)V„
+main.ImageMenu$41java.awt.event.ActionListenerjava.lang.ObjectK
+<init>(Lmain/ImageMenu;[B)-main.ImageMenu$41#<init>(Lmain/ImageMenu;[B)Vq
 -actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$41#actionPerformed(Ljava/awt/event/ActionEvent;)V„
 main.ImageMenu$42java.awt.event.ActionListenerjava.lang.ObjectK
 <init>(Lmain/ImageMenu;[B)-main.ImageMenu$42#<init>(Lmain/ImageMenu;[B)Vq
@@ -4762,25 +4776,7 @@ getTitle()<javax.swing.border.TitledBorder#getTitle()Ljava/lang/String;R
 -actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$44#actionPerformed(Ljava/awt/event/ActionEvent;)V„
 main.ImageMenu$45java.awt.event.ActionListenerjava.lang.ObjectK
 <init>(Lmain/ImageMenu;[B)-main.ImageMenu$45#<init>(Lmain/ImageMenu;[B)Vq
--actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$45#actionPerformed(Ljava/awt/event/ActionEvent;)V€
-main.ImageMenu$46java.awt.event.ActionListenerjava.lang.ObjectG
-<init>(Lmain/ImageMenu;)+main.ImageMenu$46#<init>(Lmain/ImageMenu;)Vq
--actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$46#actionPerformed(Ljava/awt/event/ActionEvent;)V„
-main.ImageMenu$47java.awt.event.ActionListenerjava.lang.ObjectK
-<init>(Lmain/ImageMenu;[B)-main.ImageMenu$47#<init>(Lmain/ImageMenu;[B)Vq
--actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$47#actionPerformed(Ljava/awt/event/ActionEvent;)V„
-main.ImageMenu$48java.awt.event.ActionListenerjava.lang.ObjectK
-<init>(Lmain/ImageMenu;[B)-main.ImageMenu$48#<init>(Lmain/ImageMenu;[B)Vq
--actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$48#actionPerformed(Ljava/awt/event/ActionEvent;)V„
-main.ImageMenu$49java.awt.event.ActionListenerjava.lang.ObjectK
-<init>(Lmain/ImageMenu;[B)-main.ImageMenu$49#<init>(Lmain/ImageMenu;[B)Vq
--actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$49#actionPerformed(Ljava/awt/event/ActionEvent;)V„
-main.ImageMenu$50java.awt.event.ActionListenerjava.lang.ObjectK
-<init>(Lmain/ImageMenu;[B)-main.ImageMenu$50#<init>(Lmain/ImageMenu;[B)Vq
--actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$50#actionPerformed(Ljava/awt/event/ActionEvent;)V„
-main.ImageMenu$51java.awt.event.ActionListenerjava.lang.ObjectK
-<init>(Lmain/ImageMenu;[B)-main.ImageMenu$51#<init>(Lmain/ImageMenu;[B)Vq
--actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$51#actionPerformed(Ljava/awt/event/ActionEvent;)Vä
+-actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$45#actionPerformed(Ljava/awt/event/ActionEvent;)Vä
 main.main$1java.awt.event.ActionListenerjava.lang.Object7
 <init>(Lmain/main;) main.main$1#<init>(Lmain/main;)Vk
 -actionPerformed(Ljava/awt/event/ActionEvent;):main.main$1#actionPerformed(Ljava/awt/event/ActionEvent;)Vä
@@ -4898,7 +4894,25 @@ valueOf(J))java.lang.Long#valueOf(J)Ljava/lang/Long;Y
 -actionPerformed(Ljava/awt/event/ActionEvent;)<main.Search$5#actionPerformed(Ljava/awt/event/ActionEvent;)V–
 main.Search$6java.awt.event.ActionListenerjava.lang.Objecte
 )<init>(Lmain/Search;Ljavax/swing/JFrame;)8main.Search$6#<init>(Lmain/Search;Ljavax/swing/JFrame;)Vm
--actionPerformed(Ljava/awt/event/ActionEvent;)<main.Search$6#actionPerformed(Ljava/awt/event/ActionEvent;)V…
+-actionPerformed(Ljava/awt/event/ActionEvent;)<main.Search$6#actionPerformed(Ljava/awt/event/ActionEvent;)V„
+main.ImageMenu$49java.awt.event.ActionListenerjava.lang.ObjectK
+<init>(Lmain/ImageMenu;[B)-main.ImageMenu$49#<init>(Lmain/ImageMenu;[B)Vq
+-actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$49#actionPerformed(Ljava/awt/event/ActionEvent;)V„
+main.ImageMenu$48java.awt.event.ActionListenerjava.lang.ObjectK
+<init>(Lmain/ImageMenu;[B)-main.ImageMenu$48#<init>(Lmain/ImageMenu;[B)Vq
+-actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$48#actionPerformed(Ljava/awt/event/ActionEvent;)V„
+main.ImageMenu$47java.awt.event.ActionListenerjava.lang.ObjectK
+<init>(Lmain/ImageMenu;[B)-main.ImageMenu$47#<init>(Lmain/ImageMenu;[B)Vq
+-actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$47#actionPerformed(Ljava/awt/event/ActionEvent;)V€
+main.ImageMenu$46java.awt.event.ActionListenerjava.lang.ObjectG
+<init>(Lmain/ImageMenu;)+main.ImageMenu$46#<init>(Lmain/ImageMenu;)Vq
+-actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$46#actionPerformed(Ljava/awt/event/ActionEvent;)V„
+main.ImageMenu$51java.awt.event.ActionListenerjava.lang.ObjectK
+<init>(Lmain/ImageMenu;[B)-main.ImageMenu$51#<init>(Lmain/ImageMenu;[B)Vq
+-actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$51#actionPerformed(Ljava/awt/event/ActionEvent;)V„
+main.ImageMenu$50java.awt.event.ActionListenerjava.lang.ObjectK
+<init>(Lmain/ImageMenu;[B)-main.ImageMenu$50#<init>(Lmain/ImageMenu;[B)Vq
+-actionPerformed(Ljava/awt/event/ActionEvent;)@main.ImageMenu$50#actionPerformed(Ljava/awt/event/ActionEvent;)V…
 main.MenuWriter$61java.awt.event.ActionListenerjava.lang.ObjectJ
 <init>(Lmain/MenuWriter;)-main.MenuWriter$61#<init>(Lmain/MenuWriter;)Vr
 -actionPerformed(Ljava/awt/event/ActionEvent;)Amain.MenuWriter$61#actionPerformed(Ljava/awt/event/ActionEvent;)V…

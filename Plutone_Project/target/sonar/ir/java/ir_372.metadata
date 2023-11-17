@@ -1,1 +1,1 @@
-main.GUI#setColor2(Ljava/awt/Color;)V
+main.MetaData#geta5()Ljavax/swing/JLabel;

@@ -1,6 +1,3 @@
-main.GUI#run()V
-main.Menu#setSave(Z)V
-java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z
+main.GUI#sett2()V
 ==
-getText javax.swing.text.JTextComponent#getText()Ljava/lang/String;
-setEnabled javax.swing.AbstractButton#setEnabled(Z)V
+setText javax.swing.text.JTextComponent#setText(Ljava/lang/String;)V

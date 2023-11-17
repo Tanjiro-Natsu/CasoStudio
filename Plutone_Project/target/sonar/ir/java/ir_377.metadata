@@ -1,3 +1,3 @@
-main.GUI#sett1()V
+main.MetaData#toString()Ljava/lang/String;
 ==
-setText javax.swing.text.JTextComponent#setText(Ljava/lang/String;)V
+getText javax.swing.JLabel#getText()Ljava/lang/String;

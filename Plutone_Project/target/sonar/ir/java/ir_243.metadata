@@ -1,1 +1,23 @@
-main.FileChooser#getb()Ljavax/swing/JFrame;
+main.FileChooser#Finestratxt(Ljava/lang/String;)V
+main.MenuSearch#instance-init#
+java.awt.BorderLayout#<init>()V
+javax.swing.JTextArea#<init>()V
+javax.swing.JLabel#<init>(Ljava/lang/String;)V
+main.MenuSearch#<init>(Ljavax/swing/JTextArea;)V
+javax.swing.JFrame#<init>(Ljava/lang/String;)V
+javax.swing.JTextArea#instance-init#
+javax.swing.JLabel#instance-init#
+javax.swing.JFrame#instance-init#
+javax.swing.JScrollPane#instance-init#
+java.awt.BorderLayout#instance-init#
+javax.swing.JScrollPane#<init>(Ljava/awt/Component;)V
+==
+setLocation java.awt.Window#setLocation(II)V
+add java.awt.Container#add(Ljava/awt/Component;Ljava/lang/Object;)V
+setJMenuBar javax.swing.JFrame#setJMenuBar(Ljavax/swing/JMenuBar;)V
+setText javax.swing.text.JTextComponent#setText(Ljava/lang/String;)V
+setVisible java.awt.Window#setVisible(Z)V
+setSize java.awt.Window#setSize(II)V
+setLayout javax.swing.JFrame#setLayout(Ljava/awt/LayoutManager;)V
+getext main.FileChooser#getext(Ljava/lang/String;)Ljava/lang/String;
+setDefaultCloseOperation javax.swing.JFrame#setDefaultCloseOperation(I)V

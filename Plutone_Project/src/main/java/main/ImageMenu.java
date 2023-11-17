@@ -280,7 +280,7 @@ public ImageIcon getImageIcon10() {return Image10;}
 			JMenuItem z110=new JMenuItem("Dark_Gray");
 			JMenuItem z121=new JMenuItem(magenta);
 			JMenuItem Save=new JMenuItem("Save");
-			k4.add(Standard);
+			
 			k4.add(DIALOG);
 			k4.add(DIALOG_INPUT);
 			k4.add(MONOSPACE);
@@ -376,12 +376,6 @@ public ImageIcon getImageIcon10() {return Image10;}
 			y120.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y10;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
 			y121.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y11;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
 			y122.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y12;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
-			k.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
-			k4.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
-			k2.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
-			k3.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
-			k4.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
-			k5.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {}});
 		height=image.getHeight();
 		width=image.getWidth();
 		Color =new JMenu("Color");
@@ -395,6 +389,7 @@ public ImageIcon getImageIcon10() {return Image10;}
 		Orange=new JMenuItem(Color6);
 		Violet=new JMenuItem(Color8);
 		Standard=new JMenuItem(Color5);
+		k4.add(Standard);
 		Color.add(BiancoNero);
 		Color.add(Red);
 		Color.add(Green);
@@ -430,72 +425,116 @@ public ImageIcon getImageIcon10() {return Image10;}
 		}
 		
 		if(s.equalsIgnoreCase("Red")){
-			for(int i=0;i<height1;i++) {
-				for(int t=0;t<width;t++) {
-					int rgbA=imgB.getRGB(t, i);
-					imgB.setRGB(t, i,rgbA & 0xff0000);//blu =(rgbA>>16) & 0xff
-				}
-		}}
+			imgB=red(height1,width1,imgB);
+			}
 		if(s.equalsIgnoreCase(Yellowe)){
-			for(int i=0;i<height1;i++) {
-				for(int t=0;t<width;t++) {
-					int rgbA=imgB.getRGB(t, i);
-					imgB.setRGB(t, i,rgbA & 0xffff00);//blu =(rgbA>>16) & 0xff
-				}
-		}}
-		if(s.equalsIgnoreCase(Violete)){
-			for(int i=0;i<height1;i++) {
-				for(int t=0;t<width;t++) {
-					int rgbA=imgB.getRGB(t, i);
-					imgB.setRGB(t, i,rgbA & 0x9933ff);//blu =(rgbA>>16) & 0xff
-				}
-		}}
-		if(s.equalsIgnoreCase("Pink")){
-			for(int i=0;i<height1;i++) {
-				for(int t=0;t<width;t++) {
-					int rgbA=imgB.getRGB(t, i);
-					imgB.setRGB(t, i,rgbA & 0xff33ff);//blu =(rgbA>>16) & 0xff
-				}
-		}}
-		if(s.equalsIgnoreCase(magenta)){
-			for(int i=0;i<height1;i++) {
-				for(int t=0;t<width;t++) {
-					int rgbA=imgB.getRGB(t, i);
-					imgB.setRGB(t, i,rgbA & 0xff3399);//blu =(rgbA>>16) & 0xff
-				}
-		}}
-		if(s.equalsIgnoreCase(Orangee)){
-			for(int i=0;i<height1;i++) {
-				for(int t=0;t<width;t++) {
-					int rgbA=imgB.getRGB(t, i);
-					imgB.setRGB(t, i,rgbA & 0xff8000);//blu =(rgbA>>16) & 0xff
-				}
-		}}
-		if(s.equalsIgnoreCase(greene)){
-			for(int i=0;i<height1;i++) {
-				for(int t=0;t<width;t++) {
-					int rgbA=imgB.getRGB(t, i);
-					imgB.setRGB(t, i,rgbA & 0x00CC00);//blu =(rgbA>>16) & 0xff
-				}
+			imgB=yellow(height1,width1,imgB);
 		}
+		if(s.equalsIgnoreCase(Violete)){
+			imgB=violet(height1,width1,imgB);
+			}
+		if(s.equalsIgnoreCase("Pink")){
+			imgB=pink(height1,width1,imgB);
+		}
+		if(s.equalsIgnoreCase(magenta)){
+			imgB=magenta(height1,width1,imgB);
+			}
+		if(s.equalsIgnoreCase(Orangee)){
+			imgB=orange(height1,width1,imgB);
+		}
+		if(s.equalsIgnoreCase(greene)){
+			imgB=green(height1,width1,imgB);
 		}
 		if(s.equalsIgnoreCase("Blue")){
-			for(int i=0;i<height1;i++) {
-				for(int t=0;t<width;t++) {
-					int rgbA=imgB.getRGB(t, i);
-					imgB.setRGB(t, i,rgbA & 0x0000CC);//blu =(rgbA>>16) & 0xff
-				}
-		}
+			imgB=blue(height1,width1,imgB);
 		}
 		if(s.equalsIgnoreCase(biancoNero)){
-			for(int i=0;i<height1;i++) {
-				for(int t=0;t<width;t++) {
-					int rgbA=imgB.getRGB(t, i);
-					imgB.setRGB(t, i,rgbA & 0x808080);//blu =(rgbA>>16) & 0xff
-				}
-		}
+			imgB=bn(height1,width1,imgB);
 		}
 		return imgB;	
 	}
 
+	public BufferedImage red(int height1,int width1,BufferedImage imgB) {
+		for(int i=0;i<height1;i++) {
+			for(int t=0;t<width1;t++) {
+				int rgbA=imgB.getRGB(t, i);
+				imgB.setRGB(t, i,rgbA & 0xff0000);//blu =(rgbA>>16) & 0xff
+			}
+	}
+		return imgB;
+	}
+	public BufferedImage yellow(int height1,int width1,BufferedImage imgB) {
+		for(int i=0;i<height1;i++) {
+			for(int t=0;t<width1;t++) {
+				int rgbA=imgB.getRGB(t, i);
+				imgB.setRGB(t, i,rgbA & 0xffff00);//blu =(rgbA>>16) & 0xff
+			}
+	}
+		return imgB;
+	}
+	public BufferedImage violet(int height1,int width1,BufferedImage imgB) {
+		for(int i=0;i<height1;i++) {
+			for(int t=0;t<width1;t++) {
+				int rgbA=imgB.getRGB(t, i);
+				imgB.setRGB(t, i,rgbA & 0x9933ff);//blu =(rgbA>>16) & 0xff
+			}
+	}
+		return imgB;
+	}
+	public BufferedImage pink(int height1,int width1,BufferedImage imgB) {
+		for(int i=0;i<height1;i++) {
+			for(int t=0;t<width1;t++) {
+				int rgbA=imgB.getRGB(t, i);
+				imgB.setRGB(t, i,rgbA & 0xff33ff);//blu =(rgbA>>16) & 0xff
+			}
+	}
+		return imgB;
+	}
+	public BufferedImage magenta(int height1,int width1,BufferedImage imgB) {
+		for(int i=0;i<height1;i++) {
+			for(int t=0;t<width1;t++) {
+				int rgbA=imgB.getRGB(t, i);
+				imgB.setRGB(t, i,rgbA & 0xff3399);//blu =(rgbA>>16) & 0xff
+			}
+	}
+		return imgB;
+	}
+	public BufferedImage orange(int height1,int width1,BufferedImage imgB) {
+		for(int i=0;i<height1;i++) {
+			for(int t=0;t<width1;t++) {
+				int rgbA=imgB.getRGB(t, i);
+				imgB.setRGB(t, i,rgbA & 0xff8000);//blu =(rgbA>>16) & 0xff
+			}
+	}
+		return imgB;
+	}
+	public BufferedImage green(int height1,int width1,BufferedImage imgB) {
+		for(int i=0;i<height1;i++) {
+			for(int t=0;t<width1;t++) {
+				int rgbA=imgB.getRGB(t, i);
+				imgB.setRGB(t, i,rgbA & 0x00CC00);//blu =(rgbA>>16) & 0xff
+			}
+	}
+		return imgB;
+	}
+	public BufferedImage blue(int height1,int width1,BufferedImage imgB) {
+		for(int i=0;i<height1;i++) {
+			for(int t=0;t<width1;t++) {
+				int rgbA=imgB.getRGB(t, i);
+				imgB.setRGB(t, i,rgbA & 0x0000CC);//blu =(rgbA>>16) & 0xff
+			}
+	}
+		return imgB;
+	}
+	public BufferedImage bn(int height1,int width1,BufferedImage imgB) {
+		for(int i=0;i<height1;i++) {
+			for(int t=0;t<width;t++) {
+				int rgbA=imgB.getRGB(t, i);
+				imgB.setRGB(t, i,rgbA & 0x808080);//blu =(rgbA>>16) & 0xff
+			}
+			
+	}
+		return imgB;
+	}
+	
 }

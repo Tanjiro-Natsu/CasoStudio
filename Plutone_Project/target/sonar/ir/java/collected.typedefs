@@ -233,7 +233,7 @@ getrifiuta+main.Menu#getrifiuta()Ljavax/swing/JButton;;
 imagec3main.VerificaImmagine#imagec(Ljava/lang/String;[B)Djava.lang.Objectu
 main.Chooser 
 <init>main.Chooser#<init>()V/
-main'main.Chooser#main([Ljava/lang/String;)Vjavax.swing.JFrameÌ
+main'main.Chooser#main([Ljava/lang/String;)Vjavax.swing.JFrameì
 
 main.Menu2
 <init>main.Menu2#<init>()VL
@@ -290,7 +290,12 @@ getaccetta,main.Menu2#getaccetta()Ljavax/swing/JButton;<
 
 getrifiuta,main.Menu2#getrifiuta()Ljavax/swing/JButton;<
 getrifiuta1-main.Menu2#getrifiuta1()Ljavax/swing/JButton;!
-setSavemain.Menu2#setSave(Z)Vjava.awt.event.ActionListenerjavax.swing.JMenuBarØ
+setSavemain.Menu2#setSave(Z)V
+split1main.Menu2#split1()V
+split2main.Menu2#split2()V
+split3main.Menu2#split3()V
+split4main.Menu2#split4()V
+split5main.Menu2#split5()Vjava.awt.event.ActionListenerjavax.swing.JMenuBarØ
 main.FileChooserN
 <init>Dmain.FileChooser#<init>(Ljava/util/ArrayList;Ljava/util/ArrayList;)VD
 Finestraimage3main.FileChooser#Finestraimage(Ljava/lang/String;)V@
@@ -304,10 +309,12 @@ getbyteimg1main.FileChooser#getbyteimg(Ljava/lang/String;)[BG
 getk1,main.FileChooser#getk1()Ljavax/swing/JPanel;4
 reset+main.FileChooser#reset(Ljava/lang/String;)VZ
 	setJLabelMmain.FileChooser#setJLabel(Ljava/awt/image/BufferedImage;Ljava/lang/String;)VB
-setimg8main.FileChooser#setimg(Ljava/awt/image/BufferedImage;)Vjava.io.Serializablejavax.swing.JFrame—/
+setimg8main.FileChooser#setimg(Ljava/awt/image/BufferedImage;)Vjava.io.Serializablejavax.swing.JFrameê5
 main.ImageMenuT
 <init>Jmain.ImageMenu#<init>(Ljava/awt/image/BufferedImage;Ljava/lang/String;[B)VS
-ColorJmain.ImageMenu#Color(II[BLjava/lang/String;)Ljava/awt/image/BufferedImage;@
+ColorJmain.ImageMenu#Color(II[BLjava/lang/String;)Ljava/awt/image/BufferedImage;[
+blueSmain.ImageMenu#blue(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;W
+bnQmain.ImageMenu#bn(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;@
 
 getColor102main.ImageMenu#getColor10()Ljavax/swing/JMenuItem;@
 
@@ -417,7 +424,12 @@ getcolor10-main.ImageMenu#getcolor10()Ljava/lang/String;B
 gety6main.ImageMenu#gety6()I 
 gety7main.ImageMenu#gety7()I 
 gety8main.ImageMenu#gety8()I 
-gety9main.ImageMenu#gety9()I
+gety9main.ImageMenu#gety9()I]
+greenTmain.ImageMenu#green(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;a
+magentaVmain.ImageMenu#magenta(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;_
+orangeUmain.ImageMenu#orange(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;[
+pinkSmain.ImageMenu#pink(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;Y
+redRmain.ImageMenu#red(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
 setmain.ImageMenu#set()V(
 	setcolor1main.ImageMenu#setcolor1()V*
 
@@ -429,7 +441,9 @@ setcolor10main.ImageMenu#setcolor10()V(
 	setcolor6main.ImageMenu#setcolor6()V(
 	setcolor7main.ImageMenu#setcolor7()V(
 	setcolor8main.ImageMenu#setcolor8()V(
-	setcolor9main.ImageMenu#setcolor9()Vjavax.swing.JMenuBarŠ
+	setcolor9main.ImageMenu#setcolor9()V_
+violetUmain.ImageMenu#violet(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;_
+yellowUmain.ImageMenu#yellow(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;javax.swing.JMenuBarŠ
 	main.main
 <init>main.main#<init>()V
 closemain.main#close()V"

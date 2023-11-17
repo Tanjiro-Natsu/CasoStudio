@@ -1,3 +1,1 @@
-main.GUI#Metadata()V
-==
-dispose java.awt.Window#dispose()V
+main.MetaData#geta4()Ljavax/swing/JLabel;

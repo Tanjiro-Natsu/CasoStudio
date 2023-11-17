@@ -151,10 +151,10 @@ public class MenuSearch extends JMenuBar{
 	public JMenuItem getf16() {return f16;}
 	public JMenuItem getf17() {return f17;}
 	public JMenuItem getf18() {return f18;}
-	private static String yo=s5;
-	private static int yo1=3;
-	private static int yo2=20;
-	private static Font sss=new Font(yo,yo1,yo2);
+	private  String yo=s5;
+	private  int yo1=3;
+	private  int yo2=20;
+	private  Font sss=new Font(yo,yo1,yo2);
 	
 private String  r=null;
 private String r2=null;

@@ -1,15 +1,20 @@
 
-,main.Search#getArgomento()Ljava/lang/String;c
-Y/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Search.java% %("1*›
-1%& %(/f
-d
-%& %(/
-%0java.lang.String"__id*:
+%main.GUI#getfonte()Ljava/lang/String;b
+V/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/GUI.java´ ´("1*š
+1
+µ µ(a
+_
+
+µ µ(
+%0java.lang.String"__id*3
 
-__unknown_file (*
-main.Search"
-	argomento"$
-% %(0
+__unknown_file (*
+
+main.GUI"
+fonte"&
+
+µ µ(
 
-%0java.lang.StringB
-main.SearchH
+%0java.lang.StringB"
+
+main.GUIH

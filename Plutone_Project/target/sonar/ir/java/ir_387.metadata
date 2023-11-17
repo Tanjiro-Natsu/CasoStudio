@@ -1,9 +1,3 @@
-main.GUI#verificaFonte()Ljava/lang/String;
-java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
-main.VerificaFonte#fonteverificata(Ljava/lang/String;)Ljava/lang/String;
-java.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z
+main.GUI#Color2()V
 ==
-getText javax.swing.text.JTextComponent#getText()Ljava/lang/String;
-println java.io.PrintStream#println(Ljava/lang/String;)V
 setBackground javax.swing.JComponent#setBackground(Ljava/awt/Color;)V

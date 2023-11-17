@@ -1,3 +1,1 @@
-main.GUI#sett2()V
-==
-setText javax.swing.text.JTextComponent#setText(Ljava/lang/String;)V
+main.GUI#instance-init#

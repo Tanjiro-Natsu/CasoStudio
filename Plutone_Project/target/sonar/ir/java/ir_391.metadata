@@ -1,1 +1,3 @@
-main.Search#getFileTxt()Ljava/util/ArrayList;
+main.GUI#sett4()V
+==
+setText javax.swing.text.JTextComponent#setText(Ljava/lang/String;)V

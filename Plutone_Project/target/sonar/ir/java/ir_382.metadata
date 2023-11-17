@@ -1,3 +1,3 @@
-main.GUI#getText4()Ljava/lang/String;
+main.GUI#Metadata()V
 ==
-getText javax.swing.text.JTextComponent#getText()Ljava/lang/String;
+dispose java.awt.Window#dispose()V

@@ -1,3 +1,1 @@
-main.GUI#Color1()V
-==
-setBackground javax.swing.JComponent#setBackground(Ljava/awt/Color;)V
+main.MetaData#geta8()Ljavax/swing/JLabel;

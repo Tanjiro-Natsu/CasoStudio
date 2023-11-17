@@ -1,1 +1,4 @@
-main.main#geta1()Lmain/GUI2;
+main.ImageMenu#yellow(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+==
+getRGB java.awt.image.BufferedImage#getRGB(II)I
+setRGB java.awt.image.BufferedImage#setRGB(III)V
