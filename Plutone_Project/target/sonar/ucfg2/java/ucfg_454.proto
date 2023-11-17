@@ -1,18 +1,18 @@
 
-5main.ImageMenu#getImageIcon6()Ljavax/swing/ImageIcon;h
-\/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/ImageMenu.java¶ ¶("1*«
+,main.ImageMenu#getcolor2()Ljava/lang/String;h
+\/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/ImageMenu.javaÐ Ð("1*¡
 1
-¶) ¶(/m
-k
+Ð# Ð()h
+f
 
-¶) ¶(/
-%0javax.swing.ImageIcon"__id*:
+Ð# Ð()
+%0java.lang.String"__id*:
 
 __unknown_file (*
 main.ImageMenu"
-Image6"+
+Color2"&
 
-¶" ¶(0
-
-%0javax.swing.ImageIconB
+Ð Ð(*
+
+%0java.lang.StringB
 main.ImageMenuH

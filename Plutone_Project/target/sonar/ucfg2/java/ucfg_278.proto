@@ -1,18 +1,7 @@
 
-&main.GUI2#getfonte()Ljava/lang/String;c
-W/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/GUI2.java´ ´("1*›
-1
-µ µ(b
-`
-
-µ µ(
-%0java.lang.String"__id*4
-
-__unknown_file (*
-	main.GUI2"
-fonte"&
-
-µ µ(
-
-%0java.lang.StringB"
-	main.GUI2H
+(main.Accesso#getjdbc()Ljava/lang/String;d
+Z/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Accesso.java) )("1*[
+1*	 *(G"L
+* *(H@>
+<jdbc:sqlserver://localhost:1433;databaseName=Plutone_ProjectB"
+main.AccessoH

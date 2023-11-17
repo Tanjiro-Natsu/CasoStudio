@@ -1,18 +1,17 @@
 
-.main.Menu2#getColor25()Ljavax/swing/JMenuItem;b
-X/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu2.javaj j("1*£
-1j' j(/i
-g
-j' j(/
-%0javax.swing.JMenuItem"__id*8
+1main.Menu2#getImageIcon3()Ljavax/swing/ImageIcon;b
+X/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu2.javap p("1*¡
+1p) p(/g
+e
+p) p(/
+%0javax.swing.ImageIcon"__id*6
 
-__unknown_file (*
+__unknown_file (*
 
-main.Menu2"
-
-colore25")
-j  j(0
+main.Menu2"
+Image3")
+p" p(0
 
-%0javax.swing.JMenuItemB
+%0javax.swing.ImageIconB
 
 main.Menu2H

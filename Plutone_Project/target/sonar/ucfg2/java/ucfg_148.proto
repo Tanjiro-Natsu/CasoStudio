@@ -1,15 +1,15 @@
 
-(main.MenuWriter#getq12()Ljava/awt/Color;g
-]/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/MenuWriter.java= =("1*•
-1= =("b
-`
-= =("
-%0java.awt.Color"__id*8
+.main.MenuWriter#getf5()Ljavax/swing/JMenuItem;g
+]/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/MenuWriter.javag g("1*¢
+1g" g($h
+f
+g" g($
+%0javax.swing.JMenuItem"__id*7
 
-__unknown_file (*
-main.MenuWriter"
-q12""
-= =(#
-
-%0java.awt.ColorB
+__unknown_file (*
+main.MenuWriter"
+f5")
+g g(%
+
+%0javax.swing.JMenuItemB
 main.MenuWriterH

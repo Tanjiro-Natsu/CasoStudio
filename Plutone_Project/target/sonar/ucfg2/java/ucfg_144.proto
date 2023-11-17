@@ -1,15 +1,15 @@
 
-'main.MenuWriter#getq8()Ljava/awt/Color;g
-]/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/MenuWriter.java9 9("1*”
-19 9( a
-_
-9 9( 
-%0java.awt.Color"__id*7
+.main.MenuWriter#getf1()Ljavax/swing/JMenuItem;g
+]/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/MenuWriter.javac c("1*¢
+1c" c($h
+f
+c" c($
+%0javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
 main.MenuWriter"
-q8""
-9 9(!
-
-%0java.awt.ColorB
+f1")
+c c(%
+
+%0javax.swing.JMenuItemB
 main.MenuWriterH

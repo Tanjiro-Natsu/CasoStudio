@@ -138,13 +138,12 @@ public class MenuWriter extends JMenuBar{
 	public int gety10() {return y10;}
 	public int gety11() {return y11;}
 	public int gety12() {return y12;}
-	private static String yo=s5;
+	private  String yo=s5;
 	private  int yo1=3;
 	private  int yo2=20;
 	private  Font sss=new Font(yo,yo1,yo2);
 	
-private String  r=null;
-private String r2=null;
+
 	
 	public MenuWriter(final JTextPane d) {
 			final Font r=d.getFont();
