@@ -19,27 +19,9 @@ public class Chooser extends JFrame{
     	JRadioButton Search=new JRadioButton("Search Information");
     	JRadioButton Write=new JRadioButton("Write Information");
     	JRadioButton Check=new JRadioButton("Check Information");
-    	Search.addActionListener(new ActionListener() {
- public void actionPerformed(ActionEvent e) {
-	 if(e.getActionCommand().equals("Search Information")) {dispose();Search a =new Search();}
- }
-    	});
-    	Write.addActionListener(new ActionListener() {
-    		 public void actionPerformed(ActionEvent e) {
-    			 if(e.getActionCommand().equals("Write Information")) {
-    				 dispose();
-    				 WriteInformation a=new WriteInformation();
-    			 }
-    		 }
-    		    	});
-    	Check.addActionListener(new ActionListener() {
-    		 public void actionPerformed(ActionEvent e) {
-    			 if(e.getActionCommand().equals("Check Information")) {
-    				 dispose();
-    				 main a=new main();
-    			 }
-    		 }
-    		    	});
+    	Search.addActionListener( e-> {if(e.getActionCommand().equals("Search Information")) {dispose();new Search();}});
+    		    	Write.addActionListener(e->{if(e.getActionCommand().equals("Write Information")) {dispose();new WriteInformation();}});
+    		    	Check.addActionListener(e-> {{if(e.getActionCommand().equals("Check Information")) {dispose();main a=new main();}}});
     	
     	i.add(Check);
     	i.add(Write);
@@ -51,7 +33,7 @@ setVisible(true);
     	
 	}
 	public static void main(String[] args) {
-		Chooser a=new Chooser();
+		new Chooser();
 	}
 
 }

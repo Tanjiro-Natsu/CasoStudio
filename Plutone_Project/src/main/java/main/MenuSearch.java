@@ -22,6 +22,7 @@ import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.JTextPane;
+import javax.swing.WindowConstants;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.StyleConstants;
 import javax.swing.text.StyledDocument;
@@ -332,7 +333,7 @@ private String r2=null;
 		n=new JFrame("Inserire nome file ");
 		n.setSize(400,200);
 		n.setLocation(500,200);
-		n.setDefaultCloseOperation(n.HIDE_ON_CLOSE);
+		n.setDefaultCloseOperation(WindowConstants.HIDE_ON_CLOSE);
 		n.setLayout(new GridLayout(5,1));
 		n.add(new JLabel(""));
 		t=new JTextArea();
@@ -342,7 +343,7 @@ private String r2=null;
 		n.add(new JLabel(""));
 		JButton y1=new JButton("Ok");
 		JButton y2=new JButton("Cancel");
-		y1.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {
+		y1.addActionListener(e-> {
 			PrintWriter dd=null;
 			try {
 				dd=new PrintWriter(t.getText());
@@ -352,8 +353,8 @@ private String r2=null;
 			catch(Exception e1) {}
 			dd.close();
 			n.dispose();
-		}});
-		y2.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {t.setText("");}});
+		});
+		y2.addActionListener(e->{t.setText("");});
 		JPanel ff=new JPanel();
 		ff.setLayout(new GridLayout(1,5));
 		ff.add(new JLabel(""));
