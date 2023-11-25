@@ -30,14 +30,7 @@ import javax.swing.JPasswordField;
 import javax.swing.JTextArea;
 
 public class Accesso extends JFrame {
-	
-	
-	static private  String a=null;
-	static private String q1=null;
-	static private String q2=null;
-	
-	
-	
+
 	public static String getjdbc() {
 		return "jdbc:sqlserver://localhost:1433;databaseName=Plutone_Project";
 	}

@@ -39,8 +39,6 @@ public class GUI extends JFrame  implements ActionListener,Runnable {
 	 private static  MetaData dc=null;
 	 private static boolean result;
 	 private static String cooper="Cooper Blank";
-	private JFrame xc=null;
-	private JButton vvv=null;
 	private static String blankSpace="^\\s+";
 	 private static JTextField t1=new JTextField(" ");
 	  private static JTextField t2=new JTextField(" ");
@@ -55,7 +53,6 @@ public class GUI extends JFrame  implements ActionListener,Runnable {
 	   private static String fonte=null;
 	    private   static String argomento=null;
 	    private   static double percentuale=0;
-	private JLabel z2=null;
 	private static Color Colore1=Color.GREEN;
 	private static  Color Colore2=Color.RED;
 	 public static String metadatisave( ) {
@@ -116,10 +113,10 @@ public class GUI extends JFrame  implements ActionListener,Runnable {
 	        try {
 	        	Path path=Paths.get("");
 	        	
-	            String a=path.toAbsolutePath().toString();
-	            System.out.println(a);
-				this.setIconImage(ImageIO.read(new File(a+"//Icon//icona.ICO")));
-				 imght=ImageIO.read(new File(a+"//Icon//icona.ICO"));
+	        	  String a23=path.toAbsolutePath().toString();
+	      
+				this.setIconImage(ImageIO.read(new File(a23+"//Icon//icona.ICO")));
+				 imght=ImageIO.read(new File(a23+"//Icon//icona.ICO"));
 	        	
 	        
 			} catch (IOException e) {
@@ -130,26 +127,25 @@ public class GUI extends JFrame  implements ActionListener,Runnable {
 		JLabel a1=new JLabel();
 		ImageIcon ww=new ImageIcon(imght);
 		a1.setIcon(ww);
-		 ss=new Menu();
-		this.setJMenuBar(ss);
-		//a1.add(z2);
-		JPanel a=new JPanel();
-		//z2.setBorder(BorderFactory.createLineBorder(Color.black));
+		this.setJMenuBar(new Menu());
+	
+		JPanel a11=new JPanel();
+		
 
 	add(a1);
 	
-	a.setLayout(new GridLayout(5,2));
+	a11.setLayout(new GridLayout(5,2));
 	JLabel r=new JLabel("   Inserire la fonte ");
 	r.setFont(new Font(cooper,Font.PLAIN,14));
-	a.add(r);
-	a.add(new JLabel());
+	a11.add(r);
+	a11.add(new JLabel());
 	
 
 	 button=new JButton("Cerca..");
 	button.addActionListener(this);
 	
 	
-	a.add(t1);
+	a11.add(t1);
 	
 	JPanel u=new JPanel();
     u.setLayout(new GridLayout(3,9));
@@ -187,29 +183,29 @@ public class GUI extends JFrame  implements ActionListener,Runnable {
    u.add(new JLabel());
    u.add(new JLabel());
    u.add(new JLabel());
-   a.add(u);
+   a11.add(u);
 
 	JLabel r1=new JLabel("   Inserire l'argomento");
 	r1.setFont(new Font(cooper,Font.PLAIN,14));
-	a.add(r1);
-	a.add(new JLabel());
+	a11.add(r1);
+	a11.add(new JLabel());
 	
 	
-	a.add(t2);
+	a11.add(t2);
 JPanel a2=new JPanel();
 a2.setLayout(new GridLayout(1,3));
 a2.add(new JLabel());
 a2.add(button);
 a2.add(new JLabel());
-	a.add(a2);
+	a11.add(a2);
 
 	
-	a.add(new JLabel());
+	a11.add(new JLabel());
 	
-	a.add(new JLabel());
+	a11.add(new JLabel());
 	
 	 
-	add(a);
+	add(a11);
 	
 	
 	
@@ -297,8 +293,7 @@ b2.add(new JPanel(),BorderLayout.SOUTH);
    b.add(b2);
   
 add(b);
-loop=new Thread(this);
-loop.start();
+new Thread(this).start();
 	
 		
 	}
@@ -412,13 +407,6 @@ else{
 	          	
 	          }
 		}
-				
-	/*public   void loop() {
-	    loop=new Thread(this);
-	    loop.start();
-	    
-	}*/
-	
 	public void run() {
 		while(true) {
 		if(t1.getText().equalsIgnoreCase(" ") || t2.getText().equalsIgnoreCase(" ")){button.setEnabled(false);}

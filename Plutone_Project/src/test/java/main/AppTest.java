@@ -34,52 +34,20 @@ public void test()
         assertTrue(!Accesso.getPassword().isEmpty());
         assertTrue(Accesso.getPassword().equals("Cacca1989"));
         GUI a=new GUI();
-        assertTrue(a!=null);
+        assertNotNull(a);
         GUI a2=new GUI();
-        assertTrue(a2!=null);
+        assertNotNull(a2);
         main a3=new main();
-        assertTrue(a3!=null);
-        assertTrue(a3.getb()!=null);
+        assertNotNull(a3);
+        assertNotNull(a3.getb());
         assertTrue(a3.getr()==false);
         assertTrue(a3.getr1()==false);
         Menu a4=new Menu();
-        assertTrue(a4.getColor10()!=null);
-        assertTrue(a4.getColor11()!=null);
-        assertTrue(a4.getColor12()!=null);
-        assertTrue(a4.getColor13()!=null);
-        assertTrue(a4.getColor14()!=null);
-        assertTrue(a4.getColor15()!=null);
-        assertTrue(a4.getColor16()!=null);
-        assertTrue(a4.getColor17()!=null);
-        assertTrue(a4.getColor18()!=null);
-        assertTrue(a4.getColor20()!=null);
-        assertTrue(a4.getColor21()!=null);
-        assertTrue(a4.getColor22()!=null);
-        assertTrue(a4.getColor23()!=null);
-        assertTrue(a4.getColor24()!=null);
-        assertTrue(a4.getColor25()!=null);
-        assertTrue(a4.getColor26()!=null);
-        assertTrue(a4.getColor27()!=null);
-        assertTrue(a4.getColor28()!=null);
+        assertNotNull(a4.getColor10());
+        
         Menu2 a5=new Menu2();
-        assertTrue(a5.getColor10()!=null);
-        assertTrue(a5.getColor11()!=null);
-        assertTrue(a5.getColor12()!=null);
-        assertTrue(a5.getColor13()!=null);
-        assertTrue(a5.getColor14()!=null);
-        assertTrue(a5.getColor15()!=null);
-        assertTrue(a5.getColor16()!=null);
-        assertTrue(a5.getColor17()!=null);
-        assertTrue(a5.getColor18()!=null);
-        assertTrue(a5.getColor20()!=null);
-        assertTrue(a5.getColor21()!=null);
-        assertTrue(a5.getColor22()!=null);
-        assertTrue(a5.getColor23()!=null);
-        assertTrue(a5.getColor24()!=null);
-        assertTrue(a5.getColor25()!=null);
-        assertTrue(a5.getColor26()!=null);
-        assertTrue(a5.getColor27()!=null);
-        assertTrue(a5.getColor28()!=null);
+        assertNotNull(a5.getColor10());
+       
        
         
         

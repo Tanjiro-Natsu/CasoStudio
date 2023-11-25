@@ -48,7 +48,6 @@ public class Menu extends JMenuBar implements ActionListener{
 	private JButton v=null;
 	private static int counter=1;
 private static String cooper="Cooper Blank";
-	private static JMenuBar menuBar;
 	private static JMenu menu1,fonti, helpmenu;
 	private static JMenuItem Refresh,Exit,Properties,Save,Info,Manuale,Sito;
 	private JLabel versione;

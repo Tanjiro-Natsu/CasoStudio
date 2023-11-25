@@ -8,6 +8,7 @@ import java.io.IOException;
 import javax.imageio.*;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.WindowConstants;
 public class VerificaImmagine {
 	private static int y=1;
 	
@@ -16,7 +17,7 @@ public class VerificaImmagine {
 	}
 
     public static double  imagec(String a,byte[] b){
-    	System.out.println("ciao");
+    	
         BufferedImage imgA=null;
         BufferedImage imgB=null;
         double percentuale = 0;
@@ -42,7 +43,7 @@ public class VerificaImmagine {
       		yy.setSize(300,200);
       		yy.add(new JLabel("    Immagine inserita non rispetta gli standard "));
       		 yy.setLocation(600,300 );
-      		yy.setDefaultCloseOperation(yy.DISPOSE_ON_CLOSE);
+      		yy.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);yy.setDefaultCloseOperation(yy.DISPOSE_ON_CLOSE);
       		yy.setVisible(true);
       		percentuale =1;
       		}
@@ -74,7 +75,7 @@ double avg=difference/total_pixels;
  percentuale=(avg/255)*100;
 
 
-System.out.println("Differenza percentuale "+percentuale);
+
 y=0;
 
                 }

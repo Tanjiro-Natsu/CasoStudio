@@ -31,9 +31,9 @@ public class WriteInformation extends JFrame{
 		s.setLayout(new GridLayout(1,4));
 		JButton save=new JButton("Save");
 		JButton imp=new JButton("Import");
-		save.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {if(e.getActionCommand().equals("Save")) {Reader.writer(area);}}});
-		imp.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {if(e.getActionCommand().equals("Import")) {String h=Reader.reader(Reader.chooser(s).getAbsolutePath());
-		area.setText(h);}}});
+		save.addActionListener(e-> {if(e.getActionCommand().equals("Save")) {Reader.writer(area);}});
+		imp.addActionListener(e-> {if(e.getActionCommand().equals("Import")) {String h=Reader.reader(Reader.chooser(s).getAbsolutePath());
+		area.setText(h);}});
 		s.add(new JLabel());
 		s.add(imp);
 		s.add(save);

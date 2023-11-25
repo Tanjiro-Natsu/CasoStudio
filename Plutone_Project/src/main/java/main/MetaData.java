@@ -35,6 +35,7 @@ public JLabel geta6() {return a6;}
 public JLabel geta7() {return a7;}
 public JLabel geta8() {return a8;}
 public JLabel geta9() {return a9;}
+@Override
 	public String toString() {
 		return "\nPath:"+d+"\nCreationTime:"+a1.getText()+"\nLastAccessTime:"+a2.getText()+"\nLastModifiedTime:"+a3.getText()+"\nIsDirectory:"+a4.getText()+"\nisOther:"+a5.getText()+"\nisRegularFile:"+a6.getText()+"\nisSymbolicLink:"+a7.getText()+"\nSize:"+a8.getText();
 	}

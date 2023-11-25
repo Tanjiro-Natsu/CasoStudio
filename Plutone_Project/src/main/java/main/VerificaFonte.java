@@ -19,7 +19,7 @@ public class VerificaFonte {
           String sqlUser = Accesso.getUser();
           String sqlPassword = Accesso.getPassword(); //passwrod sa account
           String connectionUrl =Accesso.getjdbc()+encrypt;
-          Class.forName(sqldriverString);
+      
 
           
          
@@ -52,7 +52,7 @@ public class VerificaFonte {
 return m;
 	}
 	public static double databasejpg(String a)  {
-		 System.out.println(GUI.getargomento());
+		 
 		y=0;
 		 ResultSet k=null;
 		 ResultSet k1=null;
@@ -64,7 +64,7 @@ return m;
           String sqlUser = Accesso.getUser();
           String sqlPassword = Accesso.getPassword(); //passwrod sa account
           String connectionUrl = Accesso.getjdbc()+encrypt;
-          Class.forName(sqldriverString);
+         
 
           
          
@@ -114,7 +114,7 @@ return m;
         String connectionUrl = Accesso.getjdbc()+encrypt;
         ResultSet k=null;
 		 String query=null;
-        String result=" ";
+        String result=null;
         
         
 		try {
@@ -134,6 +134,7 @@ return m;
         while(k.next()){
         	if(f==0) {
         		result=k.getString(1);
+        		f++;
         	}
         	else {
         		result=result+" "+k.getString(1);
@@ -144,15 +145,12 @@ return m;
         }
         
         
-		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		}
-		catch (SQLException d) {
+		catch (Exception d) {
 			d.printStackTrace();
 		}
        
-    
+
 		return result;
 		
 		

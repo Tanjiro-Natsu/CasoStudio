@@ -21,6 +21,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.JTextPane;
+import javax.swing.WindowConstants;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 public class Reader {
@@ -32,7 +33,7 @@ public class Reader {
 		
 		final JFrame t=new JFrame("Selezione nome file");
 		t.setSize(300,280);
-    	t.setDefaultCloseOperation(t.EXIT_ON_CLOSE);
+    	t.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     	t.setLayout(new GridLayout(6,1));
     	t.setLocation(650, 200);
     	t.setVisible(true);
@@ -51,14 +52,14 @@ public class Reader {
     	 fg.add(cancel);
     	 t.add(fg);
     	 t.add(new JLabel());
-    	 ok.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {if(e.getActionCommand().equals("Ok")) {rty=aq.getText();t.dispose();rty=v+"\\"+rty;PrintWriter xx=null;try {	
- 			System.out.println(rty);
+    	 ok.addActionListener(e->{if(e.getActionCommand().equals("Ok")) {rty=aq.getText();t.dispose();rty=v+"\\"+rty;PrintWriter xx=null;try {	
+ 			
  			xx=new PrintWriter(new File(rty) );
  			xx.write(j.getText());
  			xx.close();
  		}
- 		catch(IOException e1){}}}});
-    	 cancel.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {if(e.getActionCommand().equals("Cancel")) {aq.setText("");}}});
+ 		catch(IOException e1){System.out.println(e1.getMessage());}}});
+    	 cancel.addActionListener(e-> {if(e.getActionCommand().equals("Cancel")) {aq.setText("");}});
     	
     	    
 		
@@ -67,14 +68,12 @@ public class Reader {
 		JFileChooser chooser1=new JFileChooser("C:\\");   
 		  FileNameExtensionFilter filter1=new FileNameExtensionFilter("Text","txt");
 		  chooser1.setFileFilter(filter1);
-        int returnVal1=chooser1.showOpenDialog(a);
+         int returnVal1=chooser1.showOpenDialog(a);
         if(returnVal1==JFileChooser.APPROVE_OPTION){}
 		return chooser1.getSelectedFile();
 	}
 	public static String reader(String z) {
 		Scanner b=null;
-		
-		System.out.println(z);
 		try {
 			b=new Scanner(new BufferedReader(new FileReader(z))); 
 			
@@ -86,7 +85,7 @@ public class Reader {
 		
 		catch(Exception  e) {System.out.println(e.getMessage());}
 		int t=0;
-		while(b.hasNext()){
+		while(b.hasNext() || b!=null){
 			
 			if(t==0) {
 				g=b.nextLine();
@@ -104,14 +103,14 @@ public class Reader {
 	public static void main(String [] args) {
 		JFrame k=new JFrame();
 	JButton h=new JButton("Ciao");
-	k.setDefaultCloseOperation(k.EXIT_ON_CLOSE);
+	k.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 	final JPanel d=new JPanel();
 	d.add(h);
 	k.add(d);
 	k.setSize(400,400);
 	k.setVisible(true);
 	
-	h.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {if(e.getActionCommand().equals("Ciao")) {o=Reader.chooser(d);Reader.reader(o.getAbsolutePath());}}});
+	h.addActionListener(e-> {if(e.getActionCommand().equals("Ciao")) {o=Reader.chooser(d);Reader.reader(o.getAbsolutePath());}});
 	
 	}
 
