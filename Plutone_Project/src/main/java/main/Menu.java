@@ -6,20 +6,12 @@ import java.awt.Desktop;
 import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridLayout;
-import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
@@ -27,22 +19,18 @@ import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
-import javax.swing.JCheckBoxMenuItem;
-import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
-import javax.swing.JRadioButtonMenuItem;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
-import javax.swing.JTextField;
-import javax.swing.KeyStroke;
-import javax.swing.event.MenuEvent;
-import javax.swing.event.MenuListener;
+import javax.swing.WindowConstants;
 
 public class Menu extends JMenuBar implements ActionListener{
+	
+	private static final long serialVersionUID = 1L;
 	private JFrame prova=null;
 	private JFrame xc=null;
 	private JButton v=null;
@@ -152,7 +140,6 @@ try {
 	
 	
 } catch (IOException e){
-	// TODO Auto-generated catch block
 	e.printStackTrace();
 }
 
@@ -537,7 +524,7 @@ prova.dispose();
 			JFrame a=new JFrame("Info");
 			a.setSize(500,200);
 			a.setLocation(650, 100);
-			a.setDefaultCloseOperation(a.DISPOSE_ON_CLOSE);
+			a.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 			a.setVisible(true);
 			a.setLayout(new GridLayout(4,1));
 			a.add(new JLabel("  Misinformation for scienze disseminator "));
@@ -551,7 +538,7 @@ prova.dispose();
 			JFrame a=new JFrame("Manuale");
 			a.setLocation(550, 200);
 			a.setSize(400,300);
-			a.setDefaultCloseOperation(a.DISPOSE_ON_CLOSE);
+			a.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 			
 			JTextArea b=new JTextArea(400,300);
 			b.setEditable(false);
@@ -571,7 +558,6 @@ prova.dispose();
 			try {
 				Desktop.getDesktop().open(file);
 			} catch (IOException e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 		}
@@ -587,7 +573,7 @@ prova.dispose();
 	
 		 
 			prova.setSize(300,200);
-			prova.setDefaultCloseOperation(prova.DISPOSE_ON_CLOSE);
+			prova.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 			prova.setLocation(650,200);
 			zzz=new JTextArea(3,20);
 			zzz.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.black),""));
@@ -631,7 +617,6 @@ public void split2() {
 		xx.close();
 
 	} catch (FileNotFoundException e1) {
-		// TODO Auto-generated catch block
 		e1.printStackTrace();
 	}
 
@@ -653,7 +638,7 @@ public void split2() {
 public void split3() {
 	 prova=new JFrame("Sbloccare Fonte");
 		prova.setSize(300,200);
-		prova.setDefaultCloseOperation(prova.DISPOSE_ON_CLOSE);
+		prova.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 		prova.setLocation(650,200);
 		zzz=new JTextArea(3,20);
 		zzz.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.black),""));
@@ -751,7 +736,6 @@ public void split4() {
 			Files.copy(file1.toPath(), file.toPath(),StandardCopyOption.REPLACE_EXISTING);
 			file1.delete();
 		} catch (IOException e1) {
-			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
 	}
@@ -785,7 +769,6 @@ public void split5() {
 		xx.close();
 
 	} catch (FileNotFoundException e1) {
-		// TODO Auto-generated catch block
 		e1.printStackTrace();
 	}
 }

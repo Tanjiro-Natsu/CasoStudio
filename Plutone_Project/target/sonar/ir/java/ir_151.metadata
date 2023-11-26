@@ -1,7 +1,11 @@
 main.GUI2#verificaFonte()Ljava/lang/String;
 java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
+java.lang.StringBuilder#instance-init#
+java.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 main.VerificaFonte#fonteverificata(Ljava/lang/String;)Ljava/lang/String;
+java.lang.StringBuilder#<init>()V
 java.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.StringBuilder#toString()Ljava/lang/String;
 java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z
 ==
 getText javax.swing.text.JTextComponent#getText()Ljava/lang/String;

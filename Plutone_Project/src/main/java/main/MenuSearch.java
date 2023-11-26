@@ -5,12 +5,7 @@ import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.IOException;
 import java.io.PrintWriter;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.text.NumberFormat.Style;
-import java.util.Scanner;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -21,14 +16,11 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
-import javax.swing.JTextPane;
 import javax.swing.WindowConstants;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.StyleConstants;
-import javax.swing.text.StyledDocument;
-
 
 public class MenuSearch extends JMenuBar{
+	
+	private static final long serialVersionUID = 1L;
 	private static JFrame n;
 	private static JTextArea t=null;
     private static String s1=Font.DIALOG;
@@ -157,8 +149,7 @@ public class MenuSearch extends JMenuBar{
 	private  int yo2=20;
 	private  Font sss=new Font(yo,yo1,yo2);
 	
-private String  r=null;
-private String r2=null;
+
 	
 	public MenuSearch(final JTextArea d) {
 			final Font r=d.getFont();

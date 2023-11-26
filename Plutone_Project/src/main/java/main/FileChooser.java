@@ -10,21 +10,16 @@ import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
 import java.io.Serializable;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.List;
 
 import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
 import javax.swing.ButtonGroup;
-import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -49,7 +44,7 @@ public class FileChooser extends JFrame implements Serializable{
 	public JPanel getk1() {return k1;}
 	
 	
-	public FileChooser(ArrayList<String> txt,ArrayList<String> image) {
+	public FileChooser(List<String> txt,List<String> image) {
 		setTitle("Choose");
 		setSize(800,600);
 		  this.setLocation(350,100);
@@ -134,7 +129,7 @@ ss.add(dd);
 			imgB = ImageIO.read(bis);
 			setJLabel(imgB,v);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 	
@@ -150,7 +145,7 @@ ss.add(dd);
 		ImageIcon icon=new ImageIcon(ImageIO.read(new File(v)));
 		 s.setIcon(icon);
 	} catch (IOException e) {
-		// TODO Auto-generated catch block
+		
 		e.printStackTrace();
 	}}
 	public static void setJLabel(BufferedImage dd,String v) {
@@ -161,7 +156,7 @@ ss.add(dd);
 			ImageIcon icon=new ImageIcon(ImageIO.read(new File(v)));
 			 s.setIcon(icon);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		
@@ -195,19 +190,17 @@ ss.add(dd);
 		        	
 		        	
 		          }
-			catch(SQLException e1) {}
-			catch (ClassNotFoundException j) {}
 			catch(Exception e2) {}
-			String h[]=dd.split(" ");
+			String []h=dd.split(" ");
 			String xx="";
 			int o=0;
 			for(int i=0;i<h.length;i++) {
 				if(o==14) {
-					xx=xx+" "+h[i]+" \n";
+					xx=new StringBuilder().append(xx).append(" ").append(h[i]).append(" \n").toString();
 					o=0;
 				}
 				else {
-					xx=xx+" "+h[i];
+					xx=new StringBuilder().append(xx).append(" ").append(h[i]).toString();
 				}
 				o++;
 			}
@@ -240,8 +233,6 @@ ss.add(dd);
 		        		 
 		        	 }
 		          }
-			catch(SQLException e1) {}
-			catch (ClassNotFoundException j) {}
 			catch(Exception e2) {}
 		
 			return e;

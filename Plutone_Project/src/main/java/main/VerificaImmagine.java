@@ -43,7 +43,7 @@ public class VerificaImmagine {
       		yy.setSize(300,200);
       		yy.add(new JLabel("    Immagine inserita non rispetta gli standard "));
       		 yy.setLocation(600,300 );
-      		yy.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);yy.setDefaultCloseOperation(yy.DISPOSE_ON_CLOSE);
+      		yy.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);yy.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
       		yy.setVisible(true);
       		percentuale =1;
       		}

@@ -1,14 +1,13 @@
 package main;
 
 import java.awt.GridLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
 import javax.swing.ButtonGroup;
 import javax.swing.JFrame;
 import javax.swing.JRadioButton;
 
 public class Chooser extends JFrame{
+	
+	private static final long serialVersionUID = 1L;
 	public Chooser() {
 		setTitle("Choose Action");
 		setSize(300,280);
@@ -21,7 +20,7 @@ public class Chooser extends JFrame{
     	JRadioButton Check=new JRadioButton("Check Information");
     	Search.addActionListener( e-> {if(e.getActionCommand().equals("Search Information")) {dispose();new Search();}});
     		    	Write.addActionListener(e->{if(e.getActionCommand().equals("Write Information")) {dispose();new WriteInformation();}});
-    		    	Check.addActionListener(e-> {{if(e.getActionCommand().equals("Check Information")) {dispose();main a=new main();}}});
+    		    	Check.addActionListener(e-> {{if(e.getActionCommand().equals("Check Information")) {dispose();new main();}}});
     	
     	i.add(Check);
     	i.add(Write);

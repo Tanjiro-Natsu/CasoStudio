@@ -1,8 +1,6 @@
 package main;
 
 import java.awt.GridLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,8 +10,6 @@ import java.io.PrintWriter;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Scanner;
-
-import javax.annotation.processing.FilerException;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
@@ -72,32 +68,33 @@ public class Reader {
         if(returnVal1==JFileChooser.APPROVE_OPTION){}
 		return chooser1.getSelectedFile();
 	}
+	@SuppressWarnings("null")
 	public static String reader(String z) {
-		Scanner b=null;
+		
 		try {
-			b=new Scanner(new BufferedReader(new FileReader(z))); 
+			Scanner b=new Scanner(new BufferedReader(new FileReader(z))); 
+			int t=0;
+			while(b.hasNext() || b!=null){
+				
+				if(t==0) {
+					g=b.nextLine();
+				}
+				else {
+					g=g+" "+b.nextLine();
+				}
+				
+				t++;
+			}
+			b.close();
+			
 			
 		}
 		catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
 		catch(Exception  e) {System.out.println(e.getMessage());}
-		int t=0;
-		while(b.hasNext() || b!=null){
-			
-			if(t==0) {
-				g=b.nextLine();
-			}
-			else {
-				g=g+" "+b.nextLine();
-			}
-			
-			t++;
-		}
 		
-		b.close();
 		return g;
 	}
 	public static void main(String [] args) {

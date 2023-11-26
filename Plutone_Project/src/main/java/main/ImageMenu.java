@@ -1,26 +1,23 @@
 package main;
 
-import java.awt.Color;
+
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
-import java.io.File;
-import java.io.IOException;
-import java.io.Serializable;
 
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JLabel;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JTextArea;
 
 public class ImageMenu extends JMenuBar {
-    private static String s1=Font.DIALOG;
+   
+	private static final long serialVersionUID = 1L;
+	private static String s1=Font.DIALOG;
     private static String s2=Font.DIALOG_INPUT;
     private static String s3=Font.MONOSPACED;
     private static String s4=Font.SANS_SERIF;
@@ -148,14 +145,6 @@ public class ImageMenu extends JMenuBar {
 	private ImageIcon Image8=null;
 	private ImageIcon Image9=null;
 	private ImageIcon Image10=null;
-	private JMenuItem bloccaFonte;
-	private JMenuItem sbloccaFonte;
-	private JButton accetta=null;
-	private JButton accetta1=null;
-	private JButton rifiuta=null;
-	private JButton rifiuta1=null;
-	private JTextArea zzz=null;
-private String versioneprodotto="1.0.0";
 public  JMenuItem getColor10() {return colore10;}
 public  JMenuItem getColor11() {return colore11;}
 public  JMenuItem getColor12() {return colore12;}

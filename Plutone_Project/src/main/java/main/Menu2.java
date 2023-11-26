@@ -6,20 +6,12 @@ import java.awt.Desktop;
 import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridLayout;
-import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
@@ -27,30 +19,25 @@ import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
-import javax.swing.JCheckBoxMenuItem;
-import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
-import javax.swing.JRadioButtonMenuItem;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
-import javax.swing.JTextField;
-import javax.swing.KeyStroke;
 import javax.swing.WindowConstants;
-import javax.swing.event.MenuEvent;
-import javax.swing.event.MenuListener;
 
 public class Menu2 extends JMenuBar implements ActionListener{
+	
+	private static final long serialVersionUID = 1L;
 	private JFrame prova=null;
 	private JFrame xc=null;
 	private JButton v=null;
 	private static int counter=1;
 private static String cooper="Cooper Blank"; 
-	private static JMenuBar menuBar;
-	private static JMenu menu1,helpmenu;
+	private static JMenu menu1;
+	private static JMenu helpmenu;
 	private static JMenuItem Refresh,Exit,Properties,Save,Info,Manuale,Sito;
 	private JLabel versione;
 	private JMenuItem colore10=new JMenuItem("Rosso");
@@ -152,7 +139,6 @@ try {
 	
 	
 } catch (IOException e){
-	// TODO Auto-generated catch block
 	e.printStackTrace();
 }
 
@@ -568,7 +554,6 @@ prova.dispose();
 			try {
 				Desktop.getDesktop().open(file);
 			} catch (IOException e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 		}
@@ -630,7 +615,6 @@ public void split2() {
 		xx.close();
 
 	} catch (FileNotFoundException e1) {
-		// TODO Auto-generated catch block
 		e1.printStackTrace();
 	}
 
@@ -742,7 +726,6 @@ public void split4() {
 				Files.copy(file1.toPath(), file.toPath(),StandardCopyOption.REPLACE_EXISTING);
 				file1.delete();
 			} catch (IOException e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 	
@@ -781,7 +764,6 @@ public void split5() {
 		xx.close();
 
 	} catch (FileNotFoundException e1) {
-		// TODO Auto-generated catch block
 		e1.printStackTrace();
 	}
 }

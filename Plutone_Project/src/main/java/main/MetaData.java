@@ -1,20 +1,17 @@
 package main;
 
-import java.awt.Color;
+
 import java.awt.Font;
 import java.awt.GridLayout;
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.attribute.BasicFileAttributes;
-
-import javax.swing.BorderFactory;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JTextArea;
 
 public class MetaData extends JFrame{
+	private static final long serialVersionUID = 1L;
 	private transient Path d=null;
 	private JLabel a1=null;
 	private JLabel a2=null;
@@ -45,7 +42,6 @@ public JLabel geta9() {return a9;}
 		try {
 			 s=Files.readAttributes(a,BasicFileAttributes.class);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		setSize(500,400);

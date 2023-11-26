@@ -55,7 +55,6 @@ return m;
 		 
 		y=0;
 		 ResultSet k=null;
-		 ResultSet k1=null;
 		 String query=null;
 		double m=0;
 		try {

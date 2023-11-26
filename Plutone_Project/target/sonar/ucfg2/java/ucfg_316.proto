@@ -1,11 +1,11 @@
 
 8main.Menu#actionPerformed(Ljava/awt/event/ActionEvent;)Vc
-W/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu.java˝ ˝("65*Ä
+W/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu.java ("65*Ä
 24
-∫ ∫(l
+≠ ≠(l
 j
 
-∫ ∫(
+≠ ≠(
 %309javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -14,14 +14,14 @@ j
 colore21j
 h
 
-∫ ∫(
+≠ ≠(
 %310javax.swing.ImageIcon"__id*5
 
 __unknown_file (*
 	main.Menu"
 Image4ÌÍ
 
-∫ ∫(
+≠ ≠(
 %311void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -33,7 +33,7 @@ h
 %310javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)l
 j
 
-ª ª(
+Æ Æ(
 %312javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -41,7 +41,7 @@ j
 
 colore20‘—
 
-ª ª(
+Æ Æ(
 %313void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -52,7 +52,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-º º(
+Ø Ø(
 %314javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -60,7 +60,7 @@ j
 
 colore22‘—
 
-º º(
+Ø Ø(
 %315void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -71,7 +71,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ω Ω(
+∞ ∞(
 %316javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -79,7 +79,7 @@ j
 
 colore23‘—
 
-Ω Ω(
+∞ ∞(
 %317void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -90,7 +90,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-æ æ(
+± ±(
 %318javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -98,7 +98,7 @@ j
 
 colore24‘—
 
-æ æ(
+± ±(
 %319void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -109,7 +109,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ø ø(
+≤ ≤(
 %320javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -117,7 +117,7 @@ j
 
 colore25‘—
 
-ø ø(
+≤ ≤(
 %321void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -128,7 +128,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-¿ ¿(
+≥ ≥(
 %322javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -136,7 +136,7 @@ j
 
 colore26‘—
 
-¿ ¿(
+≥ ≥(
 %323void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -147,7 +147,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-¡ ¡(
+¥ ¥(
 %324javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -155,7 +155,7 @@ j
 
 colore27‘—
 
-¡ ¡(
+¥ ¥(
 %325void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -166,7 +166,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-¬ ¬(
+µ µ(
 %326javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -174,7 +174,7 @@ j
 
 colore28‘—
 
-¬ ¬(
+µ µ(
 %327void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -185,14 +185,14 @@ j
 ""2setIcon(Ljavax/swing/Icon;)P
 N
 
-√ √(
+∂ ∂(
 %328java.awt.Color"__id*"
 
 __unknown_file (
 ""§
 °
 
-√ √(
+∂ ∂(
 %329void"%main.GUI#setColor2(Ljava/awt/Color;)V*(
 
 __unknown_file ("
@@ -204,11 +204,11 @@ N
 %328java.awt.Color*
 0*¸
 25
-π
- π(™ß
+¨
+ ¨(™ß
 
-π
- π(
+¨
+ ¨(
 %306java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -216,7 +216,7 @@ N
 ejava.awt.event.ActionEvent2getSource()l
 j
 
-π π(!
+¨ ¨(!
 %307javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -225,8 +225,8 @@ j
 colore21ƒ
 ¡
 
-π
- π(!
+¨
+ ¨(!
 %308boolean"	__compare*"
 
 __unknown_file (
@@ -242,10 +242,10 @@ j
 24
 23*Ä
 26
-Æ Æ(l
+° °(l
 j
 
-Æ Æ(
+° °(
 %285javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -254,14 +254,14 @@ j
 colore20j
 h
 
-Æ Æ(
+° °(
 %286javax.swing.ImageIcon"__id*5
 
 __unknown_file (*
 	main.Menu"
 Image4ÌÍ
 
-Æ Æ(
+° °(
 %287void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -273,7 +273,7 @@ h
 %286javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ø Ø(
+¢ ¢(
 %288javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -281,7 +281,7 @@ j
 
 colore21‘—
 
-Ø Ø(
+¢ ¢(
 %289void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -292,7 +292,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-∞ ∞(
+£ £(
 %290javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -300,7 +300,7 @@ j
 
 colore22‘—
 
-∞ ∞(
+£ £(
 %291void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -311,7 +311,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-± ±(
+§ §(
 %292javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -319,7 +319,7 @@ j
 
 colore23‘—
 
-± ±(
+§ §(
 %293void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -330,7 +330,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-≤ ≤(
+• •(
 %294javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -338,7 +338,7 @@ j
 
 colore24‘—
 
-≤ ≤(
+• •(
 %295void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -349,7 +349,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-≥ ≥(
+¶ ¶(
 %296javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -357,7 +357,7 @@ j
 
 colore25‘—
 
-≥ ≥(
+¶ ¶(
 %297void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -368,7 +368,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-¥ ¥(
+ß ß(
 %298javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -376,7 +376,7 @@ j
 
 colore26‘—
 
-¥ ¥(
+ß ß(
 %299void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -387,7 +387,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-µ µ(
+® ®(
 %300javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -395,7 +395,7 @@ j
 
 colore27‘—
 
-µ µ(
+® ®(
 %301void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -406,7 +406,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-∂ ∂(
+© ©(
 %302javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -414,7 +414,7 @@ j
 
 colore28‘—
 
-∂ ∂(
+© ©(
 %303void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -425,14 +425,14 @@ j
 ""2setIcon(Ljavax/swing/Icon;)P
 N
 
-∑ ∑(
+™ ™(
 %304java.awt.Color"__id*"
 
 __unknown_file (
 ""§
 °
 
-∑ ∑(
+™ ™(
 %305void"%main.GUI#setColor2(Ljava/awt/Color;)V*(
 
 __unknown_file ("
@@ -444,11 +444,11 @@ N
 %304java.awt.Color*
 0*¸
 27
-≠
- ≠(™ß
+†
+ †(™ß
 
-≠
- ≠(
+†
+ †(
 %282java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -456,7 +456,7 @@ N
 ejava.awt.event.ActionEvent2getSource()l
 j
 
-≠ ≠(!
+† †(!
 %283javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -465,8 +465,8 @@ j
 colore20ƒ
 ¡
 
-≠
- ≠(!
+†
+ †(!
 %284boolean"	__compare*"
 
 __unknown_file (
@@ -482,10 +482,10 @@ j
 25
 26*Ä
 28
-° °(l
+î î(l
 j
 
-° °(
+î î(
 %261javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -494,14 +494,14 @@ j
 colore18j
 h
 
-° °(
+î î(
 %262javax.swing.ImageIcon"__id*5
 
 __unknown_file (*
 	main.Menu"
 Image4ÌÍ
 
-° °(
+î î(
 %263void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -513,7 +513,7 @@ h
 %262javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)l
 j
 
-¢ ¢(
+ï ï(
 %264javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -521,7 +521,7 @@ j
 
 colore10‘—
 
-¢ ¢(
+ï ï(
 %265void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -532,7 +532,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-£ £(
+ñ ñ(
 %266javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -540,7 +540,7 @@ j
 
 colore11‘—
 
-£ £(
+ñ ñ(
 %267void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -551,7 +551,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-§ §(
+ó ó(
 %268javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -559,7 +559,7 @@ j
 
 colore12‘—
 
-§ §(
+ó ó(
 %269void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -570,7 +570,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-• •(
+ò ò(
 %270javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -578,7 +578,7 @@ j
 
 colore13‘—
 
-• •(
+ò ò(
 %271void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -589,7 +589,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-¶ ¶(
+ô ô(
 %272javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -597,7 +597,7 @@ j
 
 colore14‘—
 
-¶ ¶(
+ô ô(
 %273void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -608,7 +608,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ß ß(
+ö ö(
 %274javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -616,7 +616,7 @@ j
 
 colore15‘—
 
-ß ß(
+ö ö(
 %275void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -627,7 +627,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-® ®(
+õ õ(
 %276javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -635,7 +635,7 @@ j
 
 colore16‘—
 
-® ®(
+õ õ(
 %277void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -646,7 +646,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-© ©(
+ú ú(
 %278javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -654,7 +654,7 @@ j
 
 colore17‘—
 
-© ©(
+ú ú(
 %279void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -665,14 +665,14 @@ j
 ""2setIcon(Ljavax/swing/Icon;)P
 N
 
-´ ´(
+û û(
 %280java.awt.Color"__id*"
 
 __unknown_file (
 ""§
 °
 
-´ ´(
+û û(
 %281void"%main.GUI#setColor1(Ljava/awt/Color;)V*(
 
 __unknown_file ("
@@ -684,9 +684,9 @@ N
 %280java.awt.Color*
 0*¸
 29
-† †(™ß
+ì ì(™ß
 
-† †(
+ì ì(
 %258java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -694,7 +694,7 @@ N
 ejava.awt.event.ActionEvent2getSource()l
 j
 
-† †("
+ì ì("
 %259javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -703,7 +703,7 @@ j
 colore18ƒ
 ¡
 
-† †("
+ì ì("
 %260boolean"	__compare*"
 
 __unknown_file (
@@ -719,10 +719,10 @@ j
 27
 28*Ä
 30
-ï ï(l
+à à(l
 j
 
-ï ï(
+à à(
 %237javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -731,14 +731,14 @@ j
 colore17j
 h
 
-ï ï(
+à à(
 %238javax.swing.ImageIcon"__id*5
 
 __unknown_file (*
 	main.Menu"
 Image4ÌÍ
 
-ï ï(
+à à(
 %239void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -750,7 +750,7 @@ h
 %238javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)l
 j
 
-ñ ñ(
+â â(
 %240javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -758,7 +758,7 @@ j
 
 colore10‘—
 
-ñ ñ(
+â â(
 %241void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -769,7 +769,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ó ó(
+ä ä(
 %242javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -777,7 +777,7 @@ j
 
 colore11‘—
 
-ó ó(
+ä ä(
 %243void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -788,7 +788,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ò ò(
+ã ã(
 %244javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -796,7 +796,7 @@ j
 
 colore12‘—
 
-ò ò(
+ã ã(
 %245void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -807,7 +807,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ô ô(
+å å(
 %246javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -815,7 +815,7 @@ j
 
 colore13‘—
 
-ô ô(
+å å(
 %247void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -826,7 +826,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ö ö(
+ç ç(
 %248javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -834,7 +834,7 @@ j
 
 colore14‘—
 
-ö ö(
+ç ç(
 %249void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -845,7 +845,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-õ õ(
+é é(
 %250javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -853,7 +853,7 @@ j
 
 colore15‘—
 
-õ õ(
+é é(
 %251void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -864,7 +864,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ú ú(
+è è(
 %252javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -872,7 +872,7 @@ j
 
 colore16‘—
 
-ú ú(
+è è(
 %253void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -883,7 +883,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ù ù(
+ê ê(
 %254javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -891,7 +891,7 @@ j
 
 colore18‘—
 
-ù ù(
+ê ê(
 %255void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -902,14 +902,14 @@ j
 ""2setIcon(Ljavax/swing/Icon;)P
 N
 
-ü ü(
+í í(
 %256java.awt.Color"__id*"
 
 __unknown_file (
 ""§
 °
 
-ü ü(
+í í(
 %257void"%main.GUI#setColor1(Ljava/awt/Color;)V*(
 
 __unknown_file ("
@@ -921,11 +921,11 @@ N
 %256java.awt.Color*
 0*¸
 31
-î
- î(™ß
+á
+ á(™ß
 
-î
- î(
+á
+ á(
 %234java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -933,7 +933,7 @@ N
 ejava.awt.event.ActionEvent2getSource()l
 j
 
-î î(!
+á á(!
 %235javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -942,8 +942,8 @@ j
 colore17ƒ
 ¡
 
-î
- î(!
+á
+ á(!
 %236boolean"	__compare*"
 
 __unknown_file (
@@ -959,10 +959,10 @@ j
 29
 30*Ä
 32
-à à(l
+˚ ˚(l
 j
 
-à à(
+˚ ˚(
 %213javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -971,14 +971,14 @@ j
 colore16j
 h
 
-à à(
+˚ ˚(
 %214javax.swing.ImageIcon"__id*5
 
 __unknown_file (*
 	main.Menu"
 Image4ÌÍ
 
-à à(
+˚ ˚(
 %215void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -990,7 +990,7 @@ h
 %214javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)l
 j
 
-â â(
+¸ ¸(
 %216javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -998,7 +998,7 @@ j
 
 colore10‘—
 
-â â(
+¸ ¸(
 %217void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1009,7 +1009,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ä ä(
+˝ ˝(
 %218javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1017,7 +1017,7 @@ j
 
 colore11‘—
 
-ä ä(
+˝ ˝(
 %219void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1028,7 +1028,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ã ã(
+˛ ˛(
 %220javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1036,7 +1036,7 @@ j
 
 colore12‘—
 
-ã ã(
+˛ ˛(
 %221void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1047,7 +1047,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-å å(
+ˇ ˇ(
 %222javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1055,7 +1055,7 @@ j
 
 colore13‘—
 
-å å(
+ˇ ˇ(
 %223void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1066,7 +1066,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ç ç(
+Ä Ä(
 %224javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1074,7 +1074,7 @@ j
 
 colore14‘—
 
-ç ç(
+Ä Ä(
 %225void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1085,7 +1085,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-é é(
+Å Å(
 %226javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1093,7 +1093,7 @@ j
 
 colore15‘—
 
-é é(
+Å Å(
 %227void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1104,7 +1104,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-è è(
+Ç Ç(
 %228javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1112,7 +1112,7 @@ j
 
 colore17‘—
 
-è è(
+Ç Ç(
 %229void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1123,7 +1123,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ê ê(
+É É(
 %230javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1131,7 +1131,7 @@ j
 
 colore18‘—
 
-ê ê(
+É É(
 %231void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1142,14 +1142,14 @@ j
 ""2setIcon(Ljavax/swing/Icon;)P
 N
 
-í í(
+Ö Ö(
 %232java.awt.Color"__id*"
 
 __unknown_file (
 ""§
 °
 
-í í(
+Ö Ö(
 %233void"%main.GUI#setColor1(Ljava/awt/Color;)V*(
 
 __unknown_file ("
@@ -1161,11 +1161,11 @@ N
 %232java.awt.Color*
 0*¸
 33
-á
- á(™ß
+˙
+ ˙(™ß
 
-á
- á(
+˙
+ ˙(
 %210java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -1173,7 +1173,7 @@ N
 ejava.awt.event.ActionEvent2getSource()l
 j
 
-á á(!
+˙ ˙(!
 %211javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1182,8 +1182,8 @@ j
 colore16ƒ
 ¡
 
-á
- á(!
+˙
+ ˙(!
 %212boolean"	__compare*"
 
 __unknown_file (
@@ -1199,10 +1199,10 @@ j
 31
 32*Ä
 34
-˚ ˚(l
+Ó Ó(l
 j
 
-˚ ˚(
+Ó Ó(
 %189javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1211,14 +1211,14 @@ j
 colore15j
 h
 
-˚ ˚(
+Ó Ó(
 %190javax.swing.ImageIcon"__id*5
 
 __unknown_file (*
 	main.Menu"
 Image4ÌÍ
 
-˚ ˚(
+Ó Ó(
 %191void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1230,7 +1230,7 @@ h
 %190javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)l
 j
 
-¸ ¸(
+Ô Ô(
 %192javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1238,7 +1238,7 @@ j
 
 colore10‘—
 
-¸ ¸(
+Ô Ô(
 %193void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1249,7 +1249,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-˝ ˝(
+ (
 %194javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1257,7 +1257,7 @@ j
 
 colore11‘—
 
-˝ ˝(
+ (
 %195void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1268,7 +1268,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-˛ ˛(
+Ò Ò(
 %196javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1276,7 +1276,7 @@ j
 
 colore12‘—
 
-˛ ˛(
+Ò Ò(
 %197void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1287,7 +1287,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ˇ ˇ(
+Ú Ú(
 %198javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1295,7 +1295,7 @@ j
 
 colore13‘—
 
-ˇ ˇ(
+Ú Ú(
 %199void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1306,7 +1306,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ä Ä(
+Û Û(
 %200javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1314,7 +1314,7 @@ j
 
 colore14‘—
 
-Ä Ä(
+Û Û(
 %201void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1325,7 +1325,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Å Å(
+Ù Ù(
 %202javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1333,7 +1333,7 @@ j
 
 colore16‘—
 
-Å Å(
+Ù Ù(
 %203void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1344,7 +1344,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ç Ç(
+ı ı(
 %204javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1352,7 +1352,7 @@ j
 
 colore17‘—
 
-Ç Ç(
+ı ı(
 %205void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1363,7 +1363,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-É É(
+ˆ ˆ(
 %206javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1371,7 +1371,7 @@ j
 
 colore18‘—
 
-É É(
+ˆ ˆ(
 %207void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1382,14 +1382,14 @@ j
 ""2setIcon(Ljavax/swing/Icon;)P
 N
 
-Ö Ö(
+¯ ¯(
 %208java.awt.Color"__id*"
 
 __unknown_file (
 ""§
 °
 
-Ö Ö(
+¯ ¯(
 %209void"%main.GUI#setColor1(Ljava/awt/Color;)V*(
 
 __unknown_file ("
@@ -1401,11 +1401,11 @@ N
 %208java.awt.Color*
 0*¸
 35
-˙
- ˙(™ß
+Ì
+ Ì(™ß
 
-˙
- ˙(
+Ì
+ Ì(
 %186java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -1413,7 +1413,7 @@ N
 ejava.awt.event.ActionEvent2getSource()l
 j
 
-˙ ˙(!
+Ì Ì(!
 %187javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1422,8 +1422,8 @@ j
 colore15ƒ
 ¡
 
-˙
- ˙(!
+Ì
+ Ì(!
 %188boolean"	__compare*"
 
 __unknown_file (
@@ -1439,10 +1439,10 @@ j
 33
 34*Ä
 36
-Ó Ó(l
+· ·(l
 j
 
-Ó Ó(
+· ·(
 %165javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1451,14 +1451,14 @@ j
 colore14j
 h
 
-Ó Ó(
+· ·(
 %166javax.swing.ImageIcon"__id*5
 
 __unknown_file (*
 	main.Menu"
 Image4ÌÍ
 
-Ó Ó(
+· ·(
 %167void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1470,7 +1470,7 @@ h
 %166javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ô Ô(
+‚ ‚(
 %168javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1478,7 +1478,7 @@ j
 
 colore10‘—
 
-Ô Ô(
+‚ ‚(
 %169void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1489,7 +1489,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
- (
+„ „(
 %170javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1497,7 +1497,7 @@ j
 
 colore11‘—
 
- (
+„ „(
 %171void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1508,7 +1508,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ò Ò(
+‰ ‰(
 %172javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1516,7 +1516,7 @@ j
 
 colore12‘—
 
-Ò Ò(
+‰ ‰(
 %173void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1527,7 +1527,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ú Ú(
+Â Â(
 %174javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1535,7 +1535,7 @@ j
 
 colore13‘—
 
-Ú Ú(
+Â Â(
 %175void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1546,7 +1546,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Û Û(
+Ê Ê(
 %176javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1554,7 +1554,7 @@ j
 
 colore15‘—
 
-Û Û(
+Ê Ê(
 %177void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1565,7 +1565,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ù Ù(
+Á Á(
 %178javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1573,7 +1573,7 @@ j
 
 colore16‘—
 
-Ù Ù(
+Á Á(
 %179void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1584,7 +1584,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ı ı(
+Ë Ë(
 %180javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1592,7 +1592,7 @@ j
 
 colore17‘—
 
-ı ı(
+Ë Ë(
 %181void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1603,7 +1603,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ˆ ˆ(
+È È(
 %182javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1611,7 +1611,7 @@ j
 
 colore18‘—
 
-ˆ ˆ(
+È È(
 %183void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1622,14 +1622,14 @@ j
 ""2setIcon(Ljavax/swing/Icon;)P
 N
 
-¯ ¯(
+Î Î(
 %184java.awt.Color"__id*"
 
 __unknown_file (
 ""§
 °
 
-¯ ¯(
+Î Î(
 %185void"%main.GUI#setColor1(Ljava/awt/Color;)V*(
 
 __unknown_file ("
@@ -1641,11 +1641,11 @@ N
 %184java.awt.Color*
 0*¸
 37
-Ì
- Ì(™ß
+‡
+ ‡(™ß
 
-Ì
- Ì(
+‡
+ ‡(
 %162java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -1653,7 +1653,7 @@ N
 ejava.awt.event.ActionEvent2getSource()l
 j
 
-Ì Ì(!
+‡ ‡(!
 %163javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1662,8 +1662,8 @@ j
 colore14ƒ
 ¡
 
-Ì
- Ì(!
+‡
+ ‡(!
 %164boolean"	__compare*"
 
 __unknown_file (
@@ -1679,10 +1679,10 @@ j
 35
 36*Ä
 38
-· ·(l
+‘ ‘(l
 j
 
-· ·(
+‘ ‘(
 %141javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1691,14 +1691,14 @@ j
 colore13j
 h
 
-· ·(
+‘ ‘(
 %142javax.swing.ImageIcon"__id*5
 
 __unknown_file (*
 	main.Menu"
 Image4ÌÍ
 
-· ·(
+‘ ‘(
 %143void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1710,7 +1710,7 @@ h
 %142javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)l
 j
 
-‚ ‚(
+’ ’(
 %144javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1718,7 +1718,7 @@ j
 
 colore10‘—
 
-‚ ‚(
+’ ’(
 %145void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1729,7 +1729,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-„ „(
+÷ ÷(
 %146javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1737,7 +1737,7 @@ j
 
 colore11‘—
 
-„ „(
+÷ ÷(
 %147void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1748,7 +1748,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-‰ ‰(
+◊ ◊(
 %148javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1756,7 +1756,7 @@ j
 
 colore12‘—
 
-‰ ‰(
+◊ ◊(
 %149void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1767,7 +1767,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Â Â(
+ÿ ÿ(
 %150javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1775,7 +1775,7 @@ j
 
 colore14‘—
 
-Â Â(
+ÿ ÿ(
 %151void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1786,7 +1786,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ê Ê(
+Ÿ Ÿ(
 %152javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1794,7 +1794,7 @@ j
 
 colore15‘—
 
-Ê Ê(
+Ÿ Ÿ(
 %153void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1805,7 +1805,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Á Á(
+⁄ ⁄(
 %154javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1813,7 +1813,7 @@ j
 
 colore16‘—
 
-Á Á(
+⁄ ⁄(
 %155void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1824,7 +1824,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ë Ë(
+€ €(
 %156javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1832,7 +1832,7 @@ j
 
 colore17‘—
 
-Ë Ë(
+€ €(
 %157void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1843,7 +1843,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-È È(
+‹ ‹(
 %158javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1851,7 +1851,7 @@ j
 
 colore18‘—
 
-È È(
+‹ ‹(
 %159void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1862,14 +1862,14 @@ j
 ""2setIcon(Ljavax/swing/Icon;)P
 N
 
-Î Î(
+ﬁ ﬁ(
 %160java.awt.Color"__id*"
 
 __unknown_file (
 ""§
 °
 
-Î Î(
+ﬁ ﬁ(
 %161void"%main.GUI#setColor1(Ljava/awt/Color;)V*(
 
 __unknown_file ("
@@ -1881,11 +1881,11 @@ N
 %160java.awt.Color*
 0*¸
 39
-‡
- ‡(™ß
+”
+ ”(™ß
 
-‡
- ‡(
+”
+ ”(
 %138java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -1893,7 +1893,7 @@ N
 ejava.awt.event.ActionEvent2getSource()l
 j
 
-‡ ‡(!
+” ”(!
 %139javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1902,8 +1902,8 @@ j
 colore13ƒ
 ¡
 
-‡
- ‡(!
+”
+ ”(!
 %140boolean"	__compare*"
 
 __unknown_file (
@@ -1919,10 +1919,10 @@ j
 37
 38*Î0
 40
-Ã Ã(k
+ø ø(k
 i
 
-Ã Ã(
+ø ø(
 %99javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1931,14 +1931,14 @@ i
 colore12j
 h
 
-Ã Ã(
+ø ø(
 %100javax.swing.ImageIcon"__id*5
 
 __unknown_file (*
 	main.Menu"
 Image4ÏÈ
 
-Ã Ã(
+ø ø(
 %101void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -1950,7 +1950,7 @@ h
 %100javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)l
 j
 
-Õ Õ(
+¿ ¿(
 %102javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1958,7 +1958,7 @@ j
 
 colore10‘—
 
-Õ Õ(
+¿ ¿(
 %103void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1969,7 +1969,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Œ Œ(
+¡ ¡(
 %104javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1977,7 +1977,7 @@ j
 
 colore11‘—
 
-Œ Œ(
+¡ ¡(
 %105void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -1988,7 +1988,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-œ œ(
+¬ ¬(
 %106javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -1996,7 +1996,7 @@ j
 
 colore13‘—
 
-œ œ(
+¬ ¬(
 %107void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -2007,7 +2007,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-– –(
+√ √(
 %108javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2015,7 +2015,7 @@ j
 
 colore14‘—
 
-– –(
+√ √(
 %109void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -2026,7 +2026,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-— —(
+ƒ ƒ(
 %110javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2034,7 +2034,7 @@ j
 
 colore15‘—
 
-— —(
+ƒ ƒ(
 %111void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -2045,7 +2045,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-“ “(
+≈ ≈(
 %112javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2053,7 +2053,7 @@ j
 
 colore16‘—
 
-“ “(
+≈ ≈(
 %113void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -2064,7 +2064,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-” ”(
+∆ ∆(
 %114javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2072,7 +2072,7 @@ j
 
 colore17‘—
 
-” ”(
+∆ ∆(
 %115void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -2083,7 +2083,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-‘ ‘(
+« «(
 %116javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2091,7 +2091,7 @@ j
 
 colore18‘—
 
-‘ ‘(
+« «(
 %117void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -2102,7 +2102,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-’ ’(
+» »(
 %118javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2110,7 +2110,7 @@ j
 
 colore20‘—
 
-’ ’(
+» »(
 %119void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -2121,7 +2121,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-÷ ÷(
+… …(
 %120javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2129,7 +2129,7 @@ j
 
 colore21‘—
 
-÷ ÷(
+… …(
 %121void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -2140,7 +2140,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-◊ ◊(
+   (
 %122javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2148,7 +2148,7 @@ j
 
 colore22‘—
 
-◊ ◊(
+   (
 %123void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -2159,7 +2159,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ÿ ÿ(
+À À(
 %124javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2167,7 +2167,7 @@ j
 
 colore23‘—
 
-ÿ ÿ(
+À À(
 %125void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -2178,7 +2178,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ÿ Ÿ(
+Ã Ã(
 %126javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2186,7 +2186,7 @@ j
 
 colore24‘—
 
-Ÿ Ÿ(
+Ã Ã(
 %127void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -2197,7 +2197,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-⁄ ⁄(
+Õ Õ(
 %128javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2205,7 +2205,7 @@ j
 
 colore25‘—
 
-⁄ ⁄(
+Õ Õ(
 %129void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -2216,7 +2216,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-€ €(
+Œ Œ(
 %130javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2224,7 +2224,7 @@ j
 
 colore26‘—
 
-€ €(
+Œ Œ(
 %131void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -2235,7 +2235,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-‹ ‹(
+œ œ(
 %132javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2243,7 +2243,7 @@ j
 
 colore27‘—
 
-‹ ‹(
+œ œ(
 %133void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -2254,7 +2254,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-› ›(
+– –(
 %134javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2262,7 +2262,7 @@ j
 
 colore28‘—
 
-› ›(
+– –(
 %135void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -2273,14 +2273,14 @@ j
 ""2setIcon(Ljavax/swing/Icon;)P
 N
 
-ﬁ ﬁ(
+— —(
 %136java.awt.Color"__id*"
 
 __unknown_file (
 ""§
 °
 
-ﬁ ﬁ(
+— —(
 %137void"%main.GUI#setColor1(Ljava/awt/Color;)V*(
 
 __unknown_file ("
@@ -2292,11 +2292,11 @@ N
 %136java.awt.Color*
 0*˜
 41
-À
- À(©¶
+æ
+ æ(©¶
 
-À
- À(
+æ
+ æ(
 %96java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -2304,7 +2304,7 @@ N
 ejava.awt.event.ActionEvent2getSource()k
 i
 
-À À(!
+æ æ(!
 %97javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2313,8 +2313,8 @@ i
 colore12¡
 æ
 
-À
- À(!
+æ
+ æ(!
 %98boolean"	__compare*"
 
 __unknown_file (
@@ -2330,10 +2330,10 @@ i
 39
 40*‡
 42
-ø ø(k
+≤ ≤(k
 i
 
-ø ø(
+≤ ≤(
 %75javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2341,7 +2341,7 @@ i
 
 colore10“œ
 
-ø ø(
+≤ ≤(
 %76void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -2352,7 +2352,7 @@ i
 ""2setIcon(Ljavax/swing/Icon;)k
 i
 
-¿ ¿(
+≥ ≥(
 %77javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2361,14 +2361,14 @@ i
 colore11i
 g
 
-¿ ¿(
+≥ ≥(
 %78javax.swing.ImageIcon"__id*5
 
 __unknown_file (*
 	main.Menu"
 Image4ÍÁ
 
-¿ ¿(
+≥ ≥(
 %79void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -2380,7 +2380,7 @@ g
 %78javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)k
 i
 
-¡ ¡(
+¥ ¥(
 %80javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2388,7 +2388,7 @@ i
 
 colore12“œ
 
-¡ ¡(
+¥ ¥(
 %81void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -2399,7 +2399,7 @@ i
 ""2setIcon(Ljavax/swing/Icon;)k
 i
 
-¬ ¬(
+µ µ(
 %82javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2407,7 +2407,7 @@ i
 
 colore13“œ
 
-¬ ¬(
+µ µ(
 %83void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -2418,7 +2418,7 @@ i
 ""2setIcon(Ljavax/swing/Icon;)k
 i
 
-√ √(
+∂ ∂(
 %84javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2426,7 +2426,7 @@ i
 
 colore14“œ
 
-√ √(
+∂ ∂(
 %85void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -2437,7 +2437,7 @@ i
 ""2setIcon(Ljavax/swing/Icon;)k
 i
 
-ƒ ƒ(
+∑ ∑(
 %86javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2445,7 +2445,7 @@ i
 
 colore15“œ
 
-ƒ ƒ(
+∑ ∑(
 %87void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -2456,7 +2456,7 @@ i
 ""2setIcon(Ljavax/swing/Icon;)k
 i
 
-≈ ≈(
+∏ ∏(
 %88javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2464,7 +2464,7 @@ i
 
 colore16“œ
 
-≈ ≈(
+∏ ∏(
 %89void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -2475,7 +2475,7 @@ i
 ""2setIcon(Ljavax/swing/Icon;)k
 i
 
-∆ ∆(
+π π(
 %90javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2483,7 +2483,7 @@ i
 
 colore17“œ
 
-∆ ∆(
+π π(
 %91void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -2494,7 +2494,7 @@ i
 ""2setIcon(Ljavax/swing/Icon;)k
 i
 
-« «(
+∫ ∫(
 %92javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2502,7 +2502,7 @@ i
 
 colore18“œ
 
-« «(
+∫ ∫(
 %93void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -2513,14 +2513,14 @@ i
 ""2setIcon(Ljavax/swing/Icon;)O
 M
 
-… …(
+º º(
 %94java.awt.Color"__id*"
 
 __unknown_file (
 ""¢
 ü
 
-… …(
+º º(
 %95void"%main.GUI#setColor1(Ljava/awt/Color;)V*(
 
 __unknown_file ("
@@ -2532,11 +2532,11 @@ M
 %94java.awt.Color*
 0*˜
 43
-æ
- æ(©¶
+±
+ ±(©¶
 
-æ
- æ(
+±
+ ±(
 %72java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -2544,7 +2544,7 @@ M
 ejava.awt.event.ActionEvent2getSource()k
 i
 
-æ æ(!
+± ±(!
 %73javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2553,8 +2553,8 @@ i
 colore11¡
 æ
 
-æ
- æ(!
+±
+ ±(!
 %74boolean"	__compare*"
 
 __unknown_file (
@@ -2570,10 +2570,10 @@ i
 41
 42*‡
 44
-± ±(k
+§ §(k
 i
 
-± ±(
+§ §(
 %51javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2582,14 +2582,14 @@ i
 colore10i
 g
 
-± ±(
+§ §(
 %52javax.swing.ImageIcon"__id*5
 
 __unknown_file (*
 	main.Menu"
 Image4ÍÁ
 
-± ±(
+§ §(
 %53void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -2601,7 +2601,7 @@ g
 %52javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)k
 i
 
-≤ ≤(
+• •(
 %54javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2609,7 +2609,7 @@ i
 
 colore11“œ
 
-≤ ≤(
+• •(
 %55void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -2620,7 +2620,7 @@ i
 ""2setIcon(Ljavax/swing/Icon;)k
 i
 
-≥ ≥(
+¶ ¶(
 %56javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2628,7 +2628,7 @@ i
 
 colore12“œ
 
-≥ ≥(
+¶ ¶(
 %57void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -2639,7 +2639,7 @@ i
 ""2setIcon(Ljavax/swing/Icon;)k
 i
 
-¥ ¥(
+ß ß(
 %58javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2647,7 +2647,7 @@ i
 
 colore13“œ
 
-¥ ¥(
+ß ß(
 %59void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -2658,7 +2658,7 @@ i
 ""2setIcon(Ljavax/swing/Icon;)k
 i
 
-µ µ(
+® ®(
 %60javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2666,7 +2666,7 @@ i
 
 colore14“œ
 
-µ µ(
+® ®(
 %61void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -2677,7 +2677,7 @@ i
 ""2setIcon(Ljavax/swing/Icon;)k
 i
 
-∂ ∂(
+© ©(
 %62javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2685,7 +2685,7 @@ i
 
 colore15“œ
 
-∂ ∂(
+© ©(
 %63void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -2696,7 +2696,7 @@ i
 ""2setIcon(Ljavax/swing/Icon;)k
 i
 
-∑ ∑(
+™ ™(
 %64javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2704,7 +2704,7 @@ i
 
 colore16“œ
 
-∑ ∑(
+™ ™(
 %65void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -2715,7 +2715,7 @@ i
 ""2setIcon(Ljavax/swing/Icon;)k
 i
 
-∏ ∏(
+´ ´(
 %66javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2723,7 +2723,7 @@ i
 
 colore17“œ
 
-∏ ∏(
+´ ´(
 %67void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -2734,7 +2734,7 @@ i
 ""2setIcon(Ljavax/swing/Icon;)k
 i
 
-π π(
+¨ ¨(
 %68javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2742,7 +2742,7 @@ i
 
 colore18“œ
 
-π π(
+¨ ¨(
 %69void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
 
 __unknown_file (
@@ -2753,14 +2753,14 @@ i
 ""2setIcon(Ljavax/swing/Icon;)O
 M
 
-º º(
+Ø Ø(
 %70java.awt.Color"__id*"
 
 __unknown_file (
 ""¢
 ü
 
-º º(
+Ø Ø(
 %71void"%main.GUI#setColor1(Ljava/awt/Color;)V*(
 
 __unknown_file ("
@@ -2772,11 +2772,11 @@ M
 %70java.awt.Color*
 0*˜
 45
-∞
- ∞(©¶
+£
+ £(©¶
 
-∞
- ∞(
+£
+ £(
 %48java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -2784,7 +2784,7 @@ M
 ejava.awt.event.ActionEvent2getSource()k
 i
 
-∞ ∞(!
+£ £(!
 %49javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -2793,8 +2793,8 @@ i
 colore10¡
 æ
 
-∞
- ∞(!
+£
+ £(!
 %50boolean"	__compare*"
 
 __unknown_file (
@@ -2810,20 +2810,20 @@ i
 43
 44*|
 46
-≠ ≠(	ec
+† †(	ec
 
-≠ ≠(
+† †(
 %47void"main.Menu#split5()V*)
 
 __unknown_file (
 	main.Menu2split5()*
 0*Û
 47
-¨
- ¨(©¶
+ü
+ ü(©¶
 
-¨
- ¨(
+ü
+ ü(
 %44java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -2831,7 +2831,7 @@ i
 ejava.awt.event.ActionEvent2getSource()g
 e
 
-¨ ¨(
+ü ü(
 %45javax.swing.JMenuItem"__id*3
 
 __unknown_file (*
@@ -2839,8 +2839,8 @@ e
 Save¡
 æ
 
-¨
- ¨(
+ü
+ ü(
 %46boolean"	__compare*"
 
 __unknown_file (
@@ -2856,21 +2856,21 @@ e
 46
 45*q
 48
-™ ™(Z
+ù ù(Z
 X
 
-™ ™(
+ù ù(
 %43void"main.main#close()V*)
 
 __unknown_file ("
 	main.main*
 0*Û
 49
-©
- ©(©¶
+ú
+ ú(©¶
 
-©
- ©(
+ú
+ ú(
 %40java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -2878,7 +2878,7 @@ X
 ejava.awt.event.ActionEvent2getSource()g
 e
 
-© ©(
+ú ú(
 %41javax.swing.JMenuItem"__id*3
 
 __unknown_file (*
@@ -2886,8 +2886,8 @@ e
 Exit¡
 æ
 
-©
- ©(
+ú
+ ú(
 %42boolean"	__compare*"
 
 __unknown_file (
@@ -2903,10 +2903,10 @@ e
 47
 48*∂
 50
-ü ü(X
+í í(X
 V
 
-ü ü(
+í í(
 %34void"main.GUI#sett1()V*(
 
 __unknown_file ("
@@ -2914,7 +2914,7 @@ V
 main.GUIX
 V
 
-† †(
+ì ì(
 %35void"main.GUI#sett2()V*(
 
 __unknown_file ("
@@ -2922,7 +2922,7 @@ V
 main.GUIX
 V
 
-° °(
+î î(
 %36void"main.GUI#sett3()V*(
 
 __unknown_file ("
@@ -2930,7 +2930,7 @@ V
 main.GUIX
 V
 
-¢ ¢(
+ï ï(
 %37void"main.GUI#sett4()V*(
 
 __unknown_file ("
@@ -2938,7 +2938,7 @@ V
 main.GUIZ
 X
 
-£ £(
+ñ ñ(
 %38void"main.GUI#refresh()V*(
 
 __unknown_file ("
@@ -2946,7 +2946,7 @@ X
 main.GUI[
 Y
 
-§ §(
+ó ó(
 %39void"main.GUI#Metadata()V*(
 
 __unknown_file ("
@@ -2954,9 +2954,9 @@ Y
 main.GUI*
 0*ˆ
 51
-û û(©¶
+ë ë(©¶
 
-û û(
+ë ë(
 %31java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -2964,7 +2964,7 @@ Y
 ejava.awt.event.ActionEvent2getSource()j
 h
 
-û û(
+ë ë(
 %32javax.swing.JMenuItem"__id*6
 
 __unknown_file (*
@@ -2972,7 +2972,7 @@ h
 Refresh¡
 æ
 
-û û(
+ë ë(
 %33boolean"	__compare*"
 
 __unknown_file (
@@ -2987,15 +2987,15 @@ h
 %32javax.swing.JMenuItem*
 49
 50*Ù
-52ú ú(c
+52è è(c
 a
-ú ú(
+è è(
 %29javax.swing.JFrame"__id*4
 
 __unknown_file (*
 	main.Menu"
 provayw
-ú ú(
+è è(
 %30void"java.awt.Window#dispose()V*7
 
 __unknown_file (
@@ -3003,9 +3003,9 @@ a
 %29javax.swing.JFrame2	dispose()*
 51*Û
 53
-õ õ(©¶
+é é(©¶
 
-õ õ(
+é é(
 %26java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -3013,7 +3013,7 @@ a
 ejava.awt.event.ActionEvent2getSource()i
 g
 
-õ õ(
+é é(
 %27javax.swing.JButton"__id*7
 
 __unknown_file (*
@@ -3022,7 +3022,7 @@ g
 rifiuta1ø
 º
 
-õ õ(
+é é(
 %28boolean"	__compare*"
 
 __unknown_file (
@@ -3038,17 +3038,17 @@ g
 51
 52*˜
 54
-ô ô(b
+å å(b
 `
 
-ô ô(
+å å(
 %24javax.swing.JFrame"__id*1
 
 __unknown_file (*
 	main.Menu"
 xc{y
 
-ô ô(
+å å(
 %25void"java.awt.Window#dispose()V*7
 
 __unknown_file (
@@ -3056,10 +3056,10 @@ g
 %24javax.swing.JFrame2	dispose()*
 53*Ä
 10
-ç ç(l
+Ä Ä(l
 j
 
-ç ç(
+Ä Ä(
 %477javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3068,14 +3068,14 @@ j
 colore28j
 h
 
-ç ç(
+Ä Ä(
 %478javax.swing.ImageIcon"__id*5
 
 __unknown_file (*
 	main.Menu"
 Image4ÌÍ
 
-ç ç(
+Ä Ä(
 %479void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3087,7 +3087,7 @@ h
 %478javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)l
 j
 
-é é(
+Å Å(
 %480javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3095,7 +3095,7 @@ j
 
 colore20‘—
 
-é é(
+Å Å(
 %481void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3106,7 +3106,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-è è(
+Ç Ç(
 %482javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3114,7 +3114,7 @@ j
 
 colore21‘—
 
-è è(
+Ç Ç(
 %483void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3125,7 +3125,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ê ê(
+É É(
 %484javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3133,7 +3133,7 @@ j
 
 colore22‘—
 
-ê ê(
+É É(
 %485void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3144,7 +3144,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ë ë(
+Ñ Ñ(
 %486javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3152,7 +3152,7 @@ j
 
 colore23‘—
 
-ë ë(
+Ñ Ñ(
 %487void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3163,7 +3163,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-í í(
+Ö Ö(
 %488javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3171,7 +3171,7 @@ j
 
 colore24‘—
 
-í í(
+Ö Ö(
 %489void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3182,7 +3182,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ì ì(
+Ü Ü(
 %490javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3190,7 +3190,7 @@ j
 
 colore25‘—
 
-ì ì(
+Ü Ü(
 %491void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3201,7 +3201,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-î î(
+á á(
 %492javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3209,7 +3209,7 @@ j
 
 colore26‘—
 
-î î(
+á á(
 %493void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3220,7 +3220,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ï ï(
+à à(
 %494javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3228,7 +3228,7 @@ j
 
 colore27‘—
 
-ï ï(
+à à(
 %495void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3239,14 +3239,14 @@ j
 ""2setIcon(Ljavax/swing/Icon;)P
 N
 
-ñ ñ(
+â â(
 %496java.awt.Color"__id*"
 
 __unknown_file (
 ""§
 °
 
-ñ ñ(
+â â(
 %497void"%main.GUI#setColor2(Ljava/awt/Color;)V*(
 
 __unknown_file ("
@@ -3258,9 +3258,9 @@ N
 %496java.awt.Color*
 0*Ï
 55
-ò ò(©¶
+ã ã(©¶
 
-ò ò(
+ã ã(
 %21java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -3268,7 +3268,7 @@ N
 ejava.awt.event.ActionEvent2getSource()b
 `
 
-ò ò(
+ã ã(
 %22javax.swing.JButton"__id*0
 
 __unknown_file (*
@@ -3276,7 +3276,7 @@ N
 vø
 º
 
-ò ò(
+ã ã(
 %23boolean"	__compare*"
 
 __unknown_file (
@@ -3292,9 +3292,9 @@ N
 53
 54*˚
 11
-å å(™ß
+ˇ ˇ(™ß
 
-å å(
+ˇ ˇ(
 %474java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -3302,7 +3302,7 @@ N
 ejava.awt.event.ActionEvent2getSource()l
 j
 
-å å("
+ˇ ˇ("
 %475javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3311,7 +3311,7 @@ j
 colore28ƒ
 ¡
 
-å å("
+ˇ ˇ("
 %476boolean"	__compare*"
 
 __unknown_file (
@@ -3326,18 +3326,18 @@ j
 %475javax.swing.JMenuItem*
 9
 10*y
-56ï ï(ca
-ï ï(
+56à à(ca
+à à(
 %20void"main.Menu#split4()V*)
 
 __unknown_file (
 	main.Menu2split4()*
 55*Ä
 12
-Ç Ç(l
+ı ı(l
 j
 
-Ç Ç(
+ı ı(
 %453javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3346,14 +3346,14 @@ j
 colore27j
 h
 
-Ç Ç(
+ı ı(
 %454javax.swing.ImageIcon"__id*5
 
 __unknown_file (*
 	main.Menu"
 Image4ÌÍ
 
-Ç Ç(
+ı ı(
 %455void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3365,7 +3365,7 @@ h
 %454javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)l
 j
 
-É É(
+ˆ ˆ(
 %456javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3373,7 +3373,7 @@ j
 
 colore20‘—
 
-É É(
+ˆ ˆ(
 %457void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3384,7 +3384,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ñ Ñ(
+˜ ˜(
 %458javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3392,7 +3392,7 @@ j
 
 colore21‘—
 
-Ñ Ñ(
+˜ ˜(
 %459void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3403,7 +3403,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ö Ö(
+¯ ¯(
 %460javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3411,7 +3411,7 @@ j
 
 colore22‘—
 
-Ö Ö(
+¯ ¯(
 %461void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3422,7 +3422,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ü Ü(
+˘ ˘(
 %462javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3430,7 +3430,7 @@ j
 
 colore23‘—
 
-Ü Ü(
+˘ ˘(
 %463void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3441,7 +3441,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-á á(
+˙ ˙(
 %464javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3449,7 +3449,7 @@ j
 
 colore24‘—
 
-á á(
+˙ ˙(
 %465void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3460,7 +3460,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-à à(
+˚ ˚(
 %466javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3468,7 +3468,7 @@ j
 
 colore25‘—
 
-à à(
+˚ ˚(
 %467void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3479,7 +3479,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-â â(
+¸ ¸(
 %468javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3487,7 +3487,7 @@ j
 
 colore26‘—
 
-â â(
+¸ ¸(
 %469void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3498,7 +3498,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ä ä(
+˝ ˝(
 %470javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3506,7 +3506,7 @@ j
 
 colore28‘—
 
-ä ä(
+˝ ˝(
 %471void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3517,14 +3517,14 @@ j
 ""2setIcon(Ljavax/swing/Icon;)P
 N
 
-ã ã(
+˛ ˛(
 %472java.awt.Color"__id*"
 
 __unknown_file (
 ""§
 °
 
-ã ã(
+˛ ˛(
 %473void"%main.GUI#setColor2(Ljava/awt/Color;)V*(
 
 __unknown_file ("
@@ -3536,9 +3536,9 @@ N
 %472java.awt.Color*
 0*Û
 57
-î î(©¶
+á á(©¶
 
-î î(
+á á(
 %17java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -3546,7 +3546,7 @@ N
 ejava.awt.event.ActionEvent2getSource()i
 g
 
-î î(
+á á(
 %18javax.swing.JButton"__id*7
 
 __unknown_file (*
@@ -3555,7 +3555,7 @@ g
 accetta1ø
 º
 
-î î(
+á á(
 %19boolean"	__compare*"
 
 __unknown_file (
@@ -3571,11 +3571,11 @@ g
 55
 56*¸
 13
-Å
- Å(™ß
+Ù
+ Ù(™ß
 
-Å
- Å(
+Ù
+ Ù(
 %450java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -3583,7 +3583,7 @@ g
 ejava.awt.event.ActionEvent2getSource()l
 j
 
-Å Å(!
+Ù Ù(!
 %451javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3592,8 +3592,8 @@ j
 colore27ƒ
 ¡
 
-Å
- Å(!
+Ù
+ Ù(!
 %452boolean"	__compare*"
 
 __unknown_file (
@@ -3609,19 +3609,19 @@ j
 11
 12*}
 58
-ê ê(ec
+É É(ec
 
-ê ê(	
+É É(	
 %16void"main.Menu#split3()V*)
 
 __unknown_file (
 	main.Menu2split3()*
 57*Ä
 14
-ˆ ˆ(l
+È È(l
 j
 
-ˆ ˆ(
+È È(
 %429javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3630,14 +3630,14 @@ j
 colore26j
 h
 
-ˆ ˆ(
+È È(
 %430javax.swing.ImageIcon"__id*5
 
 __unknown_file (*
 	main.Menu"
 Image4ÌÍ
 
-ˆ ˆ(
+È È(
 %431void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3649,7 +3649,7 @@ h
 %430javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)l
 j
 
-˜ ˜(
+Í Í(
 %432javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3657,7 +3657,7 @@ j
 
 colore20‘—
 
-˜ ˜(
+Í Í(
 %433void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3668,7 +3668,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-¯ ¯(
+Î Î(
 %434javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3676,7 +3676,7 @@ j
 
 colore21‘—
 
-¯ ¯(
+Î Î(
 %435void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3687,7 +3687,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-˘ ˘(
+Ï Ï(
 %436javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3695,7 +3695,7 @@ j
 
 colore22‘—
 
-˘ ˘(
+Ï Ï(
 %437void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3706,7 +3706,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-˙ ˙(
+Ì Ì(
 %438javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3714,7 +3714,7 @@ j
 
 colore23‘—
 
-˙ ˙(
+Ì Ì(
 %439void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3725,7 +3725,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-˚ ˚(
+Ó Ó(
 %440javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3733,7 +3733,7 @@ j
 
 colore24‘—
 
-˚ ˚(
+Ó Ó(
 %441void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3744,7 +3744,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-¸ ¸(
+Ô Ô(
 %442javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3752,7 +3752,7 @@ j
 
 colore25‘—
 
-¸ ¸(
+Ô Ô(
 %443void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3763,7 +3763,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-˝ ˝(
+ (
 %444javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3771,7 +3771,7 @@ j
 
 colore27‘—
 
-˝ ˝(
+ (
 %445void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3782,7 +3782,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-˛ ˛(
+Ò Ò(
 %446javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3790,7 +3790,7 @@ j
 
 colore28‘—
 
-˛ ˛(
+Ò Ò(
 %447void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3801,14 +3801,14 @@ j
 ""2setIcon(Ljavax/swing/Icon;)P
 N
 
-ˇ ˇ(
+Ú Ú(
 %448java.awt.Color"__id*"
 
 __unknown_file (
 ""§
 °
 
-ˇ ˇ(
+Ú Ú(
 %449void"%main.GUI#setColor2(Ljava/awt/Color;)V*(
 
 __unknown_file ("
@@ -3820,9 +3820,9 @@ N
 %448java.awt.Color*
 0*˚
 59
-é é(©¶
+Å Å(©¶
 
-é é(
+Å Å(
 %13java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -3830,7 +3830,7 @@ N
 ejava.awt.event.ActionEvent2getSource()o
 m
 
-é é(
+Å Å(
 %14javax.swing.JMenuItem"__id*;
 
 __unknown_file (*
@@ -3838,7 +3838,7 @@ m
 sbloccaFonte¡
 æ
 
-é é(
+Å Å(
 %15boolean"	__compare*"
 
 __unknown_file (
@@ -3854,11 +3854,11 @@ m
 57
 58*¸
 15
-ı
- ı(™ß
+Ë
+ Ë(™ß
 
-ı
- ı(
+Ë
+ Ë(
 %426java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -3866,7 +3866,7 @@ m
 ejava.awt.event.ActionEvent2getSource()l
 j
 
-ı ı(!
+Ë Ë(!
 %427javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3875,8 +3875,8 @@ j
 colore26ƒ
 ¡
 
-ı
- ı(!
+Ë
+ Ë(!
 %428boolean"	__compare*"
 
 __unknown_file (
@@ -3892,10 +3892,10 @@ j
 13
 14*Ä
 16
-Í Í(l
+› ›(l
 j
 
-Í Í(
+› ›(
 %405javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3904,14 +3904,14 @@ j
 colore25j
 h
 
-Í Í(
+› ›(
 %406javax.swing.ImageIcon"__id*5
 
 __unknown_file (*
 	main.Menu"
 Image4ÌÍ
 
-Í Í(
+› ›(
 %407void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3923,7 +3923,7 @@ h
 %406javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)l
 j
 
-Î Î(
+ﬁ ﬁ(
 %408javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3931,7 +3931,7 @@ j
 
 colore20‘—
 
-Î Î(
+ﬁ ﬁ(
 %409void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3942,7 +3942,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ï Ï(
+ﬂ ﬂ(
 %410javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3950,7 +3950,7 @@ j
 
 colore21‘—
 
-Ï Ï(
+ﬂ ﬂ(
 %411void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3961,7 +3961,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ì Ì(
+‡ ‡(
 %412javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3969,7 +3969,7 @@ j
 
 colore22‘—
 
-Ì Ì(
+‡ ‡(
 %413void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3980,7 +3980,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ó Ó(
+· ·(
 %414javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -3988,7 +3988,7 @@ j
 
 colore23‘—
 
-Ó Ó(
+· ·(
 %415void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -3999,7 +3999,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ô Ô(
+‚ ‚(
 %416javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -4007,7 +4007,7 @@ j
 
 colore24‘—
 
-Ô Ô(
+‚ ‚(
 %417void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -4018,7 +4018,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
- (
+„ „(
 %418javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -4026,7 +4026,7 @@ j
 
 colore26‘—
 
- (
+„ „(
 %419void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -4037,7 +4037,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ò Ò(
+‰ ‰(
 %420javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -4045,7 +4045,7 @@ j
 
 colore27‘—
 
-Ò Ò(
+‰ ‰(
 %421void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -4056,7 +4056,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ú Ú(
+Â Â(
 %422javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -4064,7 +4064,7 @@ j
 
 colore28‘—
 
-Ú Ú(
+Â Â(
 %423void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -4075,14 +4075,14 @@ j
 ""2setIcon(Ljavax/swing/Icon;)P
 N
 
-Û Û(
+Ê Ê(
 %424java.awt.Color"__id*"
 
 __unknown_file (
 ""§
 °
 
-Û Û(
+Ê Ê(
 %425void"%main.GUI#setColor2(Ljava/awt/Color;)V*(
 
 __unknown_file ("
@@ -4094,11 +4094,11 @@ N
 %424java.awt.Color*
 0*¸
 17
-È
- È(™ß
+‹
+ ‹(™ß
 
-È
- È(
+‹
+ ‹(
 %402java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -4106,7 +4106,7 @@ N
 ejava.awt.event.ActionEvent2getSource()l
 j
 
-È È(!
+‹ ‹(!
 %403javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -4115,8 +4115,8 @@ j
 colore25ƒ
 ¡
 
-È
- È(!
+‹
+ ‹(!
 %404boolean"	__compare*"
 
 __unknown_file (
@@ -4132,10 +4132,10 @@ j
 15
 16*Ä
 18
-ﬁ ﬁ(l
+— —(l
 j
 
-ﬁ ﬁ(
+— —(
 %381javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -4144,14 +4144,14 @@ j
 colore24j
 h
 
-ﬁ ﬁ(
+— —(
 %382javax.swing.ImageIcon"__id*5
 
 __unknown_file (*
 	main.Menu"
 Image4ÌÍ
 
-ﬁ ﬁ(
+— —(
 %383void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -4163,7 +4163,7 @@ h
 %382javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)l
 j
 
-ﬂ ﬂ(
+“ “(
 %384javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -4171,7 +4171,7 @@ j
 
 colore20‘—
 
-ﬂ ﬂ(
+“ “(
 %385void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -4182,7 +4182,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-‡ ‡(
+” ”(
 %386javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -4190,7 +4190,7 @@ j
 
 colore21‘—
 
-‡ ‡(
+” ”(
 %387void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -4201,7 +4201,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-· ·(
+‘ ‘(
 %388javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -4209,7 +4209,7 @@ j
 
 colore22‘—
 
-· ·(
+‘ ‘(
 %389void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -4220,7 +4220,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-‚ ‚(
+’ ’(
 %390javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -4228,7 +4228,7 @@ j
 
 colore23‘—
 
-‚ ‚(
+’ ’(
 %391void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -4239,7 +4239,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-„ „(
+÷ ÷(
 %392javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -4247,7 +4247,7 @@ j
 
 colore25‘—
 
-„ „(
+÷ ÷(
 %393void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -4258,7 +4258,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-‰ ‰(
+◊ ◊(
 %394javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -4266,7 +4266,7 @@ j
 
 colore26‘—
 
-‰ ‰(
+◊ ◊(
 %395void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -4277,7 +4277,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Â Â(
+ÿ ÿ(
 %396javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -4285,7 +4285,7 @@ j
 
 colore27‘—
 
-Â Â(
+ÿ ÿ(
 %397void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -4296,7 +4296,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ê Ê(
+Ÿ Ÿ(
 %398javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -4304,7 +4304,7 @@ j
 
 colore28‘—
 
-Ê Ê(
+Ÿ Ÿ(
 %399void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -4315,14 +4315,14 @@ j
 ""2setIcon(Ljavax/swing/Icon;)P
 N
 
-Á Á(
+⁄ ⁄(
 %400java.awt.Color"__id*"
 
 __unknown_file (
 ""§
 °
 
-Á Á(
+⁄ ⁄(
 %401void"%main.GUI#setColor2(Ljava/awt/Color;)V*(
 
 __unknown_file ("
@@ -4334,11 +4334,11 @@ N
 %400java.awt.Color*
 0*¸
 19
-›
- ›(™ß
+–
+ –(™ß
 
-›
- ›(
+–
+ –(
 %378java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -4346,7 +4346,7 @@ N
 ejava.awt.event.ActionEvent2getSource()l
 j
 
-› ›(!
+– –(!
 %379javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -4355,8 +4355,8 @@ j
 colore24ƒ
 ¡
 
-›
- ›(!
+–
+ –(!
 %380boolean"	__compare*"
 
 __unknown_file (
@@ -4373,12 +4373,12 @@ j
 18*(
 0 "!
 
-ƒ ƒ(
+∂ ∂(
 implicit return*ﬁ
 2
-º º("«ƒ
+Ø Ø("«ƒ
 
-º º(#
+Ø Ø(#
 %561void"&java.awt.Desktop#open(Ljava/io/File;)V*6
 
 __unknown_file (
@@ -4390,20 +4390,20 @@ j
 filejava.io.File2open(Ljava/io/File;)*
 0*£
 3
-º º(å
+Ø Ø(å
 â
 
-º º(
+Ø Ø(
 %560java.awt.Desktop"/java.awt.Desktop#getDesktop()Ljava/awt/Desktop;*0
 
 __unknown_file ("
 java.awt.Desktop*
 2*œ	
 4
-∑ ∑(‘
+™ ™(‘
 —
 
-∑ ∑(
+™ ™(
 %554java.nio.file.Path"Rjava.nio.file.Paths#get(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;*3
 
 __unknown_file ("
@@ -4412,21 +4412,21 @@ j
 __unknown_file ( j
 h
 
-∑ ∑(
+™ ™(
 pathjava.nio.file.Path"__id*8
 
 __unknown_file (
 
 %554java.nio.file.Path∞≠
 
-∏ ∏($
+´ ´($
 %555java.nio.file.Path"7java.nio.file.Path#toAbsolutePath()Ljava/nio/file/Path;*8
 
 __unknown_file (
 
 pathjava.nio.file.Path2toAbsolutePath()†ù
 
-∏ ∏(/
+´ ´(/
 %556java.lang.String"/java.nio.file.Path#toString()Ljava/lang/String;*8
 
 __unknown_file (
@@ -4435,7 +4435,7 @@ h
 toString()c
 a
 
-∏ ∏(0
+´ ´(0
 ajava.lang.String"__id*6
 
 __unknown_file (
@@ -4443,22 +4443,22 @@ a
 %556java.lang.Stringw
 u
 
-∫ ∫($
+≠ ≠($
 %557java.lang.String"__concat*%
 
-∫ ∫(
+≠ ≠(
 
 ajava.lang.String*
 
-∫ ∫($
+≠ ≠($
 
 \\sito.bat20
 
-∫ ∫(
+≠ ≠(
 %558java.io.File"java.io.File≠
 ™
 
-∫ ∫(%
+≠ ≠(%
 %559"(java.io.File#<init>(Ljava/lang/String;)V*2
 
 __unknown_file (
@@ -4470,7 +4470,7 @@ u
 %557java.lang.String^
 \
 
-∫ ∫(&
+≠ ≠(&
 filejava.io.File"__id*2
 
 __unknown_file (
@@ -4478,11 +4478,11 @@ u
 %558java.io.File*
 3*ı
 5
-∂
- ∂(™ß
+©
+ ©(™ß
 
-∂
- ∂(
+©
+ ©(
 %551java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -4490,7 +4490,7 @@ u
 ejava.awt.event.ActionEvent2getSource()h
 f
 
-∂ ∂(
+© ©(
 %552javax.swing.JMenuItem"__id*3
 
 __unknown_file (*
@@ -4498,8 +4498,8 @@ f
 Sitoƒ
 ¡
 
-∂
- ∂(
+©
+ ©(
 %553boolean"	__compare*"
 
 __unknown_file (
@@ -4515,13 +4515,13 @@ f
 4
 0*æ&
 6
-ß ß( ><
+ö ö( ><
 
-ß ß(
+ö ö(
 %529javax.swing.JFrame"javax.swing.JFrame™
 ß
 
-ß ß(!
+ö ö(!
 %530".javax.swing.JFrame#<init>(Ljava/lang/String;)V*8
 
 __unknown_file (
@@ -4532,14 +4532,14 @@ f
 Manualeg
 e
 
-ß ß("
+ö ö("
 ajavax.swing.JFrame"__id*8
 
 __unknown_file (
 
 %529javax.swing.JFrameÕ 
 
-® ®(
+õ õ(
 %531void" java.awt.Window#setLocation(II)V*5
 
 __unknown_file (
@@ -4550,7 +4550,7 @@ e
 
 __unknown_file (2»2setLocation(II)≈¬
 
-© ©(
+ú ú(
 %532void"java.awt.Window#setSize(II)V*5
 
 __unknown_file (
@@ -4562,13 +4562,13 @@ e
 __unknown_file (2¨2setSize(II)E
 C
 
-™ ™(0
+ù ù(>
 %533int"__id*"
 
 __unknown_file (
 ""Õ 
 
-™ ™(1
+ù ù(?
 %534void"/javax.swing.JFrame#setDefaultCloseOperation(I)V*5
 
 __unknown_file (
@@ -4579,11 +4579,11 @@ C
 
 %533int2setDefaultCloseOperation(I)DB
 
-¨ ¨(
+ü ü(
 %535javax.swing.JTextArea"javax.swing.JTextAreaΩ
 ∫
 
-¨ ¨(%
+ü ü(%
 %536"!javax.swing.JTextArea#<init>(II)V*;
 
 __unknown_file (
@@ -4595,14 +4595,14 @@ C
 __unknown_file (2¨m
 k
 
-¨ ¨(&
+ü ü(&
 bjavax.swing.JTextArea"__id*;
 
 __unknown_file (
 
 %535javax.swing.JTextArea∏µ
 
-≠ ≠(
+† †(
 %537void"/javax.swing.text.JTextComponent#setEditable(Z)V*8
 
 __unknown_file (
@@ -4612,7 +4612,7 @@ k
 __unknown_file (2 2setEditable(Z)e
 c
 
-Æ Æ(
+° °(
 %538java.lang.String"__id*5
 
 __unknown_file (*
@@ -4620,17 +4620,17 @@ c
 cooperE
 C
 
-Æ Æ('
+° °('
 %539int"__id*"
 
 __unknown_file (
 ""42
 
-Æ Æ(
+° °(
 %540java.awt.Font"java.awt.Font˛
 ˚
 
-Æ Æ(+
+° °(+
 %541"+java.awt.Font#<init>(Ljava/lang/String;II)V*3
 
 __unknown_file (
@@ -4647,7 +4647,7 @@ C
 
 __unknown_file (2◊‘
 
-Æ Æ(,
+° °(,
 %542void"/javax.swing.JTextArea#setFont(Ljava/awt/Font;)V*8
 
 __unknown_file (
@@ -4659,7 +4659,7 @@ C
 %540java.awt.Font2setFont(Ljava/awt/Font;)Æ
 ´
 
-Ø Ø(„
+¢ ¢(„
 %543void"<javax.swing.text.JTextComponent#setText(Ljava/lang/String;)V*8
 
 __unknown_file (
@@ -4669,7 +4669,7 @@ C
 __unknown_file (€ÿ
 ’Per poter utilizzare l'applicazione bisogna      essere in possesso di un file txt,jpg ,  fonte e    argomento della notizia che si desidera           verificare.                                                                      Inserire i dati negli appositi contenitori, per abilitare il pulsante di ricerca del file.Dopo   aver inserito il file da verificare,                         il programma  colorer√† il  box bianco affianco al box nel quale avete inserito la fonte .                            -GREEN fonte verificata                                          -RED fonte non verificata                        Il programma restiruira una lista con le           fonti certificate che trattano principalemte quell'argomento e riempir√† il box affianco al file selezionato con la stessa tipologia di           colori precedenti ,per affermare o negare la verifica del file selezionato.                                     E' possibile cambiare i colori di verifica         dal menu nella sezione 'Properties'.                   E' possibile bloccare o sboccare una fonte        nella sezione 'Fonti.'2setText(Ljava/lang/String;)∞≠
 
-∞ ∞(
+£ £(
 %544void"%javax.swing.JTextArea#setLineWrap(Z)V*8
 
 __unknown_file (
@@ -4678,11 +4678,11 @@ C
 
 __unknown_file (22setLineWrap(Z)HF
 
-± ±( 
+§ §( 
 %545javax.swing.JScrollPane"javax.swing.JScrollPane«
 ƒ
 
-± ±(#
+§ §(#
 %546"5javax.swing.JScrollPane#<init>(Ljava/awt/Component;)V*=
 
 __unknown_file (!
@@ -4694,7 +4694,7 @@ C
 bjavax.swing.JTextAreaq
 o
 
-± ±($
+§ §($
 cjavax.swing.JScrollPane"__id*=
 
 __unknown_file (!
@@ -4702,13 +4702,13 @@ o
 %545javax.swing.JScrollPaneE
 C
 
-≤  ≤(Z
+•  •(Z
 %547int"__id*"
 
 __unknown_file (
 ""€ÿ
 
-≤ ≤([
+• •([
 %548void"6javax.swing.JScrollPane#setVerticalScrollBarPolicy(I)V*:
 
 __unknown_file (
@@ -4719,7 +4719,7 @@ C
 
 %547int2setVerticalScrollBarPolicy(I)˚¯
 
-≥ ≥(
+¶ ¶(
 %549java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*5
 
 __unknown_file (
@@ -4730,7 +4730,7 @@ C
 
 cjavax.swing.JScrollPane2add(Ljava/awt/Component;)•¢
 
-¥ ¥(
+ß ß(
 %550void"java.awt.Window#setVisible(Z)V*5
 
 __unknown_file (
@@ -4740,11 +4740,11 @@ C
 __unknown_file (22setVisible(Z)*
 0*¯
 7
-¶
- ¶(™ß
+ô
+ ô(™ß
 
-¶
- ¶(
+ô
+ ô(
 %526java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -4752,7 +4752,7 @@ C
 ejava.awt.event.ActionEvent2getSource()k
 i
 
-¶ ¶( 
+ô ô( 
 %527javax.swing.JMenuItem"__id*6
 
 __unknown_file (*
@@ -4760,8 +4760,8 @@ i
 Manualeƒ
 ¡
 
-¶
- ¶( 
+ô
+ ô( 
 %528boolean"	__compare*"
 
 __unknown_file (
@@ -4777,13 +4777,13 @@ i
 5
 6*À!
 8
-ô ô(><
+å å(><
 
-ô ô(
+å å(
 %501javax.swing.JFrame"javax.swing.JFrameß
 §
 
-ô ô(
+å å(
 %502".javax.swing.JFrame#<init>(Ljava/lang/String;)V*8
 
 __unknown_file (
@@ -4794,14 +4794,14 @@ i
 Infog
 e
 
-ô ô(
+å å(
 ajavax.swing.JFrame"__id*8
 
 __unknown_file (
 
 %501javax.swing.JFrame≈¬
 
-ö ö(
+ç ç(
 %503void"java.awt.Window#setSize(II)V*5
 
 __unknown_file (
@@ -4812,7 +4812,7 @@ e
 
 __unknown_file (2»2setSize(II)Ã…
 
-õ õ(
+é é(
 %504void" java.awt.Window#setLocation(II)V*5
 
 __unknown_file (
@@ -4824,13 +4824,13 @@ e
 __unknown_file (2d2setLocation(II)E
 C
 
-ú ú(0
+è è(>
 %505int"__id*"
 
 __unknown_file (
 ""Õ 
 
-ú ú(1
+è è(?
 %506void"/javax.swing.JFrame#setDefaultCloseOperation(I)V*5
 
 __unknown_file (
@@ -4841,7 +4841,7 @@ C
 
 %505int2setDefaultCloseOperation(I)•¢
 
-ù ù(
+ê ê(
 %507void"java.awt.Window#setVisible(Z)V*5
 
 __unknown_file (
@@ -4850,11 +4850,11 @@ C
 
 __unknown_file (22setVisible(Z)@>
 
-û û(
+ë ë(
 %508java.awt.GridLayout"java.awt.GridLayout∑
 ¥
 
-û û("
+ë ë("
 %509"java.awt.GridLayout#<init>(II)V*9
 
 __unknown_file (
@@ -4865,7 +4865,7 @@ C
 
 __unknown_file (2ÌÍ
 
-û û(#
+ë ë(#
 %510void"7javax.swing.JFrame#setLayout(Ljava/awt/LayoutManager;)V*5
 
 __unknown_file (
@@ -4876,11 +4876,11 @@ C
 
 %508java.awt.GridLayout2#setLayout(Ljava/awt/LayoutManager;)><
 
-ü ü(
+í í(
 %511javax.swing.JLabel"javax.swing.JLabelÕ
  
 
-ü	 ü(A
+í	 í(A
 %512".javax.swing.JLabel#<init>(Ljava/lang/String;)V*8
 
 __unknown_file (
@@ -4890,7 +4890,7 @@ C
 __unknown_file (.,
 *  Misinformation for scienze disseminator ˘ˆ
 
-ü ü(B
+í í(B
 %513java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*5
 
 __unknown_file (
@@ -4902,7 +4902,7 @@ C
 %511javax.swing.JLabel2add(Ljava/awt/Component;)o
 m
 
-†( †(8
+ì( ì(8
 %514java.lang.String"__id*?
 
 __unknown_file (#*!
@@ -4910,21 +4910,21 @@ m
 versioneprodotto}
 {
 
-† †(8
+ì ì(8
 %515java.lang.String"__concat*
 
-† †('
+ì ì('
   Versione : *(
 
-†( †(8
+ì( ì(8
 
 %514java.lang.String><
 
-† †(
+ì ì(
 %516javax.swing.JLabel"javax.swing.JLabelπ
 ∂
 
-† †(9
+ì ì(9
 %517".javax.swing.JLabel#<init>(Ljava/lang/String;)V*8
 
 __unknown_file (
@@ -4936,7 +4936,7 @@ m
 %515java.lang.Stringi
 g
 
-† †(9
+ì ì(9
 	main.Menu"
 
 versione"__id*8
@@ -4946,7 +4946,7 @@ g
 %516javax.swing.JLabeli
 g
 
-°	 °(
+î	 î(
 %518javax.swing.JLabel"__id*7
 
 __unknown_file (*
@@ -4954,7 +4954,7 @@ g
 
 versione˘ˆ
 
-° °(
+î î(
 %519java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*5
 
 __unknown_file (
@@ -4965,11 +4965,11 @@ g
 
 %518javax.swing.JLabel2add(Ljava/awt/Component;)><
 
-¢ ¢(
+ï ï(
 %520javax.swing.JLabel"javax.swing.JLabel‚
 ﬂ
 
-¢	 ¢(V
+ï	 ï(V
 %521".javax.swing.JLabel#<init>(Ljava/lang/String;)V*8
 
 __unknown_file (
@@ -4979,7 +4979,7 @@ g
 __unknown_file (CA
 ?  (c)Copyrights Misinformation contributors and other 2023,2023˘ˆ
 
-¢ ¢(W
+ï ï(W
 %522java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*5
 
 __unknown_file (
@@ -4990,11 +4990,11 @@ g
 
 %520javax.swing.JLabel2add(Ljava/awt/Component;)><
 
-£ £(
+ñ ñ(
 %523javax.swing.JLabel"javax.swing.JLabel¯
 ı
 
-£	 £(l
+ñ	 ñ(l
 %524".javax.swing.JLabel#<init>(Ljava/lang/String;)V*8
 
 __unknown_file (
@@ -5004,7 +5004,7 @@ g
 __unknown_file (YW
 U  All right reserved.Misinformation and his logo are trademark of the Plutone_project˘ˆ
 
-£ £(m
+ñ ñ(m
 %525java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*5
 
 __unknown_file (
@@ -5016,11 +5016,11 @@ U  All right reserved.Misinformation and his logo are trademark of the Plutone_p
 %523javax.swing.JLabel2add(Ljava/awt/Component;)*
 0*ı
 9
-ò
- ò(™ß
+ã
+ ã(™ß
 
-ò
- ò(
+ã
+ ã(
 %498java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -5028,7 +5028,7 @@ U  All right reserved.Misinformation and his logo are trademark of the Plutone_p
 ejava.awt.event.ActionEvent2getSource()h
 f
 
-ò ò(
+ã ã(
 %499javax.swing.JMenuItem"__id*3
 
 __unknown_file (*
@@ -5036,8 +5036,8 @@ f
 Infoƒ
 ¡
 
-ò
- ò(
+ã
+ ã(
 %500boolean"	__compare*"
 
 __unknown_file (
@@ -5053,17 +5053,17 @@ f
 7
 8*˙
 60
-â â(e
+¸ ¸(e
 c
 
-â â(
+¸ ¸(
 %11javax.swing.JFrame"__id*4
 
 __unknown_file (*
 	main.Menu"
 prova{y
 
-â â(
+¸ ¸(
 %12void"java.awt.Window#dispose()V*7
 
 __unknown_file (
@@ -5071,9 +5071,9 @@ c
 %11javax.swing.JFrame2	dispose()*
 59*Ó
 61
-à à(®•
+˚ ˚(®•
 
-à à(
+˚ ˚(
 %8java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -5081,7 +5081,7 @@ c
 ejava.awt.event.ActionEvent2getSource()g
 e
 
-à à(
+˚ ˚(
 %9javax.swing.JButton"__id*6
 
 __unknown_file (*
@@ -5089,7 +5089,7 @@ e
 rifiutaΩ
 ∫
 
-à à(
+˚ ˚(
 %10boolean"	__compare*"
 
 __unknown_file (
@@ -5105,9 +5105,9 @@ e
 59
 60*|
 62
-Ü Ü(	db
+˘ ˘(	db
 
-Ü Ü(
+˘ ˘(
 
 %7void"main.Menu#split2()V*)
 
@@ -5115,9 +5115,9 @@ e
 	main.Menu2split2()*
 61*Ì
 63
-Ñ Ñ(®•
+˜ ˜(®•
 
-Ñ Ñ(
+˜ ˜(
 %4java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -5125,7 +5125,7 @@ e
 ejava.awt.event.ActionEvent2getSource()g
 e
 
-Ñ Ñ(
+˜ ˜(
 %5javax.swing.JButton"__id*6
 
 __unknown_file (*
@@ -5133,7 +5133,7 @@ e
 accettaº
 π
 
-Ñ Ñ(
+˜ ˜(
 %6boolean"	__compare*"
 
 __unknown_file (
@@ -5148,8 +5148,8 @@ e
 %5javax.swing.JButton*
 61
 62*x
-64Ç Ç(b`
-Ç Ç(
+64ı ı(b`
+ı ı(
 
 %3void"main.Menu#split1()V*)
 
@@ -5157,10 +5157,10 @@ e
 	main.Menu2split1()*
 63*Ä
 20
-“ “(l
+≈ ≈(l
 j
 
-“ “(
+≈ ≈(
 %357javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5169,14 +5169,14 @@ j
 colore23j
 h
 
-“ “(
+≈ ≈(
 %358javax.swing.ImageIcon"__id*5
 
 __unknown_file (*
 	main.Menu"
 Image4ÌÍ
 
-“ “(
+≈ ≈(
 %359void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -5188,7 +5188,7 @@ h
 %358javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)l
 j
 
-” ”(
+∆ ∆(
 %360javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5196,7 +5196,7 @@ j
 
 colore20‘—
 
-” ”(
+∆ ∆(
 %361void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -5207,7 +5207,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-‘ ‘(
+« «(
 %362javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5215,7 +5215,7 @@ j
 
 colore21‘—
 
-‘ ‘(
+« «(
 %363void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -5226,7 +5226,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-’ ’(
+» »(
 %364javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5234,7 +5234,7 @@ j
 
 colore22‘—
 
-’ ’(
+» »(
 %365void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -5245,7 +5245,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-÷ ÷(
+… …(
 %366javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5253,7 +5253,7 @@ j
 
 colore24‘—
 
-÷ ÷(
+… …(
 %367void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -5264,7 +5264,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-◊ ◊(
+   (
 %368javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5272,7 +5272,7 @@ j
 
 colore25‘—
 
-◊ ◊(
+   (
 %369void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -5283,7 +5283,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-ÿ ÿ(
+À À(
 %370javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5291,7 +5291,7 @@ j
 
 colore26‘—
 
-ÿ ÿ(
+À À(
 %371void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -5302,7 +5302,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ÿ Ÿ(
+Ã Ã(
 %372javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5310,7 +5310,7 @@ j
 
 colore27‘—
 
-Ÿ Ÿ(
+Ã Ã(
 %373void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -5321,7 +5321,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-⁄ ⁄(
+Õ Õ(
 %374javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5329,7 +5329,7 @@ j
 
 colore28‘—
 
-⁄ ⁄(
+Õ Õ(
 %375void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -5340,14 +5340,14 @@ j
 ""2setIcon(Ljavax/swing/Icon;)P
 N
 
-€ €(
+Œ Œ(
 %376java.awt.Color"__id*"
 
 __unknown_file (
 ""§
 °
 
-€ €(
+Œ Œ(
 %377void"%main.GUI#setColor2(Ljava/awt/Color;)V*(
 
 __unknown_file ("
@@ -5359,9 +5359,9 @@ N
 %376java.awt.Color*
 0*ı
 65
-Ä Ä(®•
+Û Û(®•
 
-Ä Ä(
+Û Û(
 %0java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -5369,7 +5369,7 @@ N
 ejava.awt.event.ActionEvent2getSource()m
 k
 
-Ä Ä(
+Û Û(
 %1javax.swing.JMenuItem"__id*:
 
 __unknown_file (*
@@ -5377,7 +5377,7 @@ k
 bloccaFonteæ
 ª
 
-Ä Ä(
+Û Û(
 %2boolean"	__compare*"
 
 __unknown_file (
@@ -5393,11 +5393,11 @@ k
 63
 64*¸
 21
-—
- —(™ß
+ƒ
+ ƒ(™ß
 
-—
- —(
+ƒ
+ ƒ(
 %354java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -5405,7 +5405,7 @@ k
 ejava.awt.event.ActionEvent2getSource()l
 j
 
-— —(!
+ƒ ƒ(!
 %355javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5414,8 +5414,8 @@ j
 colore23ƒ
 ¡
 
-—
- —(!
+ƒ
+ ƒ(!
 %356boolean"	__compare*"
 
 __unknown_file (
@@ -5431,10 +5431,10 @@ j
 19
 20*Ä
 22
-∆ ∆(l
+π π(l
 j
 
-∆ ∆(
+π π(
 %333javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5443,14 +5443,14 @@ j
 colore22j
 h
 
-∆ ∆(
+π π(
 %334javax.swing.ImageIcon"__id*5
 
 __unknown_file (*
 	main.Menu"
 Image4ÌÍ
 
-∆ ∆(
+π π(
 %335void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -5462,7 +5462,7 @@ h
 %334javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)l
 j
 
-« «(
+∫ ∫(
 %336javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5470,7 +5470,7 @@ j
 
 colore20‘—
 
-« «(
+∫ ∫(
 %337void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -5481,7 +5481,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-» »(
+ª ª(
 %338javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5489,7 +5489,7 @@ j
 
 colore21‘—
 
-» »(
+ª ª(
 %339void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -5500,7 +5500,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-… …(
+º º(
 %340javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5508,7 +5508,7 @@ j
 
 colore23‘—
 
-… …(
+º º(
 %341void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -5519,7 +5519,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-   (
+Ω Ω(
 %342javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5527,7 +5527,7 @@ j
 
 colore24‘—
 
-   (
+Ω Ω(
 %343void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -5538,7 +5538,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-À À(
+æ æ(
 %344javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5546,7 +5546,7 @@ j
 
 colore25‘—
 
-À À(
+æ æ(
 %345void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -5557,7 +5557,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Ã Ã(
+ø ø(
 %346javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5565,7 +5565,7 @@ j
 
 colore26‘—
 
-Ã Ã(
+ø ø(
 %347void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -5576,7 +5576,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Õ Õ(
+¿ ¿(
 %348javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5584,7 +5584,7 @@ j
 
 colore27‘—
 
-Õ Õ(
+¿ ¿(
 %349void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -5595,7 +5595,7 @@ j
 ""2setIcon(Ljavax/swing/Icon;)l
 j
 
-Œ Œ(
+¡ ¡(
 %350javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5603,7 +5603,7 @@ j
 
 colore28‘—
 
-Œ Œ(
+¡ ¡(
 %351void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
 
 __unknown_file (
@@ -5614,14 +5614,14 @@ j
 ""2setIcon(Ljavax/swing/Icon;)P
 N
 
-œ œ(
+¬ ¬(
 %352java.awt.Color"__id*"
 
 __unknown_file (
 ""§
 °
 
-œ œ(
+¬ ¬(
 %353void"%main.GUI#setColor2(Ljava/awt/Color;)V*(
 
 __unknown_file ("
@@ -5633,11 +5633,11 @@ N
 %352java.awt.Color*
 0*¸
 23
-≈
- ≈(™ß
+∏
+ ∏(™ß
 
-≈
- ≈(
+∏
+ ∏(
 %330java.lang.Object"3java.util.EventObject#getSource()Ljava/lang/Object;*=
 
 __unknown_file (!
@@ -5645,7 +5645,7 @@ N
 ejava.awt.event.ActionEvent2getSource()l
 j
 
-≈ ≈(!
+∏ ∏(!
 %331javax.swing.JMenuItem"__id*7
 
 __unknown_file (*
@@ -5654,8 +5654,8 @@ j
 colore22ƒ
 ¡
 
-≈
- ≈(!
+∏
+ ∏(!
 %332boolean"	__compare*"
 
 __unknown_file (
@@ -5671,6 +5671,6 @@ j
 21
 22:-
 
-˝ ˝(*
+ (*
 ejava.awt.event.ActionEventB
 	main.MenuH

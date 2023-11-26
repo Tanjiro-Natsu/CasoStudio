@@ -2,25 +2,20 @@ package main;
 
 import java.awt.Color;
 import java.awt.Font;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.text.NumberFormat.Style;
 
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JTextPane;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.StyleConstants;
-import javax.swing.text.StyledDocument;
 
 
 public class MenuWriter extends JMenuBar{
 	
-    private static String s1=Font.DIALOG;
+   
+	private static final long serialVersionUID = 1L;
+	private static String s1=Font.DIALOG;
     private static String s2=Font.DIALOG_INPUT;
     private static String s3=Font.MONOSPACED;
-    private static String s4=Font.SANS_SERIF;
     private static String s5=Font.SERIF;
     private int y1=Font.BOLD;
     private int y2=Font.CENTER_BASELINE;

@@ -1,19 +1,13 @@
 package main;
 
 import java.awt.BorderLayout;
-import java.awt.Color;
 import java.awt.Font;
 import java.awt.GridLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-
-import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -22,6 +16,8 @@ import javax.swing.JTextField;
 import javax.swing.WindowConstants;
 
 public class Search extends JFrame {
+	
+	private static final long serialVersionUID = 1L;
 	private ArrayList<String> Filetxt=new ArrayList<String>();
 	private ArrayList<String> Fileimage=new ArrayList<String>();
 	private  JTextField s=null;
@@ -138,7 +134,7 @@ public class Search extends JFrame {
 		for(int i=0;i<Filetxt.size();i++) {System.out.println(Filetxt.get(i));}
 		for(int y=0;y<Fileimage.size();y++) {System.out.println(Fileimage.get(y));}
 		if(u==0) {
-		FileChooser k=new FileChooser(Filetxt,Fileimage);}
+		new FileChooser(Filetxt,Fileimage);}
 			Filetxt.removeAll(Filetxt);
 			Fileimage.removeAll(Fileimage);
 		

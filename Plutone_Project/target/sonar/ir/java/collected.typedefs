@@ -295,9 +295,9 @@ getrifiuta,main.Menu2#getrifiuta()Ljavax/swing/JButton;<
 split2main.Menu2#split2()V
 split3main.Menu2#split3()V
 split4main.Menu2#split4()V
-split5main.Menu2#split5()Vjava.awt.event.ActionListenerjavax.swing.JMenuBarØ
-main.FileChooserN
-<init>Dmain.FileChooser#<init>(Ljava/util/ArrayList;Ljava/util/ArrayList;)VD
+split5main.Menu2#split5()Vjava.awt.event.ActionListenerjavax.swing.JMenuBarÎ
+main.FileChooserD
+<init>:main.FileChooser#<init>(Ljava/util/List;Ljava/util/List;)VD
 Finestraimage3main.FileChooser#Finestraimage(Ljava/lang/String;)V@
 Finestratxt1main.FileChooser#Finestratxt(Ljava/lang/String;)V3
 getb+main.FileChooser#getb()Ljavax/swing/JFrame;A

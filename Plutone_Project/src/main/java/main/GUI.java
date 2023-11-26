@@ -2,11 +2,8 @@ package main;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridLayout;
-import java.awt.MenuBar;
-import java.awt.TextField;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
@@ -14,10 +11,6 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Hashtable;
-import java.util.Scanner;
-
 import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
@@ -25,16 +18,13 @@ import javax.swing.JButton;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.JMenuBar;
 import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
 import javax.swing.JTextField;
-import javax.swing.event.MenuEvent;
-import javax.swing.event.MenuListener;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 public class GUI extends JFrame  implements ActionListener,Runnable {
+	
+	private static final long serialVersionUID = 1L;
 	private static Menu ss;
 	 private static  MetaData dc=null;
 	 private static boolean result;
@@ -45,7 +35,6 @@ public class GUI extends JFrame  implements ActionListener,Runnable {
 	 private static JTextField t3=new JTextField(" ");
 	 private static JTextField t4=new JTextField(" ");
 	 private static JButton button=null;
-	 private static Thread loop=null;
 	 private static JPanel j1=new JPanel();
 	 private static JPanel j2=new JPanel();
 	 private JPanel a=null;
@@ -120,7 +109,6 @@ public class GUI extends JFrame  implements ActionListener,Runnable {
 	        	
 	        
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		setLayout(new GridLayout(3,1));
