@@ -16,12 +16,10 @@ import javax.swing.WindowConstants;
 
 public class main {
 	
-	static private  JFrame d;
-	static public  JFrame b;
+	 private static JFrame d;private static JFrame b;
 	static public GUI a=null;
-	 public GUI2 a1;
-	static private boolean r=false;
-	static private boolean r1=false;
+	 private  GUI2 a1;
+	 private static  boolean r=false;private static  boolean r1=false;
 	public static void close() {
 		a.dispose();
 	}

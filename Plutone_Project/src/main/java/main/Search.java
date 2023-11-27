@@ -8,6 +8,8 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.List;
+
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -28,8 +30,8 @@ public class Search extends JFrame {
 	private String fonte="";
 	private static ResultSet k;
 	private static String driver="com.microsoft.sqlserver.jdbc.SQLServerDriver";
- public ArrayList<String> getFileTxt(){return Filetxt;}
- public ArrayList<String> getFileimage(){return Fileimage;}
+ public List<String> getFileTxt(){return Filetxt;}
+ public List<String> getFileimage(){return Fileimage;}
  public String getArgomento() {return argomento;}
  public String getFonte() {return fonte;}
 	private void sets() {s.setText("");}private void sets1() {s1.setText("");}
@@ -95,10 +97,11 @@ public class Search extends JFrame {
 		add(a2);
 		  setVisible(true);
 	}
-	private static String query;
+	
 	
 	
 	public void ok() {
+		
 		fonte=s.getText();
 		argomento=s1.getText();
 		int u=0;
@@ -131,6 +134,7 @@ public class Search extends JFrame {
 	          }
 	
 		catch(Exception e) {e.printStackTrace();}
+		
 		for(int i=0;i<Filetxt.size();i++) {System.out.println(Filetxt.get(i));}
 		for(int y=0;y<Fileimage.size();y++) {System.out.println(Fileimage.get(y));}
 		if(u==0) {
@@ -212,8 +216,7 @@ public class Search extends JFrame {
 		int u=0;
 		try {
 			
-	
-  	  query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Fonte='"+fonte+"';"; 
+			String query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Fonte='"+fonte+"';"; 
       	 k=stmt.executeQuery(query);
       	
       		
@@ -243,9 +246,10 @@ public class Search extends JFrame {
 	}
 public int split2(Statement stmt) {
 	int u=0;
+	
 	try{
 		
-			query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Argomento='"+argomento+"';"; 
+			 String query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Argomento='"+argomento+"';"; 
     	 k=stmt.executeQuery(query);
     	
         	
@@ -279,7 +283,7 @@ public int split3(Statement stmt) {
 	int u=0;
 	try {
 		
-			 query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Fonte='"+fonte+"'and n.Argomento='"+argomento+"';"; 
+			  String query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Fonte='"+fonte+"'and n.Argomento='"+argomento+"';"; 
    	 k=stmt.executeQuery(query);
    	 
    	 while(k.next()) {

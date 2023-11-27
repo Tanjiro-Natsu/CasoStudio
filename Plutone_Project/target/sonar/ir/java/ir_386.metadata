@@ -1,3 +1,0 @@
-main.GUI#Color1()V
-==
-setBackground javax.swing.JComponent#setBackground(Ljava/awt/Color;)V

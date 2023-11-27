@@ -3,7 +3,6 @@ package main;
 import java.awt.GridLayout;
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -80,7 +79,7 @@ public class Reader {
 					g=b.nextLine();
 				}
 				else {
-					g=g+" "+b.nextLine();
+					g=new StringBuilder().append(g).append(" ").append(b.nextLine()).toString();
 				}
 				
 				t++;
@@ -89,9 +88,7 @@ public class Reader {
 			
 			
 		}
-		catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
+		
 		
 		catch(Exception  e) {System.out.println(e.getMessage());}
 		

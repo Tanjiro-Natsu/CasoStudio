@@ -343,7 +343,7 @@ else{
 				String [] ciao1=ciao.split(" ");
 				int t=0;
 				int f1=0;
-				String h=""+t1.getText();
+				String h=new StringBuilder().append("").append(t1.getText()).toString();
 				System.out.println(h.replaceAll(blankSpace,""));
 				for(int i=0;i<ciao1.length;i++) {
 						if(t1.getText().replaceAll(blankSpace,"").equalsIgnoreCase(ciao1[i])) {

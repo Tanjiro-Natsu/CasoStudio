@@ -1,3 +1,0 @@
-main.Menu2#setSave(Z)V
-==
-setEnabled javax.swing.JMenuItem#setEnabled(Z)V

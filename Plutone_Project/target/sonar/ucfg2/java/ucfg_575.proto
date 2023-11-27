@@ -1,23 +1,0 @@
-
-%main.GUI#getText3()Ljava/lang/String;`
-V/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/GUI.javaW W("1*Ã
-1X	 X(b
-`
-X	 X(
-%0javax.swing.JTextField"__id*0
-
-__unknown_file (*
-
-main.GUI"
-t3©¦
-X	 X(
-%1java.lang.String";javax.swing.text.JTextComponent#getText()Ljava/lang/String;*:
-
-__unknown_file (
-
-%0javax.swing.JTextField2	getText()"$
-X X(
-
-%1java.lang.StringB"
-
-main.GUIH

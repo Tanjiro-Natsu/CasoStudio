@@ -1,11 +1,0 @@
-
-(main.Accesso#getjdbc()Ljava/lang/String;d
-Z/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Accesso.java	 	("1*[
-1
-	 
-(G"L
-
- 
-(H@>
-<jdbc:sqlserver://localhost:1433;databaseName=Plutone_ProjectB"
-main.AccessoH

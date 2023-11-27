@@ -159,348 +159,4 @@
 sett2main.GUI2#sett2()V
 sett3main.GUI2#sett3()V
 sett4main.GUI2#sett4()V<
-verificaFonte+main.GUI2#verificaFonte()Ljava/lang/String;java.awt.event.ActionListenerjava.lang.Runnablejavax.swing.JFrameë
-main.Accesso 
-<init>main.Accesso#<init>()V;
-getPassword,main.Accesso#getPassword()Ljava/lang/String;3
-getUser(main.Accesso#getUser()Ljava/lang/String;3
-getjdbc(main.Accesso#getjdbc()Ljava/lang/String;javax.swing.JFrameø
-	main.Menu
-<init>main.Menu#<init>()VK
-actionPerformed8main.Menu#actionPerformed(Ljava/awt/event/ActionEvent;)V;
-
-getColor10-main.Menu#getColor10()Ljavax/swing/JMenuItem;;
-
-getColor11-main.Menu#getColor11()Ljavax/swing/JMenuItem;;
-
-getColor12-main.Menu#getColor12()Ljavax/swing/JMenuItem;;
-
-getColor13-main.Menu#getColor13()Ljavax/swing/JMenuItem;;
-
-getColor14-main.Menu#getColor14()Ljavax/swing/JMenuItem;;
-
-getColor15-main.Menu#getColor15()Ljavax/swing/JMenuItem;;
-
-getColor16-main.Menu#getColor16()Ljavax/swing/JMenuItem;;
-
-getColor17-main.Menu#getColor17()Ljavax/swing/JMenuItem;;
-
-getColor18-main.Menu#getColor18()Ljavax/swing/JMenuItem;;
-
-getColor20-main.Menu#getColor20()Ljavax/swing/JMenuItem;;
-
-getColor21-main.Menu#getColor21()Ljavax/swing/JMenuItem;;
-
-getColor22-main.Menu#getColor22()Ljavax/swing/JMenuItem;;
-
-getColor23-main.Menu#getColor23()Ljavax/swing/JMenuItem;;
-
-getColor24-main.Menu#getColor24()Ljavax/swing/JMenuItem;;
-
-getColor25-main.Menu#getColor25()Ljavax/swing/JMenuItem;;
-
-getColor26-main.Menu#getColor26()Ljavax/swing/JMenuItem;;
-
-getColor27-main.Menu#getColor27()Ljavax/swing/JMenuItem;;
-
-getColor28-main.Menu#getColor28()Ljavax/swing/JMenuItem;A
-getImageIcon10main.Menu#getImageIcon1()Ljavax/swing/ImageIcon;C
-getImageIcon101main.Menu#getImageIcon10()Ljavax/swing/ImageIcon;A
-getImageIcon20main.Menu#getImageIcon2()Ljavax/swing/ImageIcon;A
-getImageIcon30main.Menu#getImageIcon3()Ljavax/swing/ImageIcon;A
-getImageIcon40main.Menu#getImageIcon4()Ljavax/swing/ImageIcon;A
-getImageIcon50main.Menu#getImageIcon5()Ljavax/swing/ImageIcon;A
-getImageIcon60main.Menu#getImageIcon6()Ljavax/swing/ImageIcon;A
-getImageIcon70main.Menu#getImageIcon7()Ljavax/swing/ImageIcon;A
-getImageIcon80main.Menu#getImageIcon8()Ljavax/swing/ImageIcon;A
-getImageIcon90main.Menu#getImageIcon9()Ljavax/swing/ImageIcon;9
-
-getaccetta+main.Menu#getaccetta()Ljavax/swing/JButton;;
-getaccetta1,main.Menu#getaccetta1()Ljavax/swing/JButton;3
-getjMenu'main.Menu#getjMenu()Ljavax/swing/JMenu;9
-
-getrifiuta+main.Menu#getrifiuta()Ljavax/swing/JButton;;
-getrifiuta1,main.Menu#getrifiuta1()Ljavax/swing/JButton; 
-setSavemain.Menu#setSave(Z)V
-split1main.Menu#split1()V
-split2main.Menu#split2()V
-split3main.Menu#split3()V
-split4main.Menu#split4()V
-split5main.Menu#split5()Vjava.awt.event.ActionListenerjavax.swing.JMenuBarÚ
-main.VerificaImmagine)
-<init>main.VerificaImmagine#<init>()VE
-databaseconfermation-main.VerificaImmagine#databaseconfermation()I=
-imagec3main.VerificaImmagine#imagec(Ljava/lang/String;[B)Djava.lang.Objectu
-main.Chooser 
-<init>main.Chooser#<init>()V/
-main'main.Chooser#main([Ljava/lang/String;)Vjavax.swing.JFrameì
-
-main.Menu2
-<init>main.Menu2#<init>()VL
-actionPerformed9main.Menu2#actionPerformed(Ljava/awt/event/ActionEvent;)V<
-
-getColor10.main.Menu2#getColor10()Ljavax/swing/JMenuItem;<
-
-getColor11.main.Menu2#getColor11()Ljavax/swing/JMenuItem;<
-
-getColor12.main.Menu2#getColor12()Ljavax/swing/JMenuItem;<
-
-getColor13.main.Menu2#getColor13()Ljavax/swing/JMenuItem;<
-
-getColor14.main.Menu2#getColor14()Ljavax/swing/JMenuItem;<
-
-getColor15.main.Menu2#getColor15()Ljavax/swing/JMenuItem;<
-
-getColor16.main.Menu2#getColor16()Ljavax/swing/JMenuItem;<
-
-getColor17.main.Menu2#getColor17()Ljavax/swing/JMenuItem;<
-
-getColor18.main.Menu2#getColor18()Ljavax/swing/JMenuItem;<
-
-getColor20.main.Menu2#getColor20()Ljavax/swing/JMenuItem;<
-
-getColor21.main.Menu2#getColor21()Ljavax/swing/JMenuItem;<
-
-getColor22.main.Menu2#getColor22()Ljavax/swing/JMenuItem;<
-
-getColor23.main.Menu2#getColor23()Ljavax/swing/JMenuItem;<
-
-getColor24.main.Menu2#getColor24()Ljavax/swing/JMenuItem;<
-
-getColor25.main.Menu2#getColor25()Ljavax/swing/JMenuItem;<
-
-getColor26.main.Menu2#getColor26()Ljavax/swing/JMenuItem;<
-
-getColor27.main.Menu2#getColor27()Ljavax/swing/JMenuItem;<
-
-getColor28.main.Menu2#getColor28()Ljavax/swing/JMenuItem;B
-getImageIcon11main.Menu2#getImageIcon1()Ljavax/swing/ImageIcon;D
-getImageIcon102main.Menu2#getImageIcon10()Ljavax/swing/ImageIcon;B
-getImageIcon21main.Menu2#getImageIcon2()Ljavax/swing/ImageIcon;B
-getImageIcon31main.Menu2#getImageIcon3()Ljavax/swing/ImageIcon;B
-getImageIcon41main.Menu2#getImageIcon4()Ljavax/swing/ImageIcon;B
-getImageIcon51main.Menu2#getImageIcon5()Ljavax/swing/ImageIcon;B
-getImageIcon61main.Menu2#getImageIcon6()Ljavax/swing/ImageIcon;B
-getImageIcon71main.Menu2#getImageIcon7()Ljavax/swing/ImageIcon;B
-getImageIcon81main.Menu2#getImageIcon8()Ljavax/swing/ImageIcon;B
-getImageIcon91main.Menu2#getImageIcon9()Ljavax/swing/ImageIcon;:
-
-getaccetta,main.Menu2#getaccetta()Ljavax/swing/JButton;<
-getaccetta1-main.Menu2#getaccetta1()Ljavax/swing/JButton;:
-
-getrifiuta,main.Menu2#getrifiuta()Ljavax/swing/JButton;<
-getrifiuta1-main.Menu2#getrifiuta1()Ljavax/swing/JButton;!
-setSavemain.Menu2#setSave(Z)V
-split1main.Menu2#split1()V
-split2main.Menu2#split2()V
-split3main.Menu2#split3()V
-split4main.Menu2#split4()V
-split5main.Menu2#split5()Vjava.awt.event.ActionListenerjavax.swing.JMenuBarÎ
-main.FileChooserD
-<init>:main.FileChooser#<init>(Ljava/util/List;Ljava/util/List;)VD
-Finestraimage3main.FileChooser#Finestraimage(Ljava/lang/String;)V@
-Finestratxt1main.FileChooser#Finestratxt(Ljava/lang/String;)V3
-getb+main.FileChooser#getb()Ljavax/swing/JFrame;A
-getbis7main.FileChooser#getbis()Ljava/io/ByteArrayInputStream;?
-
-getbyteimg1main.FileChooser#getbyteimg(Ljava/lang/String;)[BG
-getext=main.FileChooser#getext(Ljava/lang/String;)Ljava/lang/String;3
-getk+main.FileChooser#getk()Ljavax/swing/JPanel;5
-getk1,main.FileChooser#getk1()Ljavax/swing/JPanel;4
-reset+main.FileChooser#reset(Ljava/lang/String;)VZ
-	setJLabelMmain.FileChooser#setJLabel(Ljava/awt/image/BufferedImage;Ljava/lang/String;)VB
-setimg8main.FileChooser#setimg(Ljava/awt/image/BufferedImage;)Vjava.io.Serializablejavax.swing.JFrameê5
-main.ImageMenuT
-<init>Jmain.ImageMenu#<init>(Ljava/awt/image/BufferedImage;Ljava/lang/String;[B)VS
-ColorJmain.ImageMenu#Color(II[BLjava/lang/String;)Ljava/awt/image/BufferedImage;[
-blueSmain.ImageMenu#blue(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;W
-bnQmain.ImageMenu#bn(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;@
-
-getColor102main.ImageMenu#getColor10()Ljavax/swing/JMenuItem;@
-
-getColor112main.ImageMenu#getColor11()Ljavax/swing/JMenuItem;@
-
-getColor122main.ImageMenu#getColor12()Ljavax/swing/JMenuItem;@
-
-getColor132main.ImageMenu#getColor13()Ljavax/swing/JMenuItem;@
-
-getColor142main.ImageMenu#getColor14()Ljavax/swing/JMenuItem;@
-
-getColor152main.ImageMenu#getColor15()Ljavax/swing/JMenuItem;@
-
-getColor162main.ImageMenu#getColor16()Ljavax/swing/JMenuItem;@
-
-getColor172main.ImageMenu#getColor17()Ljavax/swing/JMenuItem;@
-
-getColor182main.ImageMenu#getColor18()Ljavax/swing/JMenuItem;@
-
-getColor202main.ImageMenu#getColor20()Ljavax/swing/JMenuItem;@
-
-getColor212main.ImageMenu#getColor21()Ljavax/swing/JMenuItem;@
-
-getColor222main.ImageMenu#getColor22()Ljavax/swing/JMenuItem;@
-
-getColor232main.ImageMenu#getColor23()Ljavax/swing/JMenuItem;@
-
-getColor242main.ImageMenu#getColor24()Ljavax/swing/JMenuItem;@
-
-getColor252main.ImageMenu#getColor25()Ljavax/swing/JMenuItem;@
-
-getColor262main.ImageMenu#getColor26()Ljavax/swing/JMenuItem;@
-
-getColor272main.ImageMenu#getColor27()Ljavax/swing/JMenuItem;@
-
-getColor282main.ImageMenu#getColor28()Ljavax/swing/JMenuItem;F
-getImageIcon15main.ImageMenu#getImageIcon1()Ljavax/swing/ImageIcon;H
-getImageIcon106main.ImageMenu#getImageIcon10()Ljavax/swing/ImageIcon;F
-getImageIcon25main.ImageMenu#getImageIcon2()Ljavax/swing/ImageIcon;F
-getImageIcon35main.ImageMenu#getImageIcon3()Ljavax/swing/ImageIcon;F
-getImageIcon45main.ImageMenu#getImageIcon4()Ljavax/swing/ImageIcon;F
-getImageIcon55main.ImageMenu#getImageIcon5()Ljavax/swing/ImageIcon;F
-getImageIcon65main.ImageMenu#getImageIcon6()Ljavax/swing/ImageIcon;F
-getImageIcon75main.ImageMenu#getImageIcon7()Ljavax/swing/ImageIcon;F
-getImageIcon85main.ImageMenu#getImageIcon8()Ljavax/swing/ImageIcon;F
-getImageIcon95main.ImageMenu#getImageIcon9()Ljavax/swing/ImageIcon;9
-	getcolor1,main.ImageMenu#getcolor1()Ljava/lang/String;;
-
-getcolor10-main.ImageMenu#getcolor10()Ljava/lang/String;B
-getcolor1003main.ImageMenu#getcolor100()Ljavax/swing/JMenuItem;B
-getcolor1013main.ImageMenu#getcolor101()Ljavax/swing/JMenuItem;B
-getcolor1023main.ImageMenu#getcolor102()Ljavax/swing/JMenuItem;B
-getcolor1033main.ImageMenu#getcolor103()Ljavax/swing/JMenuItem;B
-getcolor1043main.ImageMenu#getcolor104()Ljavax/swing/JMenuItem;B
-getcolor1053main.ImageMenu#getcolor105()Ljavax/swing/JMenuItem;B
-getcolor1063main.ImageMenu#getcolor106()Ljavax/swing/JMenuItem;B
-getcolor1073main.ImageMenu#getcolor107()Ljavax/swing/JMenuItem;B
-getcolor1083main.ImageMenu#getcolor108()Ljavax/swing/JMenuItem;B
-getcolor1103main.ImageMenu#getcolor110()Ljavax/swing/JMenuItem;9
-	getcolor2,main.ImageMenu#getcolor2()Ljava/lang/String;9
-	getcolor3,main.ImageMenu#getcolor3()Ljava/lang/String;9
-	getcolor4,main.ImageMenu#getcolor4()Ljava/lang/String;9
-	getcolor5,main.ImageMenu#getcolor5()Ljava/lang/String;9
-	getcolor6,main.ImageMenu#getcolor6()Ljava/lang/String;9
-	getcolor7,main.ImageMenu#getcolor7()Ljava/lang/String;9
-	getcolor8,main.ImageMenu#getcolor8()Ljava/lang/String;9
-	getcolor9,main.ImageMenu#getcolor9()Ljava/lang/String;6
-getf1-main.ImageMenu#getf1()Ljavax/swing/JMenuItem;8
-getf10.main.ImageMenu#getf10()Ljavax/swing/JMenuItem;8
-getf11.main.ImageMenu#getf11()Ljavax/swing/JMenuItem;8
-getf12.main.ImageMenu#getf12()Ljavax/swing/JMenuItem;8
-getf13.main.ImageMenu#getf13()Ljavax/swing/JMenuItem;8
-getf14.main.ImageMenu#getf14()Ljavax/swing/JMenuItem;8
-getf15.main.ImageMenu#getf15()Ljavax/swing/JMenuItem;8
-getf16.main.ImageMenu#getf16()Ljavax/swing/JMenuItem;8
-getf17.main.ImageMenu#getf17()Ljavax/swing/JMenuItem;8
-getf18.main.ImageMenu#getf18()Ljavax/swing/JMenuItem;6
-getf2-main.ImageMenu#getf2()Ljavax/swing/JMenuItem;6
-getf3-main.ImageMenu#getf3()Ljavax/swing/JMenuItem;6
-getf4-main.ImageMenu#getf4()Ljavax/swing/JMenuItem;6
-getf5-main.ImageMenu#getf5()Ljavax/swing/JMenuItem;6
-getf6-main.ImageMenu#getf6()Ljavax/swing/JMenuItem;6
-getf7-main.ImageMenu#getf7()Ljavax/swing/JMenuItem;6
-getf8-main.ImageMenu#getf8()Ljavax/swing/JMenuItem;6
-getf9-main.ImageMenu#getf9()Ljavax/swing/JMenuItem;"
-getvaimain.ImageMenu#getvai()I 
-gety1main.ImageMenu#gety1()I"
-gety10main.ImageMenu#gety10()I"
-gety11main.ImageMenu#gety11()I:
-gety111/main.ImageMenu#gety111()Ljavax/swing/JMenuItem;:
-gety112/main.ImageMenu#gety112()Ljavax/swing/JMenuItem;:
-gety113/main.ImageMenu#gety113()Ljavax/swing/JMenuItem;:
-gety114/main.ImageMenu#gety114()Ljavax/swing/JMenuItem;:
-gety115/main.ImageMenu#gety115()Ljavax/swing/JMenuItem;:
-gety116/main.ImageMenu#gety116()Ljavax/swing/JMenuItem;:
-gety117/main.ImageMenu#gety117()Ljavax/swing/JMenuItem;:
-gety118/main.ImageMenu#gety118()Ljavax/swing/JMenuItem;:
-gety119/main.ImageMenu#gety119()Ljavax/swing/JMenuItem;"
-gety12main.ImageMenu#gety12()I:
-gety120/main.ImageMenu#gety120()Ljavax/swing/JMenuItem;:
-gety121/main.ImageMenu#gety121()Ljavax/swing/JMenuItem;:
-gety122/main.ImageMenu#gety122()Ljavax/swing/JMenuItem; 
-gety2main.ImageMenu#gety2()I 
-gety3main.ImageMenu#gety3()I 
-gety4main.ImageMenu#gety4()I 
-gety5main.ImageMenu#gety5()I 
-gety6main.ImageMenu#gety6()I 
-gety7main.ImageMenu#gety7()I 
-gety8main.ImageMenu#gety8()I 
-gety9main.ImageMenu#gety9()I]
-greenTmain.ImageMenu#green(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;a
-magentaVmain.ImageMenu#magenta(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;_
-orangeUmain.ImageMenu#orange(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;[
-pinkSmain.ImageMenu#pink(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;Y
-redRmain.ImageMenu#red(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
-setmain.ImageMenu#set()V(
-	setcolor1main.ImageMenu#setcolor1()V*
-
-setcolor10main.ImageMenu#setcolor10()V(
-	setcolor2main.ImageMenu#setcolor2()V(
-	setcolor3main.ImageMenu#setcolor3()V(
-	setcolor4main.ImageMenu#setcolor4()V(
-	setcolor5main.ImageMenu#setcolor5()V(
-	setcolor6main.ImageMenu#setcolor6()V(
-	setcolor7main.ImageMenu#setcolor7()V(
-	setcolor8main.ImageMenu#setcolor8()V(
-	setcolor9main.ImageMenu#setcolor9()V_
-violetUmain.ImageMenu#violet(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;_
-yellowUmain.ImageMenu#yellow(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;javax.swing.JMenuBarŠ
-	main.main
-<init>main.main#<init>()V
-closemain.main#close()V"
-getamain.main#geta()Lmain/GUI;%
-geta1main.main#geta1()Lmain/GUI2;,
-getb$main.main#getb()Ljavax/swing/JFrame;
-getrmain.main#getr()Z
-getr1main.main#getr1()Zjava.lang.Objectæ
-main.MetaData5
-<init>+main.MetaData#<init>(Ljava/nio/file/Path;)V2
-geta1)main.MetaData#geta1()Ljavax/swing/JLabel;2
-geta2)main.MetaData#geta2()Ljavax/swing/JLabel;2
-geta3)main.MetaData#geta3()Ljavax/swing/JLabel;2
-geta4)main.MetaData#geta4()Ljavax/swing/JLabel;2
-geta5)main.MetaData#geta5()Ljavax/swing/JLabel;2
-geta6)main.MetaData#geta6()Ljavax/swing/JLabel;2
-geta7)main.MetaData#geta7()Ljavax/swing/JLabel;2
-geta8)main.MetaData#geta8()Ljavax/swing/JLabel;2
-geta9)main.MetaData#geta9()Ljavax/swing/JLabel;6
-toString*main.MetaData#toString()Ljava/lang/String;javax.swing.JFrame˜
-main.GUI
-<init>main.GUI#<init>()V
-Color1main.GUI#Color1()V
-Color2main.GUI#Color2()V 
-Metadatamain.GUI#Metadata()VJ
-actionPerformed7main.GUI#actionPerformed(Ljava/awt/event/ActionEvent;)V(
-getMenumain.GUI#getMenu()Lmain/Menu;1
-getText3%main.GUI#getText3()Ljava/lang/String;1
-getText4%main.GUI#getText4()Ljava/lang/String;9
-getargomento)main.GUI#getargomento()Ljava/lang/String;1
-getfonte%main.GUI#getfonte()Ljava/lang/String;"
-	getresultmain.GUI#getresult()Z)
-getv!main.GUI#getv()Ljava/lang/String;9
-metadatisave)main.GUI#metadatisave()Ljava/lang/String;(
-metavmain.GUI#metav(Ljava/io/File;)V
-refreshmain.GUI#refresh()V
-runmain.GUI#run()V2
-	setColor1%main.GUI#setColor1(Ljava/awt/Color;)V2
-	setColor2%main.GUI#setColor2(Ljava/awt/Color;)V
-sett1main.GUI#sett1()V
-sett2main.GUI#sett2()V
-sett3main.GUI#sett3()V
-sett4main.GUI#sett4()V;
-verificaFonte*main.GUI#verificaFonte()Ljava/lang/String;java.awt.event.ActionListenerjava.lang.Runnablejavax.swing.JFrame¾
-main.Search
-<init>main.Search#<init>()VA
-error8main.Search#error(Ljava/lang/String;Ljava/lang/String;)V!
-errore1main.Search#errore1()V<
-getArgomento,main.Search#getArgomento()Ljava/lang/String;;
-
-getFileTxt-main.Search#getFileTxt()Ljava/util/ArrayList;?
-getFileimage/main.Search#getFileimage()Ljava/util/ArrayList;4
-getFonte(main.Search#getFonte()Ljava/lang/String;.
-main&main.Search#main([Ljava/lang/String;)V
-okmain.Search#ok()V
-setsmain.Search#sets()V
-sets1main.Search#sets1()V3
-split1)main.Search#split1(Ljava/sql/Statement;)I3
-split2)main.Search#split2(Ljava/sql/Statement;)I3
-split3)main.Search#split3(Ljava/sql/Statement;)Ijavax.swing.JFrame
+verificaFonte+main.GUI2#verificaFonte()Ljava/lang/String;java.awt.event.ActionListenerjava.lang.Runnablejavax.swing.JFrame
