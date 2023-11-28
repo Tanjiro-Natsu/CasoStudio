@@ -1,0 +1,507 @@
+
+Jmain.ImageMenu#Color(II[BLjava/lang/String;)Ljava/awt/image/BufferedImage;h
+\/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/ImageMenu.java— —("23*õ
+13
+© ©(ØÕ
+
+© ©(
+%12boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*3
+
+__unknown_file (
+
+sjava.lang.String*$
+
+__unknown_file (
+Pink2$equalsIgnoreCase(Ljava/lang/String;)*
+11
+12*‰
+14
+§ §(ñî
+
+§ §(##
+%11java.awt.image.BufferedImage"Umain.ImageMenu#violet(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;*.
+
+__unknown_file (
+main.ImageMenu*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage2(violet(IILjava/awt/image/BufferedImage;)}
+{
+
+§ §(#$
+imgBjava.awt.image.BufferedImage"__id*A
+
+__unknown_file (%
+#
+%11java.awt.image.BufferedImage*
+13*ð
+15
+¦ ¦(i
+g
+
+¦ ¦(
+%9java.lang.String"__id*;
+
+__unknown_file (*
+main.ImageMenu"	
+Violeteèå
+
+¦ ¦( 
+%10boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*3
+
+__unknown_file (
+
+sjava.lang.String*4
+
+__unknown_file (
+
+%9java.lang.String2$equalsIgnoreCase(Ljava/lang/String;)*
+13
+14*‡
+16
+¤ ¤(ðí
+
+¤ ¤(#"
+%8java.awt.image.BufferedImage"Umain.ImageMenu#yellow(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;*.
+
+__unknown_file (
+main.ImageMenu*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage2(yellow(IILjava/awt/image/BufferedImage;)|
+z
+
+¤ ¤(#$
+imgBjava.awt.image.BufferedImage"__id*@
+
+__unknown_file ($
+"
+%8java.awt.image.BufferedImage*
+15*ï
+17
+£ £(i
+g
+
+£ £(
+%6java.lang.String"__id*;
+
+__unknown_file (*
+main.ImageMenu"	
+Yelloweçä
+
+£ £( 
+%7boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*3
+
+__unknown_file (
+
+sjava.lang.String*4
+
+__unknown_file (
+
+%6java.lang.String2$equalsIgnoreCase(Ljava/lang/String;)*
+15
+16*
+18
+¡ ¡(êç
+
+¡ ¡( "
+%5java.awt.image.BufferedImage"Rmain.ImageMenu#red(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;*.
+
+__unknown_file (
+main.ImageMenu*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage2%red(IILjava/awt/image/BufferedImage;)|
+z
+
+¡ ¡( $
+imgBjava.awt.image.BufferedImage"__id*@
+
+__unknown_file ($
+"
+%5java.awt.image.BufferedImage*
+17*ó
+19
+   (ÖÓ
+
+   (
+%4boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*3
+
+__unknown_file (
+
+sjava.lang.String*#
+
+__unknown_file (
+Red2$equalsIgnoreCase(Ljava/lang/String;)*
+17
+18*E
+1
+»	 »("4
+
+» »(&
+$
+imgBjava.awt.image.BufferedImage*ÿ
+2
+¹ ¹(
+éæ
+
+¹ ¹(#
+%27java.awt.image.BufferedImage"Qmain.ImageMenu#bn(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;*.
+
+__unknown_file (
+main.ImageMenu*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage2$bn(IILjava/awt/image/BufferedImage;)}
+{
+
+¹ ¹($
+imgBjava.awt.image.BufferedImage"__id*A
+
+__unknown_file (%
+#
+%27java.awt.image.BufferedImage*
+1*ò
+3
+¸ ¸(m
+k
+
+¸ ¸("
+%25java.lang.String"__id*>
+
+__unknown_file ("* 
+main.ImageMenu"
+
+biancoNeroéæ
+
+¸ ¸(#
+%26boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*3
+
+__unknown_file (
+
+sjava.lang.String*5
+
+__unknown_file (
+
+%25java.lang.String2$equalsIgnoreCase(Ljava/lang/String;)*
+2
+1*ƒ
+4
+¶ ¶(íê
+
+¶ ¶(!#
+%24java.awt.image.BufferedImage"Smain.ImageMenu#blue(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;*.
+
+__unknown_file (
+main.ImageMenu*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage2&blue(IILjava/awt/image/BufferedImage;)}
+{
+
+¶ ¶(!$
+imgBjava.awt.image.BufferedImage"__id*A
+
+__unknown_file (%
+#
+%24java.awt.image.BufferedImage*
+3*ò
+5
+µ µ(ØÕ
+
+µ µ(
+%23boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*3
+
+__unknown_file (
+
+sjava.lang.String*$
+
+__unknown_file (
+Blue2$equalsIgnoreCase(Ljava/lang/String;)*
+3
+4*…
+6
+³ ³(ïì
+
+³ ³("#
+%22java.awt.image.BufferedImage"Tmain.ImageMenu#green(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;*.
+
+__unknown_file (
+main.ImageMenu*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage2'green(IILjava/awt/image/BufferedImage;)}
+{
+
+³ ³("$
+imgBjava.awt.image.BufferedImage"__id*A
+
+__unknown_file (%
+#
+%22java.awt.image.BufferedImage*
+5*î
+7
+² ²(i
+g
+
+² ²(
+%20java.lang.String"__id*:
+
+__unknown_file (*
+main.ImageMenu"
+greeneéæ
+
+² ²(
+%21boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*3
+
+__unknown_file (
+
+sjava.lang.String*5
+
+__unknown_file (
+
+%20java.lang.String2$equalsIgnoreCase(Ljava/lang/String;)*
+5
+6*‡
+8
+° °(ñî
+
+° °(##
+%19java.awt.image.BufferedImage"Umain.ImageMenu#orange(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;*.
+
+__unknown_file (
+main.ImageMenu*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage2(orange(IILjava/awt/image/BufferedImage;)}
+{
+
+° °(#$
+imgBjava.awt.image.BufferedImage"__id*A
+
+__unknown_file (%
+#
+%19java.awt.image.BufferedImage*
+7*ï
+9
+¯ ¯(j
+h
+
+¯ ¯(
+%17java.lang.String"__id*;
+
+__unknown_file (*
+main.ImageMenu"	
+Orangeeéæ
+
+¯ ¯( 
+%18boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*3
+
+__unknown_file (
+
+sjava.lang.String*5
+
+__unknown_file (
+
+%17java.lang.String2$equalsIgnoreCase(Ljava/lang/String;)*
+7
+8*”
+20
+› ›(|
+z
+
+› ›($
+imgBjava.awt.image.BufferedImage"__id*@
+
+__unknown_file ($
+"
+%2java.awt.image.BufferedImage*
+19*Š
+10
+­ ­(óð
+
+­ ­($#
+%16java.awt.image.BufferedImage"Vmain.ImageMenu#magenta(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;*.
+
+__unknown_file (
+main.ImageMenu*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage2)magenta(IILjava/awt/image/BufferedImage;)}
+{
+
+­ ­($$
+imgBjava.awt.image.BufferedImage"__id*A
+
+__unknown_file (%
+#
+%16java.awt.image.BufferedImage*
+9*—
+22
+›
+ ›(þ
+û
+
+›
+ ›("
+%2java.awt.image.BufferedImage"Ojavax.imageio.ImageIO#read(Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;*5
+
+__unknown_file ("
+javax.imageio.ImageIO*A
+
+__unknown_file (%
+#
+bisjava.io.ByteArrayInputStream*
+20*ñ
+11
+¬ ¬(j
+h
+
+¬ ¬(
+%14java.lang.String"__id*;
+
+__unknown_file (*
+main.ImageMenu"	
+magentaéæ
+
+¬ ¬( 
+%15boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*3
+
+__unknown_file (
+
+sjava.lang.String*5
+
+__unknown_file (
+
+%14java.lang.String2$equalsIgnoreCase(Ljava/lang/String;)*
+9
+10*õ
+23
+˜7 ˜(9PN
+
+˜" ˜(6"
+%0java.io.ByteArrayInputStream"java.io.ByteArrayInputStream­
+ª
+
+˜ ˜(:
+%1"(java.io.ByteArrayInputStream#<init>([B)V*@
+
+__unknown_file ($
+"
+%0java.io.ByteArrayInputStream**
+
+__unknown_file (
+
+okbyte[]{
+y
+
+˜ ˜(;#
+bisjava.io.ByteArrayInputStream"__id*@
+
+__unknown_file ($
+"
+%0java.io.ByteArrayInputStream^
+\
+
+™ ™($
+imgBjava.awt.image.BufferedImage"__id*"
+
+__unknown_file (
+""*
+22*…
+12
+ª ª(íê
+
+ª ª(!#
+%13java.awt.image.BufferedImage"Smain.ImageMenu#pink(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;*.
+
+__unknown_file (
+main.ImageMenu*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""*B
+
+__unknown_file (&
+$
+imgBjava.awt.image.BufferedImage2&pink(IILjava/awt/image/BufferedImage;)}
+{
+
+ª ª(!$
+imgBjava.awt.image.BufferedImage"__id*A
+
+__unknown_file (%
+#
+%13java.awt.image.BufferedImage*
+11: 
+
+__unknown_file (
+"": 
+
+__unknown_file (
+"":
+
+—3 —(>
+okbyte[]:#
+
+—> —(F
+sjava.lang.StringB
+main.ImageMenuH

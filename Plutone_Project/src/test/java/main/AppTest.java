@@ -1,14 +1,10 @@
 package main;
 
-import static org.junit.Assert.assertThrows;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+
 
 import java.util.ArrayList;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ValueSource;
+
 
 import junit.framework.TestCase;
 
@@ -40,8 +36,6 @@ public void test()
         main a3=new main();
         assertNotNull(a3);
         assertNotNull(a3.getb());
-        assertTrue(a3.getr()==false);
-        assertTrue(a3.getr1()==false);
         Menu a4=new Menu();
         assertNotNull(a4.getColor10());
         

@@ -88,11 +88,9 @@ return m;
      if(f==0) {return 1.0;}
        
 		}
-		catch( SQLException e) {
-			
-		}
-		catch (ClassNotFoundException j) {
-			
+	
+		catch(Exception e) {
+			e.printStackTrace();
 		}
 			
 		
@@ -136,7 +134,7 @@ return m;
         		f++;
         	}
         	else {
-        		result=result+" "+k.getString(1);
+        		result=new StringBuilder().append(result).append(" ").append(k.getString(1)).toString();
         	}
         	f++;
         	

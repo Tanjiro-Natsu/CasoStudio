@@ -52,7 +52,7 @@ try{
      
  return k;
     }
-     static private  double confronto() {
+      private static double confronto() {
   
        
       int r=check();

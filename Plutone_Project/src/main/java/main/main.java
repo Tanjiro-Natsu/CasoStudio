@@ -19,15 +19,13 @@ public class main {
 	 private static JFrame d;private static JFrame b;
 	static public GUI a=null;
 	 private  GUI2 a1;
-	 private static  boolean r=false;private static  boolean r1=false;
 	public static void close() {
 		a.dispose();
 	}
 	public JFrame getb(){return b;}
 	public GUI2 geta1() {return a1;}
 	public GUI  geta(){return a;}
-	public boolean getr() {return r;}
-	public boolean getr1() {return r1;}
+	
 
 	
     public main() {
