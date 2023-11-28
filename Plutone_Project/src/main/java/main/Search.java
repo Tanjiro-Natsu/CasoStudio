@@ -130,7 +130,8 @@ public class Search extends JFrame {
 	        u=split3(stmt);
 	  		}
 	         
-	        	
+	        	conn.close();
+	        	stmt.close();
 	          }
 	
 		catch(Exception e) {e.printStackTrace();}

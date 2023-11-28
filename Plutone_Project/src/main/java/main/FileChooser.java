@@ -188,7 +188,8 @@ ss.add(dd);
 		        	 
 		        	 dd=new  String(e);
 		        	
-		        	
+		        	conn.close();
+		        	stmt.close();
 		          }
 			catch(Exception e2) {}
 			String []h=dd.split(" ");
@@ -232,6 +233,8 @@ ss.add(dd);
 		        		e=k.getBytes(1);
 		        		 
 		        	 }
+		        	 conn.close();
+		        	 stmt.close();
 		          }
 			catch(Exception e2) {}
 		

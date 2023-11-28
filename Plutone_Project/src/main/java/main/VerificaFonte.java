@@ -36,13 +36,11 @@ public class VerificaFonte {
        	 }
        	 else {
        	m= k.getBytes(2);}
+       	 conn.close();
+       	 stmt.close();
           
 		}
-	
-		catch( SQLException e) {
-			e.printStackTrace();
-		}
-		catch (ClassNotFoundException j) {
+		catch (Exception j) {
 			j.printStackTrace();
 		}
 			
@@ -86,6 +84,8 @@ return m;
     	 
      }
      if(f==0) {return 1.0;}
+     conn.close();
+   	 stmt.close();
        
 		}
 	
@@ -141,7 +141,8 @@ return m;
         	stmt.close();
         }
         
-        
+        conn.close();
+      	 stmt.close();
 		}
 		catch (Exception d) {
 			d.printStackTrace();

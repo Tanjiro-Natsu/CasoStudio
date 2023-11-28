@@ -1,18 +1,18 @@
 
-,main.ImageMenu#getcolor5()Ljava/lang/String;h
-\/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/ImageMenu.javaÈ È("1*¡
+.main.ImageMenu#catchcolor5()Ljava/lang/String;h
+\/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/ImageMenu.javaÈ È("1*¡
 1
-È# È()h
+È% È(+h
 f
 
-È# È()
+È% È(+
 %0java.lang.String"__id*:
 
 __unknown_file (*
 main.ImageMenu"
 Color5"&
 
-È È(*
+È È(,
 
 %0java.lang.StringB
 main.ImageMenuH

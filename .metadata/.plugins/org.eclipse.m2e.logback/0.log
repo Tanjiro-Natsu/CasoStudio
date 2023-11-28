@@ -5288,3 +5288,57 @@
 2023-11-28 13:11:32,679 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
 2023-11-28 13:11:32,682 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-11-28 13:11:32,682 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-11-28 13:24:27,007 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-11-28 13:24:31,321 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Plutone_Project:Plutone_Project:0.0.1-SNAPSHOT @ C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\pom.xml.
+2023-11-28 13:24:31,552 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:24:31,553 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-11-28 13:24:31,558 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:24:31,559 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-11-28 13:25:09,943 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:25:09,943 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-11-28 13:25:09,947 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:25:09,948 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-11-28 13:31:18,052 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:31:18,053 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-11-28 13:31:18,056 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:31:18,056 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-11-28 13:34:50,517 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:34:50,517 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-11-28 13:34:50,520 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:34:50,521 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-11-28 13:36:34,051 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:36:34,052 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-11-28 13:36:34,055 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:36:34,055 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-11-28 13:38:09,079 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:38:09,080 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-11-28 13:38:09,083 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:38:09,083 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-11-28 13:43:00,426 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:43:00,427 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-11-28 13:43:00,430 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:43:00,431 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-11-28 13:43:14,351 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:43:14,352 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-11-28 13:43:14,355 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:43:14,357 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-11-28 13:47:07,201 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:47:07,201 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-11-28 13:47:07,205 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:47:07,205 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-11-28 13:47:33,498 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:47:33,499 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-11-28 13:47:33,502 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:47:33,502 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-11-28 13:52:15,132 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:52:15,132 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-11-28 13:52:15,135 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:52:15,135 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-11-28 13:58:52,486 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:58:52,486 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-11-28 13:58:52,490 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:58:52,490 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources
+2023-11-28 13:59:21,618 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:59:21,619 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\main\resources
+2023-11-28 13:59:21,621 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-11-28 13:59:21,622 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Marco\Desktop\CasoStudio Qualita\Plutone_Project\src\test\resources

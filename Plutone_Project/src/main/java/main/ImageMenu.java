@@ -193,26 +193,26 @@ public ImageIcon getImageIcon10() {return Image10;}
 	private final String Color8=Violete;
 	private final String Color9=Yellowe;
 	private final String Color10=magenta;
-	public String getcolor1() {return Color1;}
-	public String getcolor2() {return Color2;}
-	public String getcolor3() {return Color3;}
-	public String getcolor4() {return Color4;}
-	public String getcolor5() {return Color5;}
-	public String getcolor6() {return Color6;}
-	public String getcolor7() {return Color7;}
-	public String getcolor8() {return Color8;}
-	public String getcolor9() {return Color9;}
-	public String getcolor10() {return Color10;}
-	public JMenuItem getcolor100() {return BiancoNero;}
-	public JMenuItem getcolor101() {return Red;}
-	public JMenuItem getcolor102() {return Green;}
-	public JMenuItem getcolor103() {return Blue;}
-	public JMenuItem getcolor104() {return Standard;}
-	public JMenuItem getcolor105() {return Orange;}
-	public JMenuItem getcolor106() {return Pink;}
-	public JMenuItem getcolor107() {return Violet;}
-	public JMenuItem getcolor108() {return Yellow;}
-	public JMenuItem getcolor110() {return Magenta;}
+	public String catchcolor() {return Color1;}
+	public String catchcolor2() {return Color2;}
+	public String gcatchcolor3() {return Color3;}
+	public String catchcolor4() {return Color4;}
+	public String catchcolor5() {return Color5;}
+	public String catchcolor6() {return Color6;}
+	public String catchcolor7() {return Color7;}
+	public String catchcolor8() {return Color8;}
+	public String catchcolor9() {return Color9;}
+	public String catchcolor10() {return Color10;}
+	public JMenuItem getCOLOR100() {return BiancoNero;}
+	public JMenuItem getCOLOR101() {return Red;}
+	public JMenuItem getCOLOR102() {return Green;}
+	public JMenuItem getCOLOR103() {return Blue;}
+	public JMenuItem getCOLOR104() {return Standard;}
+	public JMenuItem getCOLOR105() {return Orange;}
+	public JMenuItem getCOLOR106() {return Pink;}
+	public JMenuItem getCOLOR107() {return Violet;}
+	public JMenuItem getCOLOR108() {return Yellow;}
+	public JMenuItem getCOLOR110() {return Magenta;}
 	public void setcolor1() {BiancoNero=new JMenuItem();}
 	public void setcolor2() {Red=new JMenuItem();}
 	public void setcolor3() {Blue=new JMenuItem();}
@@ -228,8 +228,7 @@ public ImageIcon getImageIcon10() {return Image10;}
 	private  int yo2;
 	private  Font sss=new Font(yo,yo1,yo2);
 	private transient BufferedImage image;
-	private int height;
-	private int width;
+
 	private JMenu Color;
 	private  int vai=0;
 	private String v;
@@ -365,8 +364,7 @@ public ImageIcon getImageIcon10() {return Image10;}
 			y120.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y10;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
 			y121.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y11;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
 			y122.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {yo1=y12;sss=new Font(yo,yo1,yo2);d.setFont(sss);}});
-		height=image.getHeight();
-		width=image.getWidth();
+		int height=image.getHeight();int width=image.getWidth();
 		Color =new JMenu("Color");
 		BiancoNero=new JMenuItem(Color1);
 		Red=new JMenuItem(Color2);
@@ -517,7 +515,7 @@ public ImageIcon getImageIcon10() {return Image10;}
 	}
 	public BufferedImage bn(int height1,int width1,BufferedImage imgB) {
 		for(int i=0;i<height1;i++) {
-			for(int t=0;t<width;t++) {
+			for(int t=0;t<width1;t++) {
 				int rgbA=imgB.getRGB(t, i);
 				imgB.setRGB(t, i,rgbA & 0x808080);//blu =(rgbA>>16) & 0xff
 			}
