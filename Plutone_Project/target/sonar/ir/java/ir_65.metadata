@@ -18,6 +18,7 @@ setLocation java.awt.Window#setLocation(II)V
 add java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;
 toString java.nio.file.Path#toString()Ljava/lang/String;
 setVisible java.awt.Window#setVisible(Z)V
+normalize java.nio.file.Path#normalize()Ljava/nio/file/Path;
 setSize java.awt.Window#setSize(II)V
 setLayout java.awt.Container#setLayout(Ljava/awt/LayoutManager;)V
 addActionListener javax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V

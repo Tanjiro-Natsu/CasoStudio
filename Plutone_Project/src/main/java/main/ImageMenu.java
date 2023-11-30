@@ -6,9 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
-
 import javax.imageio.ImageIO;
-import javax.swing.ImageIcon;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
@@ -117,62 +115,6 @@ public class ImageMenu extends JMenuBar {
 	public JMenuItem getf16() {return f16;}
 	public JMenuItem getf17() {return f17;}
 	public JMenuItem getf18() {return f18;}
-	private JMenuItem colore10=new JMenuItem("Rosso");
-	private  JMenuItem colore11=new JMenuItem("Blue");
-	private JMenuItem colore12=new JMenuItem(greene);
-	private  JMenuItem colore13=new JMenuItem(Orangee);
-	private JMenuItem colore14=new JMenuItem(Yellowe);
-	private  JMenuItem colore15=new JMenuItem(magenta);
-	private JMenuItem colore16=new JMenuItem("Nero");
-	private JMenuItem colore17=new JMenuItem("Rosa");
-	private JMenuItem colore18=new JMenuItem("Grigio");
-	private JMenuItem colore20=new JMenuItem("Rosso");
-	private JMenuItem colore21=new JMenuItem("Blue");
-	private JMenuItem colore22=new JMenuItem(greene);
-	private JMenuItem colore23=new JMenuItem(Orangee);
-	private JMenuItem colore24=new JMenuItem(Yellowe);
-	private JMenuItem colore25=new JMenuItem(magenta);
-	private JMenuItem colore26=new JMenuItem("Nero");
-	private JMenuItem colore27=new JMenuItem("Rosa");
-	private JMenuItem colore28=new JMenuItem("Grigio");
-	private ImageIcon Image1=null;
-	private ImageIcon Image2=null;
-	private ImageIcon Image3=null;
-	private ImageIcon Image4=null;
-	private ImageIcon Image5=null;
-	private ImageIcon Image6=null;
-	private ImageIcon Image7=null;
-	private ImageIcon Image8=null;
-	private ImageIcon Image9=null;
-	private ImageIcon Image10=null;
-public  JMenuItem getColor10() {return colore10;}
-public  JMenuItem getColor11() {return colore11;}
-public  JMenuItem getColor12() {return colore12;}
-public  JMenuItem getColor13() {return colore13;}
-public  JMenuItem getColor14() {return colore14;}
-public  JMenuItem getColor15() {return colore15;}
-public  JMenuItem getColor16() {return colore16;}
-public  JMenuItem getColor17() {return colore17;}
-public  JMenuItem getColor18() {return colore18;}
-public  JMenuItem getColor20() {return colore20;}
-public  JMenuItem getColor21() {return colore21;}
-public  JMenuItem getColor22() {return colore22;}
-public  JMenuItem getColor23() {return colore23;}
-public  JMenuItem getColor24() {return colore24;}
-public  JMenuItem getColor25() {return colore25;}
-public  JMenuItem getColor26() {return colore26;}
-public  JMenuItem getColor27() {return colore27;}
-public  JMenuItem getColor28() {return colore28;}
-public ImageIcon getImageIcon1() {return Image1;}
-public ImageIcon getImageIcon2() {return Image2;}
-public ImageIcon getImageIcon3() {return Image3;}
-public ImageIcon getImageIcon4() {return Image4;}
-public ImageIcon getImageIcon5() {return Image5;}
-public ImageIcon getImageIcon6() {return Image6;}
-public ImageIcon getImageIcon7() {return Image7;}
-public ImageIcon getImageIcon8() {return Image8;}
-public ImageIcon getImageIcon9() {return Image9;}
-public ImageIcon getImageIcon10() {return Image10;}
 	private JMenuItem BiancoNero;
 	private JMenuItem Red;
 	private JMenuItem Green;

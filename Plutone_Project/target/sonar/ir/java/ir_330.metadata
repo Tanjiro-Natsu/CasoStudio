@@ -1,1 +1,3 @@
-main.ImageMenu#getCOLOR103()Ljavax/swing/JMenuItem;
+main.GUI#sett1()V
+==
+setText javax.swing.text.JTextComponent#setText(Ljava/lang/String;)V

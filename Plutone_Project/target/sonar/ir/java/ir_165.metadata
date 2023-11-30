@@ -1,1 +1,1 @@
-main.Menu#getColor15()Ljavax/swing/JMenuItem;
+main.Menu#getjMenu()Ljavax/swing/JMenu;

@@ -6,6 +6,8 @@ import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.PrintWriter;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -337,7 +339,9 @@ public class MenuSearch extends JMenuBar{
 		y1.addActionListener(e-> {
 			PrintWriter dd=null;
 			try {
-				dd=new PrintWriter(t.getText());
+			
+				Path path=Paths.get("");
+		 	     String v=path.toAbsolutePath().normalize().toString();v=new StringBuilder().append(v).append("\\").append(t.getText()).append(".txt").toString();dd=new PrintWriter(v);
 				dd.write(a);
 				
 			}

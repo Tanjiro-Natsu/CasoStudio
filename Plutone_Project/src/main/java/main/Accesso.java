@@ -1,5 +1,9 @@
 package main;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.Scanner;
+
 import javax.swing.JFrame;
 
 
@@ -14,7 +18,13 @@ public class Accesso extends JFrame {
 		return "sa";
 	}
 	public static String getPassword() {
-		return "Cacca1989";
+		String ret=null;
+		try {
+			Scanner a=new Scanner(new BufferedReader(new FileReader("Password.txt")));
+			ret=a.nextLine();
+		}
+		catch(Exception e) {}
+		return ret;
 	}
 
 	

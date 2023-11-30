@@ -1,1 +1,3 @@
-main.ImageMenu#gcatchcolor3()Ljava/lang/String;
+main.MetaData#toString()Ljava/lang/String;
+==
+getText javax.swing.JLabel#getText()Ljava/lang/String;

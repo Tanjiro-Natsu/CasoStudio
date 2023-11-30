@@ -37,7 +37,7 @@ public void test()
         assertNotNull(a3);
         assertNotNull(a3.getb());
         Menu a4=new Menu();
-        assertNotNull(a4.getColor10());
+        
         
         Menu2 a5=new Menu2();
         assertNotNull(a5.getColor10());

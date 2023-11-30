@@ -1,16 +1,18 @@
 
-,main.Menu#getrifiuta1()Ljavax/swing/JButton;a
-W/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu.javau u("1*ž
-1u% u(-f
-d
-u% u(-
-%0javax.swing.JButton"__id*7
+.main.Menu2#getColor21()Ljavax/swing/JMenuItem;b
+X/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu2.javaZ Z("1*£
+1Z' Z(/i
+g
+Z' Z(/
+%0javax.swing.JMenuItem"__id*8
 
-__unknown_file (*
-	main.Menu"
+__unknown_file (*
 
-rifiuta1"'
-u u(.
-
-%0javax.swing.JButtonB
-	main.MenuH
+main.Menu2"
+
+colore21")
+Z  Z(0
+
+%0javax.swing.JMenuItemB
+
+main.Menu2H

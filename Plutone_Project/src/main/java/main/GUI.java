@@ -25,70 +25,70 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 public class GUI extends JFrame  implements ActionListener,Runnable {
 	
 	private static final long serialVersionUID = 1L;
-	private static Menu ss;
-	 private static  MetaData dc=null;
-	 private static boolean result;
+	private static Menu ss1;
+	 private static  MetaData dc1=null;
+	 private static boolean result1;
 	 private static String cooper="Cooper Blank";
-	private static String blankSpace="^\\s+";
-	 private static JTextField t1=new JTextField(" ");
-	  private static JTextField t2=new JTextField(" ");
-	 private static JTextField t3=new JTextField(" ");
-	 private static JTextField t4=new JTextField(" ");
-	 private static JButton button=null;
-	 private static JPanel j1=new JPanel();
-	 private static JPanel j2=new JPanel();
-	 private JPanel a=null;
-	   private    static String v=null;
-	   private static String fonte=null;
-	    private   static String argomento=null;
-	    private   static double percentuale=0;
-	private static Color Colore1=Color.GREEN;
-	private static  Color Colore2=Color.RED;
+	private static String blankSpace1="^\\s+";
+	 private static JTextField t11=new JTextField(" ");
+	  private static JTextField t21=new JTextField(" ");
+	 private static JTextField t31=new JTextField(" ");
+	 private static JTextField t41=new JTextField(" ");
+	 private static JButton button1=null;
+	 private static JPanel j11=new JPanel();
+	 private static JPanel j21=new JPanel();
+	 private JPanel a1=null;
+	   private    static String v1=null;
+	   private static String fonte1=null;
+	    private   static String argomento1=null;
+	    private   static double percentuale1=0;
+	private static Color Colore11=Color.GREEN;
+	private static  Color Colore21=Color.RED;
 	 public static String metadatisave( ) {
-		return dc.toString();
+		return dc1.toString();
 	}
 	 public Menu getMenu() {
-		 return ss;
+		 return ss1;
 	 }
 	 public static void setColor1(Color a) {
-		Colore1=a;
+		Colore11=a;
 	}
 	 public static void Metadata() {
-		dc.dispose();
+		dc1.dispose();
 	}
 	 public static void setColor2(Color a) {
-		Colore2=a;
+		Colore21=a;
 	}
 	 public static boolean getresult() {
-		return result;}
+		return result1;}
 	 public static void refresh() {
-		j1.setBackground(Color.WHITE);
-		j2.setBackground(Color.WHITE);	
-		button.setEnabled(false);
+		j11.setBackground(Color.WHITE);
+		j21.setBackground(Color.WHITE);	
+		button1.setEnabled(false);
 	}
 	 public static void Color1() {
-		j1.setBackground(Colore1);
+		j11.setBackground(Colore11);
 	}
 	 public static void Color2() {
-		j2.setBackground(Colore2);
+		j21.setBackground(Colore21);
 	}
 	 public static void sett1() {
-		t1.setText(" ");
+		t11.setText(" ");
 	}
 	 public static void sett2() {
-		t2.setText(" ");
+		t21.setText(" ");
 	}
 	 public static void sett3() {
-		t3.setText(" ");
+		t31.setText(" ");
 	}
 	 public static void sett4() {
-		t4.setText(" ");
+		t41.setText(" ");
 	}
 	 public static String getText3() {
-		return t3.getText();
+		return t31.getText();
 	}
 	 public static String getText4() {
-		return t4.getText();
+		return t41.getText();
 	}
 	public GUI() {	
 		
@@ -129,11 +129,11 @@ public class GUI extends JFrame  implements ActionListener,Runnable {
 	a11.add(new JLabel());
 	
 
-	 button=new JButton("Cerca..");
-	button.addActionListener(this);
+	 button1=new JButton("Cerca..");
+	button1.addActionListener(this);
 	
 	
-	a11.add(t1);
+	a11.add(t11);
 	
 	JPanel u=new JPanel();
     u.setLayout(new GridLayout(3,9));
@@ -153,9 +153,9 @@ public class GUI extends JFrame  implements ActionListener,Runnable {
    u.add(new JLabel());
    u.add(new JLabel());
   
-   j1.setBackground(Color.WHITE);
-   j1.setBorder(BorderFactory.createLineBorder(Color.black));
-   u.add(j1);
+   j11.setBackground(Color.WHITE);
+   j11.setBorder(BorderFactory.createLineBorder(Color.black));
+   u.add(j11);
    u.add(new JLabel());
    u.add(new JLabel());
    u.add(new JLabel());
@@ -179,11 +179,11 @@ public class GUI extends JFrame  implements ActionListener,Runnable {
 	a11.add(new JLabel());
 	
 	
-	a11.add(t2);
+	a11.add(t21);
 JPanel a2=new JPanel();
 a2.setLayout(new GridLayout(1,3));
 a2.add(new JLabel());
-a2.add(button);
+a2.add(button1);
 a2.add(new JLabel());
 	a11.add(a2);
 
@@ -209,10 +209,10 @@ a2.add(new JLabel());
 	r2.setFont(new Font(cooper,Font.PLAIN,14));
 	b1.add(r2);
 	b1.add(new JLabel());
-	t3.setEditable(false);
-	t3.setBackground(Color.WHITE);
-	t3.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.black),""));
-	   b1.add(t3);
+	t31.setEditable(false);
+	t31.setBackground(Color.WHITE);
+	t31.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.black),""));
+	   b1.add(t31);
 	JPanel u1=new JPanel();
     u1.setLayout(new GridLayout(3,9));
     //u.setBackground(Color.GRAY);
@@ -231,9 +231,9 @@ a2.add(new JLabel());
    u1.add(new JLabel());
    u1.add(new JLabel());
  
-   j2.setBackground(Color.WHITE);
-   j2.setBorder(BorderFactory.createLineBorder(Color.black));
-   u1.add(j2);
+   j21.setBackground(Color.WHITE);
+   j21.setBorder(BorderFactory.createLineBorder(Color.black));
+   u1.add(j21);
    u1.add(new JLabel());
    u1.add(new JLabel());
    u1.add(new JLabel());
@@ -270,10 +270,10 @@ a2.add(new JLabel());
     //JScrollPane scroll=new JScrollPane(s);
     //scroll.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
   
-    t4.setEditable(false);
-    t4.setBackground(Color.WHITE);
-	t4.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.black),""));
-b2.add(t4,BorderLayout.CENTER);
+    t41.setEditable(false);
+    t41.setBackground(Color.WHITE);
+	t41.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.black),""));
+b2.add(t41,BorderLayout.CENTER);
     //b2.add(scroll,BorderLayout.CENTER);
 b2.add(new JPanel(),BorderLayout.SOUTH);
    
@@ -286,13 +286,13 @@ new Thread(this).start();
 		
 	}
 	public static String getv() {
-	    	    	return v;
+	    	    	return v1;
 	    	    }
 	public static  String getfonte() {
-	    	    	return fonte;
+	    	    	return fonte1;
 	    	    }
 	public static String getargomento() {
-	    	    	return argomento;
+	    	    	return argomento1;
 	    	    }
 				
 	public  void actionPerformed(ActionEvent e) {
@@ -301,10 +301,10 @@ new Thread(this).start();
 		JFileChooser chooser1=new JFileChooser("C:\\");
         FileNameExtensionFilter filter1=new FileNameExtensionFilter("Text","txt","Image","jpg");
         chooser1.setFileFilter(filter1);
-        int returnVal1=chooser1.showOpenDialog(a);
+        int returnVal1=chooser1.showOpenDialog(a1);
         if(returnVal1==JFileChooser.APPROVE_OPTION){}
             
-            t3.setText(chooser1.getSelectedFile().getName());
+            t31.setText(chooser1.getSelectedFile().getName());
             int s=chooser1.getSelectedFile().toString().length();
             char q[]=new char [s];
             for(int i=0;i<s;i++){
@@ -320,10 +320,10 @@ int y=0;
                 
                 if(y==1){
 if(f==0 ){
-    v=Character.toString(q[w]);
+    v1=Character.toString(q[w]);
 }
 else{
-              v+=Character.toString(q[w]);  }
+              v1+=Character.toString(q[w]);  }
               f++;}
              
               if(q[w]=='.'){
@@ -331,22 +331,22 @@ else{
             }
             }
             metav(chooser1.getSelectedFile());
- t4.setText(ciao);
+ t41.setText(ciao);
 }        
             
          
 } 
 	 public static String verificaFonte() {
-	   	 argomento=t2.getText();
-				argomento=argomento.replaceAll(blankSpace,"");
-				String ciao=VerificaFonte.fonteverificata(argomento);
+	   	 argomento1=t21.getText();
+				argomento1=argomento1.replaceAll(blankSpace1,"");
+				String ciao=VerificaFonte.fonteverificata(argomento1);
 				String [] ciao1=ciao.split(" ");
 				int t=0;
 				int f1=0;
-				String h=new StringBuilder().append("").append(t1.getText()).toString();
-				System.out.println(h.replaceAll(blankSpace,""));
+				String h=new StringBuilder().append("").append(t11.getText()).toString();
+				System.out.println(h.replaceAll(blankSpace1,""));
 				for(int i=0;i<ciao1.length;i++) {
-						if(t1.getText().replaceAll(blankSpace,"").equalsIgnoreCase(ciao1[i])) {
+						if(t11.getText().replaceAll(blankSpace1,"").equalsIgnoreCase(ciao1[i])) {
 							t=1;
 							f1=0;
 							break;
@@ -357,57 +357,57 @@ else{
 						
 				}
 				if(t==1) {
-					j1.setBackground(Colore1);
+					j11.setBackground(Colore11);
 				}
 				if(f1==1) {
-					j1.setBackground(Colore2);
+					j11.setBackground(Colore21);
 				}
 				return ciao;
 	    }   
 		public static void  metav(File a) {
-			 dc=new MetaData(a.toPath());
+			 dc1=new MetaData(a.toPath());
 			   
 	 		
-	 		if(v.equalsIgnoreCase("txt")){
-	             percentuale=VeerificaTesto.reader(a.getAbsolutePath())*100;
+	 		if(v1.equalsIgnoreCase("txt")){
+	             percentuale1=VeerificaTesto.reader(a.getAbsolutePath())*100;
 	            
-	             if(percentuale>60.00) {
-	             	j2.setBackground(Colore1);
-	             	result=true;
+	             if(percentuale1>60.00) {
+	             	j21.setBackground(Colore11);
+	             	result1=true;
 	             }
-	             else if(percentuale<60.00) {
-	             	j2.setBackground(Colore2);
-	             	result=false;
+	             else if(percentuale1<60.00) {
+	             	j21.setBackground(Colore21);
+	             	result1=false;
 	             }}
-	         else if(v.equalsIgnoreCase("jpg")){
+	         else if(v1.equalsIgnoreCase("jpg")){
 	          	
-	          	percentuale=VerificaFonte.databasejpg(a.getAbsolutePath());
+	          	percentuale1=VerificaFonte.databasejpg(a.getAbsolutePath());
 	          	
-	              System.out.println(percentuale);
-	              if(percentuale==0.00) {
-	              	j2.setBackground(Colore1);
-	              	result=true;
+	              System.out.println(percentuale1);
+	              if(percentuale1==0.00) {
+	              	j21.setBackground(Colore11);
+	              	result1=true;
 	              }
-	              else if(percentuale>0.00) {
-	              	j2.setBackground(Colore2);
-	              	result=false;
+	              else if(percentuale1>0.00) {
+	              	j21.setBackground(Colore21);
+	              	result1=false;
 	              }
 	          	
 	          }
 		}
 	public void run() {
 		while(true) {
-		if(t1.getText().equalsIgnoreCase(" ") || t2.getText().equalsIgnoreCase(" ")){button.setEnabled(false);}
+		if(t11.getText().equalsIgnoreCase(" ") || t21.getText().equalsIgnoreCase(" ")){button1.setEnabled(false);}
 		
 		
-		else if(t1.getText().equalsIgnoreCase(" ")!=true && t2.getText().equalsIgnoreCase(" ")!=true) {button.setEnabled(true);}
+		else if(t11.getText().equalsIgnoreCase(" ")!=true && t21.getText().equalsIgnoreCase(" ")!=true) {button1.setEnabled(true);}
 		
 		
-		if(t3.getText().equalsIgnoreCase(" ")  ) {
+		if(t31.getText().equalsIgnoreCase(" ")  ) {
 			
 			Menu.setSave(false);
 		}
-		else if(t3.getText().equalsIgnoreCase(" ")!=true ) {
+		else if(t31.getText().equalsIgnoreCase(" ")!=true ) {
 			Menu.setSave(true);
 			
 			

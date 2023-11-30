@@ -13,7 +13,6 @@ import java.io.Serializable;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
-import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -171,13 +170,12 @@ ss.add(dd);
 		          String sqlPassword = Accesso.getPassword(); //passwrod sa account
 		          String connectionUrl =Accesso.getjdbc()+";encrypt=false";
 		          Class.forName(jdbc);
-
-		          
-		         
 		          Connection conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
-		          Statement stmt = conn.createStatement(ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_UPDATABLE);
-		          String query="SELECT file_stream FROM  Testo  WHERE name='"+v+"';"; 
-		          ResultSet k=stmt.executeQuery(query);
+		         
+		          String query="SELECT file_stream FROM  Testo  WHERE name=?;";
+		     	 java.sql.PreparedStatement stmt=conn.prepareStatement(query);
+		     	 stmt.setString(1,v);
+		          ResultSet k=stmt.executeQuery();
 		      
 			        	
 		        	 while(k.next()) {
@@ -187,9 +185,9 @@ ss.add(dd);
 		        	 }
 		        	 
 		        	 dd=new  String(e);
-		        	
+		        	 stmt.close();
 		        	conn.close();
-		        	stmt.close();
+		        	
 		          }
 			catch(Exception e2) {}
 			String []h=dd.split(" ");
@@ -223,9 +221,11 @@ ss.add(dd);
 		          
 		         
 		          Connection conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
-		          Statement stmt = conn.createStatement(ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_UPDATABLE);
-		          String query="SELECT file_stream FROM  Immagini  WHERE name='"+v+"';"; 
-		          ResultSet k=stmt.executeQuery(query);
+		          
+		          String query="SELECT file_stream FROM  Immagini  WHERE name=?;"; 
+		          java.sql.PreparedStatement stmt=conn.prepareStatement(query);
+		          stmt.setString(1, v);
+		          ResultSet k=stmt.executeQuery();
 		      
 			        	
 		        	 while(k.next()) {

@@ -1824,8 +1824,175 @@ bcreateTitledBorder(Ljavax/swing/border/Border;Ljava/lang/String;IILjava/awt/Fon
 setDefaultCapable(Z))javax.swing.JButton#setDefaultCapable(Z)V-
 
 updateUI()javax.swing.JButton#updateUI()Vk
-)writeObject(Ljava/io/ObjectOutputStream;)>javax.swing.JButton#writeObject(Ljava/io/ObjectOutputStream;)V(
-java.lang.Appendablejava.lang.Object+
+)writeObject(Ljava/io/ObjectOutputStream;)>javax.swing.JButton#writeObject(Ljava/io/ObjectOutputStream;)V©
+java.nio.file.Pathsjava.lang.Object)
+<init>()java.nio.file.Paths#<init>()V€
+*get(Ljava/lang/String;[Ljava/lang/String;)Rjava.nio.file.Paths#get(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;R
+get(Ljava/net/URI;);java.nio.file.Paths#get(Ljava/net/URI;)Ljava/nio/file/Path;(
+java.lang.Comparablejava.lang.ObjectÖ
+java.lang.Iterablejava.lang.Objectd
+&forEach(Ljava/util/function/Consumer;):java.lang.Iterable#forEach(Ljava/util/function/Consumer;)VH
+spliterator()7java.lang.Iterable#spliterator()Ljava/util/Spliterator;+
+java.nio.file.Watchablejava.lang.Objectà
+java.nio.file.Pathjava.lang.Comparablejava.lang.Iterablejava.lang.Objectjava.nio.file.WatchableP
+endsWith(Ljava/lang/String;)0java.nio.file.Path#endsWith(Ljava/lang/String;)Z?
+
+iterator()1java.nio.file.Path#iterator()Ljava/util/Iterator;}
+)of(Ljava/lang/String;[Ljava/lang/String;)Pjava.nio.file.Path#of(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;O
+of(Ljava/net/URI;)9java.nio.file.Path#of(Ljava/net/URI;)Ljava/nio/file/Path;»
+Fregister(Ljava/nio/file/WatchService;[Ljava/nio/file/WatchEvent$Kind;)qjava.nio.file.Path#register(Ljava/nio/file/WatchService;[Ljava/nio/file/WatchEvent$Kind;)Ljava/nio/file/WatchKey;a
+resolve(Ljava/lang/String;)Bjava.nio.file.Path#resolve(Ljava/lang/String;)Ljava/nio/file/Path;o
+"resolveSibling(Ljava/lang/String;)Ijava.nio.file.Path#resolveSibling(Ljava/lang/String;)Ljava/nio/file/Path;s
+$resolveSibling(Ljava/nio/file/Path;)Kjava.nio.file.Path#resolveSibling(Ljava/nio/file/Path;)Ljava/nio/file/Path;T
+startsWith(Ljava/lang/String;)2java.nio.file.Path#startsWith(Ljava/lang/String;)Z5
+toFile())java.nio.file.Path#toFile()Ljava/io/File;ƒ
+java.lang.CharSequencejava.lang.ObjectE
+chars():java.lang.CharSequence#chars()Ljava/util/stream/IntStream;O
+codePoints()?java.lang.CharSequence#codePoints()Ljava/util/stream/IntStream;Ž
+9compare(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Qjava.lang.CharSequence#compare(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I.
+	isEmpty()!java.lang.CharSequence#isEmpty()Z(
+java.lang.Appendablejava.lang.Object¼7
+java.lang.AbstractStringBuilderjava.lang.Appendablejava.lang.CharSequencejava.lang.Object5
+<init>())java.lang.AbstractStringBuilder#<init>()V7
+	<init>(I)*java.lang.AbstractStringBuilder#<init>(I)Ve
+ <init>(Ljava/lang/CharSequence;)Ajava.lang.AbstractStringBuilder#<init>(Ljava/lang/CharSequence;)VY
+<init>(Ljava/lang/String;);java.lang.AbstractStringBuilder#<init>(Ljava/lang/String;)VW
+	append(C)Jjava.lang.AbstractStringBuilder#append(C)Ljava/lang/AbstractStringBuilder;W
+	append(D)Jjava.lang.AbstractStringBuilder#append(D)Ljava/lang/AbstractStringBuilder;W
+	append(F)Jjava.lang.AbstractStringBuilder#append(F)Ljava/lang/AbstractStringBuilder;W
+	append(I)Jjava.lang.AbstractStringBuilder#append(I)Ljava/lang/AbstractStringBuilder;W
+	append(J)Jjava.lang.AbstractStringBuilder#append(J)Ljava/lang/AbstractStringBuilder;—
+)append(Ljava/lang/AbstractStringBuilder;)jjava.lang.AbstractStringBuilder#append(Ljava/lang/AbstractStringBuilder;)Ljava/lang/AbstractStringBuilder;…
+ append(Ljava/lang/CharSequence;)ajava.lang.AbstractStringBuilder#append(Ljava/lang/CharSequence;)Ljava/lang/AbstractStringBuilder;‰
+"append(Ljava/lang/CharSequence;II)cjava.lang.AbstractStringBuilder#append(Ljava/lang/CharSequence;II)Ljava/lang/AbstractStringBuilder;y
+append(Ljava/lang/Object;)[java.lang.AbstractStringBuilder#append(Ljava/lang/Object;)Ljava/lang/AbstractStringBuilder;y
+append(Ljava/lang/String;)[java.lang.AbstractStringBuilder#append(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;…
+ append(Ljava/lang/StringBuffer;)ajava.lang.AbstractStringBuilder#append(Ljava/lang/StringBuffer;)Ljava/lang/AbstractStringBuilder;W
+	append(Z)Jjava.lang.AbstractStringBuilder#append(Z)Ljava/lang/AbstractStringBuilder;Y
+
+append([C)Kjava.lang.AbstractStringBuilder#append([C)Ljava/lang/AbstractStringBuilder;]
+append([CII)Mjava.lang.AbstractStringBuilder#append([CII)Ljava/lang/AbstractStringBuilder;s
+'appendChars(Ljava/lang/CharSequence;II)Hjava.lang.AbstractStringBuilder#appendChars(Ljava/lang/CharSequence;II)Vg
+!appendChars(Ljava/lang/String;II)Bjava.lang.AbstractStringBuilder#appendChars(Ljava/lang/String;II)VG
+appendChars([CII)2java.lang.AbstractStringBuilder#appendChars([CII)Vi
+appendCodePoint(I)Sjava.lang.AbstractStringBuilder#appendCodePoint(I)Ljava/lang/AbstractStringBuilder;]
+appendNull()Mjava.lang.AbstractStringBuilder#appendNull()Ljava/lang/AbstractStringBuilder;9
+
+capacity()+java.lang.AbstractStringBuilder#capacity()I7
+	charAt(I)*java.lang.AbstractStringBuilder#charAt(I)CN
+chars()Cjava.lang.AbstractStringBuilder#chars()Ljava/util/stream/IntStream;A
+codePointAt(I)/java.lang.AbstractStringBuilder#codePointAt(I)II
+codePointBefore(I)3java.lang.AbstractStringBuilder#codePointBefore(I)II
+codePointCount(II)3java.lang.AbstractStringBuilder#codePointCount(II)IX
+codePoints()Hjava.lang.AbstractStringBuilder#codePoints()Ljava/util/stream/IntStream;}
+,compareTo(Ljava/lang/AbstractStringBuilder;)Mjava.lang.AbstractStringBuilder#compareTo(Ljava/lang/AbstractStringBuilder;)IY
+
+delete(II)Kjava.lang.AbstractStringBuilder#delete(II)Ljava/lang/AbstractStringBuilder;c
+deleteCharAt(I)Pjava.lang.AbstractStringBuilder#deleteCharAt(I)Ljava/lang/AbstractStringBuilder;G
+ensureCapacity(I)2java.lang.AbstractStringBuilder#ensureCapacity(I)VW
+ensureCapacityInternal(I):java.lang.AbstractStringBuilder#ensureCapacityInternal(I)VA
+getBytes([BIB)/java.lang.AbstractStringBuilder#getBytes([BIB)VC
+getChars(II[CI)0java.lang.AbstractStringBuilder#getChars(II[CI)V9
+
+getCoder()+java.lang.AbstractStringBuilder#getCoder()B:
+
+getValue(),java.lang.AbstractStringBuilder#getValue()[B[
+indexOf(Ljava/lang/String;)<java.lang.AbstractStringBuilder#indexOf(Ljava/lang/String;)I]
+indexOf(Ljava/lang/String;I)=java.lang.AbstractStringBuilder#indexOf(Ljava/lang/String;I)I7
+	inflate()*java.lang.AbstractStringBuilder#inflate()V
+5inflateIfNeededFor(Ljava/lang/AbstractStringBuilder;)Vjava.lang.AbstractStringBuilder#inflateIfNeededFor(Ljava/lang/AbstractStringBuilder;)Vq
+&inflateIfNeededFor(Ljava/lang/String;)Gjava.lang.AbstractStringBuilder#inflateIfNeededFor(Ljava/lang/String;)VC
+initBytes([CII)0java.lang.AbstractStringBuilder#initBytes([CII)VY
+
+insert(IC)Kjava.lang.AbstractStringBuilder#insert(IC)Ljava/lang/AbstractStringBuilder;Y
+
+insert(ID)Kjava.lang.AbstractStringBuilder#insert(ID)Ljava/lang/AbstractStringBuilder;Y
+
+insert(IF)Kjava.lang.AbstractStringBuilder#insert(IF)Ljava/lang/AbstractStringBuilder;Y
+
+insert(II)Kjava.lang.AbstractStringBuilder#insert(II)Ljava/lang/AbstractStringBuilder;Y
+
+insert(IJ)Kjava.lang.AbstractStringBuilder#insert(IJ)Ljava/lang/AbstractStringBuilder;‡
+!insert(ILjava/lang/CharSequence;)bjava.lang.AbstractStringBuilder#insert(ILjava/lang/CharSequence;)Ljava/lang/AbstractStringBuilder;‹
+#insert(ILjava/lang/CharSequence;II)djava.lang.AbstractStringBuilder#insert(ILjava/lang/CharSequence;II)Ljava/lang/AbstractStringBuilder;{
+insert(ILjava/lang/Object;)\java.lang.AbstractStringBuilder#insert(ILjava/lang/Object;)Ljava/lang/AbstractStringBuilder;{
+insert(ILjava/lang/String;)\java.lang.AbstractStringBuilder#insert(ILjava/lang/String;)Ljava/lang/AbstractStringBuilder;Y
+
+insert(IZ)Kjava.lang.AbstractStringBuilder#insert(IZ)Ljava/lang/AbstractStringBuilder;[
+insert(I[C)Ljava.lang.AbstractStringBuilder#insert(I[C)Ljava/lang/AbstractStringBuilder;_
+insert(I[CII)Njava.lang.AbstractStringBuilder#insert(I[CII)Ljava/lang/AbstractStringBuilder;9
+
+isLatin1()+java.lang.AbstractStringBuilder#isLatin1()Zc
+lastIndexOf(Ljava/lang/String;)@java.lang.AbstractStringBuilder#lastIndexOf(Ljava/lang/String;)Ie
+ lastIndexOf(Ljava/lang/String;I)Ajava.lang.AbstractStringBuilder#lastIndexOf(Ljava/lang/String;I)I5
+length())java.lang.AbstractStringBuilder#length()IA
+newCapacity(I)/java.lang.AbstractStringBuilder#newCapacity(I)IQ
+offsetByCodePoints(II)7java.lang.AbstractStringBuilder#offsetByCodePoints(II)Is
+'putCharsAt(ILjava/lang/CharSequence;II)Hjava.lang.AbstractStringBuilder#putCharsAt(ILjava/lang/CharSequence;II)VG
+putCharsAt(I[CII)2java.lang.AbstractStringBuilder#putCharsAt(I[CII)Ve
+ putStringAt(ILjava/lang/String;)Ajava.lang.AbstractStringBuilder#putStringAt(ILjava/lang/String;)Vi
+"putStringAt(ILjava/lang/String;II)Cjava.lang.AbstractStringBuilder#putStringAt(ILjava/lang/String;II)V
+replace(IILjava/lang/String;)^java.lang.AbstractStringBuilder#replace(IILjava/lang/String;)Ljava/lang/AbstractStringBuilder;W
+	reverse()Jjava.lang.AbstractStringBuilder#reverse()Ljava/lang/AbstractStringBuilder;?
+setCharAt(IC).java.lang.AbstractStringBuilder#setCharAt(IC)V=
+setLength(I)-java.lang.AbstractStringBuilder#setLength(I)V7
+	shift(II)*java.lang.AbstractStringBuilder#shift(II)VZ
+subSequence(II)Gjava.lang.AbstractStringBuilder#subSequence(II)Ljava/lang/CharSequence;N
+substring(I)>java.lang.AbstractStringBuilder#substring(I)Ljava/lang/String;P
+substring(II)?java.lang.AbstractStringBuilder#substring(II)Ljava/lang/String;=
+trimToSize()-java.lang.AbstractStringBuilder#trimToSize()Võ
+java.lang.StringBuilderjava.io.Serializablejava.lang.AbstractStringBuilderjava.lang.CharSequencejava.lang.Comparable-
+<init>()!java.lang.StringBuilder#<init>()V/
+	<init>(I)"java.lang.StringBuilder#<init>(I)V]
+ <init>(Ljava/lang/CharSequence;)9java.lang.StringBuilder#<init>(Ljava/lang/CharSequence;)VQ
+<init>(Ljava/lang/String;)3java.lang.StringBuilder#<init>(Ljava/lang/String;)VG
+	append(C):java.lang.StringBuilder#append(C)Ljava/lang/StringBuilder;G
+	append(D):java.lang.StringBuilder#append(D)Ljava/lang/StringBuilder;G
+	append(F):java.lang.StringBuilder#append(F)Ljava/lang/StringBuilder;G
+	append(I):java.lang.StringBuilder#append(I)Ljava/lang/StringBuilder;G
+	append(J):java.lang.StringBuilder#append(J)Ljava/lang/StringBuilder;u
+ append(Ljava/lang/CharSequence;)Qjava.lang.StringBuilder#append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;y
+"append(Ljava/lang/CharSequence;II)Sjava.lang.StringBuilder#append(Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;i
+append(Ljava/lang/Object;)Kjava.lang.StringBuilder#append(Ljava/lang/Object;)Ljava/lang/StringBuilder;i
+append(Ljava/lang/String;)Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;u
+ append(Ljava/lang/StringBuffer;)Qjava.lang.StringBuilder#append(Ljava/lang/StringBuffer;)Ljava/lang/StringBuilder;G
+	append(Z):java.lang.StringBuilder#append(Z)Ljava/lang/StringBuilder;I
+
+append([C);java.lang.StringBuilder#append([C)Ljava/lang/StringBuilder;M
+append([CII)=java.lang.StringBuilder#append([CII)Ljava/lang/StringBuilder;Y
+appendCodePoint(I)Cjava.lang.StringBuilder#appendCodePoint(I)Ljava/lang/StringBuilder;e
+$compareTo(Ljava/lang/StringBuilder;)=java.lang.StringBuilder#compareTo(Ljava/lang/StringBuilder;)II
+
+delete(II);java.lang.StringBuilder#delete(II)Ljava/lang/StringBuilder;S
+deleteCharAt(I)@java.lang.StringBuilder#deleteCharAt(I)Ljava/lang/StringBuilder;S
+indexOf(Ljava/lang/String;)4java.lang.StringBuilder#indexOf(Ljava/lang/String;)IU
+indexOf(Ljava/lang/String;I)5java.lang.StringBuilder#indexOf(Ljava/lang/String;I)II
+
+insert(IC);java.lang.StringBuilder#insert(IC)Ljava/lang/StringBuilder;I
+
+insert(ID);java.lang.StringBuilder#insert(ID)Ljava/lang/StringBuilder;I
+
+insert(IF);java.lang.StringBuilder#insert(IF)Ljava/lang/StringBuilder;I
+
+insert(II);java.lang.StringBuilder#insert(II)Ljava/lang/StringBuilder;I
+
+insert(IJ);java.lang.StringBuilder#insert(IJ)Ljava/lang/StringBuilder;w
+!insert(ILjava/lang/CharSequence;)Rjava.lang.StringBuilder#insert(ILjava/lang/CharSequence;)Ljava/lang/StringBuilder;{
+#insert(ILjava/lang/CharSequence;II)Tjava.lang.StringBuilder#insert(ILjava/lang/CharSequence;II)Ljava/lang/StringBuilder;k
+insert(ILjava/lang/Object;)Ljava.lang.StringBuilder#insert(ILjava/lang/Object;)Ljava/lang/StringBuilder;k
+insert(ILjava/lang/String;)Ljava.lang.StringBuilder#insert(ILjava/lang/String;)Ljava/lang/StringBuilder;I
+
+insert(IZ);java.lang.StringBuilder#insert(IZ)Ljava/lang/StringBuilder;K
+insert(I[C)<java.lang.StringBuilder#insert(I[C)Ljava/lang/StringBuilder;O
+insert(I[CII)>java.lang.StringBuilder#insert(I[CII)Ljava/lang/StringBuilder;[
+lastIndexOf(Ljava/lang/String;)8java.lang.StringBuilder#lastIndexOf(Ljava/lang/String;)I]
+ lastIndexOf(Ljava/lang/String;I)9java.lang.StringBuilder#lastIndexOf(Ljava/lang/String;I)Ik
+'readObject(Ljava/io/ObjectInputStream;)@java.lang.StringBuilder#readObject(Ljava/io/ObjectInputStream;)Vo
+replace(IILjava/lang/String;)Njava.lang.StringBuilder#replace(IILjava/lang/String;)Ljava/lang/StringBuilder;G
+	reverse():java.lang.StringBuilder#reverse()Ljava/lang/StringBuilder;B
+
+toString()4java.lang.StringBuilder#toString()Ljava/lang/String;o
+)writeObject(Ljava/io/ObjectOutputStream;)Bjava.lang.StringBuilder#writeObject(Ljava/io/ObjectOutputStream;)V+
 java.lang.AutoCloseablejava.lang.Object>
 java.io.Closeablejava.lang.AutoCloseablejava.lang.Object%
 java.io.Flushablejava.lang.Objectº
@@ -1928,8 +2095,7 @@ updateUI()javax.swing.JPanel#updateUI()Vj
 <init>()main.VeerificaTesto#<init>()V'
 check()main.VeerificaTesto#check()I/
 confronto() main.VeerificaTesto#confronto()DM
-reader(Ljava/lang/String;)/main.VeerificaTesto#reader(Ljava/lang/String;)D(
-java.lang.Comparablejava.lang.Objectñ
+reader(Ljava/lang/String;)/main.VeerificaTesto#reader(Ljava/lang/String;)Dñ
 java.io.Filejava.io.Serializablejava.lang.Comparablejava.lang.Objectb
 (<init>(Ljava/io/File;Ljava/lang/String;)6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)VF
 <init>(Ljava/lang/String;)(java.io.File#<init>(Ljava/lang/String;)VH
@@ -2115,12 +2281,7 @@ toString().java.util.Scanner#toString()Ljava/lang/String;?
 'useDelimiter(Ljava/util/regex/Pattern;)Ljava.util.Scanner#useDelimiter(Ljava/util/regex/Pattern;)Ljava/util/Scanner;c
 useLocale(Ljava/util/Locale;)Bjava.util.Scanner#useLocale(Ljava/util/Locale;)Ljava/util/Scanner;?
 useRadix(I)0java.util.Scanner#useRadix(I)Ljava/util/Scanner;3
-useTypeCache()!java.util.Scanner#useTypeCache()Vƒ
-java.lang.CharSequencejava.lang.ObjectE
-chars():java.lang.CharSequence#chars()Ljava/util/stream/IntStream;O
-codePoints()?java.lang.CharSequence#codePoints()Ljava/util/stream/IntStream;Ž
-9compare(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Qjava.lang.CharSequence#compare(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)I.
-	isEmpty()!java.lang.CharSequence#isEmpty()Z0
+useTypeCache()!java.util.Scanner#useTypeCache()V0
 java.lang.constant.Constablejava.lang.Object3
 java.lang.constant.ConstantDescjava.lang.Object^
 java.lang.Stringjava.io.Serializablejava.lang.CharSequencejava.lang.Comparablejava.lang.Objectjava.lang.constant.Constablejava.lang.constant.ConstantDesc&
@@ -2290,10 +2451,7 @@ valueOf(J)-java.lang.String#valueOf(J)Ljava/lang/String;]
 valueOf(Z)-java.lang.String#valueOf(Z)Ljava/lang/String;=
 valueOf([C).java.lang.String#valueOf([C)Ljava/lang/String;A
 valueOf([CII)0java.lang.String#valueOf([CII)Ljava/lang/String;M
-valueOfCodePoint(I)6java.lang.String#valueOfCodePoint(I)Ljava/lang/String;Ö
-java.lang.Iterablejava.lang.Objectd
-&forEach(Ljava/util/function/Consumer;):java.lang.Iterable#forEach(Ljava/util/function/Consumer;)VH
-spliterator()7java.lang.Iterable#spliterator()Ljava/util/Spliterator;Œ
+valueOfCodePoint(I)6java.lang.String#valueOfCodePoint(I)Ljava/lang/String;Œ
 java.util.Collectionjava.lang.Iterablejava.lang.ObjectR
 parallelStream()>java.util.Collection#parallelStream()Ljava/util/stream/Stream;j
 (removeIf(Ljava/util/function/Predicate;)>java.util.Collection#removeIf(Ljava/util/function/Predicate;)ZJ
@@ -2597,24 +2755,7 @@ $setActionCommand(Ljava/lang/String;)<javax.swing.JTextField#setActionCommand(L
 setFont(Ljava/awt/Font;)0javax.swing.JTextField#setFont(Ljava/awt/Font;)VN
 setHorizontalAlignment(I)1javax.swing.JTextField#setHorizontalAlignment(I)V@
 setScrollOffset(I)*javax.swing.JTextField#setScrollOffset(I)Vn
-)writeObject(Ljava/io/ObjectOutputStream;)Ajavax.swing.JTextField#writeObject(Ljava/io/ObjectOutputStream;)V©
-java.nio.file.Pathsjava.lang.Object)
-<init>()java.nio.file.Paths#<init>()V€
-*get(Ljava/lang/String;[Ljava/lang/String;)Rjava.nio.file.Paths#get(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;R
-get(Ljava/net/URI;);java.nio.file.Paths#get(Ljava/net/URI;)Ljava/nio/file/Path;+
-java.nio.file.Watchablejava.lang.Objectà
-java.nio.file.Pathjava.lang.Comparablejava.lang.Iterablejava.lang.Objectjava.nio.file.WatchableP
-endsWith(Ljava/lang/String;)0java.nio.file.Path#endsWith(Ljava/lang/String;)Z?
-
-iterator()1java.nio.file.Path#iterator()Ljava/util/Iterator;}
-)of(Ljava/lang/String;[Ljava/lang/String;)Pjava.nio.file.Path#of(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;O
-of(Ljava/net/URI;)9java.nio.file.Path#of(Ljava/net/URI;)Ljava/nio/file/Path;»
-Fregister(Ljava/nio/file/WatchService;[Ljava/nio/file/WatchEvent$Kind;)qjava.nio.file.Path#register(Ljava/nio/file/WatchService;[Ljava/nio/file/WatchEvent$Kind;)Ljava/nio/file/WatchKey;a
-resolve(Ljava/lang/String;)Bjava.nio.file.Path#resolve(Ljava/lang/String;)Ljava/nio/file/Path;o
-"resolveSibling(Ljava/lang/String;)Ijava.nio.file.Path#resolveSibling(Ljava/lang/String;)Ljava/nio/file/Path;s
-$resolveSibling(Ljava/nio/file/Path;)Kjava.nio.file.Path#resolveSibling(Ljava/nio/file/Path;)Ljava/nio/file/Path;T
-startsWith(Ljava/lang/String;)2java.nio.file.Path#startsWith(Ljava/lang/String;)Z5
-toFile())java.nio.file.Path#toFile()Ljava/io/File;–
+)writeObject(Ljava/io/ObjectOutputStream;)Ajavax.swing.JTextField#writeObject(Ljava/io/ObjectOutputStream;)V–
 java.util.EventObjectjava.io.Serializablejava.lang.ObjectO
 <init>(Ljava/lang/Object;)1java.util.EventObject#<init>(Ljava/lang/Object;)VB
 getSource()3java.util.EventObject#getSource()Ljava/lang/Object;@
@@ -2878,148 +3019,7 @@ readLine()3java.io.BufferedReader#readLine()Ljava/lang/String;G
 readLine(Z[Z)6java.io.BufferedReader#readLine(Z[Z)Ljava/lang/String;*
 ready()java.io.BufferedReader#ready()Z*
 reset()java.io.BufferedReader#reset()V*
-skip(J)java.io.BufferedReader#skip(J)J¼7
-java.lang.AbstractStringBuilderjava.lang.Appendablejava.lang.CharSequencejava.lang.Object5
-<init>())java.lang.AbstractStringBuilder#<init>()V7
-	<init>(I)*java.lang.AbstractStringBuilder#<init>(I)Ve
- <init>(Ljava/lang/CharSequence;)Ajava.lang.AbstractStringBuilder#<init>(Ljava/lang/CharSequence;)VY
-<init>(Ljava/lang/String;);java.lang.AbstractStringBuilder#<init>(Ljava/lang/String;)VW
-	append(C)Jjava.lang.AbstractStringBuilder#append(C)Ljava/lang/AbstractStringBuilder;W
-	append(D)Jjava.lang.AbstractStringBuilder#append(D)Ljava/lang/AbstractStringBuilder;W
-	append(F)Jjava.lang.AbstractStringBuilder#append(F)Ljava/lang/AbstractStringBuilder;W
-	append(I)Jjava.lang.AbstractStringBuilder#append(I)Ljava/lang/AbstractStringBuilder;W
-	append(J)Jjava.lang.AbstractStringBuilder#append(J)Ljava/lang/AbstractStringBuilder;—
-)append(Ljava/lang/AbstractStringBuilder;)jjava.lang.AbstractStringBuilder#append(Ljava/lang/AbstractStringBuilder;)Ljava/lang/AbstractStringBuilder;…
- append(Ljava/lang/CharSequence;)ajava.lang.AbstractStringBuilder#append(Ljava/lang/CharSequence;)Ljava/lang/AbstractStringBuilder;‰
-"append(Ljava/lang/CharSequence;II)cjava.lang.AbstractStringBuilder#append(Ljava/lang/CharSequence;II)Ljava/lang/AbstractStringBuilder;y
-append(Ljava/lang/Object;)[java.lang.AbstractStringBuilder#append(Ljava/lang/Object;)Ljava/lang/AbstractStringBuilder;y
-append(Ljava/lang/String;)[java.lang.AbstractStringBuilder#append(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;…
- append(Ljava/lang/StringBuffer;)ajava.lang.AbstractStringBuilder#append(Ljava/lang/StringBuffer;)Ljava/lang/AbstractStringBuilder;W
-	append(Z)Jjava.lang.AbstractStringBuilder#append(Z)Ljava/lang/AbstractStringBuilder;Y
-
-append([C)Kjava.lang.AbstractStringBuilder#append([C)Ljava/lang/AbstractStringBuilder;]
-append([CII)Mjava.lang.AbstractStringBuilder#append([CII)Ljava/lang/AbstractStringBuilder;s
-'appendChars(Ljava/lang/CharSequence;II)Hjava.lang.AbstractStringBuilder#appendChars(Ljava/lang/CharSequence;II)Vg
-!appendChars(Ljava/lang/String;II)Bjava.lang.AbstractStringBuilder#appendChars(Ljava/lang/String;II)VG
-appendChars([CII)2java.lang.AbstractStringBuilder#appendChars([CII)Vi
-appendCodePoint(I)Sjava.lang.AbstractStringBuilder#appendCodePoint(I)Ljava/lang/AbstractStringBuilder;]
-appendNull()Mjava.lang.AbstractStringBuilder#appendNull()Ljava/lang/AbstractStringBuilder;9
-
-capacity()+java.lang.AbstractStringBuilder#capacity()I7
-	charAt(I)*java.lang.AbstractStringBuilder#charAt(I)CN
-chars()Cjava.lang.AbstractStringBuilder#chars()Ljava/util/stream/IntStream;A
-codePointAt(I)/java.lang.AbstractStringBuilder#codePointAt(I)II
-codePointBefore(I)3java.lang.AbstractStringBuilder#codePointBefore(I)II
-codePointCount(II)3java.lang.AbstractStringBuilder#codePointCount(II)IX
-codePoints()Hjava.lang.AbstractStringBuilder#codePoints()Ljava/util/stream/IntStream;}
-,compareTo(Ljava/lang/AbstractStringBuilder;)Mjava.lang.AbstractStringBuilder#compareTo(Ljava/lang/AbstractStringBuilder;)IY
-
-delete(II)Kjava.lang.AbstractStringBuilder#delete(II)Ljava/lang/AbstractStringBuilder;c
-deleteCharAt(I)Pjava.lang.AbstractStringBuilder#deleteCharAt(I)Ljava/lang/AbstractStringBuilder;G
-ensureCapacity(I)2java.lang.AbstractStringBuilder#ensureCapacity(I)VW
-ensureCapacityInternal(I):java.lang.AbstractStringBuilder#ensureCapacityInternal(I)VA
-getBytes([BIB)/java.lang.AbstractStringBuilder#getBytes([BIB)VC
-getChars(II[CI)0java.lang.AbstractStringBuilder#getChars(II[CI)V9
-
-getCoder()+java.lang.AbstractStringBuilder#getCoder()B:
-
-getValue(),java.lang.AbstractStringBuilder#getValue()[B[
-indexOf(Ljava/lang/String;)<java.lang.AbstractStringBuilder#indexOf(Ljava/lang/String;)I]
-indexOf(Ljava/lang/String;I)=java.lang.AbstractStringBuilder#indexOf(Ljava/lang/String;I)I7
-	inflate()*java.lang.AbstractStringBuilder#inflate()V
-5inflateIfNeededFor(Ljava/lang/AbstractStringBuilder;)Vjava.lang.AbstractStringBuilder#inflateIfNeededFor(Ljava/lang/AbstractStringBuilder;)Vq
-&inflateIfNeededFor(Ljava/lang/String;)Gjava.lang.AbstractStringBuilder#inflateIfNeededFor(Ljava/lang/String;)VC
-initBytes([CII)0java.lang.AbstractStringBuilder#initBytes([CII)VY
-
-insert(IC)Kjava.lang.AbstractStringBuilder#insert(IC)Ljava/lang/AbstractStringBuilder;Y
-
-insert(ID)Kjava.lang.AbstractStringBuilder#insert(ID)Ljava/lang/AbstractStringBuilder;Y
-
-insert(IF)Kjava.lang.AbstractStringBuilder#insert(IF)Ljava/lang/AbstractStringBuilder;Y
-
-insert(II)Kjava.lang.AbstractStringBuilder#insert(II)Ljava/lang/AbstractStringBuilder;Y
-
-insert(IJ)Kjava.lang.AbstractStringBuilder#insert(IJ)Ljava/lang/AbstractStringBuilder;‡
-!insert(ILjava/lang/CharSequence;)bjava.lang.AbstractStringBuilder#insert(ILjava/lang/CharSequence;)Ljava/lang/AbstractStringBuilder;‹
-#insert(ILjava/lang/CharSequence;II)djava.lang.AbstractStringBuilder#insert(ILjava/lang/CharSequence;II)Ljava/lang/AbstractStringBuilder;{
-insert(ILjava/lang/Object;)\java.lang.AbstractStringBuilder#insert(ILjava/lang/Object;)Ljava/lang/AbstractStringBuilder;{
-insert(ILjava/lang/String;)\java.lang.AbstractStringBuilder#insert(ILjava/lang/String;)Ljava/lang/AbstractStringBuilder;Y
-
-insert(IZ)Kjava.lang.AbstractStringBuilder#insert(IZ)Ljava/lang/AbstractStringBuilder;[
-insert(I[C)Ljava.lang.AbstractStringBuilder#insert(I[C)Ljava/lang/AbstractStringBuilder;_
-insert(I[CII)Njava.lang.AbstractStringBuilder#insert(I[CII)Ljava/lang/AbstractStringBuilder;9
-
-isLatin1()+java.lang.AbstractStringBuilder#isLatin1()Zc
-lastIndexOf(Ljava/lang/String;)@java.lang.AbstractStringBuilder#lastIndexOf(Ljava/lang/String;)Ie
- lastIndexOf(Ljava/lang/String;I)Ajava.lang.AbstractStringBuilder#lastIndexOf(Ljava/lang/String;I)I5
-length())java.lang.AbstractStringBuilder#length()IA
-newCapacity(I)/java.lang.AbstractStringBuilder#newCapacity(I)IQ
-offsetByCodePoints(II)7java.lang.AbstractStringBuilder#offsetByCodePoints(II)Is
-'putCharsAt(ILjava/lang/CharSequence;II)Hjava.lang.AbstractStringBuilder#putCharsAt(ILjava/lang/CharSequence;II)VG
-putCharsAt(I[CII)2java.lang.AbstractStringBuilder#putCharsAt(I[CII)Ve
- putStringAt(ILjava/lang/String;)Ajava.lang.AbstractStringBuilder#putStringAt(ILjava/lang/String;)Vi
-"putStringAt(ILjava/lang/String;II)Cjava.lang.AbstractStringBuilder#putStringAt(ILjava/lang/String;II)V
-replace(IILjava/lang/String;)^java.lang.AbstractStringBuilder#replace(IILjava/lang/String;)Ljava/lang/AbstractStringBuilder;W
-	reverse()Jjava.lang.AbstractStringBuilder#reverse()Ljava/lang/AbstractStringBuilder;?
-setCharAt(IC).java.lang.AbstractStringBuilder#setCharAt(IC)V=
-setLength(I)-java.lang.AbstractStringBuilder#setLength(I)V7
-	shift(II)*java.lang.AbstractStringBuilder#shift(II)VZ
-subSequence(II)Gjava.lang.AbstractStringBuilder#subSequence(II)Ljava/lang/CharSequence;N
-substring(I)>java.lang.AbstractStringBuilder#substring(I)Ljava/lang/String;P
-substring(II)?java.lang.AbstractStringBuilder#substring(II)Ljava/lang/String;=
-trimToSize()-java.lang.AbstractStringBuilder#trimToSize()Võ
-java.lang.StringBuilderjava.io.Serializablejava.lang.AbstractStringBuilderjava.lang.CharSequencejava.lang.Comparable-
-<init>()!java.lang.StringBuilder#<init>()V/
-	<init>(I)"java.lang.StringBuilder#<init>(I)V]
- <init>(Ljava/lang/CharSequence;)9java.lang.StringBuilder#<init>(Ljava/lang/CharSequence;)VQ
-<init>(Ljava/lang/String;)3java.lang.StringBuilder#<init>(Ljava/lang/String;)VG
-	append(C):java.lang.StringBuilder#append(C)Ljava/lang/StringBuilder;G
-	append(D):java.lang.StringBuilder#append(D)Ljava/lang/StringBuilder;G
-	append(F):java.lang.StringBuilder#append(F)Ljava/lang/StringBuilder;G
-	append(I):java.lang.StringBuilder#append(I)Ljava/lang/StringBuilder;G
-	append(J):java.lang.StringBuilder#append(J)Ljava/lang/StringBuilder;u
- append(Ljava/lang/CharSequence;)Qjava.lang.StringBuilder#append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;y
-"append(Ljava/lang/CharSequence;II)Sjava.lang.StringBuilder#append(Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;i
-append(Ljava/lang/Object;)Kjava.lang.StringBuilder#append(Ljava/lang/Object;)Ljava/lang/StringBuilder;i
-append(Ljava/lang/String;)Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;u
- append(Ljava/lang/StringBuffer;)Qjava.lang.StringBuilder#append(Ljava/lang/StringBuffer;)Ljava/lang/StringBuilder;G
-	append(Z):java.lang.StringBuilder#append(Z)Ljava/lang/StringBuilder;I
-
-append([C);java.lang.StringBuilder#append([C)Ljava/lang/StringBuilder;M
-append([CII)=java.lang.StringBuilder#append([CII)Ljava/lang/StringBuilder;Y
-appendCodePoint(I)Cjava.lang.StringBuilder#appendCodePoint(I)Ljava/lang/StringBuilder;e
-$compareTo(Ljava/lang/StringBuilder;)=java.lang.StringBuilder#compareTo(Ljava/lang/StringBuilder;)II
-
-delete(II);java.lang.StringBuilder#delete(II)Ljava/lang/StringBuilder;S
-deleteCharAt(I)@java.lang.StringBuilder#deleteCharAt(I)Ljava/lang/StringBuilder;S
-indexOf(Ljava/lang/String;)4java.lang.StringBuilder#indexOf(Ljava/lang/String;)IU
-indexOf(Ljava/lang/String;I)5java.lang.StringBuilder#indexOf(Ljava/lang/String;I)II
-
-insert(IC);java.lang.StringBuilder#insert(IC)Ljava/lang/StringBuilder;I
-
-insert(ID);java.lang.StringBuilder#insert(ID)Ljava/lang/StringBuilder;I
-
-insert(IF);java.lang.StringBuilder#insert(IF)Ljava/lang/StringBuilder;I
-
-insert(II);java.lang.StringBuilder#insert(II)Ljava/lang/StringBuilder;I
-
-insert(IJ);java.lang.StringBuilder#insert(IJ)Ljava/lang/StringBuilder;w
-!insert(ILjava/lang/CharSequence;)Rjava.lang.StringBuilder#insert(ILjava/lang/CharSequence;)Ljava/lang/StringBuilder;{
-#insert(ILjava/lang/CharSequence;II)Tjava.lang.StringBuilder#insert(ILjava/lang/CharSequence;II)Ljava/lang/StringBuilder;k
-insert(ILjava/lang/Object;)Ljava.lang.StringBuilder#insert(ILjava/lang/Object;)Ljava/lang/StringBuilder;k
-insert(ILjava/lang/String;)Ljava.lang.StringBuilder#insert(ILjava/lang/String;)Ljava/lang/StringBuilder;I
-
-insert(IZ);java.lang.StringBuilder#insert(IZ)Ljava/lang/StringBuilder;K
-insert(I[C)<java.lang.StringBuilder#insert(I[C)Ljava/lang/StringBuilder;O
-insert(I[CII)>java.lang.StringBuilder#insert(I[CII)Ljava/lang/StringBuilder;[
-lastIndexOf(Ljava/lang/String;)8java.lang.StringBuilder#lastIndexOf(Ljava/lang/String;)I]
- lastIndexOf(Ljava/lang/String;I)9java.lang.StringBuilder#lastIndexOf(Ljava/lang/String;I)Ik
-'readObject(Ljava/io/ObjectInputStream;)@java.lang.StringBuilder#readObject(Ljava/io/ObjectInputStream;)Vo
-replace(IILjava/lang/String;)Njava.lang.StringBuilder#replace(IILjava/lang/String;)Ljava/lang/StringBuilder;G
-	reverse():java.lang.StringBuilder#reverse()Ljava/lang/StringBuilder;B
-
-toString()4java.lang.StringBuilder#toString()Ljava/lang/String;o
-)writeObject(Ljava/io/ObjectOutputStream;)Bjava.lang.StringBuilder#writeObject(Ljava/io/ObjectOutputStream;)V–
+skip(J)java.io.BufferedReader#skip(J)J–
 main.MenuWriterjavax.swing.JMenuBarS
 <init>(Ljavax/swing/JTextPane;)0main.MenuWriter#<init>(Ljavax/swing/JTextPane;)V9
 getf1().main.MenuWriter#getf1()Ljavax/swing/JMenuItem;;
@@ -3408,7 +3408,11 @@ getfonte()%main.GUI#getfonte()Ljava/lang/String;$
 getLargeMaxRows()%java.sql.Statement#getLargeMaxRows()JB
 getLargeUpdateCount())java.sql.Statement#getLargeUpdateCount()Jd
 &isSimpleIdentifier(Ljava/lang/String;):java.sql.Statement#isSimpleIdentifier(Ljava/lang/String;)Z<
-setLargeMaxRows(J)&java.sql.Statement#setLargeMaxRows(J)Vœ
+setLargeMaxRows(J)&java.sql.Statement#setLargeMaxRows(J)V”
+java.sql.PreparedStatementjava.lang.Objectjava.sql.StatementH
+executeLargeUpdate()0java.sql.PreparedStatement#executeLargeUpdate()J€
+0setObject(ILjava/lang/Object;Ljava/sql/SQLType;)Ljava.sql.PreparedStatement#setObject(ILjava/lang/Object;Ljava/sql/SQLType;)V‚
+1setObject(ILjava/lang/Object;Ljava/sql/SQLType;I)Mjava.sql.PreparedStatement#setObject(ILjava/lang/Object;Ljava/sql/SQLType;I)Vœ
 java.sql.ResultSetjava.lang.AutoCloseablejava.lang.Objectjava.sql.Wrapper~
 3updateObject(ILjava/lang/Object;Ljava/sql/SQLType;)Gjava.sql.ResultSet#updateObject(ILjava/lang/Object;Ljava/sql/SQLType;)V€
 4updateObject(ILjava/lang/Object;Ljava/sql/SQLType;I)Hjava.sql.ResultSet#updateObject(ILjava/lang/Object;Ljava/sql/SQLType;I)V 
@@ -3800,38 +3804,11 @@ toString()0java.lang.Character#toString()Ljava/lang/String;@
 toUpperCaseCharArray(I)-java.lang.Character#toUpperCaseCharArray(I)[C9
 toUpperCaseEx(I)%java.lang.Character#toUpperCaseEx(I)IA
 
-valueOf(C)3java.lang.Character#valueOf(C)Ljava/lang/Character;ç
+valueOf(C)3java.lang.Character#valueOf(C)Ljava/lang/Character;Œ
 	main.Menujava.awt.event.ActionListenerjavax.swing.JMenuBar
 <init>()main.Menu#<init>()Vi
--actionPerformed(Ljava/awt/event/ActionEvent;)8main.Menu#actionPerformed(Ljava/awt/event/ActionEvent;)V=
-getColor10()-main.Menu#getColor10()Ljavax/swing/JMenuItem;=
-getColor11()-main.Menu#getColor11()Ljavax/swing/JMenuItem;=
-getColor12()-main.Menu#getColor12()Ljavax/swing/JMenuItem;=
-getColor13()-main.Menu#getColor13()Ljavax/swing/JMenuItem;=
-getColor14()-main.Menu#getColor14()Ljavax/swing/JMenuItem;=
-getColor15()-main.Menu#getColor15()Ljavax/swing/JMenuItem;=
-getColor16()-main.Menu#getColor16()Ljavax/swing/JMenuItem;=
-getColor17()-main.Menu#getColor17()Ljavax/swing/JMenuItem;=
-getColor18()-main.Menu#getColor18()Ljavax/swing/JMenuItem;=
-getColor20()-main.Menu#getColor20()Ljavax/swing/JMenuItem;=
-getColor21()-main.Menu#getColor21()Ljavax/swing/JMenuItem;=
-getColor22()-main.Menu#getColor22()Ljavax/swing/JMenuItem;=
-getColor23()-main.Menu#getColor23()Ljavax/swing/JMenuItem;=
-getColor24()-main.Menu#getColor24()Ljavax/swing/JMenuItem;=
-getColor25()-main.Menu#getColor25()Ljavax/swing/JMenuItem;=
-getColor26()-main.Menu#getColor26()Ljavax/swing/JMenuItem;=
-getColor27()-main.Menu#getColor27()Ljavax/swing/JMenuItem;=
-getColor28()-main.Menu#getColor28()Ljavax/swing/JMenuItem;C
-getImageIcon1()0main.Menu#getImageIcon1()Ljavax/swing/ImageIcon;E
-getImageIcon10()1main.Menu#getImageIcon10()Ljavax/swing/ImageIcon;C
-getImageIcon2()0main.Menu#getImageIcon2()Ljavax/swing/ImageIcon;C
-getImageIcon3()0main.Menu#getImageIcon3()Ljavax/swing/ImageIcon;C
-getImageIcon4()0main.Menu#getImageIcon4()Ljavax/swing/ImageIcon;C
-getImageIcon5()0main.Menu#getImageIcon5()Ljavax/swing/ImageIcon;C
-getImageIcon6()0main.Menu#getImageIcon6()Ljavax/swing/ImageIcon;C
-getImageIcon7()0main.Menu#getImageIcon7()Ljavax/swing/ImageIcon;C
-getImageIcon8()0main.Menu#getImageIcon8()Ljavax/swing/ImageIcon;C
-getImageIcon9()0main.Menu#getImageIcon9()Ljavax/swing/ImageIcon;;
+-actionPerformed(Ljava/awt/event/ActionEvent;)8main.Menu#actionPerformed(Ljava/awt/event/ActionEvent;)VE
+getImageIcon10()1main.Menu#getImageIcon10()Ljavax/swing/ImageIcon;;
 getaccetta()+main.Menu#getaccetta()Ljavax/swing/JButton;=
 getaccetta1(),main.Menu#getaccetta1()Ljavax/swing/JButton;5
 
@@ -4330,10 +4307,10 @@ updateUI()%javax.swing.JToggleButton#updateUI()Vq
 'setIconFromAction(Ljavax/swing/Action;)Ajavax.swing.JRadioButton#setIconFromAction(Ljavax/swing/Action;)V2
 
 updateUI()$javax.swing.JRadioButton#updateUI()Vp
-)writeObject(Ljava/io/ObjectOutputStream;)Cjavax.swing.JRadioButton#writeObject(Ljava/io/ObjectOutputStream;)VÃ
+)writeObject(Ljava/io/ObjectOutputStream;)Cjavax.swing.JRadioButton#writeObject(Ljava/io/ObjectOutputStream;)VË
 main.Searchjavax.swing.JFrame!
-<init>()main.Search#<init>()Vg
-+error(Ljava/lang/String;Ljava/lang/String;)8main.Search#error(Ljava/lang/String;Ljava/lang/String;)V#
+<init>()main.Search#<init>()Vi
+,error(Ljava/lang/String;Ljava/lang/String;I)9main.Search#error(Ljava/lang/String;Ljava/lang/String;I)V#
 	errore1()main.Search#errore1()V>
 getArgomento(),main.Search#getArgomento()Ljava/lang/String;8
 getFileTxt()(main.Search#getFileTxt()Ljava/util/List;<
@@ -4343,10 +4320,10 @@ getFonte()(main.Search#getFonte()Ljava/lang/String;C
 main([Ljava/lang/String;)&main.Search#main([Ljava/lang/String;)V
 ok()main.Search#ok()V
 sets()main.Search#sets()V
-sets1()main.Search#sets1()VI
-split1(Ljava/sql/Statement;))main.Search#split1(Ljava/sql/Statement;)II
-split2(Ljava/sql/Statement;))main.Search#split2(Ljava/sql/Statement;)II
-split3(Ljava/sql/Statement;))main.Search#split3(Ljava/sql/Statement;)I¯
+sets1()main.Search#sets1()VK
+split1(Ljava/sql/Connection;)*main.Search#split1(Ljava/sql/Connection;)IK
+split2(Ljava/sql/Connection;)*main.Search#split2(Ljava/sql/Connection;)IK
+split3(Ljava/sql/Connection;)*main.Search#split3(Ljava/sql/Connection;)I¯
 main.FileChooserjava.io.Serializablejavax.swing.JFramef
 (<init>(Ljava/util/List;Ljava/util/List;):main.FileChooser#<init>(Ljava/util/List;Ljava/util/List;)VX
 !Finestraimage(Ljava/lang/String;)3main.FileChooser#Finestraimage(Ljava/lang/String;)VT
@@ -4410,7 +4387,7 @@ getTitle()<javax.swing.border.TitledBorder#getTitle()Ljava/lang/String;R
 setTitleColor(Ljava/awt/Color;)@javax.swing.border.TitledBorder#setTitleColor(Ljava/awt/Color;)V_
 setTitleFont(Ljava/awt/Font;)>javax.swing.border.TitledBorder#setTitleFont(Ljava/awt/Font;)VU
 setTitleJustification(I)9javax.swing.border.TitledBorder#setTitleJustification(I)VK
-setTitlePosition(I)4javax.swing.border.TitledBorder#setTitlePosition(I)Vá:
+setTitlePosition(I)4javax.swing.border.TitledBorder#setTitlePosition(I)V³+
 main.ImageMenujavax.swing.JMenuBarˆ
 :<init>(Ljava/awt/image/BufferedImage;Ljava/lang/String;[B)Jmain.ImageMenu#<init>(Ljava/awt/image/BufferedImage;Ljava/lang/String;[B)Vk
 Color(II[BLjava/lang/String;)Jmain.ImageMenu#Color(II[BLjava/lang/String;)Ljava/awt/image/BufferedImage;}
@@ -4435,35 +4412,7 @@ $bn(IILjava/awt/image/BufferedImage;)Qmain.ImageMenu#bn(IILjava/awt/image/Buffe
 getCOLOR106()3main.ImageMenu#getCOLOR106()Ljavax/swing/JMenuItem;D
 getCOLOR107()3main.ImageMenu#getCOLOR107()Ljavax/swing/JMenuItem;D
 getCOLOR108()3main.ImageMenu#getCOLOR108()Ljavax/swing/JMenuItem;D
-getCOLOR110()3main.ImageMenu#getCOLOR110()Ljavax/swing/JMenuItem;B
-getColor10()2main.ImageMenu#getColor10()Ljavax/swing/JMenuItem;B
-getColor11()2main.ImageMenu#getColor11()Ljavax/swing/JMenuItem;B
-getColor12()2main.ImageMenu#getColor12()Ljavax/swing/JMenuItem;B
-getColor13()2main.ImageMenu#getColor13()Ljavax/swing/JMenuItem;B
-getColor14()2main.ImageMenu#getColor14()Ljavax/swing/JMenuItem;B
-getColor15()2main.ImageMenu#getColor15()Ljavax/swing/JMenuItem;B
-getColor16()2main.ImageMenu#getColor16()Ljavax/swing/JMenuItem;B
-getColor17()2main.ImageMenu#getColor17()Ljavax/swing/JMenuItem;B
-getColor18()2main.ImageMenu#getColor18()Ljavax/swing/JMenuItem;B
-getColor20()2main.ImageMenu#getColor20()Ljavax/swing/JMenuItem;B
-getColor21()2main.ImageMenu#getColor21()Ljavax/swing/JMenuItem;B
-getColor22()2main.ImageMenu#getColor22()Ljavax/swing/JMenuItem;B
-getColor23()2main.ImageMenu#getColor23()Ljavax/swing/JMenuItem;B
-getColor24()2main.ImageMenu#getColor24()Ljavax/swing/JMenuItem;B
-getColor25()2main.ImageMenu#getColor25()Ljavax/swing/JMenuItem;B
-getColor26()2main.ImageMenu#getColor26()Ljavax/swing/JMenuItem;B
-getColor27()2main.ImageMenu#getColor27()Ljavax/swing/JMenuItem;B
-getColor28()2main.ImageMenu#getColor28()Ljavax/swing/JMenuItem;H
-getImageIcon1()5main.ImageMenu#getImageIcon1()Ljavax/swing/ImageIcon;J
-getImageIcon10()6main.ImageMenu#getImageIcon10()Ljavax/swing/ImageIcon;H
-getImageIcon2()5main.ImageMenu#getImageIcon2()Ljavax/swing/ImageIcon;H
-getImageIcon3()5main.ImageMenu#getImageIcon3()Ljavax/swing/ImageIcon;H
-getImageIcon4()5main.ImageMenu#getImageIcon4()Ljavax/swing/ImageIcon;H
-getImageIcon5()5main.ImageMenu#getImageIcon5()Ljavax/swing/ImageIcon;H
-getImageIcon6()5main.ImageMenu#getImageIcon6()Ljavax/swing/ImageIcon;H
-getImageIcon7()5main.ImageMenu#getImageIcon7()Ljavax/swing/ImageIcon;H
-getImageIcon8()5main.ImageMenu#getImageIcon8()Ljavax/swing/ImageIcon;H
-getImageIcon9()5main.ImageMenu#getImageIcon9()Ljavax/swing/ImageIcon;8
+getCOLOR110()3main.ImageMenu#getCOLOR110()Ljavax/swing/JMenuItem;8
 getf1()-main.ImageMenu#getf1()Ljavax/swing/JMenuItem;:
 getf10().main.ImageMenu#getf10()Ljavax/swing/JMenuItem;:
 getf11().main.ImageMenu#getf11()Ljavax/swing/JMenuItem;:

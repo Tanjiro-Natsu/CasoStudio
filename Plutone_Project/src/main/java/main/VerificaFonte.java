@@ -17,20 +17,17 @@ public class VerificaFonte {
 		 Class.forName(sqldriverString);
 		 
           String sqlUser = Accesso.getUser();
-          String sqlPassword = Accesso.getPassword(); //passwrod sa account
-          String connectionUrl =Accesso.getjdbc()+encrypt;
+          String sqlPassword = Accesso.getPassword();
+          String connectionUrl=new StringBuilder().append(Accesso.getjdbc()).append(encrypt).toString();
       
 
           
          
           Connection conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
-          Statement stmt = conn.createStatement(ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_UPDATABLE);
-			
-         
-         
-         
-         	 query="SELECT * FROM Testo WHERE name =any(SELECT T.name FROM News AS n JOIN Testo as T on T.stream_id=n.Stream_File  WHERE n.Argomento='"+GUI.getargomento()+"');";
-         	k=stmt.executeQuery(query);
+         	 query="SELECT * FROM Testo WHERE name =any(SELECT T.name FROM News AS n JOIN Testo as T on T.stream_id=n.Stream_File  WHERE n.Argomento=?);";
+         	PreparedStatement stmt=conn.prepareStatement(query);
+         	stmt.setString(1, GUI.getargomento());
+         	 k=stmt.executeQuery(query);
        	 if(k.next()==false){
        		 y=1;
        	 }
@@ -59,17 +56,19 @@ return m;
 		 Class.forName(sqldriverString);
 		 
           String sqlUser = Accesso.getUser();
-          String sqlPassword = Accesso.getPassword(); //passwrod sa account
-          String connectionUrl = Accesso.getjdbc()+encrypt;
+          String sqlPassword = Accesso.getPassword();
+          String connectionUrl =new StringBuilder().append(Accesso.getjdbc()).append(encrypt).toString();
          
 
           
          
           Connection conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
-          Statement stmt = conn.createStatement(ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_UPDATABLE);
+          
          
-        	 query="SELECT * FROM IMMAGINI WHERE name =any(SELECT I.name FROM News AS n JOIN IMMAGINI as I on I.stream_id=n.Stream_File  WHERE n.Argomento='"+GUI.getargomento()+"');"; 
-        	 k=stmt.executeQuery(query);
+        	 query="SELECT * FROM IMMAGINI WHERE name =any(SELECT I.name FROM News AS n JOIN IMMAGINI as I on I.stream_id=n.Stream_File  WHERE n.Argomento=?);"; 
+        	 java.sql.PreparedStatement stmt=conn.prepareStatement(query);
+        	 stmt.setString(1, GUI.getargomento());
+        	 k=stmt.executeQuery();
         	 int f=0;
         	
         	 
@@ -84,8 +83,9 @@ return m;
     	 
      }
      if(f==0) {return 1.0;}
+     stmt.close();
      conn.close();
-   	 stmt.close();
+   	 
        
 		}
 	
@@ -107,8 +107,8 @@ return m;
 		
 		 
         String sqlUser = Accesso.getUser();
-        String sqlPassword = Accesso.getPassword(); //passwrod sa account
-        String connectionUrl = Accesso.getjdbc()+encrypt;
+        String sqlPassword = Accesso.getPassword();
+        String connectionUrl = new StringBuilder().append(Accesso.getjdbc()).append(encrypt).toString();
         ResultSet k=null;
 		 String query=null;
         String result=null;
@@ -121,10 +121,12 @@ return m;
 
 
         Connection conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
-        Statement stmt = conn.createStatement(ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_UPDATABLE);
+        
           
-        query="SELECT Fonte FROM Attendibilità WHERE  Argomento='"+a+"' and Attendibilità='yes';";
-        k=stmt.executeQuery(query);
+        query="SELECT Fonte FROM Attendibilità WHERE  Argomento=? and Attendibilità='yes';";
+        java.sql.PreparedStatement stmt =conn.prepareStatement(query) ;
+        stmt.setString(1, a);
+        k=stmt.executeQuery();
         
         
         int f=0;
@@ -138,7 +140,7 @@ return m;
         	}
         	f++;
         	
-        	stmt.close();
+        	
         }
         
         conn.close();

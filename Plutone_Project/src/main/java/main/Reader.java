@@ -24,7 +24,7 @@ public class Reader {
 	static  String rty;
 	private static String g="";
 	public static void writer(final JTextPane j) {
-		
+	String separetor=File.separator;	
 		
 		final JFrame t=new JFrame("Selezione nome file");
 		t.setSize(300,280);
@@ -42,12 +42,12 @@ public class Reader {
     	 JButton ok=new JButton("Ok");
     	 JButton cancel =new JButton("Cancel");
     	 Path path=Paths.get("");
- 	    final String v=path.toAbsolutePath().toString();
+  	    final String v=path.toAbsolutePath().normalize().toString();
     	 fg.add(ok);
     	 fg.add(cancel);
     	 t.add(fg);
     	 t.add(new JLabel());
-    	 ok.addActionListener(e->{if(e.getActionCommand().equals("Ok")) {rty=aq.getText();t.dispose();rty=v+"\\"+rty;PrintWriter xx=null;try {	
+    	 ok.addActionListener(e->{if(e.getActionCommand().equals("Ok")) {rty=aq.getText();t.dispose();rty=v+separetor+rty;PrintWriter xx=null;try {	
  			
  			xx=new PrintWriter(new File(rty) );
  			xx.write(j.getText());

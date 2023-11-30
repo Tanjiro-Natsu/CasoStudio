@@ -1,16 +1,18 @@
 
-,main.Menu#getaccetta1()Ljavax/swing/JButton;a
-W/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu.javas s("1*ž
-1s% s(-f
-d
-s% s(-
-%0javax.swing.JButton"__id*7
+.main.Menu2#getColor18()Ljavax/swing/JMenuItem;b
+X/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu2.javaX X("1*£
+1X' X(/i
+g
+X' X(/
+%0javax.swing.JMenuItem"__id*8
 
-__unknown_file (*
-	main.Menu"
+__unknown_file (*
 
-accetta1"'
-s s(.
-
-%0javax.swing.JButtonB
-	main.MenuH
+main.Menu2"
+
+colore18")
+X  X(0
+
+%0javax.swing.JMenuItemB
+
+main.Menu2H

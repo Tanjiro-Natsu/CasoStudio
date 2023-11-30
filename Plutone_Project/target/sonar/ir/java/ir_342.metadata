@@ -1,3 +1,6 @@
-main.ImageMenu#setcolor6()V
-javax.swing.JMenuItem#<init>()V
-javax.swing.JMenuItem#instance-init#
+main.GUI#run()V
+main.Menu#setSave(Z)V
+java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z
+==
+getText javax.swing.text.JTextComponent#getText()Ljava/lang/String;
+setEnabled javax.swing.AbstractButton#setEnabled(Z)V

@@ -1,4 +1,26 @@
-main.ImageMenu#violet(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+main.Search#error(Ljava/lang/String;Ljava/lang/String;I)V
+java.awt.GridLayout#<init>(II)V
+javax.swing.JPanel#<init>()V
+javax.swing.JButton#<init>(Ljava/lang/String;)V
+javax.swing.JFrame#instance-init#
+java.awt.GridLayout#instance-init#
+javax.swing.JPanel#instance-init#
+java.awt.BorderLayout#<init>()V
+javax.swing.JLabel#<init>(Ljava/lang/String;)V
+javax.swing.JFrame#<init>(Ljava/lang/String;)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+javax.swing.JLabel#instance-init#
+java.awt.Font#<init>(Ljava/lang/String;II)V
+java.awt.Font#instance-init#
+java.awt.BorderLayout#instance-init#
+javax.swing.JButton#instance-init#
 ==
-getRGB java.awt.image.BufferedImage#getRGB(II)I
-setRGB java.awt.image.BufferedImage#setRGB(III)V
+setLocation java.awt.Window#setLocation(II)V
+add java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;
+setFont javax.swing.JComponent#setFont(Ljava/awt/Font;)V
+add java.awt.Container#add(Ljava/awt/Component;Ljava/lang/Object;)V
+setVisible java.awt.Window#setVisible(Z)V
+setSize java.awt.Window#setSize(II)V
+setLayout java.awt.Container#setLayout(Ljava/awt/LayoutManager;)V
+addActionListener javax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V
+setLayout javax.swing.JFrame#setLayout(Ljava/awt/LayoutManager;)V

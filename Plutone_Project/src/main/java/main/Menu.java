@@ -29,7 +29,7 @@ import javax.swing.JTextArea;
 import javax.swing.WindowConstants;
 
 public class Menu extends JMenuBar implements ActionListener{
-	
+	private static String separetor=File.separator;
 	private static final long serialVersionUID = 1L;
 	private JFrame prova=null;
 	private JFrame xc=null;
@@ -65,16 +65,16 @@ private static String cooper="Cooper Blank";
 	private JMenuItem colore26=new JMenuItem("Nero");
 	private JMenuItem colore27=new JMenuItem("Rosa");
 	private JMenuItem colore28=new JMenuItem("Grigio");
-	private ImageIcon Image1=null;
-	private ImageIcon Image2=null;
-	private ImageIcon Image3=null;
-	private ImageIcon Image4=null;
-	private ImageIcon Image5=null;
-	private ImageIcon Image6=null;
-	private ImageIcon Image7=null;
-	private ImageIcon Image8=null;
-	private ImageIcon Image9=null;
-	private ImageIcon Image10=null;
+	private ImageIcon Image11=null;
+	private ImageIcon Image21=null;
+	private ImageIcon Image31=null;
+	private ImageIcon Image41=null;
+	private ImageIcon Image51=null;
+	private ImageIcon Image61=null;
+	private ImageIcon Image71=null;
+	private ImageIcon Image81=null;
+	private ImageIcon Image91=null;
+	private ImageIcon Image101=null;
 	private JMenuItem bloccaFonte;
 	private JMenuItem sbloccaFonte;
 	private JButton accetta=null;
@@ -83,34 +83,7 @@ private static String cooper="Cooper Blank";
 	private JButton rifiuta1=null;
 	private JTextArea zzz=null;
 private String versioneprodotto="1.0.0";
-public  JMenuItem getColor10() {return colore10;}
-public  JMenuItem getColor11() {return colore11;}
-public  JMenuItem getColor12() {return colore12;}
-public  JMenuItem getColor13() {return colore13;}
-public  JMenuItem getColor14() {return colore14;}
-public  JMenuItem getColor15() {return colore15;}
-public  JMenuItem getColor16() {return colore16;}
-public  JMenuItem getColor17() {return colore17;}
-public  JMenuItem getColor18() {return colore18;}
-public  JMenuItem getColor20() {return colore20;}
-public  JMenuItem getColor21() {return colore21;}
-public  JMenuItem getColor22() {return colore22;}
-public  JMenuItem getColor23() {return colore23;}
-public  JMenuItem getColor24() {return colore24;}
-public  JMenuItem getColor25() {return colore25;}
-public  JMenuItem getColor26() {return colore26;}
-public  JMenuItem getColor27() {return colore27;}
-public  JMenuItem getColor28() {return colore28;}
-public ImageIcon getImageIcon1() {return Image1;}
-public ImageIcon getImageIcon2() {return Image2;}
-public ImageIcon getImageIcon3() {return Image3;}
-public ImageIcon getImageIcon4() {return Image4;}
-public ImageIcon getImageIcon5() {return Image5;}
-public ImageIcon getImageIcon6() {return Image6;}
-public ImageIcon getImageIcon7() {return Image7;}
-public ImageIcon getImageIcon8() {return Image8;}
-public ImageIcon getImageIcon9() {return Image9;}
-public ImageIcon getImageIcon10() {return Image10;}
+public ImageIcon getImageIcon10() {return Image101;}
 public JButton getaccetta() {return accetta;}
 public JButton getaccetta1() {return accetta1;}
 public JButton getrifiuta() {return rifiuta;}
@@ -134,16 +107,16 @@ try {
 	  Path path=Paths.get("");
     String a=path.toAbsolutePath().toString();
    
-	 Image1=new ImageIcon(ImageIO.read(new File(a+"\\Icon\\Refresh.png")));
-	 Image2=new ImageIcon(ImageIO.read(new File(a+"\\Icon\\i.png")));
-	 Image3=new ImageIcon(ImageIO.read(new File(a+"\\Icon\\save.png")));
-	 Image4=new ImageIcon(ImageIO.read(new File(a+"\\Icon\\check.png")));
-	 Image5=new ImageIcon(ImageIO.read(new File(a+"\\Icon\\exit.png")));
-	 Image6=new ImageIcon(ImageIO.read(new File(a+"\\Icon\\info.png")));
-	 Image7=new ImageIcon(ImageIO.read(new File(a+"\\Icon\\manuale.png")));
-	 Image8=new ImageIcon(ImageIO.read(new File(a+"\\Icon\\web.png")));
-	 Image9=new ImageIcon(ImageIO.read(new File(a+"\\Icon\\lock.png")));
-	 Image10=new ImageIcon(ImageIO.read(new File(a+"\\Icon\\unlock.png")));
+    Image11=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"Refresh.png")));
+	 Image21=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"i.png")));
+	 Image31=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"save.png")));
+	 Image41=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"check.png")));
+	 Image51=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"exit.png")));
+	 Image61=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"info.png")));
+	 Image71=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"manuale.png")));
+	 Image81=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"web.png")));
+	 Image91=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"lock.png")));
+	 Image101=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"unlock.png")));
 	
 	
 	
@@ -152,26 +125,26 @@ try {
 }
 
 bloccaFonte=new JMenuItem("Blocca Fonte");
-bloccaFonte.setIcon(Image9);
+bloccaFonte.setIcon(Image91);
 sbloccaFonte=new JMenuItem("Sblocca Fonte");
-sbloccaFonte.setIcon(Image10);
+sbloccaFonte.setIcon(Image101);
 menu1=new JMenu("File");
 fonti=new JMenu("Fonti");
 helpmenu=new JMenu("Help");
 Refresh=new JMenuItem("Refresh");
-Refresh.setIcon(Image1);
+Refresh.setIcon(Image11);
 Save=new JMenuItem("Save");
-Save.setIcon(Image3);
+Save.setIcon(Image31);
 Properties=new JMenu("Properties");
-Properties.setIcon(Image2);
+Properties.setIcon(Image21);
 Exit=new JMenuItem("Exit");
-Exit.setIcon(Image5);
+Exit.setIcon(Image51);
 Info=new JMenuItem("Info");
-Info.setIcon(Image6);
+Info.setIcon(Image61);
 Manuale=new JMenuItem("Manuale");
-Manuale.setIcon(Image7);
+Manuale.setIcon(Image71);
 Sito=new JMenuItem("Sito");
-Sito.setIcon(Image8);
+Sito.setIcon(Image81);
 JMenu colori=new JMenu("Colori");
 JMenu coloriTrue=new JMenu("ColoriTrue");
 JMenu coloriFalse=new JMenu("ColoriFalse");
@@ -214,7 +187,7 @@ colori.add(coloriTrue);
 coloriTrue.add(colore10);
 coloriTrue.add(colore11);
 coloriTrue.add(colore12);
-colore12.setIcon(Image4);
+colore12.setIcon(Image41);
 coloriTrue.add(colore13);
 coloriTrue.add(colore14);
 coloriTrue.add(colore15);
@@ -223,7 +196,7 @@ coloriTrue.add(colore17);
 coloriTrue.add(colore18);
 colori.add(coloriFalse);
 coloriFalse.add(colore20);
-colore20.setIcon(Image4);
+colore20.setIcon(Image41);
 coloriFalse.add(colore21);
 coloriFalse.add(colore22);
 coloriFalse.add(colore23);
@@ -297,7 +270,7 @@ prova.dispose();
 			
 		}
 		else if(e.getSource()==colore10) {
-			colore10.setIcon(Image4);
+			colore10.setIcon(Image41);
 			colore11.setIcon(null);
 			colore12.setIcon(null);
 			colore13.setIcon(null);
@@ -312,7 +285,7 @@ prova.dispose();
 		}
 		else if(e.getSource()==colore11) {
 			colore10.setIcon(null);
-			colore11.setIcon(Image4);
+			colore11.setIcon(Image41);
 			colore12.setIcon(null);
 			colore13.setIcon(null);
 			colore14.setIcon(null);
@@ -324,7 +297,7 @@ prova.dispose();
 			GUI.setColor1(Color.BLUE);
 		}
 		else if(e.getSource()==colore12) {
-			colore12.setIcon(Image4);
+			colore12.setIcon(Image41);
 			colore10.setIcon(null);
 			colore11.setIcon(null);
 			colore13.setIcon(null);
@@ -345,7 +318,7 @@ prova.dispose();
 			GUI.setColor1(Color.GREEN);
 		}
 		else if(e.getSource()==colore13) {
-			colore13.setIcon(Image4);
+			colore13.setIcon(Image41);
 			colore10.setIcon(null);
 			colore11.setIcon(null);
 			colore12.setIcon(null);
@@ -358,7 +331,7 @@ prova.dispose();
 			GUI.setColor1(Color.ORANGE);
 		}
 		else if(e.getSource()==colore14) {
-			colore14.setIcon(Image4);
+			colore14.setIcon(Image41);
 			colore10.setIcon(null);
 			colore11.setIcon(null);
 			colore12.setIcon(null);
@@ -371,7 +344,7 @@ prova.dispose();
 			GUI.setColor1(Color.YELLOW);
 		}
 		else if(e.getSource()==colore15) {
-			colore15.setIcon(Image4);
+			colore15.setIcon(Image41);
 			colore10.setIcon(null);
 			colore11.setIcon(null);
 			colore12.setIcon(null);
@@ -384,7 +357,7 @@ prova.dispose();
 			GUI.setColor1(Color.MAGENTA);
 		}
 		else if(e.getSource()==colore16) {
-			colore16.setIcon(Image4);
+			colore16.setIcon(Image41);
 			colore10.setIcon(null);
 			colore11.setIcon(null);
 			colore12.setIcon(null);
@@ -397,7 +370,7 @@ prova.dispose();
 			GUI.setColor1(Color.BLACK);
 		}
 		else if(e.getSource()==colore17) {
-			colore17.setIcon(Image4);
+			colore17.setIcon(Image41);
 			colore10.setIcon(null);
 			colore11.setIcon(null);
 			colore12.setIcon(null);
@@ -409,7 +382,7 @@ prova.dispose();
 			
 			GUI.setColor1(Color.PINK);
 		}else if(e.getSource()==colore18) {
-			colore18.setIcon(Image4);
+			colore18.setIcon(Image41);
 			colore10.setIcon(null);
 			colore11.setIcon(null);
 			colore12.setIcon(null);
@@ -422,7 +395,7 @@ prova.dispose();
 			GUI.setColor1(Color.GRAY);
 		}
 		else if(e.getSource()==colore20) {
-			colore20.setIcon(Image4);
+			colore20.setIcon(Image41);
 			colore21.setIcon(null);
 			colore22.setIcon(null);
 			colore23.setIcon(null);
@@ -434,7 +407,7 @@ prova.dispose();
 			GUI.setColor2(Color.RED);
 		}
 		else if(e.getSource()==colore21) {
-			colore21.setIcon(Image4);
+			colore21.setIcon(Image41);
 			colore20.setIcon(null);
 			colore22.setIcon(null);
 			colore23.setIcon(null);
@@ -446,7 +419,7 @@ prova.dispose();
 			GUI.setColor2(Color.BLUE);
 		}
 		else if(e.getSource()==colore22) {
-			colore22.setIcon(Image4);
+			colore22.setIcon(Image41);
 			colore20.setIcon(null);
 			colore21.setIcon(null);
 			colore23.setIcon(null);
@@ -458,7 +431,7 @@ prova.dispose();
 			GUI.setColor2(Color.GREEN);
 		}
 		else if(e.getSource()==colore23) {
-			colore23.setIcon(Image4);
+			colore23.setIcon(Image41);
 			colore20.setIcon(null);
 			colore21.setIcon(null);
 			colore22.setIcon(null);
@@ -470,7 +443,7 @@ prova.dispose();
 			GUI.setColor2(Color.ORANGE);
 		}
 		else if(e.getSource()==colore24) {
-			colore24.setIcon(Image4);
+			colore24.setIcon(Image41);
 			colore20.setIcon(null);
 			colore21.setIcon(null);
 			colore22.setIcon(null);
@@ -482,7 +455,7 @@ prova.dispose();
 			GUI.setColor2(Color.YELLOW);
 		}
 		else if(e.getSource()==colore25) {
-			colore25.setIcon(Image4);
+			colore25.setIcon(Image41);
 			colore20.setIcon(null);
 			colore21.setIcon(null);
 			colore22.setIcon(null);
@@ -494,7 +467,7 @@ prova.dispose();
 			GUI.setColor2(Color.MAGENTA);
 		}
 		else if(e.getSource()==colore26) {
-			colore26.setIcon(Image4);
+			colore26.setIcon(Image41);
 			colore20.setIcon(null);
 			colore21.setIcon(null);
 			colore22.setIcon(null);
@@ -506,7 +479,7 @@ prova.dispose();
 			GUI.setColor2(Color.BLACK);
 		}
 		else if(e.getSource()==colore27) {
-			colore27.setIcon(Image4);
+			colore27.setIcon(Image41);
 			colore20.setIcon(null);
 			colore21.setIcon(null);
 			colore22.setIcon(null);
@@ -517,7 +490,7 @@ prova.dispose();
 			colore28.setIcon(null);
 			GUI.setColor2(Color.PINK);
 		}else if(e.getSource()==colore28) {
-			colore28.setIcon(Image4);
+			colore28.setIcon(Image41);
 			colore20.setIcon(null);
 			colore21.setIcon(null);
 			colore22.setIcon(null);
@@ -562,7 +535,7 @@ prova.dispose();
 			Path path=Paths.get("");
 		    String a=path.toAbsolutePath().toString();
 			
-			File file=new File(a+"\\sito.bat");
+			File file=new File(a+separetor+"sito.bat");
 			try {
 				Desktop.getDesktop().open(file);
 			} catch (IOException e1) {
@@ -601,7 +574,7 @@ prova.dispose();
 			prova.add(rifiuta);
 			Path path=Paths.get("");
 			String a=path.toAbsolutePath().toString();
-			File file1=new File(a+"\\FontiBloccate");
+			File file1=new File(a+separetor+"FontiBloccate");
 			if(file1.isDirectory()) {
 				
 				
@@ -618,7 +591,7 @@ public void split2() {
 
 	try {
 		
-		PrintWriter xx=new PrintWriter(new FileOutputStream(new File(a+"\\FontiBloccate\\FontiBloccate.txt"),true));
+		PrintWriter xx=new PrintWriter(new FileOutputStream(new File(a+separetor+"FontiBloccate"+separetor+"FontiBloccate.txt"),true));
 		
 		xx.printf(zzz.getText().replaceAll("//s", "")+"\n");
 		zzz.setText(" ");
@@ -676,8 +649,8 @@ public void split4() {
 	int gh=0;
 	try {
 		
-		 file=new File(a+"\\FontiBloccate\\FontiBloccate.txt");
-		delete=a+"\\FontiBloccate\\FontiBloccate1.txt";
+		 file=new File(a+separetor+"FontiBloccate"+separetor+"FontiBloccate.txt");
+		delete=a+separetor+"FontiBloccate"+separetor+"FontiBloccate1.txt";
 		 file1=new File(delete);
 		
 	if(file.exists()==false) {
@@ -753,7 +726,7 @@ public void split5() {
 	Path path=Paths.get("");
     String a=path.toAbsolutePath().toString();
 	
-	File file=new File(a+"\\Save");
+	File file=new File(a+separetor+"Save");
 	if(file.isDirectory()) {
 		
 	}
@@ -764,7 +737,7 @@ public void split5() {
 	try {
 		
 		Integer z=(Integer)(counter);
-		PrintWriter xx=new PrintWriter(new File(a+"\\Save\\Save"+z.toString()+".txt"));
+		PrintWriter xx=new PrintWriter(new File(a+separetor+"Save"+separetor+"Save"+z.toString()+".txt"));
 		counter++;
 		String risultato=null;
 		if(GUI.getresult()) {

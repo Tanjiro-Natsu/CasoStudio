@@ -1,4 +1,6 @@
-main.ImageMenu#red(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+main.Search#main([Ljava/lang/String;)V
+main.Search#<init>()V
+main.Search#instance-init#
 ==
-getRGB java.awt.image.BufferedImage#getRGB(II)I
-setRGB java.awt.image.BufferedImage#setRGB(III)V
+error main.Search#error(Ljava/lang/String;Ljava/lang/String;I)V
+ok main.Search#ok()V
