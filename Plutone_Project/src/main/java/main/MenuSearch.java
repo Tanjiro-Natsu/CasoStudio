@@ -23,8 +23,7 @@ import javax.swing.WindowConstants;
 public class MenuSearch extends JMenuBar{
 	
 	private static final long serialVersionUID = 1L;
-	private static JFrame n;
-	private static JTextArea t=null;
+	private  JFrame n;private  JTextArea t=null;
     private static String s1=Font.DIALOG;
     private static String s2=Font.DIALOG_INPUT;
     private static String s3=Font.MONOSPACED;

@@ -3367,14 +3367,16 @@ HgetConnection(Ljava/lang/String;Ljava/util/Properties;Ljava/lang/Class;)tjava.
 <setShardingKey(Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;)Qjava.sql.Connection#setShardingKey(Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;)Vu
 .setShardingKeyIfValid(Ljava/sql/ShardingKey;I)Cjava.sql.Connection#setShardingKeyIfValid(Ljava/sql/ShardingKey;I)Z¡
 DsetShardingKeyIfValid(Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;I)Yjava.sql.Connection#setShardingKeyIfValid(Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;I)Z&
-java.lang.Runnablejava.lang.Object	
+java.lang.Runnablejava.lang.Object´	
 main.GUIjava.awt.event.ActionListenerjava.lang.Runnablejavax.swing.JFrame
 <init>()main.GUI#<init>()V
 Color1()main.GUI#Color1()V
 Color2()main.GUI#Color2()V"
 
 Metadata()main.GUI#Metadata()Vh
--actionPerformed(Ljava/awt/event/ActionEvent;)7main.GUI#actionPerformed(Ljava/awt/event/ActionEvent;)V*
+-actionPerformed(Ljava/awt/event/ActionEvent;)7main.GUI#actionPerformed(Ljava/awt/event/ActionEvent;)V"
+
+cicla([CI)main.GUI#cicla([CI)V*
 	getMenu()main.GUI#getMenu()Lmain/Menu;3
 
 getText3()%main.GUI#getText3()Ljava/lang/String;3
@@ -3421,14 +3423,16 @@ EupdateObject(Ljava/lang/String;Ljava/lang/Object;Ljava/sql/SQLType;I)Yjava.sql
 main.VerificaImmaginejava.lang.Object+
 <init>()main.VerificaImmagine#<init>()VG
 databaseconfermation()-main.VerificaImmagine#databaseconfermation()IS
-imagec(Ljava/lang/String;[B)3main.VerificaImmagine#imagec(Ljava/lang/String;[B)D©	
+imagec(Ljava/lang/String;[B)3main.VerificaImmagine#imagec(Ljava/lang/String;[B)Dç	
 	main.GUI2java.awt.event.ActionListenerjava.lang.Runnablejavax.swing.JFrame
 <init>()main.GUI2#<init>()V
 Color1()main.GUI2#Color1()V
 Color2()main.GUI2#Color2()V#
 
 Metadata()main.GUI2#Metadata()Vi
--actionPerformed(Ljava/awt/event/ActionEvent;)8main.GUI2#actionPerformed(Ljava/awt/event/ActionEvent;)V,
+-actionPerformed(Ljava/awt/event/ActionEvent;)8main.GUI2#actionPerformed(Ljava/awt/event/ActionEvent;)V<
+
+chooserr().main.GUI2#chooserr()Ljavax/swing/JFileChooser;,
 	getMenu()main.GUI2#getMenu()Lmain/Menu2;4
 
 getText3()&main.GUI2#getText3()Ljava/lang/String;4
@@ -3534,7 +3538,7 @@ getImage()0javax.swing.ImageIcon#getImage()Ljava/awt/Image;C
 0setImageObserver(Ljava/awt/image/ImageObserver;)Gjavax.swing.ImageIcon#setImageObserver(Ljava/awt/image/ImageObserver;)V@
 
 toString()2javax.swing.ImageIcon#toString()Ljava/lang/String;m
-)writeObject(Ljava/io/ObjectOutputStream;)@javax.swing.ImageIcon#writeObject(Ljava/io/ObjectOutputStream;)VÙ
+)writeObject(Ljava/io/ObjectOutputStream;)@javax.swing.ImageIcon#writeObject(Ljava/io/ObjectOutputStream;)V»
 
 main.Menu2java.awt.event.ActionListenerjavax.swing.JMenuBar 
 <init>()main.Menu2#<init>()Vj
@@ -3570,7 +3574,8 @@ main.Menu2java.awt.event.ActionListenerjavax.swing.JMenuBar
 getaccetta(),main.Menu2#getaccetta()Ljavax/swing/JButton;>
 getaccetta1()-main.Menu2#getaccetta1()Ljavax/swing/JButton;<
 getrifiuta(),main.Menu2#getrifiuta()Ljavax/swing/JButton;>
-getrifiuta1()-main.Menu2#getrifiuta1()Ljavax/swing/JButton;$
+getrifiuta1()-main.Menu2#getrifiuta1()Ljavax/swing/JButton;`
+(pickacolor(Ljava/awt/event/ActionEvent;)4main.Menu2#pickacolor(Ljava/awt/event/ActionEvent;)V$
 
 setSave(Z)main.Menu2#setSave(Z)V 
 split1()main.Menu2#split1()V 
@@ -3804,7 +3809,7 @@ toString()0java.lang.Character#toString()Ljava/lang/String;@
 toUpperCaseCharArray(I)-java.lang.Character#toUpperCaseCharArray(I)[C9
 toUpperCaseEx(I)%java.lang.Character#toUpperCaseEx(I)IA
 
-valueOf(C)3java.lang.Character#valueOf(C)Ljava/lang/Character;Œ
+valueOf(C)3java.lang.Character#valueOf(C)Ljava/lang/Character;ñ
 	main.Menujava.awt.event.ActionListenerjavax.swing.JMenuBar
 <init>()main.Menu#<init>()Vi
 -actionPerformed(Ljava/awt/event/ActionEvent;)8main.Menu#actionPerformed(Ljava/awt/event/ActionEvent;)VE
@@ -3814,7 +3819,8 @@ valueOf(C)3java.lang.Character#valueOf(C)Ljava/lang/Character;Œ
 
 getjMenu()'main.Menu#getjMenu()Ljavax/swing/JMenu;;
 getrifiuta()+main.Menu#getrifiuta()Ljavax/swing/JButton;=
-getrifiuta1(),main.Menu#getrifiuta1()Ljavax/swing/JButton;#
+getrifiuta1(),main.Menu#getrifiuta1()Ljavax/swing/JButton;c
+*sceltacolore(Ljava/awt/event/ActionEvent;)5main.Menu#sceltacolore(Ljava/awt/event/ActionEvent;)V#
 
 setSave(Z)main.Menu#setSave(Z)V
 split1()main.Menu#split1()V
@@ -4323,7 +4329,7 @@ getFonte()(main.Search#getFonte()Ljava/lang/String;C
 sets1()main.Search#sets1()VK
 split1(Ljava/sql/Connection;)*main.Search#split1(Ljava/sql/Connection;)IK
 split2(Ljava/sql/Connection;)*main.Search#split2(Ljava/sql/Connection;)IK
-split3(Ljava/sql/Connection;)*main.Search#split3(Ljava/sql/Connection;)I¯
+split3(Ljava/sql/Connection;)*main.Search#split3(Ljava/sql/Connection;)IË
 main.FileChooserjava.io.Serializablejavax.swing.JFramef
 (<init>(Ljava/util/List;Ljava/util/List;):main.FileChooser#<init>(Ljava/util/List;Ljava/util/List;)VX
 !Finestraimage(Ljava/lang/String;)3main.FileChooser#Finestraimage(Ljava/lang/String;)VT
@@ -4335,8 +4341,7 @@ getFonte()(main.Search#getFonte()Ljava/lang/String;C
 getk()+main.FileChooser#getk()Ljavax/swing/JPanel;7
 getk1(),main.FileChooser#getk1()Ljavax/swing/JPanel;H
 reset(Ljava/lang/String;)+main.FileChooser#reset(Ljava/lang/String;)VŒ
-;setJLabel(Ljava/awt/image/BufferedImage;Ljava/lang/String;)Mmain.FileChooser#setJLabel(Ljava/awt/image/BufferedImage;Ljava/lang/String;)Vb
-&setimg(Ljava/awt/image/BufferedImage;)8main.FileChooser#setimg(Ljava/awt/image/BufferedImage;)V«
+;setJLabel(Ljava/awt/image/BufferedImage;Ljava/lang/String;)Mmain.FileChooser#setJLabel(Ljava/awt/image/BufferedImage;Ljava/lang/String;)V«
 main.FileChooser$1java.awt.event.ActionListenerjava.lang.Objectp
 ,<init>(Lmain/FileChooser;Ljava/lang/String;)@main.FileChooser$1#<init>(Lmain/FileChooser;Ljava/lang/String;)Vr
 -actionPerformed(Ljava/awt/event/ActionEvent;)Amain.FileChooser$1#actionPerformed(Ljava/awt/event/ActionEvent;)V«

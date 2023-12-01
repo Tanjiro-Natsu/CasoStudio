@@ -1,3 +1,4 @@
-main.main#close()V
+main.ImageMenu#bn(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
 ==
-dispose java.awt.Window#dispose()V
+getRGB java.awt.image.BufferedImage#getRGB(II)I
+setRGB java.awt.image.BufferedImage#setRGB(III)V

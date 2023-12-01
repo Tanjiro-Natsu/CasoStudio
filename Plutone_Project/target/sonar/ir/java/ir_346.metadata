@@ -1,1 +1,3 @@
-main.Search#getArgomento()Ljava/lang/String;
+main.Search#instance-init#
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#

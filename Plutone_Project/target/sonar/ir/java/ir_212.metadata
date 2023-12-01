@@ -1,1 +1,22 @@
-main.FileChooser#getk()Ljavax/swing/JPanel;
+main.Menu2#split3()V
+javax.swing.BorderFactory#createLineBorder(Ljava/awt/Color;)Ljavax/swing/border/Border;
+java.awt.FlowLayout#instance-init#
+javax.swing.JLabel#<init>(Ljava/lang/String;)V
+java.awt.FlowLayout#<init>()V
+javax.swing.JFrame#<init>(Ljava/lang/String;)V
+javax.swing.JTextArea#instance-init#
+javax.swing.JLabel#instance-init#
+javax.swing.JButton#<init>(Ljava/lang/String;)V
+javax.swing.JFrame#instance-init#
+javax.swing.JButton#instance-init#
+javax.swing.JTextArea#<init>(II)V
+javax.swing.BorderFactory#createTitledBorder(Ljavax/swing/border/Border;Ljava/lang/String;)Ljavax/swing/border/TitledBorder;
+==
+setLocation java.awt.Window#setLocation(II)V
+setBorder javax.swing.JComponent#setBorder(Ljavax/swing/border/Border;)V
+add java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;
+setVisible java.awt.Window#setVisible(Z)V
+setSize java.awt.Window#setSize(II)V
+addActionListener javax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V
+setLayout javax.swing.JFrame#setLayout(Ljava/awt/LayoutManager;)V
+setDefaultCloseOperation javax.swing.JFrame#setDefaultCloseOperation(I)V

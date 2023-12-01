@@ -1,13 +1,15 @@
+main.GUI2#actionPerformed(Ljava/awt/event/ActionEvent;)V
+java.lang.Character#toString(C)Ljava/lang/String;
+main.GUI2#metav(Ljava/io/File;)V
 main.GUI2#verificaFonte()Ljava/lang/String;
-java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
-java.lang.StringBuilder#instance-init#
-java.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-main.VerificaFonte#fonteverificata(Ljava/lang/String;)Ljava/lang/String;
-java.lang.StringBuilder#<init>()V
-java.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-java.lang.StringBuilder#toString()Ljava/lang/String;
+main.GUI2#chooserr()Ljavax/swing/JFileChooser;
+java.lang.String#length()I
+java.lang.String#charAt(I)C
 java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z
 ==
-getText javax.swing.text.JTextComponent#getText()Ljava/lang/String;
-println java.io.PrintStream#println(Ljava/lang/String;)V
-setBackground javax.swing.JComponent#setBackground(Ljava/awt/Color;)V
+getActionCommand java.awt.event.ActionEvent#getActionCommand()Ljava/lang/String;
+showOpenDialog javax.swing.JFileChooser#showOpenDialog(Ljava/awt/Component;)I
+setText javax.swing.text.JTextComponent#setText(Ljava/lang/String;)V
+getSelectedFile javax.swing.JFileChooser#getSelectedFile()Ljava/io/File;
+getName java.io.File#getName()Ljava/lang/String;
+toString java.io.File#toString()Ljava/lang/String;

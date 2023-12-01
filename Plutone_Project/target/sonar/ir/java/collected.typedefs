@@ -135,13 +135,14 @@
 databaseconfermation*main.VerificaFonte#databaseconfermation()IB
 databasejpg3main.VerificaFonte#databasejpg(Ljava/lang/String;)D1
 databasetxt"main.VerificaFonte#databasetxt()[B[
-fonteverificataHmain.VerificaFonte#fonteverificata(Ljava/lang/String;)Ljava/lang/String;java.lang.Object±
+fonteverificataHmain.VerificaFonte#fonteverificata(Ljava/lang/String;)Ljava/lang/String;java.lang.Objectí
 	main.GUI2
 <init>main.GUI2#<init>()V
 Color1main.GUI2#Color1()V
 Color2main.GUI2#Color2()V!
 Metadatamain.GUI2#Metadata()VK
-actionPerformed8main.GUI2#actionPerformed(Ljava/awt/event/ActionEvent;)V*
+actionPerformed8main.GUI2#actionPerformed(Ljava/awt/event/ActionEvent;)V:
+chooserr.main.GUI2#chooserr()Ljavax/swing/JFileChooser;*
 getMenumain.GUI2#getMenu()Lmain/Menu2;2
 getText3&main.GUI2#getText3()Ljava/lang/String;2
 getText4&main.GUI2#getText4()Ljava/lang/String;:
@@ -164,7 +165,7 @@
 <init>main.Accesso#<init>()V;
 getPassword,main.Accesso#getPassword()Ljava/lang/String;3
 getUser(main.Accesso#getUser()Ljava/lang/String;3
-getjdbc(main.Accesso#getjdbc()Ljava/lang/String;javax.swing.JFrameÓ
+getjdbc(main.Accesso#getjdbc()Ljava/lang/String;javax.swing.JFrameš
 	main.Menu
 <init>main.Menu#<init>()VK
 actionPerformed8main.Menu#actionPerformed(Ljava/awt/event/ActionEvent;)VC
@@ -175,7 +176,8 @@ getaccetta+main.Menu#getaccetta()Ljavax/swing/JButton;;
 getjMenu'main.Menu#getjMenu()Ljavax/swing/JMenu;9
 
 getrifiuta+main.Menu#getrifiuta()Ljavax/swing/JButton;;
-getrifiuta1,main.Menu#getrifiuta1()Ljavax/swing/JButton; 
+getrifiuta1,main.Menu#getrifiuta1()Ljavax/swing/JButton;E
+sceltacolore5main.Menu#sceltacolore(Ljava/awt/event/ActionEvent;)V 
 setSavemain.Menu#setSave(Z)V
 split1main.Menu#split1()V
 split2main.Menu#split2()V
@@ -188,7 +190,7 @@ getrifiuta+main.Menu#getrifiuta()Ljavax/swing/JButton;;
 imagec3main.VerificaImmagine#imagec(Ljava/lang/String;[B)Djava.lang.Objectu
 main.Chooser 
 <init>main.Chooser#<init>()V/
-main'main.Chooser#main([Ljava/lang/String;)Vjavax.swing.JFrameì
+main'main.Chooser#main([Ljava/lang/String;)Vjavax.swing.JFrame°
 
 main.Menu2
 <init>main.Menu2#<init>()VL
@@ -244,13 +246,15 @@ getaccetta,main.Menu2#getaccetta()Ljavax/swing/JButton;<
 getaccetta1-main.Menu2#getaccetta1()Ljavax/swing/JButton;:
 
 getrifiuta,main.Menu2#getrifiuta()Ljavax/swing/JButton;<
-getrifiuta1-main.Menu2#getrifiuta1()Ljavax/swing/JButton;!
+getrifiuta1-main.Menu2#getrifiuta1()Ljavax/swing/JButton;B
+
+pickacolor4main.Menu2#pickacolor(Ljava/awt/event/ActionEvent;)V!
 setSavemain.Menu2#setSave(Z)V
 split1main.Menu2#split1()V
 split2main.Menu2#split2()V
 split3main.Menu2#split3()V
 split4main.Menu2#split4()V
-split5main.Menu2#split5()Vjava.awt.event.ActionListenerjavax.swing.JMenuBarÎ
+split5main.Menu2#split5()Vjava.awt.event.ActionListenerjavax.swing.JMenuBarŠ
 main.FileChooserD
 <init>:main.FileChooser#<init>(Ljava/util/List;Ljava/util/List;)VD
 Finestraimage3main.FileChooser#Finestraimage(Ljava/lang/String;)V@
@@ -263,8 +267,7 @@ getbyteimg1main.FileChooser#getbyteimg(Ljava/lang/String;)[BG
 getk+main.FileChooser#getk()Ljavax/swing/JPanel;5
 getk1,main.FileChooser#getk1()Ljavax/swing/JPanel;4
 reset+main.FileChooser#reset(Ljava/lang/String;)VZ
-	setJLabelMmain.FileChooser#setJLabel(Ljava/awt/image/BufferedImage;Ljava/lang/String;)VB
-setimg8main.FileChooser#setimg(Ljava/awt/image/BufferedImage;)Vjava.io.Serializablejavax.swing.JFrameœ'
+	setJLabelMmain.FileChooser#setJLabel(Ljava/awt/image/BufferedImage;Ljava/lang/String;)Vjava.io.Serializablejavax.swing.JFrameœ'
 main.ImageMenuT
 <init>Jmain.ImageMenu#<init>(Ljava/awt/image/BufferedImage;Ljava/lang/String;[B)VS
 ColorJmain.ImageMenu#Color(II[BLjava/lang/String;)Ljava/awt/image/BufferedImage;[
@@ -370,13 +373,14 @@ setcolor10main.ImageMenu#setcolor10()V(
 geta7)main.MetaData#geta7()Ljavax/swing/JLabel;2
 geta8)main.MetaData#geta8()Ljavax/swing/JLabel;2
 geta9)main.MetaData#geta9()Ljavax/swing/JLabel;6
-toString*main.MetaData#toString()Ljava/lang/String;javax.swing.JFrame˜
+toString*main.MetaData#toString()Ljava/lang/String;javax.swing.JFrame·
 main.GUI
 <init>main.GUI#<init>()V
 Color1main.GUI#Color1()V
 Color2main.GUI#Color2()V 
 Metadatamain.GUI#Metadata()VJ
-actionPerformed7main.GUI#actionPerformed(Ljava/awt/event/ActionEvent;)V(
+actionPerformed7main.GUI#actionPerformed(Ljava/awt/event/ActionEvent;)V
+ciclamain.GUI#cicla([CI)V(
 getMenumain.GUI#getMenu()Lmain/Menu;1
 getText3%main.GUI#getText3()Ljava/lang/String;1
 getText4%main.GUI#getText4()Ljava/lang/String;9

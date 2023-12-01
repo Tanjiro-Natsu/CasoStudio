@@ -1,3 +1,1 @@
-main.GUI#Metadata()V
-==
-dispose java.awt.Window#dispose()V
+main.GUI#getMenu()Lmain/Menu;

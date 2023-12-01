@@ -1,1 +1,6 @@
-main.FileChooser#instance-init#
+main.Menu2#pickacolor(Ljava/awt/event/ActionEvent;)V
+main.GUI#setColor1(Ljava/awt/Color;)V
+main.GUI#setColor2(Ljava/awt/Color;)V
+==
+getSource java.util.EventObject#getSource()Ljava/lang/Object;
+setIcon javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V

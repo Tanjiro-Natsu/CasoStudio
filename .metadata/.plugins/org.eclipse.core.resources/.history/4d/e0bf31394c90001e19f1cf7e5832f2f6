@@ -6,7 +6,6 @@ import java.awt.GridLayout;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
-import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,8 +16,10 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.WindowConstants;
 
+
+
 public class Search extends JFrame {
-	
+	private static String query;
 	private static final long serialVersionUID = 1L;
 	private ArrayList<String> Filetxt=new ArrayList<String>();
 	private ArrayList<String> Fileimage=new ArrayList<String>();
@@ -38,7 +39,8 @@ public class Search extends JFrame {
 	public static void main(String[] args) {
 		Search a=new Search();
 		a.ok();
-		a.error(Argomento, "ciao");
+		
+		a.error(Argomento, "ciao",1);
 				
 	}
 	public Search() {
@@ -109,40 +111,40 @@ public class Search extends JFrame {
 			 Class.forName(driver);
 			 
 	          String sqlUser = Accesso.getUser();
-	          String sqlPassword = Accesso.getPassword(); //passwrod sa account
-	          String connectionUrl =Accesso.getjdbc()+";encrypt=false";
+	          String sqlPassword = Accesso.getPassword(); 
+	          String connectionUrl =new StringBuilder().append(Accesso.getjdbc()).append(";encrypt=false").toString();
 	         
 
 	          
 	         
 	          Connection conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
-	          Statement stmt = conn.createStatement(ResultSet.TYPE_FORWARD_ONLY, ResultSet.CONCUR_UPDATABLE);
-	      	
 	          if(argomento.equals("")){
-	        	 u=split1(stmt);   	
+	        	 u=split1(conn);   	
 	  		}
 	  		else if(fonte.equals("")){
 	  	
-	  			u=split2(stmt);
+	  			u=split2(conn);
 	  		}
 	  		else if(s.getText().equals("")!=true && s1.getText().equals("")!=true ) {
 	  		
-	        u=split3(stmt);
+	        u=split3(conn);
 	  		}
 	         
+	        	conn.close();
 	        	
 	          }
 	
 		catch(Exception e) {e.printStackTrace();}
+		
 		for(int i=0;i<Filetxt.size();i++) {System.out.println(Filetxt.get(i));}
 		for(int y=0;y<Fileimage.size();y++) {System.out.println(Fileimage.get(y));}
-		if(u==0) {
+		if(u==0 ) {
 		new FileChooser(Filetxt,Fileimage);}
 			Filetxt.removeAll(Filetxt);
 			Fileimage.removeAll(Fileimage);
 		
 	}
-	public void error(String b,String b1) {
+	public void error(String b,String b1,int kk) {
 		final JFrame a=new JFrame("Errore");
 		a.setSize(500,170);
 		a.setLocation(500,300);
@@ -151,7 +153,7 @@ public class Search extends JFrame {
 		JPanel a2=new JPanel();
 		a2.setLayout(new BorderLayout());
 		JLabel t=null;
-		if(b.equals(Argomento)) {
+		if(b.equals("argomento")) {
 			t=new JLabel("Errore:L'argomento \""+b1+"\" non e presente nella lista");	
 		}
 		if(b.equals("fonte")) {
@@ -177,7 +179,9 @@ public class Search extends JFrame {
 		s.add(cancel);
 		a.add(new JLabel(""));
 		a.add(s);
-		a.setVisible(true);
+		if(kk==2) {a.setVisible(true);}
+		else {a.setVisible(false);}
+		
 		
 	}
 	public void errore1() {
@@ -211,57 +215,68 @@ public class Search extends JFrame {
 		a.setVisible(true);
 	}
 
-	public int split1(Statement stmt) {
+	public int split1(Connection conn) {
 		int u=0;
 		try {
 			
-			String query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Fonte='"+fonte+"';"; 
-      	 k=stmt.executeQuery(query);
+			 query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Fonte=?;"; 
+      	 java.sql.PreparedStatement stmt=conn.prepareStatement(query);
+      	 stmt.setString(1,fonte);
+			k=stmt.executeQuery();
       	
       		
       	 while(k.next()) {
       		 Filetxt.add(k.getString(1));
       	 }
       	 if(Filetxt.size()<1) {
-      		 error("fonte",fonte);
+      		 error("fonte",fonte,2);
       		 u=1;
       	 }
       	
       	 k=null;
-      	 query="SELECT t.name FROM Notizie as n JOIN IMMAGINI as t on n.Stream_File=t.stream_id WHERE  n.Fonte='"+fonte+"';"; 
-      	 k=stmt.executeQuery(query);
+      	 query="SELECT t.name FROM Notizie as n JOIN IMMAGINI as t on n.Stream_File=t.stream_id WHERE  n.Fonte=?;"; 
+    stmt=conn.prepareStatement(query);
+      	 stmt.setString(1,fonte);
+      	 k=stmt.executeQuery();
       	
       	 while(k.next()) {
       		 Fileimage.add(k.getString(1));
       	 }
       	 if(Fileimage.size()<1 || Filetxt.size()<1) {
-      		 error("fonte",fonte);
+      		 error("fonte",fonte,2);
       		 u=1;
       	 } 
+      	stmt.close();
       	}
 		catch(Exception e) {}
 
 		return u;
 	}
-public int split2(Statement stmt) {
+public int split2(Connection conn) {
 	int u=0;
 	
 	try{
 		
-			 String query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Argomento='"+argomento+"';"; 
-    	 k=stmt.executeQuery(query);
+			  query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Argomento= ?;"; 
+			java.sql.PreparedStatement stmt= conn.prepareStatement(query);
+			 conn.setAutoCommit(false);
+			 stmt.setString(1,argomento);
+			 k=stmt.executeQuery();
     	
         	
     	 while(k.next()) {
     		 Filetxt.add(k.getString(1));
     	 }
     	 if(Filetxt.size()<1) {
-    		 error(Argomento,argomento);
+    		 error(Argomento,argomento,2);
     		 u=1;
     	 }
     	  k=null;
-    	 query="SELECT t.name FROM Notizie as n JOIN IMMAGINI as t on n.Stream_File=t.stream_id WHERE n.Argomento='"+argomento+"';"; 
-    	 k=stmt.executeQuery(query);
+    	 
+    	  query="SELECT t.name FROM Notizie as n JOIN IMMAGINI as t on n.Stream_File=t.stream_id WHERE n.Argomento=?;"; 
+    	  stmt= conn.prepareStatement(query);
+    	  stmt.setString(1,argomento);
+    	  k=stmt.executeQuery();
     	
         	
     	 while(k.next()) {
@@ -269,21 +284,25 @@ public int split2(Statement stmt) {
     		 
     	 }
     	 if(Fileimage.size()<1 || Filetxt.size()<1) {
-    		 error(Argomento,argomento);
+    		 error(Argomento,argomento,2);
     		 u=1;
     	 }
-    	
+    	 stmt.close();
 	}
 	catch(Exception e) {}
 	return u;
 		
 	}
-public int split3(Statement stmt) {
+public int split3(Connection conn) {
 	int u=0;
 	try {
 		
-			  String query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Fonte='"+fonte+"'and n.Argomento='"+argomento+"';"; 
-   	 k=stmt.executeQuery(query);
+			  
+		 query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Fonte= ? and n.Argomento=?;"; 
+		java.sql.PreparedStatement stmt=conn.prepareStatement(query);
+		stmt.setString(1,fonte);
+		stmt.setString(2,argomento);
+		k=stmt.executeQuery();
    	 
    	 while(k.next()) {
    		 Filetxt.add(k.getString(1));
@@ -293,8 +312,12 @@ public int split3(Statement stmt) {
    		 u=1;
    	 }
    	 k=null;
-   	 query="SELECT t.name FROM Notizie as n JOIN IMMAGINI as t on n.Stream_File=t.stream_id WHERE n.Fonte='"+fonte+"'and n.Argomento='"+argomento+"';"; 
-   	 k=stmt.executeQuery(query);
+   	 
+   	 query="SELECT t.name FROM Notizie as n JOIN IMMAGINI as t on n.Stream_File=t.stream_id WHERE n.Fonte=? and n.Argomento=?;"; 
+    stmt=conn.prepareStatement(query);
+    stmt.setString(1,fonte);
+    stmt.setString(2,argomento);
+   	 k=stmt.executeQuery();
    	 while(k.next()) {
    		 Fileimage.add(k.getString(1));
    	 }
@@ -302,6 +325,7 @@ public int split3(Statement stmt) {
    		 errore1();
    		 u=1;
    	 }
+   	stmt.close();
 	}
 	catch(Exception e) {}
 	return u;

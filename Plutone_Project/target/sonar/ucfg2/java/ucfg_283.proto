@@ -1,16 +1,16 @@
 
-,main.Menu#getaccetta1()Ljavax/swing/JButton;a
-W/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu.javaX X("1*ž
-1X% X(-f
++main.Menu#getaccetta()Ljavax/swing/JButton;a
+W/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu.javaX X("1*ž
+1X$ X(,f
 d
-X% X(-
+X$ X(,
 %0javax.swing.JButton"__id*7
 
 __unknown_file (*
 	main.Menu"
 
-accetta1"'
-X X(.
+accetta2"'
+X X(-
 
 %0javax.swing.JButtonB
 	main.MenuH

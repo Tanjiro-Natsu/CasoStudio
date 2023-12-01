@@ -19,6 +19,8 @@ import javax.swing.WindowConstants;
 
 
 public class Search extends JFrame {
+	private static String query;
+	private static String stringafonte="fonte";
 	private static final long serialVersionUID = 1L;
 	private ArrayList<String> Filetxt=new ArrayList<String>();
 	private ArrayList<String> Fileimage=new ArrayList<String>();
@@ -155,7 +157,7 @@ public class Search extends JFrame {
 		if(b.equals("argomento")) {
 			t=new JLabel("Errore:L'argomento \""+b1+"\" non e presente nella lista");	
 		}
-		if(b.equals("fonte")) {
+		if(b.equals(stringafonte)) {
 		 t=new JLabel("Errore:La fonte  \""+b1+"\" non e presente nella lista");	
 		
 		}
@@ -218,7 +220,7 @@ public class Search extends JFrame {
 		int u=0;
 		try {
 			
-			String query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Fonte=?;"; 
+			 query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Fonte=?;"; 
       	 java.sql.PreparedStatement stmt=conn.prepareStatement(query);
       	 stmt.setString(1,fonte);
 			k=stmt.executeQuery();
@@ -228,7 +230,7 @@ public class Search extends JFrame {
       		 Filetxt.add(k.getString(1));
       	 }
       	 if(Filetxt.size()<1) {
-      		 error("fonte",fonte,2);
+      		 error(stringafonte,fonte,2);
       		 u=1;
       	 }
       	
@@ -242,7 +244,7 @@ public class Search extends JFrame {
       		 Fileimage.add(k.getString(1));
       	 }
       	 if(Fileimage.size()<1 || Filetxt.size()<1) {
-      		 error("fonte",fonte,2);
+      		 error(stringafonte,fonte,2);
       		 u=1;
       	 } 
       	stmt.close();
@@ -256,7 +258,7 @@ public int split2(Connection conn) {
 	
 	try{
 		
-			 String query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Argomento= ?;"; 
+			  query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Argomento= ?;"; 
 			java.sql.PreparedStatement stmt= conn.prepareStatement(query);
 			 conn.setAutoCommit(false);
 			 stmt.setString(1,argomento);
@@ -297,7 +299,7 @@ public int split3(Connection conn) {
 	try {
 		
 			  
-		String query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Fonte= ? and n.Argomento=?;"; 
+		 query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Fonte= ? and n.Argomento=?;"; 
 		java.sql.PreparedStatement stmt=conn.prepareStatement(query);
 		stmt.setString(1,fonte);
 		stmt.setString(2,argomento);

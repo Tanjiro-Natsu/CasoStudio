@@ -313,29 +313,32 @@ new Thread(this).start();
           
             
             
+cicla(q,s);
 
-int f=0;
-int y=0;
-            for(int w=0;w<s;w++){
-                
-                if(y==1){
-if(f==0 ){
-    v1=Character.toString(q[w]);
-}
-else{
-              v1+=Character.toString(q[w]);  }
-              f++;}
-             
-              if(q[w]=='.'){
-                y=1;
-            }
-            }
             metav(chooser1.getSelectedFile());
  t41.setText(ciao);
 }        
             
-         
+      
 } 
+	 private void cicla(char [] q,int s) {
+		 int f=0;
+		 int y=0;
+		             for(int w=0;w<s;w++){
+		                 
+		                 if(y==1){
+		 if(f==0 ){
+		     v1=Character.toString(q[w]);
+		 }
+		 else{
+		               v1+=Character.toString(q[w]);  }
+		               f++;}
+		              
+		               if(q[w]=='.'){
+		                 y=1;
+		             }
+		             }
+	 }  
 	 public static String verificaFonte() {
 	   	 argomento1=t21.getText();
 				argomento1=argomento1.replaceAll(blankSpace1,"");

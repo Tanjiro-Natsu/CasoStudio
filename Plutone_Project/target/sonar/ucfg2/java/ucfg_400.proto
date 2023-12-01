@@ -1,18 +1,18 @@
 
-/main.ImageMenu#gcatchcolor3()Ljava/lang/String;h
-\/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/ImageMenu.javaŒ Œ("1*¡
+-main.ImageMenu#catchcolor()Ljava/lang/String;h
+\/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/ImageMenu.javaŠ Š("1*¡
 1
-Œ& Œ(,h
+Š$ Š(*h
 f
 
-Œ& Œ(,
+Š$ Š(*
 %0java.lang.String"__id*:
 
 __unknown_file (*
 main.ImageMenu"
-Color3"&
+Color1"&
 
-Œ Œ(-
+Š Š(+
 
 %0java.lang.StringB
 main.ImageMenuH

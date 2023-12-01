@@ -34,6 +34,7 @@ public class Menu extends JMenuBar implements ActionListener{
 	private JFrame prova=null;
 	private JFrame xc=null;
 	private JButton v=null;
+	private static  String fontebloccata="FontiBloccate"; 
 	private static int counter=1;
 private static String cooper="Cooper Blank";
 	private static JMenu menu1 ;
@@ -47,24 +48,24 @@ private static String cooper="Cooper Blank";
 	private static JMenuItem Manuale;
 	private static JMenuItem Sito;
 	private JLabel versione;
-	private JMenuItem colore10=new JMenuItem("Rosso");
-	private  JMenuItem colore11=new JMenuItem("Blue");
-	private JMenuItem colore12=new JMenuItem("Verde");
-	private  JMenuItem colore13=new JMenuItem("Arancione");
-	private JMenuItem colore14=new JMenuItem("Giallo");
-	private  JMenuItem colore15=new JMenuItem("Magenta");
-	private JMenuItem colore16=new JMenuItem("Nero");
-	private JMenuItem colore17=new JMenuItem("Rosa");
-	private JMenuItem colore18=new JMenuItem("Grigio");
-	private JMenuItem colore20=new JMenuItem("Rosso");
-	private JMenuItem colore21=new JMenuItem("Blue");
-	private JMenuItem colore22=new JMenuItem("Verde");
-	private JMenuItem colore23=new JMenuItem("Arancione");
-	private JMenuItem colore24=new JMenuItem("Giallo");
-	private JMenuItem colore25=new JMenuItem("Magenta");
-	private JMenuItem colore26=new JMenuItem("Nero");
-	private JMenuItem colore27=new JMenuItem("Rosa");
-	private JMenuItem colore28=new JMenuItem("Grigio");
+	private JMenuItem colore101=new JMenuItem("Rosso");
+	private  JMenuItem colore111=new JMenuItem("Blue");
+	private JMenuItem colore121=new JMenuItem("Verde");
+	private  JMenuItem colore131=new JMenuItem("Arancione");
+	private JMenuItem colore141=new JMenuItem("Giallo");
+	private  JMenuItem colore151=new JMenuItem("Magenta");
+	private JMenuItem colore161=new JMenuItem("Nero");
+	private JMenuItem colore171=new JMenuItem("Rosa");
+	private JMenuItem colore181=new JMenuItem("Grigio");
+	private JMenuItem colore201=new JMenuItem("Rosso");
+	private JMenuItem colore211=new JMenuItem("Blue");
+	private JMenuItem colore221=new JMenuItem("Verde");
+	private JMenuItem colore231=new JMenuItem("Arancione");
+	private JMenuItem colore241=new JMenuItem("Giallo");
+	private JMenuItem colore251=new JMenuItem("Magenta");
+	private JMenuItem colore261=new JMenuItem("Nero");
+	private JMenuItem colore271=new JMenuItem("Rosa");
+	private JMenuItem colore281=new JMenuItem("Grigio");
 	private ImageIcon Image11=null;
 	private ImageIcon Image21=null;
 	private ImageIcon Image31=null;
@@ -75,19 +76,19 @@ private static String cooper="Cooper Blank";
 	private ImageIcon Image81=null;
 	private ImageIcon Image91=null;
 	private ImageIcon Image101=null;
-	private JMenuItem bloccaFonte;
-	private JMenuItem sbloccaFonte;
-	private JButton accetta=null;
-	private JButton accetta1=null;
-	private JButton rifiuta=null;
-	private JButton rifiuta1=null;
-	private JTextArea zzz=null;
+	private JMenuItem bloccaFonte1;
+	private JMenuItem sbloccaFonte1;
+	private JButton accetta2=null;
+	private JButton accetta11=null;
+	private JButton rifiuta2=null;
+	private JButton rifiuta11=null;
+	private JTextArea zzz1=null;
 private String versioneprodotto="1.0.0";
 public ImageIcon getImageIcon10() {return Image101;}
-public JButton getaccetta() {return accetta;}
-public JButton getaccetta1() {return accetta1;}
-public JButton getrifiuta() {return rifiuta;}
-public JButton getrifiuta1() {return rifiuta1;}
+public JButton getaccetta() {return accetta2;}
+public JButton getaccetta1() {return accetta11;}
+public JButton getrifiuta() {return rifiuta2;}
+public JButton getrifiuta1() {return rifiuta11;}
 
 public static void setSave(boolean a) {
 	 Save.setEnabled(a);
@@ -124,10 +125,10 @@ try {
 	e.printStackTrace();
 }
 
-bloccaFonte=new JMenuItem("Blocca Fonte");
-bloccaFonte.setIcon(Image91);
-sbloccaFonte=new JMenuItem("Sblocca Fonte");
-sbloccaFonte.setIcon(Image101);
+bloccaFonte1=new JMenuItem("Blocca Fonte");
+bloccaFonte1.setIcon(Image91);
+sbloccaFonte1=new JMenuItem("Sblocca Fonte");
+sbloccaFonte1.setIcon(Image101);
 menu1=new JMenu("File");
 fonti=new JMenu("Fonti");
 helpmenu=new JMenu("Help");
@@ -158,53 +159,53 @@ Exit.addActionListener(this);
 Info.addActionListener(this);
 Manuale.addActionListener(this);
 Sito.addActionListener(this);
-colore10.addActionListener(this);
-colore11.addActionListener(this);
-colore12.addActionListener(this);
-colore13.addActionListener(this);
-colore14.addActionListener(this);
-colore15.addActionListener(this);
-colore16.addActionListener(this);
-colore17.addActionListener(this);
-colore18.addActionListener(this);
-colore20.addActionListener(this);
-colore21.addActionListener(this);
-colore22.addActionListener(this);
-colore23.addActionListener(this);
-colore24.addActionListener(this);
-colore25.addActionListener(this);
-colore26.addActionListener(this);
-colore27.addActionListener(this);
-colore28.addActionListener(this);
-bloccaFonte.addActionListener(this);
-sbloccaFonte.addActionListener(this);
+colore101.addActionListener(this);
+colore111.addActionListener(this);
+colore121.addActionListener(this);
+colore131.addActionListener(this);
+colore141.addActionListener(this);
+colore151.addActionListener(this);
+colore161.addActionListener(this);
+colore171.addActionListener(this);
+colore181.addActionListener(this);
+colore201.addActionListener(this);
+colore211.addActionListener(this);
+colore221.addActionListener(this);
+colore231.addActionListener(this);
+colore241.addActionListener(this);
+colore251.addActionListener(this);
+colore261.addActionListener(this);
+colore271.addActionListener(this);
+colore281.addActionListener(this);
+bloccaFonte1.addActionListener(this);
+sbloccaFonte1.addActionListener(this);
 
 
-fonti.add(bloccaFonte);
-fonti.add(sbloccaFonte);
+fonti.add(bloccaFonte1);
+fonti.add(sbloccaFonte1);
 Properties.add(colori);
 colori.add(coloriTrue);
-coloriTrue.add(colore10);
-coloriTrue.add(colore11);
-coloriTrue.add(colore12);
-colore12.setIcon(Image41);
-coloriTrue.add(colore13);
-coloriTrue.add(colore14);
-coloriTrue.add(colore15);
-coloriTrue.add(colore16);
-coloriTrue.add(colore17);
-coloriTrue.add(colore18);
+coloriTrue.add(colore101);
+coloriTrue.add(colore111);
+coloriTrue.add(colore121);
+colore121.setIcon(Image41);
+coloriTrue.add(colore131);
+coloriTrue.add(colore141);
+coloriTrue.add(colore151);
+coloriTrue.add(colore161);
+coloriTrue.add(colore171);
+coloriTrue.add(colore181);
 colori.add(coloriFalse);
-coloriFalse.add(colore20);
-colore20.setIcon(Image41);
-coloriFalse.add(colore21);
-coloriFalse.add(colore22);
-coloriFalse.add(colore23);
-coloriFalse.add(colore24);
-coloriFalse.add(colore25);
-coloriFalse.add(colore26);
-coloriFalse.add(colore27);
-coloriFalse.add(colore28);
+coloriFalse.add(colore201);
+colore201.setIcon(Image41);
+coloriFalse.add(colore211);
+coloriFalse.add(colore221);
+coloriFalse.add(colore231);
+coloriFalse.add(colore241);
+coloriFalse.add(colore251);
+coloriFalse.add(colore261);
+coloriFalse.add(colore271);
+coloriFalse.add(colore281);
 menu1.add(Refresh);
 menu1.add(Save);
 menu1.add(Properties);
@@ -221,34 +222,34 @@ add(helpmenu);
 	public void actionPerformed(ActionEvent e) {
 		
 		
-		if(e.getSource()==bloccaFonte) {
+		if(e.getSource()==bloccaFonte1) {
 		
 split1();
 		}
-		if(e.getSource()==accetta){
+		if(e.getSource()==accetta2){
 		
 			split2();
 		}
-		if(e.getSource()==rifiuta){
+		if(e.getSource()==rifiuta2){
 			prova.dispose();
 			
 		}
 		
 		
-if(e.getSource()==sbloccaFonte) {
+if(e.getSource()==sbloccaFonte1) {
 	
 	split3();
 			
 			
 		}
-if(e.getSource()==accetta1) {
+if(e.getSource()==accetta11) {
 split4();
 }
 
 if(e.getSource()==v) {
 	xc.dispose();
 }
-if(e.getSource()==rifiuta1) {
+if(e.getSource()==rifiuta11) {
 prova.dispose();
 }
 		if(e.getSource()==Refresh) {
@@ -269,238 +270,7 @@ prova.dispose();
 			split5();
 			
 		}
-		else if(e.getSource()==colore10) {
-			colore10.setIcon(Image41);
-			colore11.setIcon(null);
-			colore12.setIcon(null);
-			colore13.setIcon(null);
-			colore14.setIcon(null);
-			colore15.setIcon(null);
-			colore16.setIcon(null);
-			colore17.setIcon(null);
-			colore18.setIcon(null);
 		
-			
-			GUI.setColor1(Color.RED);
-		}
-		else if(e.getSource()==colore11) {
-			colore10.setIcon(null);
-			colore11.setIcon(Image41);
-			colore12.setIcon(null);
-			colore13.setIcon(null);
-			colore14.setIcon(null);
-			colore15.setIcon(null);
-			colore16.setIcon(null);
-			colore17.setIcon(null);
-			colore18.setIcon(null);
-			
-			GUI.setColor1(Color.BLUE);
-		}
-		else if(e.getSource()==colore12) {
-			colore12.setIcon(Image41);
-			colore10.setIcon(null);
-			colore11.setIcon(null);
-			colore13.setIcon(null);
-			colore14.setIcon(null);
-			colore15.setIcon(null);
-			colore16.setIcon(null);
-			colore17.setIcon(null);
-			colore18.setIcon(null);
-			colore20.setIcon(null);
-			colore21.setIcon(null);
-			colore22.setIcon(null);
-			colore23.setIcon(null);
-			colore24.setIcon(null);
-			colore25.setIcon(null);
-			colore26.setIcon(null);
-			colore27.setIcon(null);
-			colore28.setIcon(null);
-			GUI.setColor1(Color.GREEN);
-		}
-		else if(e.getSource()==colore13) {
-			colore13.setIcon(Image41);
-			colore10.setIcon(null);
-			colore11.setIcon(null);
-			colore12.setIcon(null);
-			colore14.setIcon(null);
-			colore15.setIcon(null);
-			colore16.setIcon(null);
-			colore17.setIcon(null);
-			colore18.setIcon(null);
-			
-			GUI.setColor1(Color.ORANGE);
-		}
-		else if(e.getSource()==colore14) {
-			colore14.setIcon(Image41);
-			colore10.setIcon(null);
-			colore11.setIcon(null);
-			colore12.setIcon(null);
-			colore13.setIcon(null);
-			colore15.setIcon(null);
-			colore16.setIcon(null);
-			colore17.setIcon(null);
-			colore18.setIcon(null);
-			
-			GUI.setColor1(Color.YELLOW);
-		}
-		else if(e.getSource()==colore15) {
-			colore15.setIcon(Image41);
-			colore10.setIcon(null);
-			colore11.setIcon(null);
-			colore12.setIcon(null);
-			colore13.setIcon(null);
-			colore14.setIcon(null);
-			colore16.setIcon(null);
-			colore17.setIcon(null);
-			colore18.setIcon(null);
-			
-			GUI.setColor1(Color.MAGENTA);
-		}
-		else if(e.getSource()==colore16) {
-			colore16.setIcon(Image41);
-			colore10.setIcon(null);
-			colore11.setIcon(null);
-			colore12.setIcon(null);
-			colore13.setIcon(null);
-			colore14.setIcon(null);
-			colore15.setIcon(null);
-			colore17.setIcon(null);
-			colore18.setIcon(null);
-			
-			GUI.setColor1(Color.BLACK);
-		}
-		else if(e.getSource()==colore17) {
-			colore17.setIcon(Image41);
-			colore10.setIcon(null);
-			colore11.setIcon(null);
-			colore12.setIcon(null);
-			colore13.setIcon(null);
-			colore14.setIcon(null);
-			colore15.setIcon(null);
-			colore16.setIcon(null);
-			colore18.setIcon(null);
-			
-			GUI.setColor1(Color.PINK);
-		}else if(e.getSource()==colore18) {
-			colore18.setIcon(Image41);
-			colore10.setIcon(null);
-			colore11.setIcon(null);
-			colore12.setIcon(null);
-			colore13.setIcon(null);
-			colore14.setIcon(null);
-			colore15.setIcon(null);
-			colore16.setIcon(null);
-			colore17.setIcon(null);
-			
-			GUI.setColor1(Color.GRAY);
-		}
-		else if(e.getSource()==colore20) {
-			colore20.setIcon(Image41);
-			colore21.setIcon(null);
-			colore22.setIcon(null);
-			colore23.setIcon(null);
-			colore24.setIcon(null);
-			colore25.setIcon(null);
-			colore26.setIcon(null);
-			colore27.setIcon(null);
-			colore28.setIcon(null);
-			GUI.setColor2(Color.RED);
-		}
-		else if(e.getSource()==colore21) {
-			colore21.setIcon(Image41);
-			colore20.setIcon(null);
-			colore22.setIcon(null);
-			colore23.setIcon(null);
-			colore24.setIcon(null);
-			colore25.setIcon(null);
-			colore26.setIcon(null);
-			colore27.setIcon(null);
-			colore28.setIcon(null);
-			GUI.setColor2(Color.BLUE);
-		}
-		else if(e.getSource()==colore22) {
-			colore22.setIcon(Image41);
-			colore20.setIcon(null);
-			colore21.setIcon(null);
-			colore23.setIcon(null);
-			colore24.setIcon(null);
-			colore25.setIcon(null);
-			colore26.setIcon(null);
-			colore27.setIcon(null);
-			colore28.setIcon(null);
-			GUI.setColor2(Color.GREEN);
-		}
-		else if(e.getSource()==colore23) {
-			colore23.setIcon(Image41);
-			colore20.setIcon(null);
-			colore21.setIcon(null);
-			colore22.setIcon(null);
-			colore24.setIcon(null);
-			colore25.setIcon(null);
-			colore26.setIcon(null);
-			colore27.setIcon(null);
-			colore28.setIcon(null);
-			GUI.setColor2(Color.ORANGE);
-		}
-		else if(e.getSource()==colore24) {
-			colore24.setIcon(Image41);
-			colore20.setIcon(null);
-			colore21.setIcon(null);
-			colore22.setIcon(null);
-			colore23.setIcon(null);
-			colore25.setIcon(null);
-			colore26.setIcon(null);
-			colore27.setIcon(null);
-			colore28.setIcon(null);
-			GUI.setColor2(Color.YELLOW);
-		}
-		else if(e.getSource()==colore25) {
-			colore25.setIcon(Image41);
-			colore20.setIcon(null);
-			colore21.setIcon(null);
-			colore22.setIcon(null);
-			colore23.setIcon(null);
-			colore24.setIcon(null);
-			colore26.setIcon(null);
-			colore27.setIcon(null);
-			colore28.setIcon(null);
-			GUI.setColor2(Color.MAGENTA);
-		}
-		else if(e.getSource()==colore26) {
-			colore26.setIcon(Image41);
-			colore20.setIcon(null);
-			colore21.setIcon(null);
-			colore22.setIcon(null);
-			colore23.setIcon(null);
-			colore24.setIcon(null);
-			colore25.setIcon(null);
-			colore27.setIcon(null);
-			colore28.setIcon(null);
-			GUI.setColor2(Color.BLACK);
-		}
-		else if(e.getSource()==colore27) {
-			colore27.setIcon(Image41);
-			colore20.setIcon(null);
-			colore21.setIcon(null);
-			colore22.setIcon(null);
-			colore23.setIcon(null);
-			colore24.setIcon(null);
-			colore25.setIcon(null);
-			colore26.setIcon(null);
-			colore28.setIcon(null);
-			GUI.setColor2(Color.PINK);
-		}else if(e.getSource()==colore28) {
-			colore28.setIcon(Image41);
-			colore20.setIcon(null);
-			colore21.setIcon(null);
-			colore22.setIcon(null);
-			colore23.setIcon(null);
-			colore24.setIcon(null);
-			colore25.setIcon(null);
-			colore26.setIcon(null);
-			colore27.setIcon(null);
-			GUI.setColor2(Color.GRAY);
-		}
 		else if(e.getSource()==Info) {
 			JFrame a=new JFrame("Info");
 			a.setSize(500,200);
@@ -542,11 +312,247 @@ prova.dispose();
 				e1.printStackTrace();
 			}
 		}
+		else {
+			sceltacolore(e);
+		}
 		
 		
 	}
 
-
+private void sceltacolore(ActionEvent e ) {
+	 if(e.getSource()==colore101) {
+		colore101.setIcon(Image41);
+		colore111.setIcon(null);
+		colore121.setIcon(null);
+		colore131.setIcon(null);
+		colore141.setIcon(null);
+		colore151.setIcon(null);
+		colore161.setIcon(null);
+		colore171.setIcon(null);
+		colore181.setIcon(null);
+	
+		
+		GUI.setColor1(Color.RED);
+	}
+	else if(e.getSource()==colore111) {
+		colore101.setIcon(null);
+		colore111.setIcon(Image41);
+		colore121.setIcon(null);
+		colore131.setIcon(null);
+		colore141.setIcon(null);
+		colore151.setIcon(null);
+		colore161.setIcon(null);
+		colore171.setIcon(null);
+		colore181.setIcon(null);
+		
+		GUI.setColor1(Color.BLUE);
+	}
+	else if(e.getSource()==colore121) {
+		colore121.setIcon(Image41);
+		colore101.setIcon(null);
+		colore111.setIcon(null);
+		colore131.setIcon(null);
+		colore141.setIcon(null);
+		colore151.setIcon(null);
+		colore161.setIcon(null);
+		colore171.setIcon(null);
+		colore181.setIcon(null);
+		colore201.setIcon(null);
+		colore211.setIcon(null);
+		colore221.setIcon(null);
+		colore231.setIcon(null);
+		colore241.setIcon(null);
+		colore251.setIcon(null);
+		colore261.setIcon(null);
+		colore271.setIcon(null);
+		colore281.setIcon(null);
+		GUI.setColor1(Color.GREEN);
+	}
+	else if(e.getSource()==colore131) {
+		colore131.setIcon(Image41);
+		colore101.setIcon(null);
+		colore111.setIcon(null);
+		colore121.setIcon(null);
+		colore141.setIcon(null);
+		colore151.setIcon(null);
+		colore161.setIcon(null);
+		colore171.setIcon(null);
+		colore181.setIcon(null);
+		
+		GUI.setColor1(Color.ORANGE);
+	}
+	else if(e.getSource()==colore141) {
+		colore141.setIcon(Image41);
+		colore101.setIcon(null);
+		colore111.setIcon(null);
+		colore121.setIcon(null);
+		colore131.setIcon(null);
+		colore151.setIcon(null);
+		colore161.setIcon(null);
+		colore171.setIcon(null);
+		colore181.setIcon(null);
+		
+		GUI.setColor1(Color.YELLOW);
+	}
+	else if(e.getSource()==colore151) {
+		colore151.setIcon(Image41);
+		colore101.setIcon(null);
+		colore111.setIcon(null);
+		colore121.setIcon(null);
+		colore131.setIcon(null);
+		colore141.setIcon(null);
+		colore161.setIcon(null);
+		colore171.setIcon(null);
+		colore181.setIcon(null);
+		
+		GUI.setColor1(Color.MAGENTA);
+	}
+	else if(e.getSource()==colore161) {
+		colore161.setIcon(Image41);
+		colore101.setIcon(null);
+		colore111.setIcon(null);
+		colore121.setIcon(null);
+		colore131.setIcon(null);
+		colore141.setIcon(null);
+		colore151.setIcon(null);
+		colore171.setIcon(null);
+		colore181.setIcon(null);
+		
+		GUI.setColor1(Color.BLACK);
+	}
+	else if(e.getSource()==colore171) {
+		colore171.setIcon(Image41);
+		colore101.setIcon(null);
+		colore111.setIcon(null);
+		colore121.setIcon(null);
+		colore131.setIcon(null);
+		colore141.setIcon(null);
+		colore151.setIcon(null);
+		colore161.setIcon(null);
+		colore181.setIcon(null);
+		
+		GUI.setColor1(Color.PINK);
+	}else if(e.getSource()==colore181) {
+		colore181.setIcon(Image41);
+		colore101.setIcon(null);
+		colore111.setIcon(null);
+		colore121.setIcon(null);
+		colore131.setIcon(null);
+		colore141.setIcon(null);
+		colore151.setIcon(null);
+		colore161.setIcon(null);
+		colore171.setIcon(null);
+		
+		GUI.setColor1(Color.GRAY);
+	}
+	else if(e.getSource()==colore201) {
+		colore201.setIcon(Image41);
+		colore211.setIcon(null);
+		colore221.setIcon(null);
+		colore231.setIcon(null);
+		colore241.setIcon(null);
+		colore251.setIcon(null);
+		colore261.setIcon(null);
+		colore271.setIcon(null);
+		colore281.setIcon(null);
+		GUI.setColor2(Color.RED);
+	}
+	else if(e.getSource()==colore211) {
+		colore211.setIcon(Image41);
+		colore201.setIcon(null);
+		colore221.setIcon(null);
+		colore231.setIcon(null);
+		colore241.setIcon(null);
+		colore251.setIcon(null);
+		colore261.setIcon(null);
+		colore271.setIcon(null);
+		colore281.setIcon(null);
+		GUI.setColor2(Color.BLUE);
+	}
+	else if(e.getSource()==colore221) {
+		colore221.setIcon(Image41);
+		colore201.setIcon(null);
+		colore211.setIcon(null);
+		colore231.setIcon(null);
+		colore241.setIcon(null);
+		colore251.setIcon(null);
+		colore261.setIcon(null);
+		colore271.setIcon(null);
+		colore281.setIcon(null);
+		GUI.setColor2(Color.GREEN);
+	}
+	else if(e.getSource()==colore231) {
+		colore231.setIcon(Image41);
+		colore201.setIcon(null);
+		colore211.setIcon(null);
+		colore221.setIcon(null);
+		colore241.setIcon(null);
+		colore251.setIcon(null);
+		colore261.setIcon(null);
+		colore271.setIcon(null);
+		colore281.setIcon(null);
+		GUI.setColor2(Color.ORANGE);
+	}
+	else if(e.getSource()==colore241) {
+		colore241.setIcon(Image41);
+		colore201.setIcon(null);
+		colore211.setIcon(null);
+		colore221.setIcon(null);
+		colore231.setIcon(null);
+		colore251.setIcon(null);
+		colore261.setIcon(null);
+		colore271.setIcon(null);
+		colore281.setIcon(null);
+		GUI.setColor2(Color.YELLOW);
+	}
+	else if(e.getSource()==colore251) {
+		colore251.setIcon(Image41);
+		colore201.setIcon(null);
+		colore211.setIcon(null);
+		colore221.setIcon(null);
+		colore231.setIcon(null);
+		colore241.setIcon(null);
+		colore261.setIcon(null);
+		colore271.setIcon(null);
+		colore281.setIcon(null);
+		GUI.setColor2(Color.MAGENTA);
+	}
+	else if(e.getSource()==colore261) {
+		colore261.setIcon(Image41);
+		colore201.setIcon(null);
+		colore211.setIcon(null);
+		colore221.setIcon(null);
+		colore231.setIcon(null);
+		colore241.setIcon(null);
+		colore251.setIcon(null);
+		colore271.setIcon(null);
+		colore281.setIcon(null);
+		GUI.setColor2(Color.BLACK);
+	}
+	else if(e.getSource()==colore271) {
+		colore271.setIcon(Image41);
+		colore201.setIcon(null);
+		colore211.setIcon(null);
+		colore221.setIcon(null);
+		colore231.setIcon(null);
+		colore241.setIcon(null);
+		colore251.setIcon(null);
+		colore261.setIcon(null);
+		colore281.setIcon(null);
+		GUI.setColor2(Color.PINK);
+	}else if(e.getSource()==colore281) {
+		colore281.setIcon(Image41);
+		colore201.setIcon(null);
+		colore211.setIcon(null);
+		colore221.setIcon(null);
+		colore231.setIcon(null);
+		colore241.setIcon(null);
+		colore251.setIcon(null);
+		colore261.setIcon(null);
+		colore271.setIcon(null);
+		GUI.setColor2(Color.GRAY);
+	}
+}
 	public void split1() {
 		prova=new JFrame("Bloccare Fonte");
 		prova.setVisible(true);
@@ -556,25 +562,25 @@ prova.dispose();
 			prova.setSize(300,200);
 			prova.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 			prova.setLocation(650,200);
-			zzz=new JTextArea(3,20);
-			zzz.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.black),""));
+			zzz1=new JTextArea(3,20);
+			zzz1.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.black),""));
 			
 			prova.setLayout(new FlowLayout());
 			prova.add(new JLabel("                                                                                                                       "));
-			prova.add(zzz);
+			prova.add(zzz1);
 			prova.add(new JLabel("                                                      "));
 			
-			 accetta=new JButton("Conferma");
+			 accetta2=new JButton("Conferma");
 			prova.add(new JLabel("                         "));
-		     rifiuta=new JButton("Annulla");
+		     rifiuta2=new JButton("Annulla");
 			
-			accetta.addActionListener(this);
-			rifiuta.addActionListener(this);
-			prova.add(accetta);
-			prova.add(rifiuta);
+			accetta2.addActionListener(this);
+			rifiuta2.addActionListener(this);
+			prova.add(accetta2);
+			prova.add(rifiuta2);
 			Path path=Paths.get("");
 			String a=path.toAbsolutePath().toString();
-			File file1=new File(a+separetor+"FontiBloccate");
+			File file1=new File(a+separetor+fontebloccata);
 			if(file1.isDirectory()) {
 				
 				
@@ -591,10 +597,10 @@ public void split2() {
 
 	try {
 		
-		PrintWriter xx=new PrintWriter(new FileOutputStream(new File(a+separetor+"FontiBloccate"+separetor+"FontiBloccate.txt"),true));
+		PrintWriter xx=new PrintWriter(new FileOutputStream(new File(a+separetor+fontebloccata+separetor+"FontiBloccate.txt"),true));
 		
-		xx.printf(zzz.getText().replaceAll("//s", "")+"\n");
-		zzz.setText(" ");
+		xx.printf(zzz1.getText().replaceAll("//s", "")+"\n");
+		zzz1.setText(" ");
 		xx.close();
 
 	} catch (FileNotFoundException e1) {
@@ -621,21 +627,21 @@ public void split3() {
 		prova.setSize(300,200);
 		prova.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 		prova.setLocation(650,200);
-		zzz=new JTextArea(3,20);
-		zzz.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.black),""));
+		zzz1=new JTextArea(3,20);
+		zzz1.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.black),""));
 		prova.setLayout(new FlowLayout());
 		prova.add(new JLabel("                                                                                                                       "));
-		prova.add(zzz);
+		prova.add(zzz1);
 		prova.add(new JLabel("                                                      "));
 		
-		accetta1=new JButton("Conferma");
+		accetta11=new JButton("Conferma");
 		prova.add(new JLabel("                         "));
-	    rifiuta1=new JButton("Annulla");
+	    rifiuta11=new JButton("Annulla");
 		
-		accetta1.addActionListener(this);
-		rifiuta1.addActionListener(this);
-		prova.add(accetta1);
-		prova.add(rifiuta1);
+		accetta11.addActionListener(this);
+		rifiuta11.addActionListener(this);
+		prova.add(accetta11);
+		prova.add(rifiuta11);
 		prova.setVisible(true);
 }
 public void split4() {
@@ -649,8 +655,8 @@ public void split4() {
 	int gh=0;
 	try {
 		
-		 file=new File(a+separetor+"FontiBloccate"+separetor+"FontiBloccate.txt");
-		delete=a+separetor+"FontiBloccate"+separetor+"FontiBloccate1.txt";
+		 file=new File(a+separetor+fontebloccata+separetor+"FontiBloccate.txt");
+		delete=a+separetor+fontebloccata+separetor+"FontiBloccate1.txt";
 		 file1=new File(delete);
 		
 	if(file.exists()==false) {
@@ -662,7 +668,7 @@ public void split4() {
 		String hl=null;
 		while(scanner.hasNext()) {
 			hl=scanner.next();
-			if(hl.equalsIgnoreCase(zzz.getText())) {
+			if(hl.equalsIgnoreCase(zzz1.getText())) {
 				gh=1;
 			}
 			else {

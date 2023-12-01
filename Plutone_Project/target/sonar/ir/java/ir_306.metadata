@@ -1,1 +1,3 @@
-main.main#geta1()Lmain/GUI2;
+main.main#close()V
+==
+dispose java.awt.Window#dispose()V

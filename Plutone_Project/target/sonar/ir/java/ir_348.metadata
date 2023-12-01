@@ -1,3 +1,1 @@
-main.Search#sets()V
-==
-setText javax.swing.text.JTextComponent#setText(Ljava/lang/String;)V
+main.Search#getFileimage()Ljava/util/List;

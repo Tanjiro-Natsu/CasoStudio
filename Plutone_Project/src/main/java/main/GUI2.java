@@ -297,13 +297,14 @@ loop.start();
 	public static String getargomento() {
 	    	    	return argomento;
 	    	    }	
+	
+	private  JFileChooser chooserr() {JFileChooser chooser1=new JFileChooser("C:\\");FileNameExtensionFilter filter1=new FileNameExtensionFilter("Text","txt","Image","jpg");chooser1.setFileFilter(filter1);return chooser1;
+	}
 	public  void actionPerformed(ActionEvent e) {
     		if(e.getActionCommand().equalsIgnoreCase("Cerca..")) {
     			String ciao=verificaFonte();
-    		JFileChooser chooser1=new JFileChooser("C:\\");
-            FileNameExtensionFilter filter1=new FileNameExtensionFilter("Text","txt","Image","jpg");
-            chooser1.setFileFilter(filter1);
-            int returnVal1=chooser1.showOpenDialog(a);
+    			JFileChooser chooser1=chooserr();
+    			int returnVal1=chooser1.showOpenDialog(a);
             if(returnVal1==JFileChooser.APPROVE_OPTION){}
                 
                 t3.setText(chooser1.getSelectedFile().getName());
@@ -312,10 +313,6 @@ loop.start();
                 for(int i=0;i<s;i++){
                     q[i]=chooser1.getSelectedFile().toString().charAt(i);
                 }
-              
-                
-                
-
     int f=0;
     int y=0;
                 for(int w=0;w<s;w++){
