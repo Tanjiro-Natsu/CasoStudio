@@ -1,15 +1,18 @@
 
-.main.ImageMenu#getf15()Ljavax/swing/JMenuItem;f
-\/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/ImageMenu.javar r("1*¢
-1r# r(&h
+/main.ImageMenu#gcatchcolor3()Ljava/lang/String;h
+\/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/ImageMenu.javaŠ Š("1*¡
+1
+Š& Š(,h
 f
-r# r(&
-%0javax.swing.JMenuItem"__id*7
+
+Š& Š(,
+%0java.lang.String"__id*:
 
-__unknown_file (*
-main.ImageMenu"
-f15")
-r r('
-
-%0javax.swing.JMenuItemB
+__unknown_file (*
+main.ImageMenu"
+Color3"&
+
+Š Š(-
+
+%0java.lang.StringB
 main.ImageMenuH

@@ -1,6 +1,0 @@
-main.Search#main([Ljava/lang/String;)V
-main.Search#<init>()V
-main.Search#instance-init#
-==
-error main.Search#error(Ljava/lang/String;Ljava/lang/String;I)V
-ok main.Search#ok()V

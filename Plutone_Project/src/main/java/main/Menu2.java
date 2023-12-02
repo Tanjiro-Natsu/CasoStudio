@@ -616,14 +616,14 @@ public void split2() {
 
 	try {
 		
-		PrintWriter xx=new PrintWriter(new FileOutputStream(new File(a+separetor+locked+separetor+"FontiBloccate.txt"),true));
+		PrintWriter xx=new PrintWriter(new FileOutputStream(new File(new StringBuilder().append(a).append(separetor).append(locked).append(separetor).append("FontiBloccate.txt").toString()),true));
 		
 		xx.printf(zzz.getText().replace("//s", "")+"\n");
 		zzz.setText(" ");
 		xx.close();
 
 	} catch (FileNotFoundException e1) {
-		e1.printStackTrace();
+		System.out.println(e1.getMessage());
 	}
 
 	xc1=new JFrame("Azione Eseguita");
@@ -713,19 +713,19 @@ public void split4() {
 			n1="Azione Eseguita";
 			n2="La fonte è stata rimossa dalla lista con successo";
 		}
-		 xc1=new JFrame(n1);
+		xc1=new JFrame(n1);
 	      xc1.setSize(400,150);
 	      xc1.setLocation(650,300);
 	      xc1.setLayout(new FlowLayout());
-	      JLabel xc1=new JLabel(n2);
-	      xc1.setFont(new Font(cooper,Font.PLAIN,14));
+	      JLabel xc11=new JLabel(n2);
+	      xc11.setFont(new Font(cooper,Font.PLAIN,14));
 	      xc1.add(new JLabel("   "));
 	      xc1.add(xc1);
 	       v1=new JButton ("OK");
 	       v1.addActionListener(this);
 	      xc1.add(new JLabel("                                                                                                                                       "));
 	      xc1.add(v1);
-	      xc1.setVisible(true);
+	      xc1.setVisible(true);;
 	  	if(scanner!=null) {
 			scanner.close();}
 			if(writer!=null) {
@@ -734,12 +734,12 @@ public void split4() {
 				Files.copy(file1.toPath(), file.toPath(),StandardCopyOption.REPLACE_EXISTING);
 				file1.delete();
 			} catch (IOException e1) {
-				e1.printStackTrace();
+				System.out.println(e1.getMessage());
 			}
 	
 	}
 	catch(Exception e44) {
-		
+		System.out.println(e44.getMessage());
 	}
 	
 	prova1.dispose();
@@ -759,7 +759,7 @@ public void split5() {
 	try {
 		
 		Integer z=(Integer)(counter1);
-		PrintWriter xx=new PrintWriter(new File(a+separetor+"Save"+separetor+"Save"+z.toString()+".txt"));
+		PrintWriter xx=new PrintWriter(new StringBuilder().append(a).append(separetor).append("Save").append(separetor).append("Save").append(z.toString()).append(".txt").toString());
 		counter1++;
 		String risultato=null;
 		if(GUI.getresult()) {

@@ -1,1 +1,1 @@
-main.Accesso#getjdbc()Ljava/lang/String;
+main.Accesso#getUser()Ljava/lang/String;

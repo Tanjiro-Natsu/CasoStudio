@@ -1,1 +1,2 @@
-main.GUI#getv()Ljava/lang/String;
+main.GUI#cicla([CI)V
+java.lang.Character#toString(C)Ljava/lang/String;

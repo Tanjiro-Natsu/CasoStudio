@@ -67,13 +67,13 @@ public class Reader {
         if(returnVal1==JFileChooser.APPROVE_OPTION){}
 		return chooser1.getSelectedFile();
 	}
-	@SuppressWarnings("null")
+	
 	public static String reader(String z) {
 		
 		try {
 			Scanner b=new Scanner(new BufferedReader(new FileReader(z))); 
 			int t=0;
-			while(b.hasNext() || b!=null){
+			while(b.hasNext()){
 				
 				if(t==0) {
 					g=b.nextLine();

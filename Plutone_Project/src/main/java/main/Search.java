@@ -173,13 +173,13 @@ public class Search extends JFrame {
 		JButton cancel=new JButton("Cancel");
 		ok.addActionListener(e-> {a.dispose();sets();sets1();});
 		cancel.addActionListener(e-> {a.dispose();sets();sets1();});
-		JPanel s=new JPanel();
-		s.setLayout(new GridLayout(1,3));
-		s.add(ok);
-		s.add(new JLabel("  "));
-		s.add(cancel);
+		JPanel sq=new JPanel();
+		sq.setLayout(new GridLayout(1,3));
+		sq.add(ok);
+		sq.add(new JLabel("  "));
+		sq.add(cancel);
 		a.add(new JLabel(""));
-		a.add(s);
+		a.add(sq);
 		if(kk==2) {a.setVisible(true);}
 		else {a.setVisible(false);}
 		
@@ -206,13 +206,13 @@ public class Search extends JFrame {
 		JButton cancel=new JButton("Cancel");
 		ok.addActionListener(e->{a.dispose();sets();sets1();});
 		cancel.addActionListener(e-> {a.dispose();sets();sets1();});
-		JPanel s=new JPanel();
-		s.setLayout(new GridLayout(1,3));
-		s.add(ok);
-		s.add(new JLabel("  "));
-		s.add(cancel);
+		JPanel sw=new JPanel();
+		sw.setLayout(new GridLayout(1,3));
+		sw.add(ok);
+		sw.add(new JLabel("  "));
+		sw.add(cancel);
 		a.add(new JLabel(""));
-		a.add(s);
+		a.add(sw);
 		a.setVisible(true);
 	}
 
@@ -249,7 +249,7 @@ public class Search extends JFrame {
       	 } 
       	stmt.close();
       	}
-		catch(Exception e) {}
+		catch(Exception e) {System.out.println(e.getMessage());}
 
 		return u;
 	}
@@ -290,7 +290,7 @@ public int split2(Connection conn) {
     	 }
     	 stmt.close();
 	}
-	catch(Exception e) {}
+	catch(Exception e) {System.out.println(e.getMessage());}
 	return u;
 		
 	}
@@ -328,7 +328,7 @@ public int split3(Connection conn) {
    	 }
    	stmt.close();
 	}
-	catch(Exception e) {}
+	catch(Exception e) {System.out.println(e.getMessage());}
 	return u;
 }
 

@@ -1,18 +1,70 @@
 
-*main.GUI2#getargomento()Ljava/lang/String;c
-W/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/GUI2.java© ©(""1*Ÿ
+.main.GUI2#chooserr()Ljavax/swing/JFileChooser;c
+W/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/GUI2.java   ("1*‡
 1
-ª ª(f
-d
+ J  (PHF
 
-ª ª(
-%0java.lang.String"__id*8
+ =  (I
+%0javax.swing.JFileChooser"javax.swing.JFileChooser¯
+¬
+
+ 9  (Q
+%1"4javax.swing.JFileChooser#<init>(Ljava/lang/String;)V*<
 
-__unknown_file (*
-	main.GUI2"
-	argomento"&
+__unknown_file ( 
+
+%0javax.swing.JFileChooser*$
+
+__unknown_file (
+C:\\x
+v
 
-ª ª(
-
-%0java.lang.StringB"
-	main.GUI2H
+ #  (R$
+chooser1javax.swing.JFileChooser"__id*<
+
+__unknown_file ( 
+
+%0javax.swing.JFileChooserwu
+ v  (5
+%2/javax.swing.filechooser.FileNameExtensionFilter"/javax.swing.filechooser.FileNameExtensionFilterâ
+ß
+ r  (©
+%3"^javax.swing.filechooser.FileNameExtensionFilter#<init>(Ljava/lang/String;[Ljava/lang/String;)V*S
+
+__unknown_file (7
+5
+%2/javax.swing.filechooser.FileNameExtensionFilter*$
+
+__unknown_file (
+Text*#
+
+__unknown_file (
+txt*%
+
+__unknown_file (	
+Image*#
+
+__unknown_file (
+jpg§
+¤
+ R  (ª:
+filter1/javax.swing.filechooser.FileNameExtensionFilter"__id*S
+
+__unknown_file (7
+5
+%2/javax.swing.filechooser.FileNameExtensionFilter¿¼
+ ª  (É
+
+%4void"Mjavax.swing.JFileChooser#setFileFilter(Ljavax/swing/filechooser/FileFilter;)V*B
+
+__unknown_file (&
+$
+chooser1javax.swing.JFileChooser*X
+
+__unknown_file (<
+:
+filter1/javax.swing.filechooser.FileNameExtensionFilter23setFileFilter(Ljavax/swing/filechooser/FileFilter;)"6
+ Ê  (Ú&
+$
+chooser1javax.swing.JFileChooserB
+	main.GUI2

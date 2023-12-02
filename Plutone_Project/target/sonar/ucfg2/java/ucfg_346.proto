@@ -1,15 +1,15 @@
 
-,main.FileChooser#getk1()Ljavax/swing/JPanel;h
-^/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/FileChooser.java) )("1*ù
-1) )(!f
-d
-) )(!
-%0javax.swing.JPanel"__id*8
++main.FileChooser#getb()Ljavax/swing/JFrame;h
+^/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/FileChooser.javar r("1*ú
+1r r(e
+c
+r r(
+%0javax.swing.JFrame"__id*7
 
-__unknown_file (*
-main.FileChooser"
-k1"&
-) )("
+__unknown_file (*
+main.FileChooser"
+b"&
+r r( 
 
-%0javax.swing.JPanelB
+%0javax.swing.JFrameB
 main.FileChooserH

@@ -3,8 +3,6 @@ package main;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.GridLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -13,6 +11,7 @@ import java.io.Serializable;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -69,7 +68,7 @@ public class FileChooser extends JFrame implements Serializable{
 JRadioButton dd=new JRadioButton(txt.get(i));
 d.add(dd);
  final String xx=txt.get(i);
-dd.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {Finestratxt(xx);}});
+dd.addActionListener(e-> {Finestratxt(xx);});
 k.add(dd);
 ss.add(dd);
 		 }
@@ -77,8 +76,8 @@ ss.add(dd);
 			 JRadioButton dd=new JRadioButton(image.get(i));
 			 d.add(dd);
 			 final String xx=image.get(i);
-			 dd.addActionListener(new ActionListener() {public void actionPerformed(ActionEvent e) {Finestraimage(xx);
-			 }});
+			 dd.addActionListener(e->{Finestraimage(xx);
+			 });
 			 k1.add(dd);
 			 ss.add(dd);
 		 }
@@ -94,8 +93,8 @@ ss.add(dd);
 		  g.setLocation(350,100 );
 		  g.setDefaultCloseOperation(WindowConstants.HIDE_ON_CLOSE);
 		  
-		  JTextArea b=new JTextArea();
-		  MenuSearch jj=new MenuSearch(b);
+		  JTextArea b1=new JTextArea();
+		  MenuSearch jj=new MenuSearch(b1);
 		  g.setJMenuBar(jj);
 		  g.setLayout(new BorderLayout());
 		  g.add(new JLabel("                                              "),BorderLayout.NORTH);
@@ -105,7 +104,7 @@ ss.add(dd);
 		  JScrollPane scrollPane = new JScrollPane(b);
      	 g.add(scrollPane,BorderLayout.CENTER);
 		  
-	b.setText(getext(v));
+	b1.setText(getext(v));
 			
 		  g.setVisible(true);
 	}
@@ -173,12 +172,12 @@ ss.add(dd);
 		          String query="SELECT file_stream FROM  Testo  WHERE name=?;";
 		     	 java.sql.PreparedStatement stmt=conn.prepareStatement(query);
 		     	 stmt.setString(1,v);
-		          ResultSet k=stmt.executeQuery();
+		          ResultSet k1=stmt.executeQuery();
 		      
 			        	
-		        	 while(k.next()) {
+		        	 while(k1.next()) {
 		        		
-		        		e=k.getBytes(1);
+		        		e=k1.getBytes(1);
 		        		 
 		        	 }
 		        	 
@@ -187,7 +186,8 @@ ss.add(dd);
 		        	conn.close();
 		        	
 		          }
-			catch(Exception e2) {}
+			catch(NullPointerException e2) {System.out.println(e2.getMessage());} catch (ClassNotFoundException e1) {System.out.println(e1.getMessage());} catch (SQLException e1) {System.out.println(e1.getMessage());
+			}
 			String []h=dd.split(" ");
 			String xx="";
 			int o=0;
@@ -223,18 +223,20 @@ ss.add(dd);
 		          String query="SELECT file_stream FROM  Immagini  WHERE name=?;"; 
 		          java.sql.PreparedStatement stmt=conn.prepareStatement(query);
 		          stmt.setString(1, v);
-		          ResultSet k=stmt.executeQuery();
+		          ResultSet k1=stmt.executeQuery();
 		      
 			        	
-		        	 while(k.next()) {
+		        	 while(k1.next()) {
 		        		
-		        		e=k.getBytes(1);
-		        		 
+		        		e=k1.getBytes(1);
+		        		stmt.close();
+			        	 conn.close(); 
 		        	 }
-		        	 conn.close();
-		        	 stmt.close();
+		        	 
+		        	
 		          }
-			catch(Exception e2) {}
+			catch(Exception e2) {System.out.println(e2.getMessage());}
+			
 		
 			return e;
 	}

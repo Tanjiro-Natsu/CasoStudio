@@ -1,3 +1,3 @@
-main.GUI2#sett4()V
+main.GUI2#getText3()Ljava/lang/String;
 ==
-setText javax.swing.text.JTextComponent#setText(Ljava/lang/String;)V
+getText javax.swing.text.JTextComponent#getText()Ljava/lang/String;

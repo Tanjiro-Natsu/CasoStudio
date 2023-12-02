@@ -30,8 +30,9 @@ public class VerificaImmagine {
 
         }
          catch(IOException e){
-
+System.out.println(e.getMessage());
          }
+        catch(NullPointerException ee) {System.out.println(ee.getMessage());}
         
          int width1=imgA.getWidth();
          int width2=imgB.getWidth();

@@ -25,7 +25,6 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 public class GUI2 extends JFrame  implements ActionListener,Runnable {
 	
 	private static final long serialVersionUID = 1L;
-	private static Menu2 ss;
 	 private static  MetaData dc=null;
 	 private String cooper="Cooper Black";
 	 private static boolean result;
@@ -48,9 +47,7 @@ public class GUI2 extends JFrame  implements ActionListener,Runnable {
 	 public static String metadatisave( ) {
 		return dc.toString();
 	}
-	 public Menu2 getMenu() {
-		 return ss;
-	 }
+	
 	 public static void setColor1(Color a) {
 		Colore1=a;
 	}
@@ -103,24 +100,22 @@ public class GUI2 extends JFrame  implements ActionListener,Runnable {
 	        try {
 	        	Path path=Paths.get("");
 	        	
-	            String a=path.toAbsolutePath().toString();
-	            System.out.println(a);
-				this.setIconImage(ImageIO.read(new File(a+"//Icon//icona.ICO")));
-				 imght=ImageIO.read(new File(a+"//Icon//icona.ICO"));
+	            String a1=path.toAbsolutePath().toString();
+	            System.out.println(a1);
+				this.setIconImage(ImageIO.read(new File(a1+"//Icon//icona.ICO")));
+				 imght=ImageIO.read(new File(a1+"//Icon//icona.ICO"));
 	        	
 	        
 			} catch (IOException e) {
-				e.printStackTrace();
+				System.out.println(e.getMessage());
 			}
 		setLayout(new GridLayout(3,1));
 		JLabel a1=new JLabel();
 		ImageIcon ww=new ImageIcon(imght);
 		a1.setIcon(ww);
-		 ss=new Menu2();
-		this.setJMenuBar(ss);
-		//a1.add(z2);
+		
+		this.setJMenuBar(new Menu2());
 		JPanel a=new JPanel();
-		//z2.setBorder(BorderFactory.createLineBorder(Color.black));
 
 	add(a1);
 	
@@ -139,7 +134,6 @@ public class GUI2 extends JFrame  implements ActionListener,Runnable {
 	
 	JPanel u=new JPanel();
     u.setLayout(new GridLayout(3,9));
-    //u.setBackground(Color.GRAY);
    u.add(new JLabel());
    u.add(new JLabel());
    u.add(new JLabel());
@@ -217,7 +211,6 @@ a2.add(new JLabel());
 	   b1.add(t3);
 	JPanel u1=new JPanel();
     u1.setLayout(new GridLayout(3,9));
-    //u.setBackground(Color.GRAY);
    u1.add(new JLabel());
    u1.add(new JLabel());
    u1.add(new JLabel());
@@ -261,16 +254,10 @@ a2.add(new JLabel());
    
     
     
-
-  // b2.add(new JPanel(),BorderLayout.EAST);
-   
     JLabel r3=new JLabel("   Fonti certificate ");
     r3.setFont(new Font(cooper,Font.PLAIN,14));
     b2.add(r3,BorderLayout.NORTH);
-   
-
-    //JScrollPane scroll=new JScrollPane(s);
-    //scroll.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+ 
   
     t4.setEditable(false);
     t4.setBackground(Color.WHITE);

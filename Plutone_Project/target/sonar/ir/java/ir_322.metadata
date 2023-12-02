@@ -1,1 +1,3 @@
-main.GUI#instance-init#
+main.GUI#Metadata()V
+==
+dispose java.awt.Window#dispose()V

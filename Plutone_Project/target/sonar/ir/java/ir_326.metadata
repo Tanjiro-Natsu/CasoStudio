@@ -1,3 +1,3 @@
-main.GUI#Metadata()V
+main.GUI#Color1()V
 ==
-dispose java.awt.Window#dispose()V
+setBackground javax.swing.JComponent#setBackground(Ljava/awt/Color;)V

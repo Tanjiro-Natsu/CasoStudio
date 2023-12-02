@@ -1,1 +1,3 @@
-main.Menu#getrifiuta1()Ljavax/swing/JButton;
+main.Menu#setSave(Z)V
+==
+setEnabled javax.swing.JMenuItem#setEnabled(Z)V

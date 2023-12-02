@@ -1,21 +1,15 @@
 
-)main.GUI#getargomento()Ljava/lang/String;b
-V/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/GUI.java¦ ¦(""1*Ÿ
-1
-§ §(f
-d
-
-§ §(
-%0java.lang.String"__id*8
+(main.Search#getFileTxt()Ljava/util/List;c
+Y/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Search.java# #("1*Ÿ
+1#) #(0g
+e
+#) #(0
+%0java.util.ArrayList"__id*8
 
-__unknown_file (*
-
-main.GUI"
-
-argomento1"&
-
-§ §(
-
-%0java.lang.StringB"
-
-main.GUIH
+__unknown_file (*
+main.Search"	
+Filetxt"'
+#" #(1
+
+%0java.util.ArrayListB
+main.SearchH

@@ -1,371 +1,18 @@
 
-3main.VerificaImmagine#imagec(Ljava/lang/String;[B)Dm
-c/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/VerificaImmagine.java ( "22*¨
-13) )(í
-è
-) )(
-%12boolean"	__compare*"
+.main.Menu2#getColor10()Ljavax/swing/JMenuItem;b
+X/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu2.javaP P("1*£
+1P' P(/i
+g
+P' P(/
+%0javax.swing.JMenuItem"__id*8
 
-__unknown_file (
-==*"
-
-__unknown_file (
-""* 
-
-__unknown_file (2*
-12
-1*Æ
-14(" (()î
-ë
-(" ((2
-%11boolean"	__compare*"
-
-__unknown_file (
-!=*"
-
-__unknown_file (
-""*"
-
-__unknown_file (
-""*
-13
-8*á
-15$ $(íè
-$ $(#	
-%6int"(java.awt.image.BufferedImage#getWidth()I*B
-
-__unknown_file (&
-$
-imgAjava.awt.image.BufferedImage2
-getWidth()íè
-% %(#	
-%7int"(java.awt.image.BufferedImage#getWidth()I*B
-
-__unknown_file (&
-$
-imgBjava.awt.image.BufferedImage2
-getWidth()îë
-& &(%	
-%8int")java.awt.image.BufferedImage#getHeight()I*B
-
-__unknown_file (&
-$
-imgAjava.awt.image.BufferedImage2getHeight()îë
-' '(%	
-%9int")java.awt.image.BufferedImage#getHeight()I*B
-
-__unknown_file (&
-$
-imgBjava.awt.image.BufferedImage2getHeight()î
-ë
-( ((
-%10boolean"	__compare*"
-
-__unknown_file (
-!=*"
-
-__unknown_file (
-""*"
-
-__unknown_file (
-""*
-13
-14*ê
-16 (%z
-x
- (%$
-imgBjava.awt.image.BufferedImage"__id*@
-
-__unknown_file ($
-"
-%5java.awt.image.BufferedImage*
-15*é
-18 (Cy
-w
- (C#
-bisjava.io.ByteArrayInputStream"__id*@
-
-__unknown_file ($
-"
-%3java.io.ByteArrayInputStream¸
-˘
- (%"
-%5java.awt.image.BufferedImage"Ojavax.imageio.ImageIO#read(Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;*5
-
-__unknown_file ("
-javax.imageio.ImageIO*A
-
-__unknown_file (%
-#
-bisjava.io.ByteArrayInputStream*
-16*ç
-19 (*z
-x
- (*$
-imgAjava.awt.image.BufferedImage"__id*@
-
-__unknown_file ($
-"
-%2java.awt.image.BufferedImageNL
-+ (?"
-%3java.io.ByteArrayInputStream"java.io.ByteArrayInputStream™
-ß
-' (B
-%4"(java.io.ByteArrayInputStream#<init>([B)V*@
-
-__unknown_file ($
-"
-%3java.io.ByteArrayInputStream*)
-
-__unknown_file (
-
-bbyte[]*
-18*!
-1R R("
-R	 R(
-""*Ê
-5< <(!€ÿ
-< <(.
+__unknown_file (*
 
-%27int"(java.awt.image.BufferedImage#getRGB(II)I*B
-
-__unknown_file (&
-$
-imgAjava.awt.image.BufferedImage*"
-
-__unknown_file (
-""*"
-
-__unknown_file (
-""2
-getRGB(II)€ÿ
-= =(.
+main.Menu2"
 
-%28int"(java.awt.image.BufferedImage#getRGB(II)I*B
-
-__unknown_file (&
-$
-imgBjava.awt.image.BufferedImage*"
-
-__unknown_file (
-""*"
-
-__unknown_file (
-""2
-getRGB(II)Ö
-Ç
-E  E(3
+colore10")
+P  P(0
+
+%0javax.swing.JMenuItemB
 
-%29int"java.lang.Math#abs(I)I*.
-
-__unknown_file ("
-java.lang.Math*"
-
-__unknown_file (
-""Ö
-Ç
-F  F(7
-
-%30int"java.lang.Math#abs(I)I*.
-
-__unknown_file ("
-java.lang.Math*"
-
-__unknown_file (
-""Ö
-Ç
-G  G(5
-
-%31int"java.lang.Math#abs(I)I*.
-
-__unknown_file ("
-java.lang.Math*"
-
-__unknown_file (
-""*
-6*´
-6; ;(ì
-ê
-; ;($
-%26boolean"	__compare*!
-
-__unknown_file (
-<*"
-
-__unknown_file (
-""*"
-
-__unknown_file (
-""*
-5
-8*´
-8: :(ì
-ê
-: :(!
-%25boolean"	__compare*!
-
-__unknown_file (
-<*"
-
-__unknown_file (
-""*"
-
-__unknown_file (
-""*
-6
-1*˚
-20 (*‰
-·
- (*"
-%2java.awt.image.BufferedImage"Hjavax.imageio.ImageIO#read(Ljava/io/File;)Ljava/awt/image/BufferedImage;*5
-
-__unknown_file ("
-javax.imageio.ImageIO*0
-
-__unknown_file (
-
-%0java.io.File*
-19*Î
-21 (.,
-" (&
-%0java.io.File"java.io.File§
-°
- ()
-%1"(java.io.File#<init>(Ljava/lang/String;)V*0
-
-__unknown_file (
-
-%0java.io.File*3
-
-__unknown_file (
-
-ajava.lang.String*
-20*–
-22 (\
-Z
- ( $
-imgAjava.awt.image.BufferedImage"__id*"
-
-__unknown_file (
-""\
-Z
- ( $
-imgBjava.awt.image.BufferedImage"__id*"
-
-__unknown_file (
-""*
-21*≈
-12* *(';9
-* *(
-%13javax.swing.JFrame"javax.swing.JFrame•
-¢
-* *((
-%14".javax.swing.JFrame#<init>(Ljava/lang/String;)V*7
-
-__unknown_file (
-
-%13javax.swing.JFrame*&
-
-__unknown_file (
-
-Erroree
-c
-*
- *()
-yyjavax.swing.JFrame"__id*7
-
-__unknown_file (
-
-%13javax.swing.JFrame√¿
-+ +(
-%15void"java.awt.Window#setSize(II)V*6
-
-__unknown_file (
-
-yyjavax.swing.JFrame*!
-
-__unknown_file (2¨*!
-
-__unknown_file (2»2setSize(II);9
-, ,(
-%16javax.swing.JLabel"javax.swing.JLabelœ
-Ã
-, ,(M
-%17".javax.swing.JLabel#<init>(Ljava/lang/String;)V*7
-
-__unknown_file (
-
-%16javax.swing.JLabel*P
-
-__unknown_file (42
-0    Immagine inserita non rispetta gli standard ˆÛ
-, ,(N
-%18java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*6
-
-__unknown_file (
-
-yyjavax.swing.JFrame*7
-
-__unknown_file (
-
-%16javax.swing.JLabel2add(Ljava/awt/Component;)À»
--	 -(!
-%19void" java.awt.Window#setLocation(II)V*6
-
-__unknown_file (
-
-yyjavax.swing.JFrame*!
-
-__unknown_file (2ÿ*!
-
-__unknown_file (2¨2setLocation(II)B
-@
-.$ .(D
-
-%20int"__id*"
-
-__unknown_file (
-"" «
-. .(E
-%21void"/javax.swing.JFrame#setDefaultCloseOperation(I)V*6
-
-__unknown_file (
-
-yyjavax.swing.JFrame*(
-
-__unknown_file (
-
-
-%20int2setDefaultCloseOperation(I)C
-A
-	.b .(Ç
-
-%22int"__id*"
-
-__unknown_file (
-""À»
-	.F .(É
-%23void"/javax.swing.JFrame#setDefaultCloseOperation(I)V*6
-
-__unknown_file (
-
-yyjavax.swing.JFrame*(
-
-__unknown_file (
-
-
-%22int2setDefaultCloseOperation(I)£†
-/ /(
-%24void"java.awt.Window#setVisible(Z)V*6
-
-__unknown_file (
-
-yyjavax.swing.JFrame* 
-
-__unknown_file (22setVisible(Z)*
-1:!
-! (*
-ajava.lang.String:
-* (2
-bbyte[]B"
-main.VerificaImmagineHX
+main.Menu2H

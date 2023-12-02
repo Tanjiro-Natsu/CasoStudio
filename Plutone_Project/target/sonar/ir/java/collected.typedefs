@@ -135,15 +135,14 @@
 databaseconfermation*main.VerificaFonte#databaseconfermation()IB
 databasejpg3main.VerificaFonte#databasejpg(Ljava/lang/String;)D1
 databasetxt"main.VerificaFonte#databasetxt()[B[
-fonteverificataHmain.VerificaFonte#fonteverificata(Ljava/lang/String;)Ljava/lang/String;java.lang.Objectí
+fonteverificataHmain.VerificaFonte#fonteverificata(Ljava/lang/String;)Ljava/lang/String;java.lang.ObjectÁ
 	main.GUI2
 <init>main.GUI2#<init>()V
 Color1main.GUI2#Color1()V
 Color2main.GUI2#Color2()V!
 Metadatamain.GUI2#Metadata()VK
 actionPerformed8main.GUI2#actionPerformed(Ljava/awt/event/ActionEvent;)V:
-chooserr.main.GUI2#chooserr()Ljavax/swing/JFileChooser;*
-getMenumain.GUI2#getMenu()Lmain/Menu2;2
+chooserr.main.GUI2#chooserr()Ljavax/swing/JFileChooser;2
 getText3&main.GUI2#getText3()Ljava/lang/String;2
 getText4&main.GUI2#getText4()Ljava/lang/String;:
 getargomento*main.GUI2#getargomento()Ljava/lang/String;2
@@ -165,24 +164,19 @@
 <init>main.Accesso#<init>()V;
 getPassword,main.Accesso#getPassword()Ljava/lang/String;3
 getUser(main.Accesso#getUser()Ljava/lang/String;3
-getjdbc(main.Accesso#getjdbc()Ljava/lang/String;javax.swing.JFrameš
+getjdbc(main.Accesso#getjdbc()Ljava/lang/String;javax.swing.JFrameé
 	main.Menu
 <init>main.Menu#<init>()VK
 actionPerformed8main.Menu#actionPerformed(Ljava/awt/event/ActionEvent;)VC
 getImageIcon101main.Menu#getImageIcon10()Ljavax/swing/ImageIcon;9
 
 getaccetta+main.Menu#getaccetta()Ljavax/swing/JButton;;
-getaccetta1,main.Menu#getaccetta1()Ljavax/swing/JButton;3
-getjMenu'main.Menu#getjMenu()Ljavax/swing/JMenu;9
+getaccetta1,main.Menu#getaccetta1()Ljavax/swing/JButton;9
 
 getrifiuta+main.Menu#getrifiuta()Ljavax/swing/JButton;;
 getrifiuta1,main.Menu#getrifiuta1()Ljavax/swing/JButton;E
 sceltacolore5main.Menu#sceltacolore(Ljava/awt/event/ActionEvent;)V 
 setSavemain.Menu#setSave(Z)V
-split1main.Menu#split1()V
-split2main.Menu#split2()V
-split3main.Menu#split3()V
-split4main.Menu#split4()V
 split5main.Menu#split5()Vjava.awt.event.ActionListenerjavax.swing.JMenuBarÚ
 main.VerificaImmagine)
 <init>main.VerificaImmagine#<init>()VE

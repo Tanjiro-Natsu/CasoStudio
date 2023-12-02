@@ -1,1 +1,1 @@
-main.ImageMenu#catchcolor7()Ljava/lang/String;
+main.ImageMenu#getCOLOR100()Ljavax/swing/JMenuItem;

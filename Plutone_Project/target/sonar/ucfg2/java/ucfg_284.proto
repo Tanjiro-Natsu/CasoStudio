@@ -1,15 +1,16 @@
 
-,main.Menu#getaccetta1()Ljavax/swing/JButton;a
-W/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu.javaY Y("1*Ÿ
-1Y% Y(.g
-e
-Y% Y(.
-%0javax.swing.JButton"__id*8
++main.Menu#getrifiuta()Ljavax/swing/JButton;a
+W/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu.javaR R("1*ž
+1R$ R(,f
+d
+R$ R(,
+%0javax.swing.JButton"__id*7
 
-__unknown_file (*
-	main.Menu"
-	accetta11"'
-Y Y(/
+__unknown_file (*
+	main.Menu"
+
+rifiuta2"'
+R R(-
 
 %0javax.swing.JButtonB
 	main.MenuH

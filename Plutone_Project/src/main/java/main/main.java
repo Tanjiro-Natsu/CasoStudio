@@ -99,18 +99,5 @@ public class main {
     	b.add(s);
     	b.add(f);
     	b.setVisible(true);
-    	
-    	
-    	
-    	
-    	//a=new GUI();
-    	//a.setVisible(true);
-    	
     }
-
-	
-    
-	
-	
-
     }

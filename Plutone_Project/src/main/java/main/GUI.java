@@ -112,15 +112,15 @@ public class GUI extends JFrame  implements ActionListener,Runnable {
 				e.printStackTrace();
 			}
 		setLayout(new GridLayout(3,1));
-		JLabel a1=new JLabel();
+		JLabel a111=new JLabel();
 		ImageIcon ww=new ImageIcon(imght);
-		a1.setIcon(ww);
+		a111.setIcon(ww);
 		this.setJMenuBar(new Menu());
 	
 		JPanel a11=new JPanel();
 		
 
-	add(a1);
+	add(a111);
 	
 	a11.setLayout(new GridLayout(5,2));
 	JLabel r=new JLabel("   Inserire la fonte ");
@@ -215,7 +215,6 @@ a2.add(new JLabel());
 	   b1.add(t31);
 	JPanel u1=new JPanel();
     u1.setLayout(new GridLayout(3,9));
-    //u.setBackground(Color.GRAY);
    u1.add(new JLabel());
    u1.add(new JLabel());
    u1.add(new JLabel());
@@ -260,21 +259,15 @@ a2.add(new JLabel());
     
     
 
-  // b2.add(new JPanel(),BorderLayout.EAST);
+
    
     JLabel r3=new JLabel("   Fonti certificate ");
     r3.setFont(new Font(cooper,Font.PLAIN,14));
     b2.add(r3,BorderLayout.NORTH);
-   
-
-    //JScrollPane scroll=new JScrollPane(s);
-    //scroll.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
-  
     t41.setEditable(false);
     t41.setBackground(Color.WHITE);
 	t41.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.black),""));
 b2.add(t41,BorderLayout.CENTER);
-    //b2.add(scroll,BorderLayout.CENTER);
 b2.add(new JPanel(),BorderLayout.SOUTH);
    
     

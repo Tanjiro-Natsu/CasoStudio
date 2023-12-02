@@ -3,20 +3,16 @@ package main;
 import java.nio.file.*;
 import java.awt.Color;
 import java.awt.Desktop;
-import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Scanner;
 
 import javax.imageio.ImageIO;
-import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -33,12 +29,9 @@ public class Menu extends JMenuBar implements ActionListener{
 	private static final long serialVersionUID = 1L;
 	private JFrame prova=null;
 	private JFrame xc=null;
-	private JButton v=null;
-	private static  String fontebloccata="FontiBloccate"; 
-	private static int counter=1;
+	private JButton v=null; static int counter=1;
 private static String cooper="Cooper Blank";
 	private static JMenu menu1 ;
-	private static JMenu fonti;
 	private static JMenu helpmenu;
 	private static JMenuItem Refresh;
 	private static JMenuItem Exit ;
@@ -82,7 +75,6 @@ private static String cooper="Cooper Blank";
 	private JButton accetta11=null;
 	private JButton rifiuta2=null;
 	private JButton rifiuta11=null;
-	private JTextArea zzz1=null;
 private String versioneprodotto="1.0.0";
 public ImageIcon getImageIcon10() {return Image101;}
 public JButton getaccetta() {return accetta2;}
@@ -93,9 +85,7 @@ public JButton getrifiuta1() {return rifiuta11;}
 public static void setSave(boolean a) {
 	 Save.setEnabled(a);
 }
-public JMenu getjMenu() {
-	return fonti;
-}
+
 
 	public Menu(){
 		
@@ -130,7 +120,6 @@ bloccaFonte1.setIcon(Image91);
 sbloccaFonte1=new JMenuItem("Sblocca Fonte");
 sbloccaFonte1.setIcon(Image101);
 menu1=new JMenu("File");
-fonti=new JMenu("Fonti");
 helpmenu=new JMenu("Help");
 Refresh=new JMenuItem("Refresh");
 Refresh.setIcon(Image11);
@@ -181,8 +170,7 @@ bloccaFonte1.addActionListener(this);
 sbloccaFonte1.addActionListener(this);
 
 
-fonti.add(bloccaFonte1);
-fonti.add(sbloccaFonte1);
+
 Properties.add(colori);
 colori.add(coloriTrue);
 coloriTrue.add(colore101);
@@ -215,36 +203,13 @@ helpmenu.add(Manuale);
 helpmenu.add(Sito);
 
 add(menu1);
-add(fonti);
 add(helpmenu);
 	}
 
 	public void actionPerformed(ActionEvent e) {
 		
 		
-		if(e.getSource()==bloccaFonte1) {
-		
-split1();
-		}
-		if(e.getSource()==accetta2){
-		
-			split2();
-		}
-		if(e.getSource()==rifiuta2){
-			prova.dispose();
-			
-		}
-		
-		
-if(e.getSource()==sbloccaFonte1) {
-	
-	split3();
-			
-			
-		}
-if(e.getSource()==accetta11) {
-split4();
-}
+
 
 if(e.getSource()==v) {
 	xc.dispose();
@@ -553,181 +518,7 @@ private void sceltacolore(ActionEvent e ) {
 		GUI.setColor2(Color.GRAY);
 	}
 }
-	public void split1() {
-		prova=new JFrame("Bloccare Fonte");
-		prova.setVisible(true);
-		
 	
-		 
-			prova.setSize(300,200);
-			prova.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
-			prova.setLocation(650,200);
-			zzz1=new JTextArea(3,20);
-			zzz1.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.black),""));
-			
-			prova.setLayout(new FlowLayout());
-			prova.add(new JLabel("                                                                                                                       "));
-			prova.add(zzz1);
-			prova.add(new JLabel("                                                      "));
-			
-			 accetta2=new JButton("Conferma");
-			prova.add(new JLabel("                         "));
-		     rifiuta2=new JButton("Annulla");
-			
-			accetta2.addActionListener(this);
-			rifiuta2.addActionListener(this);
-			prova.add(accetta2);
-			prova.add(rifiuta2);
-			Path path=Paths.get("");
-			String a=path.toAbsolutePath().toString();
-			File file1=new File(a+separetor+fontebloccata);
-			if(file1.isDirectory()) {
-				
-				
-			}
-			else {
-				file1.mkdirs();
-			}
-			
-		
-	}
-public void split2() {
-	Path path=Paths.get("");
-    String a=path.toAbsolutePath().toString();
-
-	try {
-		
-		PrintWriter xx=new PrintWriter(new FileOutputStream(new File(a+separetor+fontebloccata+separetor+"FontiBloccate.txt"),true));
-		
-		xx.printf(zzz1.getText().replaceAll("//s", "")+"\n");
-		zzz1.setText(" ");
-		xx.close();
-
-	} catch (FileNotFoundException e1) {
-		e1.printStackTrace();
-	}
-
-	xc=new JFrame("Azione Eseguita");
-      xc.setSize(400,150);
-      xc.setLocation(650,300);
-      xc.setLayout(new FlowLayout());
-      JLabel xc1=new JLabel("Fonte bloccata con successo");
-      xc1.setFont(new Font(cooper,Font.PLAIN,14));
-      xc.add(new JLabel("   "));
-      xc.add(xc1);
-       v=new JButton ("OK");
-       v.addActionListener(this);
-      xc.add(new JLabel("                                                                                                                                       "));
-      xc.add(v);
-      xc.setVisible(true);
-		
-	}
-public void split3() {
-	 prova=new JFrame("Sbloccare Fonte");
-		prova.setSize(300,200);
-		prova.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
-		prova.setLocation(650,200);
-		zzz1=new JTextArea(3,20);
-		zzz1.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.black),""));
-		prova.setLayout(new FlowLayout());
-		prova.add(new JLabel("                                                                                                                       "));
-		prova.add(zzz1);
-		prova.add(new JLabel("                                                      "));
-		
-		accetta11=new JButton("Conferma");
-		prova.add(new JLabel("                         "));
-	    rifiuta11=new JButton("Annulla");
-		
-		accetta11.addActionListener(this);
-		rifiuta11.addActionListener(this);
-		prova.add(accetta11);
-		prova.add(rifiuta11);
-		prova.setVisible(true);
-}
-public void split4() {
-	 Path path=Paths.get("");
-	    String a=path.toAbsolutePath().toString();
-	Scanner scanner=null;
-	PrintWriter writer=null;
-	String delete=null;
-	File file=null;
-	File file1=null;
-	int gh=0;
-	try {
-		
-		 file=new File(a+separetor+fontebloccata+separetor+"FontiBloccate.txt");
-		delete=a+separetor+fontebloccata+separetor+"FontiBloccate1.txt";
-		 file1=new File(delete);
-		
-	if(file.exists()==false) {
-		gh=2;
-	}
-	else {
-		scanner=new Scanner(file);
-		writer=new PrintWriter(file1);
-		String hl=null;
-		while(scanner.hasNext()) {
-			hl=scanner.next();
-			if(hl.equalsIgnoreCase(zzz1.getText())) {
-				gh=1;
-			}
-			else {
-				writer.write(hl+"\n");
-			}
-			
-		}
-		
-		
-		
-		}
-	
-		String n1="";
-		String n2="";
-		if(gh==0) {
-			n1="Fonte non presente nella lista";
-			n2="La Fonte inserita non è presente nell'elenco";
-		}
-		else if(gh==2) {
-			n1="Empty List";
-			n2="L'elenco non contine nessuna Fonte";
-		}
-		else {
-			n1="Azione Eseguita";
-			n2="La fonte è stata rimossa dalla lista con successo";
-		}
-		 xc=new JFrame(n1);
-	      xc.setSize(400,150);
-	      xc.setLocation(650,300);
-	      xc.setLayout(new FlowLayout());
-	      JLabel xc1=new JLabel(n2);
-	      xc1.setFont(new Font(cooper,Font.PLAIN,14));
-	      xc.add(new JLabel("   "));
-	      xc.add(xc1);
-	       v=new JButton ("OK");
-	       v.addActionListener(this);
-	      xc.add(new JLabel("                                                                                                                                       "));
-	      xc.add(v);
-	      xc.setVisible(true);
-		
-	
-	}
-	catch(Exception e44) {
-		
-	}
-	finally {
-		if(scanner!=null) {
-		scanner.close();}
-		if(writer!=null) {
-		writer.close();}
-		try {
-			Files.copy(file1.toPath(), file.toPath(),StandardCopyOption.REPLACE_EXISTING);
-			file1.delete();
-		} catch (IOException e1) {
-			e1.printStackTrace();
-		}
-	}
-	prova.dispose();
-}
 public void split5() {
 	Path path=Paths.get("");
     String a=path.toAbsolutePath().toString();

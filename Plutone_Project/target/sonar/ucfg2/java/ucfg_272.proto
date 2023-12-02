@@ -1,18 +1,18 @@
 
-&main.GUI2#getfonte()Ljava/lang/String;c
-W/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/GUI2.java¶ ¶("1*õ
+*main.GUI2#getargomento()Ljava/lang/String;c
+W/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/GUI2.javaú ú(""1*ü
 1
-ß ß(b
-`
+ù ù(f
+d
 
-ß ß(
-%0java.lang.String"__id*4
+ù ù(
+%0java.lang.String"__id*8
 
-__unknown_file (*
-	main.GUI2"
-fonte"&
+__unknown_file (*
+	main.GUI2"
+	argomento"&
 
-ß ß(
+ù ù(
 
 %0java.lang.StringB"
 	main.GUI2H

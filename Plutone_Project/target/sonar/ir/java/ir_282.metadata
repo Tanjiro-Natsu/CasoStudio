@@ -1,1 +1,3 @@
-main.ImageMenu#getCOLOR110()Ljavax/swing/JMenuItem;
+main.ImageMenu#setcolor4()V
+javax.swing.JMenuItem#<init>()V
+javax.swing.JMenuItem#instance-init#

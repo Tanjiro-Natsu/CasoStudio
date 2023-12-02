@@ -1,1 +1,4 @@
-main.GUI#setColor1(Ljava/awt/Color;)V
+main.GUI#refresh()V
+==
+setEnabled javax.swing.AbstractButton#setEnabled(Z)V
+setBackground javax.swing.JComponent#setBackground(Ljava/awt/Color;)V
