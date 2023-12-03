@@ -42,22 +42,22 @@ public class GUI extends JFrame  implements ActionListener,Runnable {
 	   private static String fonte1=null;
 	    private   static String argomento1=null;
 	    private   static double percentuale1=0;
-	private static Color Colore11=Color.GREEN;
-	private static  Color Colore21=Color.RED;
+	private static Color COLORE11=Color.GREEN;
+	private static  Color COLORE21=Color.RED;
 	 public static String metadatisave( ) {
 		return dc1.toString();
 	}
 	 public Menu getMenu() {
 		 return ss1;
 	 }
-	 public static void setColor1(Color a) {
-		Colore11=a;
+	 public static void setcolor1(Color a) {
+		 COLORE11=a;
 	}
-	 public static void Metadata() {
+	 public static void metadata() {
 		dc1.dispose();
 	}
-	 public static void setColor2(Color a) {
-		Colore21=a;
+	 public static void setcolor2(Color a) {
+		 COLORE21=a;
 	}
 	 public static boolean getresult() {
 		return result1;}
@@ -67,10 +67,10 @@ public class GUI extends JFrame  implements ActionListener,Runnable {
 		button1.setEnabled(false);
 	}
 	 public static void Color1() {
-		j11.setBackground(Colore11);
+		j11.setBackground(COLORE11);
 	}
 	 public static void Color2() {
-		j21.setBackground(Colore21);
+		j21.setBackground(COLORE21);
 	}
 	 public static void sett1() {
 		t11.setText(" ");
@@ -109,7 +109,7 @@ public class GUI extends JFrame  implements ActionListener,Runnable {
 	        	
 	        
 			} catch (IOException e) {
-				e.printStackTrace();
+				System.out.println(e.getMessage());
 			}
 		setLayout(new GridLayout(3,1));
 		JLabel a111=new JLabel();
@@ -353,10 +353,10 @@ cicla(q,s);
 						
 				}
 				if(t==1) {
-					j11.setBackground(Colore11);
+					j11.setBackground(COLORE11);
 				}
 				if(f1==1) {
-					j11.setBackground(Colore21);
+					j11.setBackground(COLORE21);
 				}
 				return ciao;
 	    }   
@@ -368,11 +368,11 @@ cicla(q,s);
 	             percentuale1=VeerificaTesto.reader(a.getAbsolutePath())*100;
 	            
 	             if(percentuale1>60.00) {
-	             	j21.setBackground(Colore11);
+	             	j21.setBackground(COLORE11);
 	             	result1=true;
 	             }
 	             else if(percentuale1<60.00) {
-	             	j21.setBackground(Colore21);
+	             	j21.setBackground(COLORE21);
 	             	result1=false;
 	             }}
 	         else if(v1.equalsIgnoreCase("jpg")){
@@ -381,11 +381,11 @@ cicla(q,s);
 	          	
 	              System.out.println(percentuale1);
 	              if(percentuale1==0.00) {
-	              	j21.setBackground(Colore11);
+	              	j21.setBackground(COLORE11);
 	              	result1=true;
 	              }
 	              else if(percentuale1>0.00) {
-	              	j21.setBackground(Colore21);
+	              	j21.setBackground(COLORE21);
 	              	result1=false;
 	              }
 	          	

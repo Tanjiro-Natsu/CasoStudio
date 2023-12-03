@@ -42,20 +42,20 @@ public class GUI2 extends JFrame  implements ActionListener,Runnable {
 	   private static String fonte=null;
 	    private   static String argomento=null;
 	    private   static double percentuale=0;
-	private static Color Colore1=Color.GREEN;
-	private static  Color Colore2=Color.RED;
+	private static Color colore1=Color.GREEN;
+	private static  Color colore2=Color.RED;
 	 public static String metadatisave( ) {
 		return dc.toString();
 	}
 	
-	 public static void setColor1(Color a) {
-		Colore1=a;
+	 public static void setcolor1(Color a) {
+		colore1=a;
 	}
-	 public static void Metadata() {
+	 public static void metadata() {
 		dc.dispose();
 	}
-	 public static void setColor2(Color a) {
-		Colore2=a;
+	 public static void setcolor2(Color a) {
+		colore2=a;
 	}
 	 public static boolean getresult() {
 		return result;}
@@ -64,11 +64,11 @@ public class GUI2 extends JFrame  implements ActionListener,Runnable {
 		j2.setBackground(Color.WHITE);	
 		button.setEnabled(false);
 	}
-	 public static void Color1() {
-		j1.setBackground(Colore1);
+	 public static void COLOR1() {
+		j1.setBackground(colore1);
 	}
-	 public static void Color2() {
-		j2.setBackground(Colore2);
+	 public static void COLOR2() {
+		j2.setBackground(colore2);
 	}
 	 public static void sett1() {
 		t1.setText(" ");
@@ -343,10 +343,10 @@ loop.start();
 					
 			}
 			if(t==1) {
-				j1.setBackground(Colore1);
+				j1.setBackground(colore1);
 			}
 			if(f1==1) {
-				j1.setBackground(Colore2);
+				j1.setBackground(colore2);
 			}
 			return ciao;
     }   
@@ -358,11 +358,11 @@ loop.start();
              percentuale=VeerificaTesto.reader(a.getAbsolutePath())*100;
             
              if(percentuale>60.00) {
-             	j2.setBackground(Colore1);
+             	j2.setBackground(colore1);
              	result=true;
              }
              else if(percentuale<60.00) {
-             	j2.setBackground(Colore2);
+             	j2.setBackground(colore2);
              	result=false;
              }}
          else if(v.equalsIgnoreCase("jpg")){
@@ -371,11 +371,11 @@ loop.start();
           	
               System.out.println(percentuale);
               if(percentuale==0.00) {
-              	j2.setBackground(Colore1);
+              	j2.setBackground(colore1);
               	result=true;
               }
               else if(percentuale>0.00) {
-              	j2.setBackground(Colore2);
+              	j2.setBackground(colore2);
               	result=false;
               }
           	

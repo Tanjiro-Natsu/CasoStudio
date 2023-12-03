@@ -53,7 +53,7 @@ class FileChooserTest {
 	public void FinestraimageTest() {
 		
 		
-		assertThrows(Exception.class,()->a.Finestraimage("caso"));
+		assertThrows(Exception.class,()->a.FINESTRAIMMAGE("caso"));
 
 }
 }

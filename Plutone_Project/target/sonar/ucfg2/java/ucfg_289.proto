@@ -53,7 +53,7 @@ i
 
 __unknown_file (*
 	main.Menu"	
-Image41ÌÍ
+IMAGE41ÌÍ
 
 Î Î(
 %143void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
@@ -219,7 +219,7 @@ N
 °
 
 ı ı(
-%161void"%main.GUI#setColor1(Ljava/awt/Color;)V*(
+%161void"%main.GUI#setcolor1(Ljava/awt/Color;)V*(
 
 __unknown_file ("
 
@@ -281,7 +281,7 @@ i
 
 __unknown_file (*
 	main.Menu"	
-Image41ÌÍ
+IMAGE41ÌÍ
 
 ﬁ ﬁ(
 %119void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
@@ -447,7 +447,7 @@ N
 °
 
 Ë Ë(
-%137void"%main.GUI#setColor1(Ljava/awt/Color;)V*(
+%137void"%main.GUI#setcolor1(Ljava/awt/Color;)V*(
 
 __unknown_file ("
 
@@ -509,7 +509,7 @@ h
 
 __unknown_file (*
 	main.Menu"	
-Image41ÍÁ
+IMAGE41ÍÁ
 
 — —(
 %95void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
@@ -675,7 +675,7 @@ N
 °
 
 € €(
-%113void"%main.GUI#setColor1(Ljava/awt/Color;)V*(
+%113void"%main.GUI#setcolor1(Ljava/awt/Color;)V*(
 
 __unknown_file ("
 
@@ -737,7 +737,7 @@ h
 
 __unknown_file (*
 	main.Menu"	
-Image41ÍÁ
+IMAGE41ÍÁ
 
 º º(
 %53void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
@@ -1065,7 +1065,7 @@ M
 ü
 
 Œ Œ(
-%89void"%main.GUI#setColor1(Ljava/awt/Color;)V*(
+%89void"%main.GUI#setcolor1(Ljava/awt/Color;)V*(
 
 __unknown_file ("
 
@@ -1180,7 +1180,7 @@ h
 
 __unknown_file (*
 	main.Menu"	
-Image41ÍÁ
+IMAGE41ÍÁ
 
 ∞ ∞(
 %31void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*:
@@ -1328,7 +1328,7 @@ M
 ü
 
 π π(
-%47void"%main.GUI#setColor1(Ljava/awt/Color;)V*(
+%47void"%main.GUI#setcolor1(Ljava/awt/Color;)V*(
 
 __unknown_file ("
 
@@ -1355,7 +1355,7 @@ i
 
 __unknown_file (*
 	main.Menu"	
-Image41ÌÍ
+IMAGE41ÌÍ
 
 ¬ ¬(
 %311void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
@@ -1521,7 +1521,7 @@ N
 °
 
 À À(
-%329void"%main.GUI#setColor2(Ljava/awt/Color;)V*(
+%329void"%main.GUI#setcolor2(Ljava/awt/Color;)V*(
 
 __unknown_file ("
 
@@ -1618,7 +1618,7 @@ g
 
 __unknown_file (*
 	main.Menu"	
-Image41Á‰
+IMAGE41Á‰
 
 ° °(
 
@@ -1787,7 +1787,7 @@ M
 ü
 
 ¨ ¨(
-%23void"%main.GUI#setColor1(Ljava/awt/Color;)V*(
+%23void"%main.GUI#setcolor1(Ljava/awt/Color;)V*(
 
 __unknown_file ("
 
@@ -1814,7 +1814,7 @@ i
 
 __unknown_file (*
 	main.Menu"	
-Image41ÌÍ
+IMAGE41ÌÍ
 
 ∂ ∂(
 %287void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
@@ -1980,7 +1980,7 @@ N
 °
 
 ø ø(
-%305void"%main.GUI#setColor2(Ljava/awt/Color;)V*(
+%305void"%main.GUI#setcolor2(Ljava/awt/Color;)V*(
 
 __unknown_file ("
 
@@ -2076,7 +2076,7 @@ i
 
 __unknown_file (*
 	main.Menu"	
-Image41ÌÍ
+IMAGE41ÌÍ
 
 ™ ™(
 %263void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
@@ -2242,7 +2242,7 @@ N
 °
 
 ≥ ≥(
-%281void"%main.GUI#setColor2(Ljava/awt/Color;)V*(
+%281void"%main.GUI#setcolor2(Ljava/awt/Color;)V*(
 
 __unknown_file ("
 
@@ -2304,7 +2304,7 @@ i
 
 __unknown_file (*
 	main.Menu"	
-Image41ÌÍ
+IMAGE41ÌÍ
 
 û û(
 %239void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
@@ -2470,7 +2470,7 @@ N
 °
 
 ß ß(
-%257void"%main.GUI#setColor2(Ljava/awt/Color;)V*(
+%257void"%main.GUI#setcolor2(Ljava/awt/Color;)V*(
 
 __unknown_file ("
 
@@ -2532,7 +2532,7 @@ i
 
 __unknown_file (*
 	main.Menu"	
-Image41ÌÍ
+IMAGE41ÌÍ
 
 ë ë(
 %215void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
@@ -2698,7 +2698,7 @@ N
 °
 
 õ õ(
-%233void"%main.GUI#setColor1(Ljava/awt/Color;)V*(
+%233void"%main.GUI#setcolor1(Ljava/awt/Color;)V*(
 
 __unknown_file ("
 
@@ -2728,7 +2728,7 @@ i
 
 __unknown_file (*
 	main.Menu"	
-Image41ÌÍ
+IMAGE41ÌÍ
 
 ˝ ˝(
 %431void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
@@ -2894,7 +2894,7 @@ N
 °
 
 Ü Ü(
-%449void"%main.GUI#setColor2(Ljava/awt/Color;)V*(
+%449void"%main.GUI#setcolor2(Ljava/awt/Color;)V*(
 
 __unknown_file ("
 
@@ -2958,7 +2958,7 @@ i
 
 __unknown_file (*
 	main.Menu"	
-Image41ÌÍ
+IMAGE41ÌÍ
 
 Ú Ú(
 %407void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
@@ -3124,7 +3124,7 @@ N
 °
 
 ˚ ˚(
-%425void"%main.GUI#setColor2(Ljava/awt/Color;)V*(
+%425void"%main.GUI#setcolor2(Ljava/awt/Color;)V*(
 
 __unknown_file ("
 
@@ -3186,7 +3186,7 @@ i
 
 __unknown_file (*
 	main.Menu"	
-Image41ÌÍ
+IMAGE41ÌÍ
 
 Ê Ê(
 %383void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
@@ -3352,7 +3352,7 @@ N
 °
 
 Ô Ô(
-%401void"%main.GUI#setColor2(Ljava/awt/Color;)V*(
+%401void"%main.GUI#setcolor2(Ljava/awt/Color;)V*(
 
 __unknown_file ("
 
@@ -3414,7 +3414,7 @@ i
 
 __unknown_file (*
 	main.Menu"	
-Image41ÌÍ
+IMAGE41ÌÍ
 
 ⁄ ⁄(
 %359void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
@@ -3580,7 +3580,7 @@ N
 °
 
 „ „(
-%377void"%main.GUI#setColor2(Ljava/awt/Color;)V*(
+%377void"%main.GUI#setcolor2(Ljava/awt/Color;)V*(
 
 __unknown_file ("
 
@@ -3642,7 +3642,7 @@ i
 
 __unknown_file (*
 	main.Menu"	
-Image41ÌÍ
+IMAGE41ÌÍ
 
 Œ Œ(
 %335void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
@@ -3808,7 +3808,7 @@ N
 °
 
 ◊ ◊(
-%353void"%main.GUI#setColor2(Ljava/awt/Color;)V*(
+%353void"%main.GUI#setcolor2(Ljava/awt/Color;)V*(
 
 __unknown_file ("
 
@@ -3872,7 +3872,7 @@ i
 
 __unknown_file (*
 	main.Menu"	
-Image41ÌÍ
+IMAGE41ÌÍ
 
 Ö Ö(
 %191void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
@@ -4038,7 +4038,7 @@ N
 °
 
 è è(
-%209void"%main.GUI#setColor1(Ljava/awt/Color;)V*(
+%209void"%main.GUI#setcolor1(Ljava/awt/Color;)V*(
 
 __unknown_file ("
 
@@ -4100,7 +4100,7 @@ i
 
 __unknown_file (*
 	main.Menu"	
-Image41ÌÍ
+IMAGE41ÌÍ
 
 ¯ ¯(
 %167void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
@@ -4266,7 +4266,7 @@ N
 °
 
 Ç Ç(
-%185void"%main.GUI#setColor1(Ljava/awt/Color;)V*(
+%185void"%main.GUI#setcolor1(Ljava/awt/Color;)V*(
 
 __unknown_file ("
 

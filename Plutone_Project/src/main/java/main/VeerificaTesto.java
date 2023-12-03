@@ -19,10 +19,10 @@ public class VeerificaTesto {
     	
     
 try{
-     Scanner Scanner=new Scanner(new File(a) );
+     Scanner SCANNER=new Scanner(new File(a) );
     
-     while(Scanner.hasNext()==true){
-        String gggg=Scanner.next();
+     while(SCANNER.hasNext()==true){
+        String gggg=SCANNER.next();
         if(gggg.equalsIgnoreCase("e") || gggg.equalsIgnoreCase("ne") || gggg.equalsIgnoreCase("inoltre") || gggg.equalsIgnoreCase("ma") || gggg.equalsIgnoreCase("dunque") || gggg.equalsIgnoreCase("anzi") || gggg.equalsIgnoreCase("che") || gggg.equalsIgnoreCase("allurchè") ||gggg.equalsIgnoreCase("però") ||gggg.equalsIgnoreCase("perchè") || gggg.equalsIgnoreCase("giacchè") || gggg.equalsIgnoreCase("purchè") || gggg.equalsIgnoreCase("affinchè") || gggg.equalsIgnoreCase("eppure") || gggg.equalsIgnoreCase("oppure") || gggg.equalsIgnoreCase("dopochè") || gggg.equalsIgnoreCase("neanche") ||gggg.equalsIgnoreCase("neppure") || gggg.equalsIgnoreCase("o") || gggg.equalsIgnoreCase("ovvero") || gggg.equalsIgnoreCase("ossia") || gggg.equalsIgnoreCase("tuttavia") || gggg.equalsIgnoreCase("infatti") || gggg.equalsIgnoreCase("cioè") || gggg.equalsIgnoreCase("quindi") ||  gggg.equalsIgnoreCase("come") || gggg.equalsIgnoreCase("mentre") || gggg.equalsIgnoreCase("finchè") || gggg.equalsIgnoreCase("siccome") || gggg.equalsIgnoreCase("sebbene") || gggg.equalsIgnoreCase("quantunque") || gggg.equalsIgnoreCase("qualora") || gggg.equalsIgnoreCase("fuorchè") || gggg.equalsIgnoreCase("il") || gggg.equalsIgnoreCase("lo") || gggg.equalsIgnoreCase("la") || gggg.equalsIgnoreCase("i") || gggg.equalsIgnoreCase("gli") || gggg.equalsIgnoreCase("le") || gggg.equalsIgnoreCase("un ") || gggg.equalsIgnoreCase("una") ||  gggg.equalsIgnoreCase("del") || gggg.equalsIgnoreCase("dello") || gggg.equalsIgnoreCase("della") || gggg.equalsIgnoreCase("dei") || gggg.equalsIgnoreCase("degli") || gggg.equalsIgnoreCase("delle") || gggg.equalsIgnoreCase("se") || gggg.equalsIgnoreCase("di") || gggg.equalsIgnoreCase("a") || gggg.equalsIgnoreCase("da") || gggg.equalsIgnoreCase("in ") || gggg.equalsIgnoreCase("su") || gggg.equalsIgnoreCase("per") || gggg.equalsIgnoreCase("tra ") || gggg.equalsIgnoreCase("fra")  ){
         throw new Exception();
         }
@@ -42,7 +42,7 @@ try{
      daverificare.clear();
      listavero.clear();
      tot=0;
-     Scanner.close();
+     SCANNER.close();
    
     }
    

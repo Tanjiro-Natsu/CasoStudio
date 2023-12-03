@@ -33,13 +33,13 @@ public class Menu extends JMenuBar implements ActionListener{
 private static String cooper="Cooper Blank";
 	private static JMenu menu1 ;
 	private static JMenu helpmenu;
-	private static JMenuItem Refresh;
-	private static JMenuItem Exit ;
-	private static JMenuItem Properties;
-	private static JMenuItem Save;
-	private static JMenuItem Info;
-	private static JMenuItem Manuale;
-	private static JMenuItem Sito;
+	private static JMenuItem refresh;
+	private static JMenuItem exit ;
+	private static JMenuItem properties;
+	private static JMenuItem save;
+	private static JMenuItem info;
+	private static JMenuItem manuale;
+	private static JMenuItem sito;
 	private JLabel versione;
 	private JMenuItem colore101=new JMenuItem("Rosso");
 	private  JMenuItem colore111=new JMenuItem("Blue");
@@ -59,16 +59,16 @@ private static String cooper="Cooper Blank";
 	private JMenuItem colore261=new JMenuItem("Nero");
 	private JMenuItem colore271=new JMenuItem("Rosa");
 	private JMenuItem colore281=new JMenuItem("Grigio");
-	private ImageIcon Image11=null;
-	private ImageIcon Image21=null;
-	private ImageIcon Image31=null;
-	private ImageIcon Image41=null;
-	private ImageIcon Image51=null;
-	private ImageIcon Image61=null;
-	private ImageIcon Image71=null;
-	private ImageIcon Image81=null;
-	private ImageIcon Image91=null;
-	private ImageIcon Image101=null;
+	private ImageIcon IMAGE11=null;
+	private ImageIcon IMAGE21=null;
+	private ImageIcon IMAGE31=null;
+	private ImageIcon IMAGE41=null;
+	private ImageIcon IMAGE51=null;
+	private ImageIcon IMAGE61=null;
+	private ImageIcon IMAGE71=null;
+	private ImageIcon IMAGE81=null;
+	private ImageIcon IMAGE91=null;
+	private ImageIcon IMAGE101=null;
 	private JMenuItem bloccaFonte1;
 	private JMenuItem sbloccaFonte1;
 	private JButton accetta2=null;
@@ -76,14 +76,14 @@ private static String cooper="Cooper Blank";
 	private JButton rifiuta2=null;
 	private JButton rifiuta11=null;
 private String versioneprodotto="1.0.0";
-public ImageIcon getImageIcon10() {return Image101;}
+public ImageIcon getImageIcon10() {return IMAGE101;}
 public JButton getaccetta() {return accetta2;}
 public JButton getaccetta1() {return accetta11;}
 public JButton getrifiuta() {return rifiuta2;}
 public JButton getrifiuta1() {return rifiuta11;}
 
 public static void setSave(boolean a) {
-	 Save.setEnabled(a);
+	 save.setEnabled(a);
 }
 
 
@@ -98,16 +98,16 @@ try {
 	  Path path=Paths.get("");
     String a=path.toAbsolutePath().toString();
    
-    Image11=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"Refresh.png")));
-	 Image21=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"i.png")));
-	 Image31=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"save.png")));
-	 Image41=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"check.png")));
-	 Image51=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"exit.png")));
-	 Image61=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"info.png")));
-	 Image71=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"manuale.png")));
-	 Image81=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"web.png")));
-	 Image91=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"lock.png")));
-	 Image101=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"unlock.png")));
+    IMAGE11=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"Refresh.png")));
+    IMAGE21=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"i.png")));
+    IMAGE31=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"save.png")));
+    IMAGE41=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"check.png")));
+    IMAGE51=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"exit.png")));
+    IMAGE61=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"info.png")));
+    IMAGE71=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"manuale.png")));
+    IMAGE81=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"web.png")));
+    IMAGE91=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"lock.png")));
+    IMAGE101=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"unlock.png")));
 	
 	
 	
@@ -116,38 +116,38 @@ try {
 }
 
 bloccaFonte1=new JMenuItem("Blocca Fonte");
-bloccaFonte1.setIcon(Image91);
+bloccaFonte1.setIcon(IMAGE91);
 sbloccaFonte1=new JMenuItem("Sblocca Fonte");
-sbloccaFonte1.setIcon(Image101);
+sbloccaFonte1.setIcon(IMAGE101);
 menu1=new JMenu("File");
 helpmenu=new JMenu("Help");
-Refresh=new JMenuItem("Refresh");
-Refresh.setIcon(Image11);
-Save=new JMenuItem("Save");
-Save.setIcon(Image31);
-Properties=new JMenu("Properties");
-Properties.setIcon(Image21);
-Exit=new JMenuItem("Exit");
-Exit.setIcon(Image51);
-Info=new JMenuItem("Info");
-Info.setIcon(Image61);
-Manuale=new JMenuItem("Manuale");
-Manuale.setIcon(Image71);
-Sito=new JMenuItem("Sito");
-Sito.setIcon(Image81);
+refresh=new JMenuItem("Refresh");
+refresh.setIcon(IMAGE11);
+save=new JMenuItem("Save");
+save.setIcon(IMAGE31);
+properties=new JMenu("Properties");
+properties.setIcon(IMAGE21);
+exit=new JMenuItem("Exit");
+exit.setIcon(IMAGE51);
+info=new JMenuItem("Info");
+info.setIcon(IMAGE61);
+manuale=new JMenuItem("Manuale");
+manuale.setIcon(IMAGE71);
+sito=new JMenuItem("Sito");
+sito.setIcon(IMAGE81);
 JMenu colori=new JMenu("Colori");
 JMenu coloriTrue=new JMenu("ColoriTrue");
 JMenu coloriFalse=new JMenu("ColoriFalse");
 
 
 
-Refresh.addActionListener(this);
-Save.addActionListener(this);
-Properties.addActionListener(this);
-Exit.addActionListener(this);
-Info.addActionListener(this);
-Manuale.addActionListener(this);
-Sito.addActionListener(this);
+refresh.addActionListener(this);
+save.addActionListener(this);
+properties.addActionListener(this);
+exit.addActionListener(this);
+info.addActionListener(this);
+manuale.addActionListener(this);
+sito.addActionListener(this);
 colore101.addActionListener(this);
 colore111.addActionListener(this);
 colore121.addActionListener(this);
@@ -171,12 +171,12 @@ sbloccaFonte1.addActionListener(this);
 
 
 
-Properties.add(colori);
+properties.add(colori);
 colori.add(coloriTrue);
 coloriTrue.add(colore101);
 coloriTrue.add(colore111);
 coloriTrue.add(colore121);
-colore121.setIcon(Image41);
+colore121.setIcon(IMAGE41);
 coloriTrue.add(colore131);
 coloriTrue.add(colore141);
 coloriTrue.add(colore151);
@@ -185,7 +185,7 @@ coloriTrue.add(colore171);
 coloriTrue.add(colore181);
 colori.add(coloriFalse);
 coloriFalse.add(colore201);
-colore201.setIcon(Image41);
+colore201.setIcon(IMAGE41);
 coloriFalse.add(colore211);
 coloriFalse.add(colore221);
 coloriFalse.add(colore231);
@@ -194,13 +194,13 @@ coloriFalse.add(colore251);
 coloriFalse.add(colore261);
 coloriFalse.add(colore271);
 coloriFalse.add(colore281);
-menu1.add(Refresh);
-menu1.add(Save);
-menu1.add(Properties);
-menu1.add(Exit);
-helpmenu.add(Info);
-helpmenu.add(Manuale);
-helpmenu.add(Sito);
+menu1.add(refresh);
+menu1.add(save);
+menu1.add(properties);
+menu1.add(exit);
+helpmenu.add(info);
+helpmenu.add(manuale);
+helpmenu.add(sito);
 
 add(menu1);
 add(helpmenu);
@@ -217,26 +217,26 @@ if(e.getSource()==v) {
 if(e.getSource()==rifiuta11) {
 prova.dispose();
 }
-		if(e.getSource()==Refresh) {
+		if(e.getSource()==refresh) {
 			GUI.sett1();
 			GUI.sett2();
 			GUI.sett3();
 			GUI.sett4();
 			GUI.refresh();
-			GUI.Metadata();
+			GUI.metadata();
 			 
 			
 			
 		}
-		else if(e.getSource()==Exit) {
+		else if(e.getSource()==exit) {
 			main.close();
 		}
-		else if(e.getSource()==Save) {
+		else if(e.getSource()==save) {
 			split5();
 			
 		}
 		
-		else if(e.getSource()==Info) {
+		else if(e.getSource()==info) {
 			JFrame a=new JFrame("Info");
 			a.setSize(500,200);
 			a.setLocation(650, 100);
@@ -250,7 +250,7 @@ prova.dispose();
 			a.add(new JLabel("  All right reserved.Misinformation and his logo are trademark of the Plutone_project"));
 			
 		}
-		else if(e.getSource()==Manuale) {
+		else if(e.getSource()==manuale) {
 			JFrame a=new JFrame("Manuale");
 			a.setLocation(550, 200);
 			a.setSize(400,300);
@@ -266,7 +266,7 @@ prova.dispose();
 			a.add(c);
 			a.setVisible(true);
 		}
-		else if(e.getSource()==Sito) {
+		else if(e.getSource()==sito) {
 			Path path=Paths.get("");
 		    String a=path.toAbsolutePath().toString();
 			
@@ -286,7 +286,7 @@ prova.dispose();
 
 private void sceltacolore(ActionEvent e ) {
 	 if(e.getSource()==colore101) {
-		colore101.setIcon(Image41);
+		colore101.setIcon(IMAGE41);
 		colore111.setIcon(null);
 		colore121.setIcon(null);
 		colore131.setIcon(null);
@@ -297,11 +297,11 @@ private void sceltacolore(ActionEvent e ) {
 		colore181.setIcon(null);
 	
 		
-		GUI.setColor1(Color.RED);
+		GUI.setcolor1(Color.RED);
 	}
 	else if(e.getSource()==colore111) {
 		colore101.setIcon(null);
-		colore111.setIcon(Image41);
+		colore111.setIcon(IMAGE41);
 		colore121.setIcon(null);
 		colore131.setIcon(null);
 		colore141.setIcon(null);
@@ -310,10 +310,10 @@ private void sceltacolore(ActionEvent e ) {
 		colore171.setIcon(null);
 		colore181.setIcon(null);
 		
-		GUI.setColor1(Color.BLUE);
+		GUI.setcolor1(Color.BLUE);
 	}
 	else if(e.getSource()==colore121) {
-		colore121.setIcon(Image41);
+		colore121.setIcon(IMAGE41);
 		colore101.setIcon(null);
 		colore111.setIcon(null);
 		colore131.setIcon(null);
@@ -331,10 +331,10 @@ private void sceltacolore(ActionEvent e ) {
 		colore261.setIcon(null);
 		colore271.setIcon(null);
 		colore281.setIcon(null);
-		GUI.setColor1(Color.GREEN);
+		GUI.setcolor1(Color.GREEN);
 	}
 	else if(e.getSource()==colore131) {
-		colore131.setIcon(Image41);
+		colore131.setIcon(IMAGE41);
 		colore101.setIcon(null);
 		colore111.setIcon(null);
 		colore121.setIcon(null);
@@ -344,10 +344,10 @@ private void sceltacolore(ActionEvent e ) {
 		colore171.setIcon(null);
 		colore181.setIcon(null);
 		
-		GUI.setColor1(Color.ORANGE);
+		GUI.setcolor1(Color.ORANGE);
 	}
 	else if(e.getSource()==colore141) {
-		colore141.setIcon(Image41);
+		colore141.setIcon(IMAGE41);
 		colore101.setIcon(null);
 		colore111.setIcon(null);
 		colore121.setIcon(null);
@@ -357,10 +357,10 @@ private void sceltacolore(ActionEvent e ) {
 		colore171.setIcon(null);
 		colore181.setIcon(null);
 		
-		GUI.setColor1(Color.YELLOW);
+		GUI.setcolor1(Color.YELLOW);
 	}
 	else if(e.getSource()==colore151) {
-		colore151.setIcon(Image41);
+		colore151.setIcon(IMAGE41);
 		colore101.setIcon(null);
 		colore111.setIcon(null);
 		colore121.setIcon(null);
@@ -370,10 +370,10 @@ private void sceltacolore(ActionEvent e ) {
 		colore171.setIcon(null);
 		colore181.setIcon(null);
 		
-		GUI.setColor1(Color.MAGENTA);
+		GUI.setcolor1(Color.MAGENTA);
 	}
 	else if(e.getSource()==colore161) {
-		colore161.setIcon(Image41);
+		colore161.setIcon(IMAGE41);
 		colore101.setIcon(null);
 		colore111.setIcon(null);
 		colore121.setIcon(null);
@@ -383,10 +383,10 @@ private void sceltacolore(ActionEvent e ) {
 		colore171.setIcon(null);
 		colore181.setIcon(null);
 		
-		GUI.setColor1(Color.BLACK);
+		GUI.setcolor1(Color.BLACK);
 	}
 	else if(e.getSource()==colore171) {
-		colore171.setIcon(Image41);
+		colore171.setIcon(IMAGE41);
 		colore101.setIcon(null);
 		colore111.setIcon(null);
 		colore121.setIcon(null);
@@ -396,9 +396,9 @@ private void sceltacolore(ActionEvent e ) {
 		colore161.setIcon(null);
 		colore181.setIcon(null);
 		
-		GUI.setColor1(Color.PINK);
+		GUI.setcolor1(Color.PINK);
 	}else if(e.getSource()==colore181) {
-		colore181.setIcon(Image41);
+		colore181.setIcon(IMAGE41);
 		colore101.setIcon(null);
 		colore111.setIcon(null);
 		colore121.setIcon(null);
@@ -408,10 +408,10 @@ private void sceltacolore(ActionEvent e ) {
 		colore161.setIcon(null);
 		colore171.setIcon(null);
 		
-		GUI.setColor1(Color.GRAY);
+		GUI.setcolor1(Color.GRAY);
 	}
 	else if(e.getSource()==colore201) {
-		colore201.setIcon(Image41);
+		colore201.setIcon(IMAGE41);
 		colore211.setIcon(null);
 		colore221.setIcon(null);
 		colore231.setIcon(null);
@@ -420,10 +420,10 @@ private void sceltacolore(ActionEvent e ) {
 		colore261.setIcon(null);
 		colore271.setIcon(null);
 		colore281.setIcon(null);
-		GUI.setColor2(Color.RED);
+		GUI.setcolor2(Color.RED);
 	}
 	else if(e.getSource()==colore211) {
-		colore211.setIcon(Image41);
+		colore211.setIcon(IMAGE41);
 		colore201.setIcon(null);
 		colore221.setIcon(null);
 		colore231.setIcon(null);
@@ -432,10 +432,10 @@ private void sceltacolore(ActionEvent e ) {
 		colore261.setIcon(null);
 		colore271.setIcon(null);
 		colore281.setIcon(null);
-		GUI.setColor2(Color.BLUE);
+		GUI.setcolor2(Color.BLUE);
 	}
 	else if(e.getSource()==colore221) {
-		colore221.setIcon(Image41);
+		colore221.setIcon(IMAGE41);
 		colore201.setIcon(null);
 		colore211.setIcon(null);
 		colore231.setIcon(null);
@@ -444,10 +444,10 @@ private void sceltacolore(ActionEvent e ) {
 		colore261.setIcon(null);
 		colore271.setIcon(null);
 		colore281.setIcon(null);
-		GUI.setColor2(Color.GREEN);
+		GUI.setcolor2(Color.GREEN);
 	}
 	else if(e.getSource()==colore231) {
-		colore231.setIcon(Image41);
+		colore231.setIcon(IMAGE41);
 		colore201.setIcon(null);
 		colore211.setIcon(null);
 		colore221.setIcon(null);
@@ -456,10 +456,10 @@ private void sceltacolore(ActionEvent e ) {
 		colore261.setIcon(null);
 		colore271.setIcon(null);
 		colore281.setIcon(null);
-		GUI.setColor2(Color.ORANGE);
+		GUI.setcolor2(Color.ORANGE);
 	}
 	else if(e.getSource()==colore241) {
-		colore241.setIcon(Image41);
+		colore241.setIcon(IMAGE41);
 		colore201.setIcon(null);
 		colore211.setIcon(null);
 		colore221.setIcon(null);
@@ -468,10 +468,10 @@ private void sceltacolore(ActionEvent e ) {
 		colore261.setIcon(null);
 		colore271.setIcon(null);
 		colore281.setIcon(null);
-		GUI.setColor2(Color.YELLOW);
+		GUI.setcolor2(Color.YELLOW);
 	}
 	else if(e.getSource()==colore251) {
-		colore251.setIcon(Image41);
+		colore251.setIcon(IMAGE41);
 		colore201.setIcon(null);
 		colore211.setIcon(null);
 		colore221.setIcon(null);
@@ -480,10 +480,10 @@ private void sceltacolore(ActionEvent e ) {
 		colore261.setIcon(null);
 		colore271.setIcon(null);
 		colore281.setIcon(null);
-		GUI.setColor2(Color.MAGENTA);
+		GUI.setcolor2(Color.MAGENTA);
 	}
 	else if(e.getSource()==colore261) {
-		colore261.setIcon(Image41);
+		colore261.setIcon(IMAGE41);
 		colore201.setIcon(null);
 		colore211.setIcon(null);
 		colore221.setIcon(null);
@@ -492,10 +492,10 @@ private void sceltacolore(ActionEvent e ) {
 		colore251.setIcon(null);
 		colore271.setIcon(null);
 		colore281.setIcon(null);
-		GUI.setColor2(Color.BLACK);
+		GUI.setcolor2(Color.BLACK);
 	}
 	else if(e.getSource()==colore271) {
-		colore271.setIcon(Image41);
+		colore271.setIcon(IMAGE41);
 		colore201.setIcon(null);
 		colore211.setIcon(null);
 		colore221.setIcon(null);
@@ -504,9 +504,9 @@ private void sceltacolore(ActionEvent e ) {
 		colore251.setIcon(null);
 		colore261.setIcon(null);
 		colore281.setIcon(null);
-		GUI.setColor2(Color.PINK);
+		GUI.setcolor2(Color.PINK);
 	}else if(e.getSource()==colore281) {
-		colore281.setIcon(Image41);
+		colore281.setIcon(IMAGE41);
 		colore201.setIcon(null);
 		colore211.setIcon(null);
 		colore221.setIcon(null);
@@ -515,7 +515,7 @@ private void sceltacolore(ActionEvent e ) {
 		colore251.setIcon(null);
 		colore261.setIcon(null);
 		colore271.setIcon(null);
-		GUI.setColor2(Color.GRAY);
+		GUI.setcolor2(Color.GRAY);
 	}
 }
 	

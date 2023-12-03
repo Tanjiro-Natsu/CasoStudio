@@ -76,7 +76,7 @@ ss.add(dd);
 			 JRadioButton dd=new JRadioButton(image.get(i));
 			 d.add(dd);
 			 final String xx=image.get(i);
-			 dd.addActionListener(e->{Finestraimage(xx);
+			 dd.addActionListener(e->{FINESTRAIMMAGE(xx);
 			 });
 			 k1.add(dd);
 			 ss.add(dd);
@@ -112,7 +112,7 @@ ss.add(dd);
 	private transient static ByteArrayInputStream bis;
 	public ByteArrayInputStream getbis() {return bis;} 
 	public JFrame getb() {return b;}
-	public static void Finestraimage(String v)  {
+	public static void FINESTRAIMMAGE(String v)  {
 		b=new JFrame(v);
 		b.setSize(1500, 900);
 		b.setLocation(50,10);

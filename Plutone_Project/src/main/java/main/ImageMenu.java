@@ -33,9 +33,9 @@ public class ImageMenu extends JMenuBar {
     private static String magenta="Magenta";
     private static String biancoNero="BiancoNero";
     private static String greene="Green";
-    private static String Orangee="Orange";
-    private static String Violete="Violet";
-    private static String Yellowe="Yellow";
+    private static String ORANGE="Orange";
+    private static String VIOLET="Violet";
+    private static String YELLOW="Yellow";
 	private JMenuItem f1=new JMenuItem("10");
 	private JMenuItem f2=new JMenuItem("12");
 	private JMenuItem f3=new JMenuItem("14");
@@ -113,56 +113,56 @@ public class ImageMenu extends JMenuBar {
 	public JMenuItem getf16() {return f16;}
 	public JMenuItem getf17() {return f17;}
 	public JMenuItem getf18() {return f18;}
-	private JMenuItem BiancoNero;
-	private JMenuItem Red;
-	private JMenuItem Green;
-	private  JMenuItem Blue;
-	private  JMenuItem Standard;
-	private  JMenuItem Orange;
-	private  JMenuItem Pink;
-	private  JMenuItem Violet;
-	private  JMenuItem Yellow;
-	private  JMenuItem Magenta;
-	private final String Color1=biancoNero;
-	private final String Color2="Red";
-	private final String Color3=greene;
-	private final String Color4="Blue";
-	private final String Color5="Standard";
-	private final String Color6=Orangee;
-	private final String Color7="Pink";
-	private final String Color8=Violete;
-	private final String Color9=Yellowe;
-	private final String Color10=magenta;
-	public String catchcolor() {return Color1;}
-	public String catchcolor2() {return Color2;}
-	public String gcatchcolor3() {return Color3;}
-	public String catchcolor4() {return Color4;}
-	public String catchcolor5() {return Color5;}
-	public String catchcolor6() {return Color6;}
-	public String catchcolor7() {return Color7;}
-	public String catchcolor8() {return Color8;}
-	public String catchcolor9() {return Color9;}
-	public String catchcolor10() {return Color10;}
-	public JMenuItem getCOLOR100() {return BiancoNero;}
-	public JMenuItem getCOLOR101() {return Red;}
-	public JMenuItem getCOLOR102() {return Green;}
-	public JMenuItem getCOLOR103() {return Blue;}
-	public JMenuItem getCOLOR104() {return Standard;}
-	public JMenuItem getCOLOR105() {return Orange;}
-	public JMenuItem getCOLOR106() {return Pink;}
-	public JMenuItem getCOLOR107() {return Violet;}
-	public JMenuItem getCOLOR108() {return Yellow;}
-	public JMenuItem getCOLOR110() {return Magenta;}
-	public void setcolor1() {BiancoNero=new JMenuItem();}
-	public void setcolor2() {Red=new JMenuItem();}
-	public void setcolor3() {Blue=new JMenuItem();}
-	public void setcolor4() {Green=new JMenuItem();}
-	public void setcolor5() {Yellow=new JMenuItem();}
-	public void setcolor6() {Violet=new JMenuItem();}
-	public void setcolor7() {Magenta=new JMenuItem();}
-	public void setcolor8() {Pink=new JMenuItem();}
-	public void setcolor9() {Standard=new JMenuItem();}
-	public void setcolor10() {Orange=new JMenuItem();}
+	private JMenuItem bianconero;
+	private JMenuItem red;
+	private JMenuItem green;
+	private  JMenuItem blue;
+	private  JMenuItem standard;
+	private  JMenuItem orange;
+	private  JMenuItem pink;
+	private  JMenuItem violet;
+	private  JMenuItem yellow;
+	private  JMenuItem magenta11;
+	private final String color1=biancoNero;
+	private final String color2="Red";
+	private final String color3=greene;
+	private final String color4="Blue";
+	private final String color5="Standard";
+	private final String color6=ORANGE;
+	private final String color7="Pink";
+	private final String color8=VIOLET;
+	private final String color9=YELLOW;
+	private final String color10=magenta;
+	public String catchcolor() {return color1;}
+	public String catchcolor2() {return color2;}
+	public String gcatchcolor3() {return color3;}
+	public String catchcolor4() {return color4;}
+	public String catchcolor5() {return color5;}
+	public String catchcolor6() {return color6;}
+	public String catchcolor7() {return color7;}
+	public String catchcolor8() {return color8;}
+	public String catchcolor9() {return color9;}
+	public String catchcolor10() {return color10;}
+	public JMenuItem getCOLOR100() {return bianconero;}
+	public JMenuItem getCOLOR101() {return red;}
+	public JMenuItem getCOLOR102() {return green;}
+	public JMenuItem getCOLOR103() {return blue;}
+	public JMenuItem getCOLOR104() {return standard;}
+	public JMenuItem getCOLOR105() {return orange;}
+	public JMenuItem getCOLOR106() {return pink;}
+	public JMenuItem getCOLOR107() {return violet;}
+	public JMenuItem getCOLOR108() {return yellow;}
+	public JMenuItem getCOLOR110() {return magenta11;}
+	public void setcolor1() {bianconero=new JMenuItem();}
+	public void setcolor2() {red=new JMenuItem();}
+	public void setcolor3() {blue=new JMenuItem();}
+	public void setcolor4() {green=new JMenuItem();}
+	public void setcolor5() {yellow=new JMenuItem();}
+	public void setcolor6() {violet=new JMenuItem();}
+	public void setcolor7() {magenta11=new JMenuItem();}
+	public void setcolor8() {pink=new JMenuItem();}
+	public void setcolor9() {standard=new JMenuItem();}
+	public void setcolor10() {orange=new JMenuItem();}
 	private  String yo;
 	private  int yo1;
 	private  int yo2;
@@ -186,24 +186,24 @@ public class ImageMenu extends JMenuBar {
 			JMenuItem z1=new JMenuItem("Red");
 			JMenuItem z2=new JMenuItem(greene);
 			JMenuItem z3=new JMenuItem("Blue");
-			JMenuItem z4=new JMenuItem(Yellowe);
+			JMenuItem z4=new JMenuItem(YELLOW);
 			JMenuItem z5=new JMenuItem("Pink");
 			JMenuItem z6=new JMenuItem("White");
 			JMenuItem z7=new JMenuItem("Black");
 			JMenuItem z8=new JMenuItem("Gray");
-			JMenuItem z9=new JMenuItem(Orangee);
+			JMenuItem z9=new JMenuItem(ORANGE);
 			JMenuItem z10=new JMenuItem("Cyan");
 			JMenuItem z11=new JMenuItem("Dark_Gray");
 			JMenuItem z12=new JMenuItem(magenta);
 			JMenuItem z111=new JMenuItem("Red");
 			JMenuItem z22=new JMenuItem(greene);
 			JMenuItem z33=new JMenuItem("Blue");
-			JMenuItem z44=new JMenuItem(Yellowe);
+			JMenuItem z44=new JMenuItem(YELLOW);
 			JMenuItem z55=new JMenuItem("Pink");
 			JMenuItem z66=new JMenuItem("White");
 			JMenuItem z77=new JMenuItem("Black");
 			JMenuItem z88=new JMenuItem("Gray");
-			JMenuItem z99=new JMenuItem(Orangee);
+			JMenuItem z99=new JMenuItem(ORANGE);
 			JMenuItem z101=new JMenuItem("Cyan");
 			JMenuItem z110=new JMenuItem("Dark_Gray");
 			JMenuItem z121=new JMenuItem(magenta);
@@ -306,38 +306,38 @@ public class ImageMenu extends JMenuBar {
 			y122.addActionListener(e-> {yo1=y12;sss=new Font(yo,yo1,yo2);d.setFont(sss);});
 		int height=image.getHeight();int width=image.getWidth();
 		Color =new JMenu("Color");
-		BiancoNero=new JMenuItem(Color1);
-		Red=new JMenuItem(Color2);
-		Green=new JMenuItem(Color3);
-		Blue=new JMenuItem(Color4);
-		Pink=new JMenuItem(Color7);
-		Yellow=new JMenuItem(Color9);
-		Magenta=new JMenuItem(Color10);
-		Orange=new JMenuItem(Color6);
-		Violet=new JMenuItem(Color8);
-		Standard=new JMenuItem(Color5);
-		k4.add(Standard);
-		Color.add(BiancoNero);
-		Color.add(Red);
-		Color.add(Green);
-		Color.add(Blue);
-		Color.add(Orange);
-		Color.add(Pink);
-		Color.add(Yellow);
-		Color.add(Violet);
-		Color.add(Magenta);
-		Color.add(Standard);
+		bianconero=new JMenuItem(color1);
+		red=new JMenuItem(color2);
+		green=new JMenuItem(color3);
+		blue=new JMenuItem(color4);
+		pink=new JMenuItem(color7);
+		yellow=new JMenuItem(color9);
+		magenta11=new JMenuItem(color10);
+		orange=new JMenuItem(color6);
+		violet=new JMenuItem(color8);
+		standard=new JMenuItem(color5);
+		k4.add(standard);
+		Color.add(bianconero);
+		Color.add(red);
+		Color.add(green);
+		Color.add(blue);
+		Color.add(orange);
+		Color.add(pink);
+		Color.add(yellow);
+		Color.add(violet);
+		Color.add(magenta11);
+		Color.add(standard);
 		final byte []ok1 =ok;
-		BiancoNero.addActionListener(e-> {FileChooser.setJLabel(Color(height,width,ok1,biancoNero),"BiancoNero.jpg");});
-		Red.addActionListener(e->  {FileChooser.setJLabel(Color(height,width,ok1,"Red"),"Red.jpg");});
-		Green.addActionListener(e->  {FileChooser.setJLabel(Color(height,width,ok1,greene),"Green.jpg");});
-		Blue.addActionListener(e->  {FileChooser.setJLabel(Color(height,width,ok1,"Blue"),"Blue.jpg");});
-		Standard.addActionListener(e->  {set();FileChooser.reset(v);});
-		Orange.addActionListener(e->  {FileChooser.setJLabel(Color(height,width,ok1,Orangee),"Orange.jpg");});
-		Yellow.addActionListener(e->  {FileChooser.setJLabel(Color(height,width,ok1,Yellowe),"Yellow.jpg");});
-		Violet.addActionListener(e->  {FileChooser.setJLabel(Color(height,width,ok1,Violete),"Violet.jpg");});
-		Pink.addActionListener(e->  {FileChooser.setJLabel(Color(height,width,ok1,"Pink"),"Pink.jpg");});
-		Magenta.addActionListener(e-> {FileChooser.setJLabel(Color(height,width,ok1,magenta),"Magenta.jpg");});
+		bianconero.addActionListener(e-> {FileChooser.setJLabel(Color(height,width,ok1,biancoNero),"BiancoNero.jpg");});
+		red.addActionListener(e->  {FileChooser.setJLabel(Color(height,width,ok1,"Red"),"Red.jpg");});
+		green.addActionListener(e->  {FileChooser.setJLabel(Color(height,width,ok1,greene),"Green.jpg");});
+		blue.addActionListener(e->  {FileChooser.setJLabel(Color(height,width,ok1,"Blue"),"Blue.jpg");});
+		standard.addActionListener(e->  {set();FileChooser.reset(v);});
+		orange.addActionListener(e->  {FileChooser.setJLabel(Color(height,width,ok1,ORANGE),"Orange.jpg");});
+		yellow.addActionListener(e->  {FileChooser.setJLabel(Color(height,width,ok1,YELLOW),"Yellow.jpg");});
+		violet.addActionListener(e->  {FileChooser.setJLabel(Color(height,width,ok1,VIOLET),"Violet.jpg");});
+		pink.addActionListener(e->  {FileChooser.setJLabel(Color(height,width,ok1,"Pink"),"Pink.jpg");});
+		magenta11.addActionListener(e-> {FileChooser.setJLabel(Color(height,width,ok1,magenta),"Magenta.jpg");});
 		
 
 		add(Color);
@@ -354,10 +354,10 @@ public class ImageMenu extends JMenuBar {
 		if(s.equalsIgnoreCase("Red")){
 			imgB=red(height1,width1,imgB);
 			}
-		if(s.equalsIgnoreCase(Yellowe)){
+		if(s.equalsIgnoreCase(YELLOW)){
 			imgB=yellow(height1,width1,imgB);
 		}
-		if(s.equalsIgnoreCase(Violete)){
+		if(s.equalsIgnoreCase(VIOLET)){
 			imgB=violet(height1,width1,imgB);
 			}
 		if(s.equalsIgnoreCase("Pink")){
@@ -366,7 +366,7 @@ public class ImageMenu extends JMenuBar {
 		if(s.equalsIgnoreCase(magenta)){
 			imgB=magenta(height1,width1,imgB);
 			}
-		if(s.equalsIgnoreCase(Orangee)){
+		if(s.equalsIgnoreCase(ORANGE)){
 			imgB=orange(height1,width1,imgB);
 		}
 		if(s.equalsIgnoreCase(greene)){

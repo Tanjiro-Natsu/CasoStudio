@@ -138,9 +138,8 @@
 fonteverificataHmain.VerificaFonte#fonteverificata(Ljava/lang/String;)Ljava/lang/String;java.lang.Object¡
 	main.GUI2
 <init>main.GUI2#<init>()V
-Color1main.GUI2#Color1()V
-Color2main.GUI2#Color2()V!
-Metadatamain.GUI2#Metadata()VK
+COLOR1main.GUI2#COLOR1()V
+COLOR2main.GUI2#COLOR2()VK
 actionPerformed8main.GUI2#actionPerformed(Ljava/awt/event/ActionEvent;)V:
 chooserr.main.GUI2#chooserr()Ljavax/swing/JFileChooser;2
 getText3&main.GUI2#getText3()Ljava/lang/String;2
@@ -148,13 +147,14 @@
 getargomento*main.GUI2#getargomento()Ljava/lang/String;2
 getfonte&main.GUI2#getfonte()Ljava/lang/String;#
 	getresultmain.GUI2#getresult()Z*
-getv"main.GUI2#getv()Ljava/lang/String;:
+getv"main.GUI2#getv()Ljava/lang/String;!
+metadatamain.GUI2#metadata()V:
 metadatisave*main.GUI2#metadatisave()Ljava/lang/String;)
 metav main.GUI2#metav(Ljava/io/File;)V
 refreshmain.GUI2#refresh()V
 runmain.GUI2#run()V3
-	setColor1&main.GUI2#setColor1(Ljava/awt/Color;)V3
-	setColor2&main.GUI2#setColor2(Ljava/awt/Color;)V
+	setcolor1&main.GUI2#setcolor1(Ljava/awt/Color;)V3
+	setcolor2&main.GUI2#setcolor2(Ljava/awt/Color;)V
 sett1main.GUI2#sett1()V
 sett2main.GUI2#sett2()V
 sett3main.GUI2#sett3()V
@@ -248,10 +248,10 @@ pickacolor4main.Menu2#pickacolor(Ljava/awt/event/ActionEvent;)V!
 split2main.Menu2#split2()V
 split3main.Menu2#split3()V
 split4main.Menu2#split4()V
-split5main.Menu2#split5()Vjava.awt.event.ActionListenerjavax.swing.JMenuBarä
+split5main.Menu2#split5()Vjava.awt.event.ActionListenerjavax.swing.JMenuBarå
 main.FileChooserD
-<init>:main.FileChooser#<init>(Ljava/util/List;Ljava/util/List;)VD
-Finestraimage3main.FileChooser#Finestraimage(Ljava/lang/String;)V@
+<init>:main.FileChooser#<init>(Ljava/util/List;Ljava/util/List;)VF
+FINESTRAIMMAGE4main.FileChooser#FINESTRAIMMAGE(Ljava/lang/String;)V@
 Finestratxt1main.FileChooser#Finestratxt(Ljava/lang/String;)V3
 getb+main.FileChooser#getb()Ljavax/swing/JFrame;A
 getbis7main.FileChooser#getbis()Ljava/io/ByteArrayInputStream;?
@@ -371,8 +371,7 @@ setcolor10main.ImageMenu#setcolor10()V(
 main.GUI
 <init>main.GUI#<init>()V
 Color1main.GUI#Color1()V
-Color2main.GUI#Color2()V 
-Metadatamain.GUI#Metadata()VJ
+Color2main.GUI#Color2()VJ
 actionPerformed7main.GUI#actionPerformed(Ljava/awt/event/ActionEvent;)V
 ciclamain.GUI#cicla([CI)V(
 getMenumain.GUI#getMenu()Lmain/Menu;1
@@ -381,13 +380,14 @@ setcolor10main.ImageMenu#setcolor10()V(
 getargomento)main.GUI#getargomento()Ljava/lang/String;1
 getfonte%main.GUI#getfonte()Ljava/lang/String;"
 	getresultmain.GUI#getresult()Z)
-getv!main.GUI#getv()Ljava/lang/String;9
+getv!main.GUI#getv()Ljava/lang/String; 
+metadatamain.GUI#metadata()V9
 metadatisave)main.GUI#metadatisave()Ljava/lang/String;(
 metavmain.GUI#metav(Ljava/io/File;)V
 refreshmain.GUI#refresh()V
 runmain.GUI#run()V2
-	setColor1%main.GUI#setColor1(Ljava/awt/Color;)V2
-	setColor2%main.GUI#setColor2(Ljava/awt/Color;)V
+	setcolor1%main.GUI#setcolor1(Ljava/awt/Color;)V2
+	setcolor2%main.GUI#setcolor2(Ljava/awt/Color;)V
 sett1main.GUI#sett1()V
 sett2main.GUI#sett2()V
 sett3main.GUI#sett3()V

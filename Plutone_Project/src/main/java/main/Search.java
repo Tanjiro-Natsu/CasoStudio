@@ -22,18 +22,18 @@ public class Search extends JFrame {
 	private static String query;
 	private static String stringafonte="fonte";
 	private static final long serialVersionUID = 1L;
-	private ArrayList<String> Filetxt=new ArrayList<String>();
-	private ArrayList<String> Fileimage=new ArrayList<String>();
+	private ArrayList<String> filetxt=new ArrayList<String>();
+	private ArrayList<String> fileimage=new ArrayList<String>();
 	private  JTextField s=null;
 	private  JTextField s1=null;
 	private String argomento="";
-	private static String Argomento="argomento";
+	private static String ARGOMENTO="argomento";
 	private static String cooper="Cooper Black";
 	private String fonte="";
 	private static ResultSet k;
 	private static String driver="com.microsoft.sqlserver.jdbc.SQLServerDriver";
- public List<String> getFileTxt(){return Filetxt;}
- public List<String> getFileimage(){return Fileimage;}
+ public List<String> getFileTxt(){return filetxt;}
+ public List<String> getFileimage(){return fileimage;}
  public String getArgomento() {return argomento;}
  public String getFonte() {return fonte;}
 	private void sets() {s.setText("");}private void sets1() {s1.setText("");}
@@ -41,7 +41,7 @@ public class Search extends JFrame {
 		Search a=new Search();
 		a.ok();
 		
-		a.error(Argomento, "ciao",1);
+		a.error(ARGOMENTO, "ciao",1);
 				
 	}
 	public Search() {
@@ -137,12 +137,12 @@ public class Search extends JFrame {
 	
 		catch(Exception e) {e.printStackTrace();}
 		
-		for(int i=0;i<Filetxt.size();i++) {System.out.println(Filetxt.get(i));}
-		for(int y=0;y<Fileimage.size();y++) {System.out.println(Fileimage.get(y));}
+		for(int i=0;i<filetxt.size();i++) {System.out.println(filetxt.get(i));}
+		for(int y=0;y<fileimage.size();y++) {System.out.println(fileimage.get(y));}
 		if(u==0 ) {
-		new FileChooser(Filetxt,Fileimage);}
-			Filetxt.removeAll(Filetxt);
-			Fileimage.removeAll(Fileimage);
+		new FileChooser(filetxt,fileimage);}
+			filetxt.removeAll(filetxt);
+			fileimage.removeAll(fileimage);
 		
 	}
 	public void error(String b,String b1,int kk) {
@@ -227,9 +227,9 @@ public class Search extends JFrame {
       	
       		
       	 while(k.next()) {
-      		 Filetxt.add(k.getString(1));
+      		 filetxt.add(k.getString(1));
       	 }
-      	 if(Filetxt.size()<1) {
+      	 if(filetxt.isEmpty()) {
       		 error(stringafonte,fonte,2);
       		 u=1;
       	 }
@@ -241,9 +241,9 @@ public class Search extends JFrame {
       	 k=stmt.executeQuery();
       	
       	 while(k.next()) {
-      		 Fileimage.add(k.getString(1));
+      		 fileimage.add(k.getString(1));
       	 }
-      	 if(Fileimage.size()<1 || Filetxt.size()<1) {
+      	 if(fileimage.isEmpty() || filetxt.isEmpty()) {
       		 error(stringafonte,fonte,2);
       		 u=1;
       	 } 
@@ -266,10 +266,10 @@ public int split2(Connection conn) {
     	
         	
     	 while(k.next()) {
-    		 Filetxt.add(k.getString(1));
+    		 filetxt.add(k.getString(1));
     	 }
-    	 if(Filetxt.size()<1) {
-    		 error(Argomento,argomento,2);
+    	 if(filetxt.isEmpty()) {
+    		 error(ARGOMENTO,argomento,2);
     		 u=1;
     	 }
     	  k=null;
@@ -281,11 +281,11 @@ public int split2(Connection conn) {
     	
         	
     	 while(k.next()) {
-    		 Fileimage.add(k.getString(1));
+    		 fileimage.add(k.getString(1));
     		 
     	 }
-    	 if(Fileimage.size()<1 || Filetxt.size()<1) {
-    		 error(Argomento,argomento,2);
+    	 if(fileimage.isEmpty() || filetxt.isEmpty()) {
+    		 error(ARGOMENTO,argomento,2);
     		 u=1;
     	 }
     	 stmt.close();
@@ -306,9 +306,9 @@ public int split3(Connection conn) {
 		k=stmt.executeQuery();
    	 
    	 while(k.next()) {
-   		 Filetxt.add(k.getString(1));
+   		 filetxt.add(k.getString(1));
    	 }
-   	 if(Filetxt.size()<1) {
+   	 if(filetxt.isEmpty()) {
    		 errore1();
    		 u=1;
    	 }
@@ -320,9 +320,9 @@ public int split3(Connection conn) {
     stmt.setString(2,argomento);
    	 k=stmt.executeQuery();
    	 while(k.next()) {
-   		 Fileimage.add(k.getString(1));
+   		 fileimage.add(k.getString(1));
    	 }
-   	 if(Fileimage.size()<1 || Filetxt.size()<1) {
+   	 if(fileimage.isEmpty() || filetxt.isEmpty()) {
    		 errore1();
    		 u=1;
    	 }

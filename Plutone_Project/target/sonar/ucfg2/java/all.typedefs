@@ -3188,9 +3188,7 @@ DsetShardingKeyIfValid(Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;I)Yjava.sql.
 main.GUIjava.awt.event.ActionListenerjava.lang.Runnablejavax.swing.JFrame
 <init>()main.GUI#<init>()V
 Color1()main.GUI#Color1()V
-Color2()main.GUI#Color2()V"
-
-Metadata()main.GUI#Metadata()Vh
+Color2()main.GUI#Color2()Vh
 -actionPerformed(Ljava/awt/event/ActionEvent;)7main.GUI#actionPerformed(Ljava/awt/event/ActionEvent;)V"
 
 cicla([CI)main.GUI#cicla([CI)V*
@@ -3203,13 +3201,15 @@ getText4()%main.GUI#getText4()Ljava/lang/String;;
 
 getfonte()%main.GUI#getfonte()Ljava/lang/String;$
 getresult()main.GUI#getresult()Z+
-getv()!main.GUI#getv()Ljava/lang/String;;
+getv()!main.GUI#getv()Ljava/lang/String;"
+
+metadata()main.GUI#metadata()V;
 metadatisave())main.GUI#metadatisave()Ljava/lang/String;8
 metav(Ljava/io/File;)main.GUI#metav(Ljava/io/File;)V 
 	refresh()main.GUI#refresh()V
 run()main.GUI#run()VD
-setColor1(Ljava/awt/Color;)%main.GUI#setColor1(Ljava/awt/Color;)VD
-setColor2(Ljava/awt/Color;)%main.GUI#setColor2(Ljava/awt/Color;)V
+setcolor1(Ljava/awt/Color;)%main.GUI#setcolor1(Ljava/awt/Color;)VD
+setcolor2(Ljava/awt/Color;)%main.GUI#setcolor2(Ljava/awt/Color;)V
 sett1()main.GUI#sett1()V
 sett2()main.GUI#sett2()V
 sett3()main.GUI#sett3()V
@@ -3243,10 +3243,8 @@ EupdateObject(Ljava/lang/String;Ljava/lang/Object;Ljava/sql/SQLType;I)Yjava.sql
 imagec(Ljava/lang/String;[B)3main.VerificaImmagine#imagec(Ljava/lang/String;[B)D¹	
 	main.GUI2java.awt.event.ActionListenerjava.lang.Runnablejavax.swing.JFrame
 <init>()main.GUI2#<init>()V
-Color1()main.GUI2#Color1()V
-Color2()main.GUI2#Color2()V#
-
-Metadata()main.GUI2#Metadata()Vi
+COLOR1()main.GUI2#COLOR1()V
+COLOR2()main.GUI2#COLOR2()Vi
 -actionPerformed(Ljava/awt/event/ActionEvent;)8main.GUI2#actionPerformed(Ljava/awt/event/ActionEvent;)V<
 
 chooserr().main.GUI2#chooserr()Ljavax/swing/JFileChooser;4
@@ -3258,13 +3256,15 @@ getText4()&main.GUI2#getText4()Ljava/lang/String;<
 
 getfonte()&main.GUI2#getfonte()Ljava/lang/String;%
 getresult()main.GUI2#getresult()Z,
-getv()"main.GUI2#getv()Ljava/lang/String;<
+getv()"main.GUI2#getv()Ljava/lang/String;#
+
+metadata()main.GUI2#metadata()V<
 metadatisave()*main.GUI2#metadatisave()Ljava/lang/String;9
 metav(Ljava/io/File;) main.GUI2#metav(Ljava/io/File;)V!
 	refresh()main.GUI2#refresh()V
 run()main.GUI2#run()VE
-setColor1(Ljava/awt/Color;)&main.GUI2#setColor1(Ljava/awt/Color;)VE
-setColor2(Ljava/awt/Color;)&main.GUI2#setColor2(Ljava/awt/Color;)V
+setcolor1(Ljava/awt/Color;)&main.GUI2#setcolor1(Ljava/awt/Color;)VE
+setcolor2(Ljava/awt/Color;)&main.GUI2#setcolor2(Ljava/awt/Color;)V
 sett1()main.GUI2#sett1()V
 sett2()main.GUI2#sett2()V
 sett3()main.GUI2#sett3()V
@@ -4151,10 +4151,10 @@ dwrite(Ljava/nio/file/Path;Ljava/lang/Iterable;Ljava/nio/charset/Charset;[Ljava/
 Jwrite(Ljava/nio/file/Path;Ljava/lang/Iterable;[Ljava/nio/file/OpenOption;)rjava.nio.file.Files#write(Ljava/nio/file/Path;Ljava/lang/Iterable;[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;œ
 8write(Ljava/nio/file/Path;[B[Ljava/nio/file/OpenOption;)`java.nio.file.Files#write(Ljava/nio/file/Path;[B[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;‰
 nwriteString(Ljava/nio/file/Path;Ljava/lang/CharSequence;Ljava/nio/charset/Charset;[Ljava/nio/file/OpenOption;)–java.nio.file.Files#writeString(Ljava/nio/file/Path;Ljava/lang/CharSequence;Ljava/nio/charset/Charset;[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;Ô
-TwriteString(Ljava/nio/file/Path;Ljava/lang/CharSequence;[Ljava/nio/file/OpenOption;)|java.nio.file.Files#writeString(Ljava/nio/file/Path;Ljava/lang/CharSequence;[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;Ë
+TwriteString(Ljava/nio/file/Path;Ljava/lang/CharSequence;[Ljava/nio/file/OpenOption;)|java.nio.file.Files#writeString(Ljava/nio/file/Path;Ljava/lang/CharSequence;[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;Í
 main.FileChooserjava.io.Serializablejavax.swing.JFramef
-(<init>(Ljava/util/List;Ljava/util/List;):main.FileChooser#<init>(Ljava/util/List;Ljava/util/List;)VX
-!Finestraimage(Ljava/lang/String;)3main.FileChooser#Finestraimage(Ljava/lang/String;)VT
+(<init>(Ljava/util/List;Ljava/util/List;):main.FileChooser#<init>(Ljava/util/List;Ljava/util/List;)VZ
+"FINESTRAIMMAGE(Ljava/lang/String;)4main.FileChooser#FINESTRAIMMAGE(Ljava/lang/String;)VT
 Finestratxt(Ljava/lang/String;)1main.FileChooser#Finestratxt(Ljava/lang/String;)V5
 getb()+main.FileChooser#getb()Ljavax/swing/JFrame;C
 getbis()7main.FileChooser#getbis()Ljava/io/ByteArrayInputStream;S

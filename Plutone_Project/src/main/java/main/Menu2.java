@@ -39,7 +39,13 @@ public class Menu2 extends JMenuBar implements ActionListener{
 private static String cooper="Cooper Blank"; 
 	private static JMenu menu11;
 	private static JMenu helpmenu1;
-	private static JMenuItem Refresh1,Exit1,Properties1,Save1,Info1,Manuale1,Sito1;
+	private static JMenuItem REFRESH1;
+	private static JMenuItem EXIT1;
+	private static JMenuItem PROPERTIES1;
+	private static JMenuItem SAVE1;
+	private static JMenuItem INFO1;
+	private static JMenuItem MANUALE1;
+	private static JMenuItem SITO1;
 	private JLabel versione;
 	private JMenuItem colore10=new JMenuItem("Rosso");
 	private  JMenuItem colore11=new JMenuItem("Blue");
@@ -59,16 +65,16 @@ private static String cooper="Cooper Blank";
 	private JMenuItem colore26=new JMenuItem("Nero");
 	private JMenuItem colore27=new JMenuItem("Rosa");
 	private JMenuItem colore28=new JMenuItem("Grigio");
-	private ImageIcon Image1=null;
-	private ImageIcon Image2=null;
-	private ImageIcon Image3=null;
-	private ImageIcon Image4=null;
-	private ImageIcon Image5=null;
-	private ImageIcon Image6=null;
-	private ImageIcon Image7=null;
-	private ImageIcon Image8=null;
-	private ImageIcon Image9=null;
-	private ImageIcon Image10=null;
+	private ImageIcon image1=null;
+	private ImageIcon image2=null;
+	private ImageIcon image3=null;
+	private ImageIcon image4=null;
+	private ImageIcon image5=null;
+	private ImageIcon image6=null;
+	private ImageIcon image7=null;
+	private ImageIcon image8=null;
+	private ImageIcon image9=null;
+	private ImageIcon image10=null;
 	private JMenuItem bloccaFonte;
 	private JMenuItem sbloccaFonte;
 	private JButton accetta=null;
@@ -95,23 +101,23 @@ public  JMenuItem getColor25() {return colore25;}
 public  JMenuItem getColor26() {return colore26;}
 public  JMenuItem getColor27() {return colore27;}
 public  JMenuItem getColor28() {return colore28;}
-public ImageIcon getImageIcon1() {return Image1;}
-public ImageIcon getImageIcon2() {return Image2;}
-public ImageIcon getImageIcon3() {return Image3;}
-public ImageIcon getImageIcon4() {return Image4;}
-public ImageIcon getImageIcon5() {return Image5;}
-public ImageIcon getImageIcon6() {return Image6;}
-public ImageIcon getImageIcon7() {return Image7;}
-public ImageIcon getImageIcon8() {return Image8;}
-public ImageIcon getImageIcon9() {return Image9;}
-public ImageIcon getImageIcon10() {return Image10;}
+public ImageIcon getImageIcon1() {return image1;}
+public ImageIcon getImageIcon2() {return image2;}
+public ImageIcon getImageIcon3() {return image3;}
+public ImageIcon getImageIcon4() {return image4;}
+public ImageIcon getImageIcon5() {return image5;}
+public ImageIcon getImageIcon6() {return image6;}
+public ImageIcon getImageIcon7() {return image7;}
+public ImageIcon getImageIcon8() {return image8;}
+public ImageIcon getImageIcon9() {return image9;}
+public ImageIcon getImageIcon10() {return image10;}
 public JButton getaccetta() {return accetta;}
 public JButton getaccetta1() {return accetta1;}
 public JButton getrifiuta() {return rifiuta;}
 public JButton getrifiuta1() {return rifiuta1;}
 
 public static void setSave(boolean a) {
-	 Save1.setEnabled(a);
+	 SAVE1.setEnabled(a);
 }
 
 
@@ -126,16 +132,16 @@ try {
 	  Path path=Paths.get("");
     String a=path.toAbsolutePath().toString();
    
-	 Image1=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"Refresh.png")));
-	 Image2=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"i.png")));
-	 Image3=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"save.png")));
-	 Image4=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"check.png")));
-	 Image5=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"exit.png")));
-	 Image6=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"info.png")));
-	 Image7=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"manuale.png")));
-	 Image8=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"web.png")));
-	 Image9=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"lock.png")));
-	 Image10=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"unlock.png")));
+	 image1=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"Refresh.png")));
+	 image2=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"i.png")));
+	 image3=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"save.png")));
+	 image4=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"check.png")));
+	 image5=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"exit.png")));
+	 image6=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"info.png")));
+	 image7=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"manuale.png")));
+	 image8=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"web.png")));
+	 image9=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"lock.png")));
+	 image10=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"unlock.png")));
 	
 	
 	
@@ -144,38 +150,38 @@ try {
 }
 
 bloccaFonte=new JMenuItem("Blocca Fonte");
-bloccaFonte.setIcon(Image9);
+bloccaFonte.setIcon(image9);
 sbloccaFonte=new JMenuItem("Sblocca Fonte");
-sbloccaFonte.setIcon(Image10);
+sbloccaFonte.setIcon(image10);
 menu11=new JMenu("File");
 helpmenu1=new JMenu("Help");
-Refresh1=new JMenuItem("Refresh");
-Refresh1.setIcon(Image1);
-Save1=new JMenuItem("Save");
-Save1.setIcon(Image3);
-Properties1=new JMenu("Properties");
-Properties1.setIcon(Image2);
-Exit1=new JMenuItem("Exit");
-Exit1.setIcon(Image5);
-Info1=new JMenuItem("Info");
-Info1.setIcon(Image6);
-Manuale1=new JMenuItem("Manuale");
-Manuale1.setIcon(Image7);
-Sito1=new JMenuItem("Sito");
-Sito1.setIcon(Image8);
+REFRESH1=new JMenuItem("Refresh");
+REFRESH1.setIcon(image1);
+SAVE1=new JMenuItem("Save");
+SAVE1.setIcon(image3);
+PROPERTIES1=new JMenu("Properties");
+PROPERTIES1.setIcon(image2);
+EXIT1=new JMenuItem("Exit");
+EXIT1.setIcon(image5);
+INFO1=new JMenuItem("Info");
+INFO1.setIcon(image6);
+MANUALE1=new JMenuItem("Manuale");
+MANUALE1.setIcon(image7);
+SITO1=new JMenuItem("Sito");
+SITO1.setIcon(image8);
 JMenu colori=new JMenu("Colori");
 JMenu coloriTrue=new JMenu("ColoriTrue");
 JMenu coloriFalse=new JMenu("ColoriFalse");
 
 
 
-Refresh1.addActionListener(this);
-Save1.addActionListener(this);
-Properties1.addActionListener(this);
-Exit1.addActionListener(this);
-Info1.addActionListener(this);
-Manuale1.addActionListener(this);
-Sito1.addActionListener(this);
+REFRESH1.addActionListener(this);
+SAVE1.addActionListener(this);
+PROPERTIES1.addActionListener(this);
+EXIT1.addActionListener(this);
+INFO1.addActionListener(this);
+MANUALE1.addActionListener(this);
+SITO1.addActionListener(this);
 colore10.addActionListener(this);
 colore11.addActionListener(this);
 colore12.addActionListener(this);
@@ -199,12 +205,12 @@ sbloccaFonte.addActionListener(this);
 
 
 
-Properties1.add(colori);
+PROPERTIES1.add(colori);
 colori.add(coloriTrue);
 coloriTrue.add(colore10);
 coloriTrue.add(colore11);
 coloriTrue.add(colore12);
-colore12.setIcon(Image4);
+colore12.setIcon(image4);
 coloriTrue.add(colore13);
 coloriTrue.add(colore14);
 coloriTrue.add(colore15);
@@ -213,7 +219,7 @@ coloriTrue.add(colore17);
 coloriTrue.add(colore18);
 colori.add(coloriFalse);
 coloriFalse.add(colore20);
-colore20.setIcon(Image4);
+colore20.setIcon(image4);
 coloriFalse.add(colore21);
 coloriFalse.add(colore22);
 coloriFalse.add(colore23);
@@ -222,13 +228,13 @@ coloriFalse.add(colore25);
 coloriFalse.add(colore26);
 coloriFalse.add(colore27);
 coloriFalse.add(colore28);
-menu11.add(Refresh1);
-menu11.add(Save1);
-menu11.add(Properties1);
-menu11.add(Exit1);
-helpmenu1.add(Info1);
-helpmenu1.add(Manuale1);
-helpmenu1.add(Sito1);
+menu11.add(REFRESH1);
+menu11.add(SAVE1);
+menu11.add(PROPERTIES1);
+menu11.add(EXIT1);
+helpmenu1.add(INFO1);
+helpmenu1.add(MANUALE1);
+helpmenu1.add(SITO1);
 
 add(menu11);
 add(helpmenu1);
@@ -267,26 +273,26 @@ if(e.getSource()==v1) {
 if(e.getSource()==rifiuta1) {
 prova1.dispose();
 }
-		if(e.getSource()==Refresh1) {
+		if(e.getSource()==REFRESH1) {
 			GUI.sett1();
 			GUI.sett2();
 			GUI.sett3();
 			GUI.sett4();
 			GUI.refresh();
-			GUI.Metadata();
+			GUI.metadata();
 			 
 			
 			
 		}
-		else if(e.getSource()==Exit1) {
+		else if(e.getSource()==EXIT1) {
 			main.close();
 		}
-		else if(e.getSource()==Save1) {
+		else if(e.getSource()==SAVE1) {
 			split5();
 			
 		}
 		
-		else if(e.getSource()==Info1) {
+		else if(e.getSource()==INFO1) {
 			JFrame a=new JFrame("Info");
 			a.setSize(500,200);
 			a.setLocation(650, 100);
@@ -300,7 +306,7 @@ prova1.dispose();
 			a.add(new JLabel("  All right reserved.Misinformation and his logo are trademark of the Plutone_project"));
 			
 		}
-		else if(e.getSource()==Manuale1) {
+		else if(e.getSource()==MANUALE1) {
 			JFrame a=new JFrame("Manuale");
 			a.setLocation(550, 200);
 			a.setSize(400,300);
@@ -316,7 +322,7 @@ prova1.dispose();
 			a.add(c);
 			a.setVisible(true);
 		}
-		else if(e.getSource()==Sito1) {
+		else if(e.getSource()==SITO1) {
 			Path path=Paths.get("");
 		    String a=path.toAbsolutePath().toString();
 			
@@ -339,7 +345,7 @@ prova1.dispose();
 	
 public void pickacolor(ActionEvent e) {
 	 if(e.getSource()==colore10) {
-		colore10.setIcon(Image4);
+		colore10.setIcon(image4);
 		colore11.setIcon(null);
 		colore12.setIcon(null);
 		colore13.setIcon(null);
@@ -350,11 +356,11 @@ public void pickacolor(ActionEvent e) {
 		colore18.setIcon(null);
 	
 		
-		GUI.setColor1(Color.RED);
+		GUI.setcolor1(Color.RED);
 	}
 	else if(e.getSource()==colore11) {
 		colore10.setIcon(null);
-		colore11.setIcon(Image4);
+		colore11.setIcon(image4);
 		colore12.setIcon(null);
 		colore13.setIcon(null);
 		colore14.setIcon(null);
@@ -363,10 +369,10 @@ public void pickacolor(ActionEvent e) {
 		colore17.setIcon(null);
 		colore18.setIcon(null);
 		
-		GUI.setColor1(Color.BLUE);
+		GUI.setcolor1(Color.BLUE);
 	}
 	else if(e.getSource()==colore12) {
-		colore12.setIcon(Image4);
+		colore12.setIcon(image4);
 		colore10.setIcon(null);
 		colore11.setIcon(null);
 		colore13.setIcon(null);
@@ -384,10 +390,10 @@ public void pickacolor(ActionEvent e) {
 		colore26.setIcon(null);
 		colore27.setIcon(null);
 		colore28.setIcon(null);
-		GUI.setColor1(Color.GREEN);
+		GUI.setcolor1(Color.GREEN);
 	}
 	else if(e.getSource()==colore13) {
-		colore13.setIcon(Image4);
+		colore13.setIcon(image4);
 		colore10.setIcon(null);
 		colore11.setIcon(null);
 		colore12.setIcon(null);
@@ -397,10 +403,10 @@ public void pickacolor(ActionEvent e) {
 		colore17.setIcon(null);
 		colore18.setIcon(null);
 		
-		GUI.setColor1(Color.ORANGE);
+		GUI.setcolor1(Color.ORANGE);
 	}
 	else if(e.getSource()==colore14) {
-		colore14.setIcon(Image4);
+		colore14.setIcon(image4);
 		colore10.setIcon(null);
 		colore11.setIcon(null);
 		colore12.setIcon(null);
@@ -410,10 +416,10 @@ public void pickacolor(ActionEvent e) {
 		colore17.setIcon(null);
 		colore18.setIcon(null);
 		
-		GUI.setColor1(Color.YELLOW);
+		GUI.setcolor1(Color.YELLOW);
 	}
 	else if(e.getSource()==colore15) {
-		colore15.setIcon(Image4);
+		colore15.setIcon(image4);
 		colore10.setIcon(null);
 		colore11.setIcon(null);
 		colore12.setIcon(null);
@@ -423,10 +429,10 @@ public void pickacolor(ActionEvent e) {
 		colore17.setIcon(null);
 		colore18.setIcon(null);
 		
-		GUI.setColor1(Color.MAGENTA);
+		GUI.setcolor1(Color.MAGENTA);
 	}
 	else if(e.getSource()==colore16) {
-		colore16.setIcon(Image4);
+		colore16.setIcon(image4);
 		colore10.setIcon(null);
 		colore11.setIcon(null);
 		colore12.setIcon(null);
@@ -436,10 +442,10 @@ public void pickacolor(ActionEvent e) {
 		colore17.setIcon(null);
 		colore18.setIcon(null);
 		
-		GUI.setColor1(Color.BLACK);
+		GUI.setcolor1(Color.BLACK);
 	}
 	else if(e.getSource()==colore17) {
-		colore17.setIcon(Image4);
+		colore17.setIcon(image4);
 		colore10.setIcon(null);
 		colore11.setIcon(null);
 		colore12.setIcon(null);
@@ -449,9 +455,9 @@ public void pickacolor(ActionEvent e) {
 		colore16.setIcon(null);
 		colore18.setIcon(null);
 		
-		GUI.setColor1(Color.PINK);
+		GUI.setcolor1(Color.PINK);
 	}else if(e.getSource()==colore18) {
-		colore18.setIcon(Image4);
+		colore18.setIcon(image4);
 		colore10.setIcon(null);
 		colore11.setIcon(null);
 		colore12.setIcon(null);
@@ -461,10 +467,10 @@ public void pickacolor(ActionEvent e) {
 		colore16.setIcon(null);
 		colore17.setIcon(null);
 		
-		GUI.setColor1(Color.GRAY);
+		GUI.setcolor1(Color.GRAY);
 	}
 	else if(e.getSource()==colore20) {
-		colore20.setIcon(Image4);
+		colore20.setIcon(image4);
 		colore21.setIcon(null);
 		colore22.setIcon(null);
 		colore23.setIcon(null);
@@ -473,10 +479,10 @@ public void pickacolor(ActionEvent e) {
 		colore26.setIcon(null);
 		colore27.setIcon(null);
 		colore28.setIcon(null);
-		GUI.setColor2(Color.RED);
+		GUI.setcolor2(Color.RED);
 	}
 	else if(e.getSource()==colore21) {
-		colore21.setIcon(Image4);
+		colore21.setIcon(image4);
 		colore20.setIcon(null);
 		colore22.setIcon(null);
 		colore23.setIcon(null);
@@ -485,10 +491,10 @@ public void pickacolor(ActionEvent e) {
 		colore26.setIcon(null);
 		colore27.setIcon(null);
 		colore28.setIcon(null);
-		GUI.setColor2(Color.BLUE);
+		GUI.setcolor2(Color.BLUE);
 	}
 	else if(e.getSource()==colore22) {
-		colore22.setIcon(Image4);
+		colore22.setIcon(image4);
 		colore20.setIcon(null);
 		colore21.setIcon(null);
 		colore23.setIcon(null);
@@ -497,10 +503,10 @@ public void pickacolor(ActionEvent e) {
 		colore26.setIcon(null);
 		colore27.setIcon(null);
 		colore28.setIcon(null);
-		GUI.setColor2(Color.GREEN);
+		GUI.setcolor2(Color.GREEN);
 	}
 	else if(e.getSource()==colore23) {
-		colore23.setIcon(Image4);
+		colore23.setIcon(image4);
 		colore20.setIcon(null);
 		colore21.setIcon(null);
 		colore22.setIcon(null);
@@ -509,10 +515,10 @@ public void pickacolor(ActionEvent e) {
 		colore26.setIcon(null);
 		colore27.setIcon(null);
 		colore28.setIcon(null);
-		GUI.setColor2(Color.ORANGE);
+		GUI.setcolor2(Color.ORANGE);
 	}
 	else if(e.getSource()==colore24) {
-		colore24.setIcon(Image4);
+		colore24.setIcon(image4);
 		colore20.setIcon(null);
 		colore21.setIcon(null);
 		colore22.setIcon(null);
@@ -521,10 +527,10 @@ public void pickacolor(ActionEvent e) {
 		colore26.setIcon(null);
 		colore27.setIcon(null);
 		colore28.setIcon(null);
-		GUI.setColor2(Color.YELLOW);
+		GUI.setcolor2(Color.YELLOW);
 	}
 	else if(e.getSource()==colore25) {
-		colore25.setIcon(Image4);
+		colore25.setIcon(image4);
 		colore20.setIcon(null);
 		colore21.setIcon(null);
 		colore22.setIcon(null);
@@ -533,10 +539,10 @@ public void pickacolor(ActionEvent e) {
 		colore26.setIcon(null);
 		colore27.setIcon(null);
 		colore28.setIcon(null);
-		GUI.setColor2(Color.MAGENTA);
+		GUI.setcolor2(Color.MAGENTA);
 	}
 	else if(e.getSource()==colore26) {
-		colore26.setIcon(Image4);
+		colore26.setIcon(image4);
 		colore20.setIcon(null);
 		colore21.setIcon(null);
 		colore22.setIcon(null);
@@ -545,10 +551,10 @@ public void pickacolor(ActionEvent e) {
 		colore25.setIcon(null);
 		colore27.setIcon(null);
 		colore28.setIcon(null);
-		GUI.setColor2(Color.BLACK);
+		GUI.setcolor2(Color.BLACK);
 	}
 	else if(e.getSource()==colore27) {
-		colore27.setIcon(Image4);
+		colore27.setIcon(image4);
 		colore20.setIcon(null);
 		colore21.setIcon(null);
 		colore22.setIcon(null);
@@ -557,9 +563,9 @@ public void pickacolor(ActionEvent e) {
 		colore25.setIcon(null);
 		colore26.setIcon(null);
 		colore28.setIcon(null);
-		GUI.setColor2(Color.PINK);
+		GUI.setcolor2(Color.PINK);
 	}else if(e.getSource()==colore28) {
-		colore28.setIcon(Image4);
+		colore28.setIcon(image4);
 		colore20.setIcon(null);
 		colore21.setIcon(null);
 		colore22.setIcon(null);
@@ -568,7 +574,7 @@ public void pickacolor(ActionEvent e) {
 		colore25.setIcon(null);
 		colore26.setIcon(null);
 		colore27.setIcon(null);
-		GUI.setColor2(Color.GRAY);
+		GUI.setcolor2(Color.GRAY);
 	}
 }
 	
