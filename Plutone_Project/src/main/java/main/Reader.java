@@ -69,9 +69,9 @@ public class Reader {
 	}
 	
 	public static String reader(String z) {
-		
+		Scanner b=null;
 		try {
-			Scanner b=new Scanner(new BufferedReader(new FileReader(z))); 
+			b=new Scanner(new BufferedReader(new FileReader(z))); 
 			int t=0;
 			while(b.hasNext()){
 				
@@ -84,13 +84,11 @@ public class Reader {
 				
 				t++;
 			}
-			b.close();
-			
-			
 		}
 		
 		
 		catch(Exception  e) {System.out.println(e.getMessage());}
+		finally {b.close();}
 		
 		return g;
 	}

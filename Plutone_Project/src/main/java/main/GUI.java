@@ -137,7 +137,6 @@ public class GUI extends JFrame  implements ActionListener,Runnable {
 	
 	JPanel u=new JPanel();
     u.setLayout(new GridLayout(3,9));
-    //u.setBackground(Color.GRAY);
    u.add(new JLabel());
    u.add(new JLabel());
    u.add(new JLabel());
@@ -194,11 +193,6 @@ a2.add(new JLabel());
 	
 	 
 	add(a11);
-	
-	
-	
-	//Seconda Parte o Output
-	
 	JPanel b=new JPanel();
 	
 	b.setLayout(new GridLayout(2,1));

@@ -13,6 +13,8 @@ public class VerificaFonte {
 		 ResultSet k=null;
 		 String query=null;
 		 byte[] m=null;
+		 Connection conn=null;
+		 PreparedStatement stmt=null;
 		try {
 		 Class.forName(sqldriverString);
 		 
@@ -23,9 +25,9 @@ public class VerificaFonte {
 
           
          
-          Connection conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
+           conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
          	 query="SELECT * FROM Testo WHERE name =any(SELECT T.name FROM News AS n JOIN Testo as T on T.stream_id=n.Stream_File  WHERE n.Argomento=?);";
-         	PreparedStatement stmt=conn.prepareStatement(query);
+         	 stmt=conn.prepareStatement(query);
          	stmt.setString(1, GUI.getargomento());
          	 k=stmt.executeQuery(query);
        	 if(k.next()==false){
@@ -33,13 +35,15 @@ public class VerificaFonte {
        	 }
        	 else {
        	m= k.getBytes(2);}
-       	 conn.close();
-       	 stmt.close();
+       	
           
 		}
 		catch (Exception j) {
-			j.printStackTrace();
+			System.out.println(j.getMessage());
 		}
+		finally{ try {stmt.close();conn.close();} catch (SQLException e) {System.out.println(e.getMessage());
+		}
+      	}
 			
 		
 			
@@ -52,21 +56,17 @@ return m;
 		 ResultSet k=null;
 		 String query=null;
 		double m=0;
+		Connection conn=null;
+		 java.sql.PreparedStatement stmt=null;
 		try {
 		 Class.forName(sqldriverString);
 		 
           String sqlUser = Accesso.getUser();
           String sqlPassword = Accesso.getPassword();
           String connectionUrl =new StringBuilder().append(Accesso.getjdbc()).append(encrypt).toString();
-         
-
-          
-         
-          Connection conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
-          
-         
+          conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
         	 query="SELECT * FROM IMMAGINI WHERE name =any(SELECT I.name FROM News AS n JOIN IMMAGINI as I on I.stream_id=n.Stream_File  WHERE n.Argomento=?);"; 
-        	 java.sql.PreparedStatement stmt=conn.prepareStatement(query);
+        	stmt=conn.prepareStatement(query);
         	 stmt.setString(1, GUI.getargomento());
         	 k=stmt.executeQuery();
         	 int f=0;
@@ -83,15 +83,15 @@ return m;
     	 
      }
      if(f==0) {return 1.0;}
-     stmt.close();
-     conn.close();
+   
    	 
        
 		}
 	
 		catch(Exception e) {
-			e.printStackTrace();
+			System.out.println(e.getMessage());
 		}
+		finally {try{  stmt.close();conn.close();}catch(SQLException e) {System.out.println(e.getMessage());}}
 			
 		
 			
@@ -103,28 +103,21 @@ return m;
 	
 	
 	public  static String fonteverificata(String a)  {
-		  
-		
-		 
         String sqlUser = Accesso.getUser();
         String sqlPassword = Accesso.getPassword();
         String connectionUrl = new StringBuilder().append(Accesso.getjdbc()).append(encrypt).toString();
         ResultSet k=null;
 		 String query=null;
         String result=null;
-        
-        
+        Connection conn=null;
+        java.sql.PreparedStatement stmt=null;
 		try {
 			Class.forName(sqldriverString);
-	
-	
-
-
-        Connection conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
+			conn= DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
         
           
         query="SELECT Fonte FROM Attendibilità WHERE  Argomento=? and Attendibilità='yes';";
-        java.sql.PreparedStatement stmt =conn.prepareStatement(query) ;
+        stmt =conn.prepareStatement(query) ;
         stmt.setString(1, a);
         k=stmt.executeQuery();
         
@@ -143,12 +136,12 @@ return m;
         	
         }
         
-        conn.close();
-      	 stmt.close();
+        
 		}
 		catch (Exception d) {
-			d.printStackTrace();
+			System.out.println(d.getMessage());
 		}
+		finally{ try {stmt.close();conn.close();} catch (SQLException e) {System.out.println(e.getMessage());}};
        
 
 		return result;

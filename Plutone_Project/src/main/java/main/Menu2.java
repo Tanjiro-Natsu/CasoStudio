@@ -732,10 +732,7 @@ public void split4() {
 	      xc1.add(new JLabel("                                                                                                                                       "));
 	      xc1.add(v1);
 	      xc1.setVisible(true);;
-	  	if(scanner!=null) {
-			scanner.close();}
-			if(writer!=null) {
-			writer.close();}
+	  	
 			try {
 				Files.copy(file1.toPath(), file.toPath(),StandardCopyOption.REPLACE_EXISTING);
 				file1.delete();
@@ -747,6 +744,7 @@ public void split4() {
 	catch(Exception e44) {
 		System.out.println(e44.getMessage());
 	}
+	finally {writer.close();scanner.close();}
 	
 	prova1.dispose();
 }

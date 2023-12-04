@@ -22,6 +22,7 @@ public class Accesso extends JFrame {
 		try {
 			Scanner a=new Scanner(new BufferedReader(new FileReader("Password.txt")));
 			ret=a.nextLine();
+			a.close();
 		}
 		catch(Exception e) {System.out.println(e.getMessage());}
 		return ret;

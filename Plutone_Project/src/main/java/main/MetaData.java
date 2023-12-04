@@ -42,7 +42,7 @@ public JLabel geta9() {return a9;}
 		try {
 			 s=Files.readAttributes(a,BasicFileAttributes.class);
 		} catch (IOException e) {
-			e.printStackTrace();
+			System.out.println(e.getMessage());
 		}
 		setSize(500,400);
 		setLocation(63,350);

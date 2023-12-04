@@ -1,14 +1,21 @@
 
 ,main.Accesso#getPassword()Ljava/lang/String;d
-Z/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Accesso.java (!"9*u
-2 (a
+Z/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Accesso.java (!"9*Í
+4 (a
 _
  (
 retjava.lang.String"__id*4
 
 __unknown_file (
 
-%6java.lang.String*
+%6java.lang.Stringsq
+ (
+
+%7void"java.util.Scanner#close()V*4
+
+__unknown_file (
+
+ajava.util.Scanner2close()*
 1*è
 5 (Ma
 _
@@ -25,7 +32,7 @@ _
 
 ajava.util.Scanner2
 nextLine()*
-2*Ü
+4*Ü
 6 (L86
  (
 %4java.util.Scanner"java.util.Scanner∑
@@ -78,8 +85,8 @@ M
 __unknown_file (
 ""*
 8*4
-1	 ("%
- (
+1	 ("%
+ (
 
 retjava.lang.StringB"
 main.AccessoH

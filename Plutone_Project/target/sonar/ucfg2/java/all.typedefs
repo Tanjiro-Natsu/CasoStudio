@@ -3236,7 +3236,23 @@ metadata()main.GUI#metadata()V;
 3updateObject(ILjava/lang/Object;Ljava/sql/SQLType;)Gjava.sql.ResultSet#updateObject(ILjava/lang/Object;Ljava/sql/SQLType;)VÄ
 4updateObject(ILjava/lang/Object;Ljava/sql/SQLType;I)Hjava.sql.ResultSet#updateObject(ILjava/lang/Object;Ljava/sql/SQLType;I)V†
 DupdateObject(Ljava/lang/String;Ljava/lang/Object;Ljava/sql/SQLType;)Xjava.sql.ResultSet#updateObject(Ljava/lang/String;Ljava/lang/Object;Ljava/sql/SQLType;)V¢
-EupdateObject(Ljava/lang/String;Ljava/lang/Object;Ljava/sql/SQLType;I)Yjava.sql.ResultSet#updateObject(Ljava/lang/String;Ljava/lang/Object;Ljava/sql/SQLType;I)VÙ
+EupdateObject(Ljava/lang/String;Ljava/lang/Object;Ljava/sql/SQLType;I)Yjava.sql.ResultSet#updateObject(Ljava/lang/String;Ljava/lang/Object;Ljava/sql/SQLType;I)V…
+
+java.sql.SQLExceptionjava.lang.Exceptionjava.lang.Iterable+
+<init>()java.sql.SQLException#<init>()VO
+<init>(Ljava/lang/String;)1java.sql.SQLException#<init>(Ljava/lang/String;)Vs
+,<init>(Ljava/lang/String;Ljava/lang/String;)Cjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;)Vu
+-<init>(Ljava/lang/String;Ljava/lang/String;I)Djava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;I)Vü
+B<init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/Throwable;)Yjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/Throwable;)Vù
+A<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)Xjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)Vy
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Fjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)VU
+<init>(Ljava/lang/Throwable;)4java.sql.SQLException#<init>(Ljava/lang/Throwable;)V7
+getErrorCode()%java.sql.SQLException#getErrorCode()IU
+getNextException()?java.sql.SQLException#getNextException()Ljava/sql/SQLException;F
+getSQLState()5java.sql.SQLException#getSQLState()Ljava/lang/String;B
+
+iterator()4java.sql.SQLException#iterator()Ljava/util/Iterator;m
+)setNextException(Ljava/sql/SQLException;)@java.sql.SQLException#setNextException(Ljava/sql/SQLException;)VÙ
 main.VerificaImmaginejava.lang.Object+
 <init>()main.VerificaImmagine#<init>()VG
 databaseconfermation()-main.VerificaImmagine#databaseconfermation()IS
@@ -4306,23 +4322,7 @@ $bn(IILjava/awt/image/BufferedImage;)Qmain.ImageMenu#bn(IILjava/awt/image/Buffe
 /<init>(Ljava/lang/String;Ljava/lang/Throwable;)Qjava.lang.ClassNotFoundException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)VV
 getException()Djava.lang.ClassNotFoundException#getException()Ljava/lang/Throwable;t
 'readObject(Ljava/io/ObjectInputStream;)Ijava.lang.ClassNotFoundException#readObject(Ljava/io/ObjectInputStream;)Vx
-)writeObject(Ljava/io/ObjectOutputStream;)Kjava.lang.ClassNotFoundException#writeObject(Ljava/io/ObjectOutputStream;)V…
-
-java.sql.SQLExceptionjava.lang.Exceptionjava.lang.Iterable+
-<init>()java.sql.SQLException#<init>()VO
-<init>(Ljava/lang/String;)1java.sql.SQLException#<init>(Ljava/lang/String;)Vs
-,<init>(Ljava/lang/String;Ljava/lang/String;)Cjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;)Vu
--<init>(Ljava/lang/String;Ljava/lang/String;I)Djava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;I)Vü
-B<init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/Throwable;)Yjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;ILjava/lang/Throwable;)Vù
-A<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)Xjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)Vy
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Fjava.sql.SQLException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)VU
-<init>(Ljava/lang/Throwable;)4java.sql.SQLException#<init>(Ljava/lang/Throwable;)V7
-getErrorCode()%java.sql.SQLException#getErrorCode()IU
-getNextException()?java.sql.SQLException#getNextException()Ljava/sql/SQLException;F
-getSQLState()5java.sql.SQLException#getSQLState()Ljava/lang/String;B
-
-iterator()4java.sql.SQLException#iterator()Ljava/util/Iterator;m
-)setNextException(Ljava/sql/SQLException;)@java.sql.SQLException#setNextException(Ljava/sql/SQLException;)V?
+)writeObject(Ljava/io/ObjectOutputStream;)Kjava.lang.ClassNotFoundException#writeObject(Ljava/io/ObjectOutputStream;)V?
 +java.nio.file.attribute.BasicFileAttributesjava.lang.ObjectÇ
  java.nio.file.attribute.FileTimejava.lang.Comparablejava.lang.Objectú
 ;<init>(JLjava/util/concurrent/TimeUnit;Ljava/time/Instant;)]java.nio.file.attribute.FileTime#<init>(JLjava/util/concurrent/TimeUnit;Ljava/time/Instant;)VÑ

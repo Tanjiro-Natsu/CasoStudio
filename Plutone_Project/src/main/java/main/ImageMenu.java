@@ -348,7 +348,7 @@ public class ImageMenu extends JMenuBar {
 		try {
 			imgB = ImageIO.read(bis);}
 		catch(Exception e) {
-			e.printStackTrace();
+			System.out.println(e.getMessage());
 		}
 		
 		if(s.equalsIgnoreCase("Red")){

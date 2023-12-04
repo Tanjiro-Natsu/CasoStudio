@@ -153,24 +153,26 @@ ss.add(dd);
 			 s.setIcon(icon);
 		} catch (IOException e) {
 			
-			e.printStackTrace();
+			System.out.println(e.getMessage());
 		}
 		
 	}
 	public String getext(String v) {
 		String dd = null;
 		  byte []e=null;
+		  Connection conn=null;
+		  java.sql.PreparedStatement stmt=null;
 			try {
 				 Class.forName(jdbc);
 				 
 		          String sqlUser = Accesso.getUser();
-		          String sqlPassword = Accesso.getPassword(); //passwrod sa account
+		          String sqlPassword = Accesso.getPassword();
 		          String connectionUrl =Accesso.getjdbc()+";encrypt=false";
 		          Class.forName(jdbc);
-		          Connection conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
+		           conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
 		         
 		          String query="SELECT file_stream FROM  Testo  WHERE name=?;";
-		     	 java.sql.PreparedStatement stmt=conn.prepareStatement(query);
+		     	  stmt=conn.prepareStatement(query);
 		     	 stmt.setString(1,v);
 		          ResultSet k1=stmt.executeQuery();
 		      
@@ -182,12 +184,13 @@ ss.add(dd);
 		        	 }
 		        	 
 		        	 dd=new  String(e);
-		        	 stmt.close();
-		        	conn.close();
+		        	 
 		        	
 		          }
 			catch(NullPointerException e2) {System.out.println(e2.getMessage());} catch (ClassNotFoundException e1) {System.out.println(e1.getMessage());} catch (SQLException e1) {System.out.println(e1.getMessage());
 			}
+			finally {try {stmt.close();conn.close();} catch (SQLException e1) {System.out.println(e1.getMessage());}}
+			
 			String []h=dd.split(" ");
 			String xx="";
 			int o=0;
@@ -229,10 +232,10 @@ ss.add(dd);
 		        	 while(k1.next()) {
 		        		
 		        		e=k1.getBytes(1);
-		        		stmt.close();
-			        	 conn.close(); 
+		        		
 		        	 }
-		        	 
+		        	 stmt.close();
+		        	 conn.close(); 
 		        	
 		          }
 			catch(Exception e2) {System.out.println(e2.getMessage());}

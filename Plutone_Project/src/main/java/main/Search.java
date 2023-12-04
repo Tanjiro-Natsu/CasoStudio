@@ -6,6 +6,7 @@ import java.awt.GridLayout;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -108,6 +109,7 @@ public class Search extends JFrame {
 		fonte=s.getText();
 		argomento=s1.getText();
 		int u=0;
+		Connection conn =null;
 		try {
 			 Class.forName(driver);
 			 
@@ -118,7 +120,7 @@ public class Search extends JFrame {
 
 	          
 	         
-	          Connection conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
+	           conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
 	          if(argomento.equals("")){
 	        	 u=split1(conn);   	
 	  		}
@@ -131,11 +133,13 @@ public class Search extends JFrame {
 	        u=split3(conn);
 	  		}
 	         
-	        	conn.close();
+	        	
 	        	
 	          }
 	
-		catch(Exception e) {e.printStackTrace();}
+		catch(Exception e) {System.out.println(e.getMessage());}
+		finally {try {conn.close();} catch (SQLException e) {System.out.println(e.getMessage());
+		}}
 		
 		for(int i=0;i<filetxt.size();i++) {System.out.println(filetxt.get(i));}
 		for(int y=0;y<fileimage.size();y++) {System.out.println(fileimage.get(y));}

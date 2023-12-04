@@ -17,9 +17,9 @@ public class VeerificaTesto {
     public static double reader(String a) {
         double k=0;
     	
-    
+        Scanner SCANNER=null; 
 try{
-     Scanner SCANNER=new Scanner(new File(a) );
+     SCANNER=new Scanner(new File(a) );
     
      while(SCANNER.hasNext()==true){
         String gggg=SCANNER.next();
@@ -42,13 +42,14 @@ try{
      daverificare.clear();
      listavero.clear();
      tot=0;
-     SCANNER.close();
+     
    
     }
    
      catch(Exception dd){
         System.out.println(dd.getMessage());
      }
+finally {SCANNER.close();}
      
  return k;
     }
@@ -78,12 +79,13 @@ tot++;
      private static int check() {
     	 byte[] acdc=null;
         int u=VerificaFonte.databaseconfermation();
+        Scanner qw=null;
      try {
     	
      	if(u==0) {
          acdc=VerificaFonte.databasetxt();
          String s=new String(acdc,StandardCharsets.UTF_8);
-         try (Scanner qw = new Scanner(s)) {
+         qw=new Scanner(s);
 			while(qw.hasNext()){
 			     
 			     String gggg=qw.next();
@@ -97,14 +99,15 @@ tot++;
 			
 
 			 }
-			 qw.close();
-		}}
+			 
+		}
      	else {u=1;}
      	
      }
      catch(Exception edfrt){
 System.out.println(edfrt.getMessage());
      }
+     finally {qw.close();}
      return u;
      }
 }
