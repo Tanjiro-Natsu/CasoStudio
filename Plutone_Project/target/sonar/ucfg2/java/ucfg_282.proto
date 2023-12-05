@@ -1,16 +1,16 @@
 
-+main.Menu#getaccetta()Ljavax/swing/JButton;a
-W/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu.javaP P("1*ž
-1P$ P(,f
++main.Menu#getrifiuta()Ljavax/swing/JButton;a
+W/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu.javaR R("1*ž
+1R$ R(,f
 d
-P$ P(,
+R$ R(,
 %0javax.swing.JButton"__id*7
 
 __unknown_file (*
 	main.Menu"
 
-accetta2"'
-P P(-
+rifiuta2"'
+R R(-
 
 %0javax.swing.JButtonB
 	main.MenuH

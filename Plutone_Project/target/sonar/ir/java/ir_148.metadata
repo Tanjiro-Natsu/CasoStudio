@@ -1,1 +1,7 @@
-main.GUI2#getargomento()Ljava/lang/String;
+main.GUI2#chooserr()Ljavax/swing/JFileChooser;
+javax.swing.filechooser.FileNameExtensionFilter#instance-init#
+javax.swing.JFileChooser#<init>(Ljava/lang/String;)V
+javax.swing.filechooser.FileNameExtensionFilter#<init>(Ljava/lang/String;[Ljava/lang/String;)V
+javax.swing.JFileChooser#instance-init#
+==
+setFileFilter javax.swing.JFileChooser#setFileFilter(Ljavax/swing/filechooser/FileFilter;)V

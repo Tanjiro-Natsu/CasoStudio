@@ -112,7 +112,7 @@ try {
 	
 	
 } catch (IOException e){
-	e.printStackTrace();
+	System.out.println(e.getMessage());
 }
 
 bloccaFonte1=new JMenuItem("Blocca Fonte");
@@ -547,7 +547,7 @@ public void split5() {
 		xx.close();
 
 	} catch (FileNotFoundException e1) {
-		e1.printStackTrace();
+		System.out.println(e1.getMessage());
 	}
 }
 

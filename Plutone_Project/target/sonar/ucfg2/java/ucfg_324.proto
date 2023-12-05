@@ -1,17 +1,18 @@
 
-1main.Menu2#getImageIcon9()Ljavax/swing/ImageIcon;b
-X/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu2.javap p("1*¡
-1p) p(/g
+-main.Menu2#getaccetta1()Ljavax/swing/JButton;b
+X/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu2.javas s("1*Ÿ
+1s% s(-g
 e
-p) p(/
-%0javax.swing.ImageIcon"__id*6
+s% s(-
+%0javax.swing.JButton"__id*8
 
-__unknown_file (*
+__unknown_file (*
 
-main.Menu2"
-image9")
-p" p(0
-
-%0javax.swing.ImageIconB
+main.Menu2"
+
+accetta1"'
+s s(.
+
+%0javax.swing.JButtonB
 
 main.Menu2H

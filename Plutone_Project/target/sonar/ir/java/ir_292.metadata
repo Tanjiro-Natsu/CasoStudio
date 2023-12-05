@@ -1,4 +1,4 @@
-main.ImageMenu#red(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+main.ImageMenu#pink(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
 ==
 getRGB java.awt.image.BufferedImage#getRGB(II)I
 setRGB java.awt.image.BufferedImage#setRGB(III)V

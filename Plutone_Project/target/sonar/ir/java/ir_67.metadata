@@ -1,13 +1,5 @@
-main.Reader#main([Ljava/lang/String;)V
-javax.swing.JFrame#<init>()V
-javax.swing.JButton#<init>(Ljava/lang/String;)V
-javax.swing.JPanel#<init>()V
-javax.swing.JFrame#instance-init#
-javax.swing.JButton#instance-init#
-javax.swing.JPanel#instance-init#
-==
-add java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;
-setVisible java.awt.Window#setVisible(Z)V
-setSize java.awt.Window#setSize(II)V
-addActionListener javax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V
-setDefaultCloseOperation javax.swing.JFrame#setDefaultCloseOperation(I)V
+main.MenuWriter#instance-init#
+java.awt.Font#<init>(Ljava/lang/String;II)V
+java.awt.Font#instance-init#
+javax.swing.JMenuItem#<init>(Ljava/lang/String;)V
+javax.swing.JMenuItem#instance-init#

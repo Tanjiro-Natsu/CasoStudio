@@ -1,3 +1,11 @@
-main.ImageMenu#setcolor10()V
-javax.swing.JMenuItem#<init>()V
+main.ImageMenu#<init>(Ljava/awt/image/BufferedImage;Ljava/lang/String;[B)V
+javax.swing.JMenuItem#<init>(Ljava/lang/String;)V
+javax.swing.JMenu#instance-init#
+javax.swing.JMenu#<init>(Ljava/lang/String;)V
 javax.swing.JMenuItem#instance-init#
+==
+getHeight java.awt.image.BufferedImage#getHeight()I
+getWidth java.awt.image.BufferedImage#getWidth()I
+addActionListener javax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V
+add javax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;
+add javax.swing.JMenuBar#add(Ljavax/swing/JMenu;)Ljavax/swing/JMenu;

@@ -1,9 +1,52 @@
 
-main.MenuWriter#gety11()Ii
-]/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/MenuWriter.javaÜ Ü("1*%
+!__sonar_lambda_65$main.MenuWriteri
+]/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/MenuWriter.javaÈ È(/"startingBlock*®
+startingBlock
+È È(/v
+t
+
+__unknown_file (
+djavax.swing.JTextPane"__id*6
+
+__unknown_file (*
+main.MenuWriter"
+dç
+ä
+
+__unknown_file ("
+MenuWriter.thismain.MenuWriter"__id*D
+
+__unknown_file ((*&
+main.MenuWriter"
+MenuWriter.this*
+1*è
 1
-Ü Ü( "
+È È(v
+t
 
-Ü Ü(!
-""B
-main.MenuWriterHX
+È, È(.
+%154java.awt.Color"__id*H
+
+__unknown_file (,**
+"
+MenuWriter.thismain.MenuWriter"
+q1Á‰
+
+È È(/
+%155void"7javax.swing.JComponent#setBackground(Ljava/awt/Color;)V*8
+
+__unknown_file (
+
+djavax.swing.JTextPane*4
+
+__unknown_file (
+
+%154java.awt.Color2setBackground(Ljava/awt/Color;)"
+
+È È(/
+
+%155void:-
+
+È È(
+ejava.awt.event.ActionEventB!
+java.awt.event.ActionListener

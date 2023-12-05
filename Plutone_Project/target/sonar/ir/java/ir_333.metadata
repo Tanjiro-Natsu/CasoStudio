@@ -1,3 +1,1 @@
-main.GUI#getText4()Ljava/lang/String;
-==
-getText javax.swing.text.JTextComponent#getText()Ljava/lang/String;
+main.GUI#getargomento()Ljava/lang/String;

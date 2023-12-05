@@ -1,1 +1,25 @@
-main.Search#getArgomento()Ljava/lang/String;
+main.Search#<init>()V
+java.awt.GridLayout#<init>(II)V
+javax.swing.JPanel#<init>()V
+javax.swing.JButton#<init>(Ljava/lang/String;)V
+javax.swing.JLabel#<init>()V
+java.awt.GridLayout#instance-init#
+javax.swing.JPanel#instance-init#
+javax.swing.JLabel#<init>(Ljava/lang/String;)V
+javax.swing.JTextField#instance-init#
+javax.swing.JTextField#<init>()V
+javax.swing.JLabel#instance-init#
+java.awt.Font#<init>(Ljava/lang/String;II)V
+java.awt.Font#instance-init#
+javax.swing.JButton#instance-init#
+==
+setLocation java.awt.Window#setLocation(II)V
+add java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;
+setFont javax.swing.JComponent#setFont(Ljava/awt/Font;)V
+setVisible java.awt.Window#setVisible(Z)V
+setSize java.awt.Window#setSize(II)V
+setTitle java.awt.Frame#setTitle(Ljava/lang/String;)V
+setLayout java.awt.Container#setLayout(Ljava/awt/LayoutManager;)V
+addActionListener javax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V
+setLayout javax.swing.JFrame#setLayout(Ljava/awt/LayoutManager;)V
+setDefaultCloseOperation javax.swing.JFrame#setDefaultCloseOperation(I)V

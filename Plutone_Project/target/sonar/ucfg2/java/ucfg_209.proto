@@ -1,8 +1,8 @@
 
-!__sonar_lambda_89$main.MenuWriteri
-]/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/MenuWriter.javaÄ Ä(/"startingBlock*®
+!__sonar_lambda_90$main.MenuWriteri
+]/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/MenuWriter.javaÇ Ç(8"startingBlock*®
 startingBlock
-Ä Ä(/v
+Ç Ç(8v
 t
 
 __unknown_file (
@@ -19,34 +19,54 @@ t
 __unknown_file ((*&
 main.MenuWriter"
 MenuWriter.this*
-1*ê
+1*≤
 1
-Ä Ä(w
-u
+Ç Ç(x
+v
 
-Ä+ Ä(.
-%246java.awt.Color"__id*I
+Ç- Ç(/
+%258java.lang.String"__id*H
 
-__unknown_file (-*+
+__unknown_file (,**
 "
-MenuWriter.thismain.MenuWriter"
-q12Á‰
+MenuWriter.thismain.MenuWriter"
+yo42
 
-Ä Ä(/
-%247void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*8
+Ç( Ç(,
+%259java.awt.Font"java.awt.Font˜
+Ù
+
+Ç$ Ç(7
+%260"+java.awt.Font#<init>(Ljava/lang/String;II)V*3
+
+__unknown_file (
+
+%259java.awt.Font*6
+
+__unknown_file (
+
+%258java.lang.String*"
+
+__unknown_file (
+""* 
+
+__unknown_file (2ÿ’
+
+Ç Ç(8
+%261void"0javax.swing.JComponent#setFont(Ljava/awt/Font;)V*8
 
 __unknown_file (
 
-djavax.swing.JTextPane*4
+djavax.swing.JTextPane*3
 
-__unknown_file (
-
-%246java.awt.Color2setForeground(Ljava/awt/Color;)"
+__unknown_file (
+
+%259java.awt.Font2setFont(Ljava/awt/Font;)"
 
-Ä Ä(/
+Ç Ç(8
 
-%247void:-
+%261void:-
 
-Ä Ä(
+Ç Ç(
 ejava.awt.event.ActionEventB!
 java.awt.event.ActionListener

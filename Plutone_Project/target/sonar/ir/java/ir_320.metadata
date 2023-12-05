@@ -1,1 +1,1 @@
-main.GUI#getMenu()Lmain/Menu;
+main.GUI#setcolor2(Ljava/awt/Color;)V

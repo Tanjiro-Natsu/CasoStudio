@@ -17,8 +17,8 @@ import javax.swing.WindowConstants;
 public class main {
 	
 	 private static JFrame d;private static JFrame b;
-	static public GUI a=null;
-	 private  GUI2 a1;
+	 public static  GUI a=null;
+	 private static  GUI2 a1;
 	public static void close() {
 		a.dispose();
 	}

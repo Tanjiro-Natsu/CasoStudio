@@ -2525,11 +2525,10 @@ setError()java.io.PrintStream#setError()Vl
 databaseconfermation()*main.VerificaFonte#databaseconfermation()IV
 databasejpg(Ljava/lang/String;)3main.VerificaFonte#databasejpg(Ljava/lang/String;)D3
 databasetxt()"main.VerificaFonte#databasetxt()[Bo
-#fonteverificata(Ljava/lang/String;)Hmain.VerificaFonte#fonteverificata(Ljava/lang/String;)Ljava/lang/String;Š
+#fonteverificata(Ljava/lang/String;)Hmain.VerificaFonte#fonteverificata(Ljava/lang/String;)Ljava/lang/String;Å
 main.Readerjava.lang.Object!
 <init>()main.Reader#<init>()VX
-chooser(Ljavax/swing/JPanel;)7main.Reader#chooser(Ljavax/swing/JPanel;)Ljava/io/File;C
-main([Ljava/lang/String;)&main.Reader#main([Ljava/lang/String;)VV
+chooser(Ljavax/swing/JPanel;)7main.Reader#chooser(Ljavax/swing/JPanel;)Ljava/io/File;V
 reader(Ljava/lang/String;)8main.Reader#reader(Ljava/lang/String;)Ljava/lang/String;O
 writer(Ljavax/swing/JTextPane;),main.Reader#writer(Ljavax/swing/JTextPane;)V¥
 javax.swing.JTextFieldjavax.swing.SwingConstantsjavax.swing.text.JTextComponent,
@@ -3183,9 +3182,8 @@ HgetConnection(Ljava/lang/String;Ljava/util/Properties;Ljava/lang/Class;)tjava.
 .setShardingKeyIfValid(Ljava/sql/ShardingKey;I)Cjava.sql.Connection#setShardingKeyIfValid(Ljava/sql/ShardingKey;I)Z¡
 DsetShardingKeyIfValid(Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;I)Yjava.sql.Connection#setShardingKeyIfValid(Ljava/sql/ShardingKey;Ljava/sql/ShardingKey;I)Z+
 java.util.EventListenerjava.lang.ObjectJ
-java.awt.event.ActionListenerjava.lang.Objectjava.util.EventListener&
-java.lang.Runnablejava.lang.Object´	
-main.GUIjava.awt.event.ActionListenerjava.lang.Runnablejavax.swing.JFrame
+java.awt.event.ActionListenerjava.lang.Objectjava.util.EventListener†	
+main.GUIjava.awt.event.ActionListenerjavax.swing.JFrame
 <init>()main.GUI#<init>()V
 Color1()main.GUI#Color1()V
 Color2()main.GUI#Color2()Vh
@@ -3206,8 +3204,7 @@ getfonte()%main.GUI#getfonte()Ljava/lang/String;$
 metadata()main.GUI#metadata()V;
 metadatisave())main.GUI#metadatisave()Ljava/lang/String;8
 metav(Ljava/io/File;)main.GUI#metav(Ljava/io/File;)V 
-	refresh()main.GUI#refresh()V
-run()main.GUI#run()VD
+	refresh()main.GUI#refresh()VD
 setcolor1(Ljava/awt/Color;)%main.GUI#setcolor1(Ljava/awt/Color;)VD
 setcolor2(Ljava/awt/Color;)%main.GUI#setcolor2(Ljava/awt/Color;)V
 sett1()main.GUI#sett1()V
@@ -3256,8 +3253,8 @@ iterator()4java.sql.SQLException#iterator()Ljava/util/Iterator;m
 main.VerificaImmaginejava.lang.Object+
 <init>()main.VerificaImmagine#<init>()VG
 databaseconfermation()-main.VerificaImmagine#databaseconfermation()IS
-imagec(Ljava/lang/String;[B)3main.VerificaImmagine#imagec(Ljava/lang/String;[B)D¹	
-	main.GUI2java.awt.event.ActionListenerjava.lang.Runnablejavax.swing.JFrame
+imagec(Ljava/lang/String;[B)3main.VerificaImmagine#imagec(Ljava/lang/String;[B)DŠ	
+	main.GUI2java.awt.event.ActionListenerjavax.swing.JFrame
 <init>()main.GUI2#<init>()V
 COLOR1()main.GUI2#COLOR1()V
 COLOR2()main.GUI2#COLOR2()Vi
@@ -3277,8 +3274,7 @@ getfonte()&main.GUI2#getfonte()Ljava/lang/String;%
 metadata()main.GUI2#metadata()V<
 metadatisave()*main.GUI2#metadatisave()Ljava/lang/String;9
 metav(Ljava/io/File;) main.GUI2#metav(Ljava/io/File;)V!
-	refresh()main.GUI2#refresh()V
-run()main.GUI2#run()VE
+	refresh()main.GUI2#refresh()VE
 setcolor1(Ljava/awt/Color;)&main.GUI2#setcolor1(Ljava/awt/Color;)VE
 setcolor2(Ljava/awt/Color;)&main.GUI2#setcolor2(Ljava/awt/Color;)V
 sett1()main.GUI2#sett1()V
@@ -3298,7 +3294,55 @@ metadata()main.GUI2#metadata()V<
 geta8())main.MetaData#geta8()Ljavax/swing/JLabel;4
 geta9())main.MetaData#geta9()Ljavax/swing/JLabel;8
 
-toString()*main.MetaData#toString()Ljava/lang/String;˜&
+toString()*main.MetaData#toString()Ljava/lang/String;&
+java.lang.Runnablejava.lang.Object‰
+main.GUI2$1java.lang.Objectjava.lang.Runnable7
+<init>(Lmain/GUI2;) main.GUI2$1#<init>(Lmain/GUI2;)V
+run()main.GUI2$1#run()V»
+
+main.Menu2java.awt.event.ActionListenerjavax.swing.JMenuBar 
+<init>()main.Menu2#<init>()Vj
+-actionPerformed(Ljava/awt/event/ActionEvent;)9main.Menu2#actionPerformed(Ljava/awt/event/ActionEvent;)V>
+getColor10().main.Menu2#getColor10()Ljavax/swing/JMenuItem;>
+getColor11().main.Menu2#getColor11()Ljavax/swing/JMenuItem;>
+getColor12().main.Menu2#getColor12()Ljavax/swing/JMenuItem;>
+getColor13().main.Menu2#getColor13()Ljavax/swing/JMenuItem;>
+getColor14().main.Menu2#getColor14()Ljavax/swing/JMenuItem;>
+getColor15().main.Menu2#getColor15()Ljavax/swing/JMenuItem;>
+getColor16().main.Menu2#getColor16()Ljavax/swing/JMenuItem;>
+getColor17().main.Menu2#getColor17()Ljavax/swing/JMenuItem;>
+getColor18().main.Menu2#getColor18()Ljavax/swing/JMenuItem;>
+getColor20().main.Menu2#getColor20()Ljavax/swing/JMenuItem;>
+getColor21().main.Menu2#getColor21()Ljavax/swing/JMenuItem;>
+getColor22().main.Menu2#getColor22()Ljavax/swing/JMenuItem;>
+getColor23().main.Menu2#getColor23()Ljavax/swing/JMenuItem;>
+getColor24().main.Menu2#getColor24()Ljavax/swing/JMenuItem;>
+getColor25().main.Menu2#getColor25()Ljavax/swing/JMenuItem;>
+getColor26().main.Menu2#getColor26()Ljavax/swing/JMenuItem;>
+getColor27().main.Menu2#getColor27()Ljavax/swing/JMenuItem;>
+getColor28().main.Menu2#getColor28()Ljavax/swing/JMenuItem;D
+getImageIcon1()1main.Menu2#getImageIcon1()Ljavax/swing/ImageIcon;F
+getImageIcon10()2main.Menu2#getImageIcon10()Ljavax/swing/ImageIcon;D
+getImageIcon2()1main.Menu2#getImageIcon2()Ljavax/swing/ImageIcon;D
+getImageIcon3()1main.Menu2#getImageIcon3()Ljavax/swing/ImageIcon;D
+getImageIcon4()1main.Menu2#getImageIcon4()Ljavax/swing/ImageIcon;D
+getImageIcon5()1main.Menu2#getImageIcon5()Ljavax/swing/ImageIcon;D
+getImageIcon6()1main.Menu2#getImageIcon6()Ljavax/swing/ImageIcon;D
+getImageIcon7()1main.Menu2#getImageIcon7()Ljavax/swing/ImageIcon;D
+getImageIcon8()1main.Menu2#getImageIcon8()Ljavax/swing/ImageIcon;D
+getImageIcon9()1main.Menu2#getImageIcon9()Ljavax/swing/ImageIcon;<
+getaccetta(),main.Menu2#getaccetta()Ljavax/swing/JButton;>
+getaccetta1()-main.Menu2#getaccetta1()Ljavax/swing/JButton;<
+getrifiuta(),main.Menu2#getrifiuta()Ljavax/swing/JButton;>
+getrifiuta1()-main.Menu2#getrifiuta1()Ljavax/swing/JButton;`
+(pickacolor(Ljava/awt/event/ActionEvent;)4main.Menu2#pickacolor(Ljava/awt/event/ActionEvent;)V$
+
+setSave(Z)main.Menu2#setSave(Z)V 
+split1()main.Menu2#split1()V 
+split2()main.Menu2#split2()V 
+split3()main.Menu2#split3()V 
+split4()main.Menu2#split4()V 
+split5()main.Menu2#split5()V˜&
 javax.imageio.ImageIOjava.lang.Object+
 <init>()javax.imageio.ImageIO#<init>()Vy
 /contains([Ljava/lang/String;Ljava/lang/String;)Fjavax.imageio.ImageIO#contains([Ljava/lang/String;Ljava/lang/String;)Z•
@@ -3370,51 +3414,7 @@ getImage()0javax.swing.ImageIcon#getImage()Ljava/awt/Image;C
 0setImageObserver(Ljava/awt/image/ImageObserver;)Gjavax.swing.ImageIcon#setImageObserver(Ljava/awt/image/ImageObserver;)V@
 
 toString()2javax.swing.ImageIcon#toString()Ljava/lang/String;m
-)writeObject(Ljava/io/ObjectOutputStream;)@javax.swing.ImageIcon#writeObject(Ljava/io/ObjectOutputStream;)V»
-
-main.Menu2java.awt.event.ActionListenerjavax.swing.JMenuBar 
-<init>()main.Menu2#<init>()Vj
--actionPerformed(Ljava/awt/event/ActionEvent;)9main.Menu2#actionPerformed(Ljava/awt/event/ActionEvent;)V>
-getColor10().main.Menu2#getColor10()Ljavax/swing/JMenuItem;>
-getColor11().main.Menu2#getColor11()Ljavax/swing/JMenuItem;>
-getColor12().main.Menu2#getColor12()Ljavax/swing/JMenuItem;>
-getColor13().main.Menu2#getColor13()Ljavax/swing/JMenuItem;>
-getColor14().main.Menu2#getColor14()Ljavax/swing/JMenuItem;>
-getColor15().main.Menu2#getColor15()Ljavax/swing/JMenuItem;>
-getColor16().main.Menu2#getColor16()Ljavax/swing/JMenuItem;>
-getColor17().main.Menu2#getColor17()Ljavax/swing/JMenuItem;>
-getColor18().main.Menu2#getColor18()Ljavax/swing/JMenuItem;>
-getColor20().main.Menu2#getColor20()Ljavax/swing/JMenuItem;>
-getColor21().main.Menu2#getColor21()Ljavax/swing/JMenuItem;>
-getColor22().main.Menu2#getColor22()Ljavax/swing/JMenuItem;>
-getColor23().main.Menu2#getColor23()Ljavax/swing/JMenuItem;>
-getColor24().main.Menu2#getColor24()Ljavax/swing/JMenuItem;>
-getColor25().main.Menu2#getColor25()Ljavax/swing/JMenuItem;>
-getColor26().main.Menu2#getColor26()Ljavax/swing/JMenuItem;>
-getColor27().main.Menu2#getColor27()Ljavax/swing/JMenuItem;>
-getColor28().main.Menu2#getColor28()Ljavax/swing/JMenuItem;D
-getImageIcon1()1main.Menu2#getImageIcon1()Ljavax/swing/ImageIcon;F
-getImageIcon10()2main.Menu2#getImageIcon10()Ljavax/swing/ImageIcon;D
-getImageIcon2()1main.Menu2#getImageIcon2()Ljavax/swing/ImageIcon;D
-getImageIcon3()1main.Menu2#getImageIcon3()Ljavax/swing/ImageIcon;D
-getImageIcon4()1main.Menu2#getImageIcon4()Ljavax/swing/ImageIcon;D
-getImageIcon5()1main.Menu2#getImageIcon5()Ljavax/swing/ImageIcon;D
-getImageIcon6()1main.Menu2#getImageIcon6()Ljavax/swing/ImageIcon;D
-getImageIcon7()1main.Menu2#getImageIcon7()Ljavax/swing/ImageIcon;D
-getImageIcon8()1main.Menu2#getImageIcon8()Ljavax/swing/ImageIcon;D
-getImageIcon9()1main.Menu2#getImageIcon9()Ljavax/swing/ImageIcon;<
-getaccetta(),main.Menu2#getaccetta()Ljavax/swing/JButton;>
-getaccetta1()-main.Menu2#getaccetta1()Ljavax/swing/JButton;<
-getrifiuta(),main.Menu2#getrifiuta()Ljavax/swing/JButton;>
-getrifiuta1()-main.Menu2#getrifiuta1()Ljavax/swing/JButton;`
-(pickacolor(Ljava/awt/event/ActionEvent;)4main.Menu2#pickacolor(Ljava/awt/event/ActionEvent;)V$
-
-setSave(Z)main.Menu2#setSave(Z)V 
-split1()main.Menu2#split1()V 
-split2()main.Menu2#split2()V 
-split3()main.Menu2#split3()V 
-split4()main.Menu2#split4()V 
-split5()main.Menu2#split5()VÜG
+)writeObject(Ljava/io/ObjectOutputStream;)@javax.swing.ImageIcon#writeObject(Ljava/io/ObjectOutputStream;)VÜG
 java.lang.Threadjava.lang.Objectjava.lang.Runnable&
 <init>()java.lang.Thread#<init>()VN
 <init>(Ljava/lang/Runnable;).java.lang.Thread#<init>(Ljava/lang/Runnable;)Vr
@@ -3803,19 +3803,7 @@ read([BII)(java.io.ByteArrayInputStream#read([BII)I?
 readNBytes([BII).java.io.ByteArrayInputStream#readNBytes([BII)I0
 reset()%java.io.ByteArrayInputStream#reset()V0
 skip(J)%java.io.ByteArrayInputStream#skip(J)Jf
-"transferTo(Ljava/io/OutputStream;)@java.io.ByteArrayInputStream#transferTo(Ljava/io/OutputStream;)Jš
-java.lang.RuntimeExceptionjava.lang.Exception0
-<init>()$java.lang.RuntimeException#<init>()VT
-<init>(Ljava/lang/String;)6java.lang.RuntimeException#<init>(Ljava/lang/String;)V~
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Kjava.lang.RuntimeException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V‚
-1<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)Mjava.lang.RuntimeException#<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)VZ
-<init>(Ljava/lang/Throwable;)9java.lang.RuntimeException#<init>(Ljava/lang/Throwable;)VÞ
-java.lang.NullPointerExceptionjava.lang.RuntimeException4
-<init>()(java.lang.NullPointerException#<init>()VX
-<init>(Ljava/lang/String;):java.lang.NullPointerException#<init>(Ljava/lang/String;)V\
-fillInStackTrace()Fjava.lang.NullPointerException#fillInStackTrace()Ljava/lang/Throwable;c
-getExtendedNPEMessage()Hjava.lang.NullPointerException#getExtendedNPEMessage()Ljava/lang/String;M
-getMessage()=java.lang.NullPointerException#getMessage()Ljava/lang/String;0
+"transferTo(Ljava/io/OutputStream;)@java.io.ByteArrayInputStream#transferTo(Ljava/io/OutputStream;)J0
 java.awt.image.RenderedImagejava.lang.ObjectV
 $java.awt.image.WritableRenderedImagejava.awt.image.RenderedImagejava.lang.Object)
 java.awt.Transparencyjava.lang.Objectã
@@ -3980,10 +3968,9 @@ toString()9java.awt.image.BufferedImage#toString()Ljava/lang/String;Â!
 toRadians(D)java.lang.Math#toRadians(D)D 
 ulp(D)java.lang.Math#ulp(D)D 
 ulp(F)java.lang.Math#ulp(F)FD
-unsignedMultiplyHigh(JJ)(java.lang.Math#unsignedMultiplyHigh(JJ)JŒ
+unsignedMultiplyHigh(JJ)(java.lang.Math#unsignedMultiplyHigh(JJ)JF
 main.Chooserjavax.swing.JFrame"
-<init>()main.Chooser#<init>()VD
-main([Ljava/lang/String;)'main.Chooser#main([Ljava/lang/String;)V®
+<init>()main.Chooser#<init>()V®
 javax.swing.ButtonGroupjava.io.Serializablejava.lang.Object-
 <init>()!javax.swing.ButtonGroup#<init>()V_
 !add(Ljavax/swing/AbstractButton;):javax.swing.ButtonGroup#add(Ljavax/swing/AbstractButton;)V=
@@ -4031,7 +4018,7 @@ updateUI()%javax.swing.JToggleButton#updateUI()Vq
 'setIconFromAction(Ljavax/swing/Action;)Ajavax.swing.JRadioButton#setIconFromAction(Ljavax/swing/Action;)V2
 
 updateUI()$javax.swing.JRadioButton#updateUI()Vp
-)writeObject(Ljava/io/ObjectOutputStream;)Cjavax.swing.JRadioButton#writeObject(Ljava/io/ObjectOutputStream;)VË
+)writeObject(Ljava/io/ObjectOutputStream;)Cjavax.swing.JRadioButton#writeObject(Ljava/io/ObjectOutputStream;)V†
 main.Searchjavax.swing.JFrame!
 <init>()main.Search#<init>()Vi
 ,error(Ljava/lang/String;Ljava/lang/String;I)9main.Search#error(Ljava/lang/String;Ljava/lang/String;I)V#
@@ -4040,8 +4027,7 @@ updateUI()$javax.swing.JRadioButton#updateUI()Vp
 getFileTxt()(main.Search#getFileTxt()Ljava/util/List;<
 getFileimage()*main.Search#getFileimage()Ljava/util/List;6
 
-getFonte()(main.Search#getFonte()Ljava/lang/String;C
-main([Ljava/lang/String;)&main.Search#main([Ljava/lang/String;)V
+getFonte()(main.Search#getFonte()Ljava/lang/String;
 ok()main.Search#ok()V
 sets()main.Search#sets()V
 sets1()main.Search#sets1()VK
@@ -4310,7 +4296,19 @@ $bn(IILjava/awt/image/BufferedImage;)Qmain.ImageMenu#bn(IILjava/awt/image/Buffe
 setcolor8()main.ImageMenu#setcolor8()V*
 setcolor9()main.ImageMenu#setcolor9()V
 (violet(IILjava/awt/image/BufferedImage;)Umain.ImageMenu#violet(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
-(yellow(IILjava/awt/image/BufferedImage;)Umain.ImageMenu#yellow(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;Ò
+(yellow(IILjava/awt/image/BufferedImage;)Umain.ImageMenu#yellow(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;š
+java.lang.RuntimeExceptionjava.lang.Exception0
+<init>()$java.lang.RuntimeException#<init>()VT
+<init>(Ljava/lang/String;)6java.lang.RuntimeException#<init>(Ljava/lang/String;)V~
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Kjava.lang.RuntimeException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V‚
+1<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)Mjava.lang.RuntimeException#<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)VZ
+<init>(Ljava/lang/Throwable;)9java.lang.RuntimeException#<init>(Ljava/lang/Throwable;)VÞ
+java.lang.NullPointerExceptionjava.lang.RuntimeException4
+<init>()(java.lang.NullPointerException#<init>()VX
+<init>(Ljava/lang/String;):java.lang.NullPointerException#<init>(Ljava/lang/String;)V\
+fillInStackTrace()Fjava.lang.NullPointerException#fillInStackTrace()Ljava/lang/Throwable;c
+getExtendedNPEMessage()Hjava.lang.NullPointerException#getExtendedNPEMessage()Ljava/lang/String;M
+getMessage()=java.lang.NullPointerException#getMessage()Ljava/lang/String;Ò
 &java.lang.ReflectiveOperationExceptionjava.lang.Exception<
 <init>()0java.lang.ReflectiveOperationException#<init>()V`
 <init>(Ljava/lang/String;)Bjava.lang.ReflectiveOperationException#<init>(Ljava/lang/String;)VŠ
@@ -4413,7 +4411,11 @@ toString()+java.lang.Long#toString()Ljava/lang/String;;
 
 valueOf(J))java.lang.Long#valueOf(J)Ljava/lang/Long;Y
 valueOf(Ljava/lang/String;):java.lang.Long#valueOf(Ljava/lang/String;)Ljava/lang/Long;[
-valueOf(Ljava/lang/String;I);java.lang.Long#valueOf(Ljava/lang/String;I)Ljava/lang/Long;³
+valueOf(Ljava/lang/String;I);java.lang.Long#valueOf(Ljava/lang/String;I)Ljava/lang/Long;„
+
+main.GUI$1java.lang.Objectjava.lang.Runnable4
+<init>(Lmain/GUI;)main.GUI$1#<init>(Lmain/GUI;)V
+run()main.GUI$1#run()V³
 main.MenuSearch$61java.awt.event.ActionListenerjava.lang.Objectx
 0<init>(Lmain/MenuSearch;Ljavax/swing/JTextArea;)Dmain.MenuSearch$61#<init>(Lmain/MenuSearch;Ljavax/swing/JTextArea;)Vr
 -actionPerformed(Ljava/awt/event/ActionEvent;)Amain.MenuSearch$61#actionPerformed(Ljava/awt/event/ActionEvent;)V³

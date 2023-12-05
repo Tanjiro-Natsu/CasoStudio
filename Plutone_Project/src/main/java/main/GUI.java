@@ -22,7 +22,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
-public class GUI extends JFrame  implements ActionListener,Runnable {
+public class GUI extends JFrame  implements ActionListener {
 	
 	private static final long serialVersionUID = 1L;
 	private static Menu ss1;
@@ -268,7 +268,29 @@ b2.add(new JPanel(),BorderLayout.SOUTH);
    b.add(b2);
   
 add(b);
-new Thread(this).start();
+new Thread(new Runnable() {public void run() {
+	while(true) {
+	if(t11.getText().equalsIgnoreCase(" ") || t21.getText().equalsIgnoreCase(" ")){button1.setEnabled(false);}
+	
+	
+	else if(t11.getText().equalsIgnoreCase(" ")!=true && t21.getText().equalsIgnoreCase(" ")!=true) {button1.setEnabled(true);}
+	
+	
+	if(t31.getText().equalsIgnoreCase(" ")  ) {
+		
+		Menu.setSave(false);
+	}
+	else if(t31.getText().equalsIgnoreCase(" ")!=true ) {
+		Menu.setSave(true);
+		
+		
+	}
+	
+	
+	
+	
+}}
+}).start();
 	
 		
 	}
@@ -385,27 +407,5 @@ cicla(q,s);
 	          	
 	          }
 		}
-	public void run() {
-		while(true) {
-		if(t11.getText().equalsIgnoreCase(" ") || t21.getText().equalsIgnoreCase(" ")){button1.setEnabled(false);}
-		
-		
-		else if(t11.getText().equalsIgnoreCase(" ")!=true && t21.getText().equalsIgnoreCase(" ")!=true) {button1.setEnabled(true);}
-		
-		
-		if(t31.getText().equalsIgnoreCase(" ")  ) {
-			
-			Menu.setSave(false);
-		}
-		else if(t31.getText().equalsIgnoreCase(" ")!=true ) {
-			Menu.setSave(true);
-			
-			
-		}
-		
-		
-		
-		
-	}}
 	
 }

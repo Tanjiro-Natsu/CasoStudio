@@ -1,17 +1,3083 @@
 
-,main.Menu2#getrifiuta()Ljavax/swing/JButton;b
-X/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu2.javat t("1*û
-1t$ t(+f
-d
-t$ t(+
-%0javax.swing.JButton"__id*7
+main.Menu2#<init>()Vb
+X/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu2.java| |("37*Å
+24
+ä ä(WË
+Â
+
+ä ä(W#
+%44java.awt.image.BufferedImage"Hjavax.imageio.ImageIO#read(Ljava/io/File;)Ljava/awt/image/BufferedImage;*5
+
+__unknown_file ("
+javax.imageio.ImageIO*1
+
+__unknown_file (
+
+%42java.io.File*
+23*Æ
+25
+â â(Wj
+h
+
+â â(W
+
+main.Menu2"
+image3"__id*:
+
+__unknown_file (
+
+%34javax.swing.ImageIconh
+f
+
+ä/ ä(8
+%36java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorÅ
+
+
+ä- ä(8
+%37java.lang.String"__concat*%
+
+ä- ä(.
+
+ajava.lang.String*'
+
+ä/ ä(8
+
+%36java.lang.Stringr
+p
+
+ä- ä(?
+%38java.lang.String"__concat*'
+
+ä- ä(8
+
+%37java.lang.String*
+
+ä9 ä(?
+Iconh
+f
+
+ä@ ä(I
+%39java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorÑ
+Å
+
+ä- ä(I
+%40java.lang.String"__concat*'
+
+ä- ä(?
+
+%38java.lang.String*'
+
+ä@ ä(I
+
+%39java.lang.Stringw
+u
+
+ä- ä(U
+%41java.lang.String"__concat*'
+
+ä- ä(I
+
+%40java.lang.String*
+
+äJ ä(U
+	check.png1/
+
+ä( ä(,
+%42java.io.File"java.io.File™
+ß
+
+ä$ ä(V
+%43"(java.io.File#<init>(Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%42java.io.File*5
+
+__unknown_file (
+
+%41java.lang.String*
+24*§
+26
+â	 â(WCA
+
+â â(
+%34javax.swing.ImageIcon"javax.swing.ImageIcon∆
+√
+
+â	 â(W
+%35"/javax.swing.ImageIcon#<init>(Ljava/awt/Image;)V*:
+
+__unknown_file (
+
+%34javax.swing.ImageIcon*A
+
+__unknown_file (%
+#
+%33java.awt.image.BufferedImage*
+25*Å
+27
+â â(VË
+Â
+
+â â(V#
+%33java.awt.image.BufferedImage"Hjavax.imageio.ImageIO#read(Ljava/io/File;)Ljava/awt/image/BufferedImage;*5
+
+__unknown_file ("
+javax.imageio.ImageIO*1
+
+__unknown_file (
+
+%31java.io.File*
+26*≠
+28
+à à(Tj
+h
+
+à à(T
+
+main.Menu2"
+image2"__id*:
+
+__unknown_file (
+
+%23javax.swing.ImageIconh
+f
+
+â/ â(8
+%25java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorÅ
+
+
+â- â(8
+%26java.lang.String"__concat*%
+
+â- â(.
+
+ajava.lang.String*'
+
+â/ â(8
+
+%25java.lang.Stringr
+p
+
+â- â(?
+%27java.lang.String"__concat*'
+
+â- â(8
+
+%26java.lang.String*
+
+â9 â(?
+Iconh
+f
+
+â@ â(I
+%28java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorÑ
+Å
+
+â- â(I
+%29java.lang.String"__concat*'
+
+â- â(?
+
+%27java.lang.String*'
+
+â@ â(I
+
+%28java.lang.Stringv
+t
+
+â- â(T
+%30java.lang.String"__concat*'
+
+â- â(I
+
+%29java.lang.String*
+
+âJ â(T
+
+save.png1/
+
+â( â(,
+%31java.io.File"java.io.File™
+ß
+
+â$ â(U
+%32"(java.io.File#<init>(Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%31java.io.File*5
+
+__unknown_file (
+
+%30java.lang.String*
+27*§
+29
+à	 à(TCA
+
+à à(
+%23javax.swing.ImageIcon"javax.swing.ImageIcon∆
+√
+
+à	 à(T
+%24"/javax.swing.ImageIcon#<init>(Ljava/awt/Image;)V*:
+
+__unknown_file (
+
+%23javax.swing.ImageIcon*A
+
+__unknown_file (%
+#
+%22java.awt.image.BufferedImage*
+28*Å
+30
+à à(SË
+Â
+
+à à(S#
+%22java.awt.image.BufferedImage"Hjavax.imageio.ImageIO#read(Ljava/io/File;)Ljava/awt/image/BufferedImage;*5
+
+__unknown_file ("
+javax.imageio.ImageIO*1
+
+__unknown_file (
+
+%20java.io.File*
+29*™
+31
+á á(Zj
+h
+
+á á(Z
+
+main.Menu2"
+image1"__id*:
+
+__unknown_file (
+
+%12javax.swing.ImageIconh
+f
+
+à/ à(8
+%14java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorÅ
+
+
+à- à(8
+%15java.lang.String"__concat*%
+
+à- à(.
+
+ajava.lang.String*'
+
+à/ à(8
+
+%14java.lang.Stringr
+p
+
+à- à(?
+%16java.lang.String"__concat*'
+
+à- à(8
+
+%15java.lang.String*
+
+à9 à(?
+Iconh
+f
+
+à@ à(I
+%17java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorÑ
+Å
+
+à- à(I
+%18java.lang.String"__concat*'
+
+à- à(?
+
+%16java.lang.String*'
+
+à@ à(I
+
+%17java.lang.Strings
+q
+
+à- à(Q
+%19java.lang.String"__concat*'
+
+à- à(I
+
+%18java.lang.String*
+
+àJ à(Q	
+i.png1/
+
+à( à(,
+%20java.io.File"java.io.File™
+ß
+
+à$ à(R
+%21"(java.io.File#<init>(Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%20java.io.File*5
+
+__unknown_file (
+
+%19java.lang.String*
+30*§
+32
+á	 á(ZCA
+
+á á(
+%12javax.swing.ImageIcon"javax.swing.ImageIcon∆
+√
+
+á	 á(Z
+%13"/javax.swing.ImageIcon#<init>(Ljava/awt/Image;)V*:
+
+__unknown_file (
+
+%12javax.swing.ImageIcon*A
+
+__unknown_file (%
+#
+%11java.awt.image.BufferedImage*
+31*¨
+10
+é é(Vj
+h
+
+é é(V
+
+main.Menu2"
+image8"__id*:
+
+__unknown_file (
+
+%89javax.swing.ImageIconh
+f
+
+è/ è(8
+%91java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorÅ
+
+
+è- è(8
+%92java.lang.String"__concat*%
+
+è- è(.
+
+ajava.lang.String*'
+
+è/ è(8
+
+%91java.lang.Stringr
+p
+
+è- è(?
+%93java.lang.String"__concat*'
+
+è- è(8
+
+%92java.lang.String*
+
+è9 è(?
+Iconh
+f
+
+è@ è(I
+%94java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorÑ
+Å
+
+è- è(I
+%95java.lang.String"__concat*'
+
+è- è(?
+
+%93java.lang.String*'
+
+è@ è(I
+
+%94java.lang.Stringv
+t
+
+è- è(T
+%96java.lang.String"__concat*'
+
+è- è(I
+
+%95java.lang.String*
+
+èJ è(T
+
+lock.png1/
+
+è( è(,
+%97java.io.File"java.io.File™
+ß
+
+è$ è(U
+%98"(java.io.File#<init>(Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%97java.io.File*5
+
+__unknown_file (
+
+%96java.lang.String*
+9*Ä
+33
+á á(YÁ
+‰
+
+á á(Y#
+%11java.awt.image.BufferedImage"Hjavax.imageio.ImageIO#read(Ljava/io/File;)Ljava/awt/image/BufferedImage;*5
+
+__unknown_file ("
+javax.imageio.ImageIO*0
+
+__unknown_file (
+
+%9java.io.File*
+32*§
+11
+é	 é(VCA
+
+é é(
+%89javax.swing.ImageIcon"javax.swing.ImageIcon∆
+√
+
+é	 é(V
+%90"/javax.swing.ImageIcon#<init>(Ljava/awt/Image;)V*:
+
+__unknown_file (
+
+%89javax.swing.ImageIcon*A
+
+__unknown_file (%
+#
+%88java.awt.image.BufferedImage*
+10*ó
+34
+Ö Ö(.a
+_
+
+Ö Ö(.
+ajava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.Stringg
+e
+
+á/ á(8
+%3java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetor
+}
+
+á- á(8
+%4java.lang.String"__concat*%
+
+á- á(.
+
+ajava.lang.String*&
+
+á/ á(8
+
+%3java.lang.Stringp
+n
+
+á- á(?
+%5java.lang.String"__concat*&
+
+á- á(8
+
+%4java.lang.String*
+
+á9 á(?
+Icong
+e
+
+á@ á(I
+%6java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorÄ
+~
+
+á- á(I
+%7java.lang.String"__concat*&
+
+á- á(?
+
+%5java.lang.String*&
+
+á@ á(I
+
+%6java.lang.Stringw
+u
+
+á- á(W
+%8java.lang.String"__concat*&
+
+á- á(I
+
+%7java.lang.String*
+
+áJ á(W
+Refresh.png0.
+
+á( á(,
+%9java.io.File"java.io.File®
+•
+
+á$ á(X
+%10"(java.io.File#<init>(Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%9java.io.File*4
+
+__unknown_file (
+
+%8java.lang.String*
+33*Å
+12
+é é(UË
+Â
+
+é é(U#
+%88java.awt.image.BufferedImage"Hjavax.imageio.ImageIO#read(Ljava/io/File;)Ljava/awt/image/BufferedImage;*5
+
+__unknown_file ("
+javax.imageio.ImageIO*1
+
+__unknown_file (
+
+%86java.io.File*
+11*µ
+35
+Ö Ö(-úô
+
+Ö Ö(-
+%2java.lang.String"/java.nio.file.Path#toString()Ljava/lang/String;*6
+
+__unknown_file (
+
+%1java.nio.file.Path2
+toString()*
+34*¨
+13
+ç ç(Zj
+h
+
+ç ç(Z
+
+main.Menu2"
+image7"__id*:
+
+__unknown_file (
+
+%78javax.swing.ImageIconh
+f
+
+é/ é(8
+%80java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorÅ
+
+
+é- é(8
+%81java.lang.String"__concat*%
+
+é- é(.
+
+ajava.lang.String*'
+
+é/ é(8
+
+%80java.lang.Stringr
+p
+
+é- é(?
+%82java.lang.String"__concat*'
+
+é- é(8
+
+%81java.lang.String*
+
+é9 é(?
+Iconh
+f
+
+é@ é(I
+%83java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorÑ
+Å
+
+é- é(I
+%84java.lang.String"__concat*'
+
+é- é(?
+
+%82java.lang.String*'
+
+é@ é(I
+
+%83java.lang.Stringu
+s
+
+é- é(S
+%85java.lang.String"__concat*'
+
+é- é(I
+
+%84java.lang.String*
+
+éJ é(S	
+web.png1/
+
+é( é(,
+%86java.io.File"java.io.File™
+ß
+
+é$ é(T
+%87"(java.io.File#<init>(Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%86java.io.File*5
+
+__unknown_file (
+
+%85java.lang.String*
+12*±
+36
+Ñ Ñ(h
+f
+
+Ñ Ñ(
+pathjava.nio.file.Path"__id*6
+
+__unknown_file (
+
+%0java.nio.file.PathÆ´
+
+Ö Ö("
+%1java.nio.file.Path"7java.nio.file.Path#toAbsolutePath()Ljava/nio/file/Path;*8
+
+__unknown_file (
+
+pathjava.nio.file.Path2toAbsolutePath()*
+35*§
+14
+ç	 ç(ZCA
+
+ç ç(
+%78javax.swing.ImageIcon"javax.swing.ImageIcon∆
+√
+
+ç	 ç(Z
+%79"/javax.swing.ImageIcon#<init>(Ljava/awt/Image;)V*:
+
+__unknown_file (
+
+%78javax.swing.ImageIcon*A
+
+__unknown_file (%
+#
+%77java.awt.image.BufferedImage*
+13*Î
+37
+Ñ Ñ(“
+œ
+
+Ñ Ñ(
+%0java.nio.file.Path"Rjava.nio.file.Paths#get(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;*3
+
+__unknown_file ("
+java.nio.file.Paths*
+
+__unknown_file ( *
+36*Å
+15
+ç ç(YË
+Â
+
+ç ç(Y#
+%77java.awt.image.BufferedImage"Hjavax.imageio.ImageIO#read(Ljava/io/File;)Ljava/awt/image/BufferedImage;*5
+
+__unknown_file ("
+javax.imageio.ImageIO*1
+
+__unknown_file (
+
+%75java.io.File*
+14*∞
+16
+å å(Wj
+h
+
+å å(W
+
+main.Menu2"
+image6"__id*:
+
+__unknown_file (
+
+%67javax.swing.ImageIconh
+f
+
+ç/ ç(8
+%69java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorÅ
+
+
+ç- ç(8
+%70java.lang.String"__concat*%
+
+ç- ç(.
+
+ajava.lang.String*'
+
+ç/ ç(8
+
+%69java.lang.Stringr
+p
+
+ç- ç(?
+%71java.lang.String"__concat*'
+
+ç- ç(8
+
+%70java.lang.String*
+
+ç9 ç(?
+Iconh
+f
+
+ç@ ç(I
+%72java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorÑ
+Å
+
+ç- ç(I
+%73java.lang.String"__concat*'
+
+ç- ç(?
+
+%71java.lang.String*'
+
+ç@ ç(I
+
+%72java.lang.Stringy
+w
+
+ç- ç(W
+%74java.lang.String"__concat*'
+
+ç- ç(I
+
+%73java.lang.String*
+
+çJ ç(W
+manuale.png1/
+
+ç( ç(,
+%75java.io.File"java.io.File™
+ß
+
+ç$ ç(X
+%76"(java.io.File#<init>(Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%75java.io.File*5
+
+__unknown_file (
+
+%74java.lang.String*
+15*§
+17
+å	 å(WCA
+
+å å(
+%67javax.swing.ImageIcon"javax.swing.ImageIcon∆
+√
+
+å	 å(W
+%68"/javax.swing.ImageIcon#<init>(Ljava/awt/Image;)V*:
+
+__unknown_file (
+
+%67javax.swing.ImageIcon*A
+
+__unknown_file (%
+#
+%66java.awt.image.BufferedImage*
+16*Å
+18
+å å(VË
+Â
+
+å å(V#
+%66java.awt.image.BufferedImage"Hjavax.imageio.ImageIO#read(Ljava/io/File;)Ljava/awt/image/BufferedImage;*5
+
+__unknown_file ("
+javax.imageio.ImageIO*1
+
+__unknown_file (
+
+%64java.io.File*
+17*≠
+19
+ã ã(Wj
+h
+
+ã ã(W
+
+main.Menu2"
+image5"__id*:
+
+__unknown_file (
+
+%56javax.swing.ImageIconh
+f
+
+å/ å(8
+%58java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorÅ
+
+
+å- å(8
+%59java.lang.String"__concat*%
+
+å- å(.
+
+ajava.lang.String*'
+
+å/ å(8
+
+%58java.lang.Stringr
+p
+
+å- å(?
+%60java.lang.String"__concat*'
+
+å- å(8
+
+%59java.lang.String*
+
+å9 å(?
+Iconh
+f
+
+å@ å(I
+%61java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorÑ
+Å
+
+å- å(I
+%62java.lang.String"__concat*'
+
+å- å(?
+
+%60java.lang.String*'
+
+å@ å(I
+
+%61java.lang.Stringv
+t
+
+å- å(T
+%63java.lang.String"__concat*'
+
+å- å(I
+
+%62java.lang.String*
+
+åJ å(T
+
+info.png1/
+
+å( å(,
+%64java.io.File"java.io.File™
+ß
+
+å$ å(U
+%65"(java.io.File#<init>(Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%64java.io.File*5
+
+__unknown_file (
+
+%63java.lang.String*
+18*(
+0 "!
+
+Ò Ò(
+implicit return* ˘
+1
+ò ò((DB
+
+ò ò(
+%116javax.swing.JMenuItem"javax.swing.JMenuItemµ
+≤
+
+ò ò()
+%117"1javax.swing.JMenuItem#<init>(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+%116javax.swing.JMenuItem*,
+
+__unknown_file (
+Blocca Fonten
+l
+ò ò()
+
+main.Menu2"
+bloccaFonte"__id*;
+
+__unknown_file (
+
+%116javax.swing.JMenuItemn
+l
+ô ô(
+%118javax.swing.JMenuItem"__id*;
+
+__unknown_file (*
+
+main.Menu2"
+bloccaFontek
+i
+
+ô ô(
+%119javax.swing.ImageIcon"__id*6
+
+__unknown_file (*
+
+main.Menu2"
+image9ÎË
+ô ô(
+%120void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
+
+__unknown_file (
+
+%118javax.swing.JMenuItem*;
+
+__unknown_file (
+
+%119javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)DB
+
+ö ö(
+%121javax.swing.JMenuItem"javax.swing.JMenuItem∂
+≥
+
+ö ö(+
+%122"1javax.swing.JMenuItem#<init>(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+%121javax.swing.JMenuItem*-
+
+__unknown_file (
+Sblocca Fonteo
+m
+ö ö(+
+
+main.Menu2"
+sbloccaFonte"__id*;
+
+__unknown_file (
+
+%121javax.swing.JMenuItemo
+m
+õ õ(
+%123javax.swing.JMenuItem"__id*<
+
+__unknown_file ( *
+
+main.Menu2"
+sbloccaFontel
+j
+
+õ õ(
+%124javax.swing.ImageIcon"__id*7
 
 __unknown_file (*
 
 main.Menu2"	
-rifiuta"'
-t t(,
+image10ÎË
+õ õ(
+%125void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
+
+__unknown_file (
+
+%123javax.swing.JMenuItem*;
+
+__unknown_file (
+
+%124javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)<:
+
+ú ú(
+%126javax.swing.JMenu"javax.swing.JMenu•
+¢
+
+ú ú(
+%127"-javax.swing.JMenu#<init>(Ljava/lang/String;)V*7
+
+__unknown_file (
 
-%0javax.swing.JButtonB
+%126javax.swing.JMenu*$
+
+__unknown_file (
+Filee
+c
+ú ú(
+
+main.Menu2"
+menu11"__id*7
+
+__unknown_file (
+
+%126javax.swing.JMenu<:
+
+ù ù(
+%128javax.swing.JMenu"javax.swing.JMenu•
+¢
+
+ù
+ ù(
+%129"-javax.swing.JMenu#<init>(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%128javax.swing.JMenu*$
+
+__unknown_file (
+Helph
+f
+ù ù(
+
+main.Menu2"
+	helpmenu1"__id*7
+
+__unknown_file (
+
+%128javax.swing.JMenuDB
+
+û û(
+%130javax.swing.JMenuItem"javax.swing.JMenuItem∞
+≠
+
+û	 û(!
+%131"1javax.swing.JMenuItem#<init>(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+%130javax.swing.JMenuItem*'
+
+__unknown_file (	
+Refreshk
+i
+û û(!
+
+main.Menu2"
+
+REFRESH1"__id*;
+
+__unknown_file (
+
+%130javax.swing.JMenuItemk
+i
+ü ü(
+%132javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+REFRESH1k
+i
+
+ü ü(
+%133javax.swing.ImageIcon"__id*6
+
+__unknown_file (*
+
+main.Menu2"
+image1ÎË
+ü ü(
+%134void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
+
+__unknown_file (
+
+%132javax.swing.JMenuItem*;
+
+__unknown_file (
+
+%133javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)DB
+
+†
+ †(
+%135javax.swing.JMenuItem"javax.swing.JMenuItem≠
+™
+
+† †(
+%136"1javax.swing.JMenuItem#<init>(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+%135javax.swing.JMenuItem*$
+
+__unknown_file (
+Saveh
+f
+† †(
+
+main.Menu2"
+SAVE1"__id*;
+
+__unknown_file (
+
+%135javax.swing.JMenuItemh
+f
+° °(
+%137javax.swing.JMenuItem"__id*5
+
+__unknown_file (*
+
+main.Menu2"
+SAVE1k
+i
+
+° °(
+%138javax.swing.ImageIcon"__id*6
+
+__unknown_file (*
+
+main.Menu2"
+image3ÎË
+° °(
+%139void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
+
+__unknown_file (
+
+%137javax.swing.JMenuItem*;
+
+__unknown_file (
+
+%138javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)<:
+
+¢ ¢(
+%140javax.swing.JMenu"javax.swing.JMenu´
+®
+
+¢ ¢(#
+%141"-javax.swing.JMenu#<init>(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%140javax.swing.JMenu**
+
+__unknown_file (
+
+Propertiesj
+h
+¢ ¢(#
+
+main.Menu2"
+PROPERTIES1"__id*7
+
+__unknown_file (
+
+%140javax.swing.JMenun
+l
+£ £(
+%142javax.swing.JMenuItem"__id*;
+
+__unknown_file (*
+
+main.Menu2"
+PROPERTIES1k
+i
+
+£ £(
+%143javax.swing.ImageIcon"__id*6
+
+__unknown_file (*
+
+main.Menu2"
+image2ÎË
+£ £(
+%144void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
+
+__unknown_file (
+
+%142javax.swing.JMenuItem*;
+
+__unknown_file (
+
+%143javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)DB
+
+§
+ §(
+%145javax.swing.JMenuItem"javax.swing.JMenuItem≠
+™
+
+§ §(
+%146"1javax.swing.JMenuItem#<init>(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+%145javax.swing.JMenuItem*$
+
+__unknown_file (
+Exith
+f
+§ §(
+
+main.Menu2"
+EXIT1"__id*;
+
+__unknown_file (
+
+%145javax.swing.JMenuItemh
+f
+• •(
+%147javax.swing.JMenuItem"__id*5
+
+__unknown_file (*
+
+main.Menu2"
+EXIT1k
+i
+
+• •(
+%148javax.swing.ImageIcon"__id*6
+
+__unknown_file (*
+
+main.Menu2"
+image5ÎË
+• •(
+%149void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
+
+__unknown_file (
+
+%147javax.swing.JMenuItem*;
+
+__unknown_file (
+
+%148javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)DB
+
+¶
+ ¶(
+%150javax.swing.JMenuItem"javax.swing.JMenuItem≠
+™
+
+¶ ¶(
+%151"1javax.swing.JMenuItem#<init>(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+%150javax.swing.JMenuItem*$
+
+__unknown_file (
+Infoh
+f
+¶ ¶(
+
+main.Menu2"
+INFO1"__id*;
+
+__unknown_file (
+
+%150javax.swing.JMenuItemh
+f
+ß ß(
+%152javax.swing.JMenuItem"__id*5
+
+__unknown_file (*
+
+main.Menu2"
+INFO1k
+i
+
+ß ß(
+%153javax.swing.ImageIcon"__id*6
+
+__unknown_file (*
+
+main.Menu2"
+image6ÎË
+ß ß(
+%154void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
+
+__unknown_file (
+
+%152javax.swing.JMenuItem*;
+
+__unknown_file (
+
+%153javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)DB
+
+® ®(
+%155javax.swing.JMenuItem"javax.swing.JMenuItem∞
+≠
+
+®	 ®(!
+%156"1javax.swing.JMenuItem#<init>(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+%155javax.swing.JMenuItem*'
+
+__unknown_file (	
+Manualek
+i
+® ®(!
+
+main.Menu2"
+
+MANUALE1"__id*;
+
+__unknown_file (
+
+%155javax.swing.JMenuItemk
+i
+© ©(
+%157javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+MANUALE1k
+i
+
+© ©(
+%158javax.swing.ImageIcon"__id*6
+
+__unknown_file (*
+
+main.Menu2"
+image7ÎË
+© ©(
+%159void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
+
+__unknown_file (
+
+%157javax.swing.JMenuItem*;
+
+__unknown_file (
+
+%158javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)DB
+
+™
+ ™(
+%160javax.swing.JMenuItem"javax.swing.JMenuItem≠
+™
+
+™ ™(
+%161"1javax.swing.JMenuItem#<init>(Ljava/lang/String;)V*;
+
+__unknown_file (
+
+%160javax.swing.JMenuItem*$
+
+__unknown_file (
+Sitoh
+f
+™ ™(
+
+main.Menu2"
+SITO1"__id*;
+
+__unknown_file (
+
+%160javax.swing.JMenuItemh
+f
+´ ´(
+%162javax.swing.JMenuItem"__id*5
+
+__unknown_file (*
+
+main.Menu2"
+SITO1k
+i
+
+´ ´(
+%163javax.swing.ImageIcon"__id*6
+
+__unknown_file (*
+
+main.Menu2"
+image8ÎË
+´ ´(
+%164void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
+
+__unknown_file (
+
+%162javax.swing.JMenuItem*;
+
+__unknown_file (
+
+%163javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)<:
+
+¨ ¨(
+%165javax.swing.JMenu"javax.swing.JMenuß
+§
+
+¨ ¨( 
+%166"-javax.swing.JMenu#<init>(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%165javax.swing.JMenu*&
+
+__unknown_file (
+
+Colorih
+f
+¨ ¨(!
+colorijavax.swing.JMenu"__id*7
+
+__unknown_file (
+
+%165javax.swing.JMenu<:
+
+≠ ≠(
+%167javax.swing.JMenu"javax.swing.JMenu´
+®
+
+≠ ≠((
+%168"-javax.swing.JMenu#<init>(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%167javax.swing.JMenu**
+
+__unknown_file (
+
+ColoriTruel
+j
+≠ ≠()
+
+coloriTruejavax.swing.JMenu"__id*7
+
+__unknown_file (
+
+%167javax.swing.JMenu<:
+
+Æ Æ(
+%169javax.swing.JMenu"javax.swing.JMenu¨
+©
+
+Æ Æ(*
+%170"-javax.swing.JMenu#<init>(Ljava/lang/String;)V*7
+
+__unknown_file (
+
+%169javax.swing.JMenu*+
+
+__unknown_file (
+ColoriFalsem
+k
+Æ Æ(+ 
+coloriFalsejavax.swing.JMenu"__id*7
+
+__unknown_file (
+
+%169javax.swing.JMenuk
+i
+≤ ≤(
+%171javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+REFRESH1àÖ
+≤ ≤( 
+%172void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%171javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)h
+f
+≥ ≥(
+%173javax.swing.JMenuItem"__id*5
+
+__unknown_file (*
+
+main.Menu2"
+SAVE1àÖ
+≥ ≥(
+%174void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%173javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)n
+l
+¥ ¥(
+%175javax.swing.JMenuItem"__id*;
+
+__unknown_file (*
+
+main.Menu2"
+PROPERTIES1àÖ
+¥ ¥(#
+%176void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%175javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)h
+f
+µ µ(
+%177javax.swing.JMenuItem"__id*5
+
+__unknown_file (*
+
+main.Menu2"
+EXIT1àÖ
+µ µ(
+%178void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%177javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)h
+f
+∂ ∂(
+%179javax.swing.JMenuItem"__id*5
+
+__unknown_file (*
+
+main.Menu2"
+INFO1àÖ
+∂ ∂(
+%180void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%179javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+∑ ∑(
+%181javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+MANUALE1àÖ
+∑ ∑( 
+%182void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%181javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)h
+f
+∏ ∏(
+%183javax.swing.JMenuItem"__id*5
+
+__unknown_file (*
+
+main.Menu2"
+SITO1àÖ
+∏ ∏(
+%184void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%183javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+π π(
+%185javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore10àÖ
+π π( 
+%186void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%185javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+∫ ∫(
+%187javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore11àÖ
+∫ ∫( 
+%188void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%187javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+ª ª(
+%189javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore12àÖ
+ª ª( 
+%190void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%189javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+º º(
+%191javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore13àÖ
+º º( 
+%192void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%191javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+Ω Ω(
+%193javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore14àÖ
+Ω Ω( 
+%194void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%193javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+æ æ(
+%195javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore15àÖ
+æ æ( 
+%196void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%195javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+ø ø(
+%197javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore16àÖ
+ø ø( 
+%198void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%197javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+¿ ¿(
+%199javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore17àÖ
+¿ ¿( 
+%200void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%199javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+¡ ¡(
+%201javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore18àÖ
+¡ ¡( 
+%202void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%201javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+¬ ¬(
+%203javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore20àÖ
+¬ ¬( 
+%204void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%203javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+√ √(
+%205javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore21àÖ
+√ √( 
+%206void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%205javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+ƒ ƒ(
+%207javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore22àÖ
+ƒ ƒ( 
+%208void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%207javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+≈ ≈(
+%209javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore23àÖ
+≈ ≈( 
+%210void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%209javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+∆ ∆(
+%211javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore24àÖ
+∆ ∆( 
+%212void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%211javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+« «(
+%213javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore25àÖ
+« «( 
+%214void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%213javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+» »(
+%215javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore26àÖ
+» »( 
+%216void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%215javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+… …(
+%217javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore27àÖ
+… …( 
+%218void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%217javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)k
+i
+   (
+%219javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore28àÖ
+   ( 
+%220void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%219javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)n
+l
+À À(
+%221javax.swing.JMenuItem"__id*;
+
+__unknown_file (*
+
+main.Menu2"
+bloccaFonteàÖ
+À À(#
+%222void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%221javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)o
+m
+Ã Ã(
+%223javax.swing.JMenuItem"__id*<
+
+__unknown_file ( *
+
+main.Menu2"
+sbloccaFonteàÖ
+Ã Ã($
+%224void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*;
+
+__unknown_file (
+
+%223javax.swing.JMenuItem**
+
+__unknown_file (
+
+main.Menu222addActionListener(Ljava/awt/event/ActionListener;)n
+l
+– –(
+%225javax.swing.JMenuItem"__id*;
+
+__unknown_file (*
+
+main.Menu2"
+PROPERTIES1˛˚
+– –(
+%226java.awt.Component"@java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;*;
+
+__unknown_file (
+
+%225javax.swing.JMenuItem*9
+
+__unknown_file (
+
+colorijavax.swing.JMenu2add(Ljava/awt/Component;)ãà
+— —(
+%227javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*9
+
+__unknown_file (
+
+colorijavax.swing.JMenu*=
+
+__unknown_file (!
+
+
+coloriTruejavax.swing.JMenu2add(Ljavax/swing/JMenuItem;)m
+k
+
+“ “(
+%228javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore10çä
+“ “(
+%229javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*=
+
+__unknown_file (!
+
+
+coloriTruejavax.swing.JMenu*;
+
+__unknown_file (
+
+%228javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)m
+k
+
+” ”(
+%230javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore11çä
+” ”(
+%231javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*=
+
+__unknown_file (!
+
+
+coloriTruejavax.swing.JMenu*;
+
+__unknown_file (
+
+%230javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)m
+k
+
+‘ ‘(
+%232javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore12çä
+‘ ‘(
+%233javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*=
+
+__unknown_file (!
+
+
+coloriTruejavax.swing.JMenu*;
+
+__unknown_file (
+
+%232javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)k
+i
+’ ’(
+%234javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore12k
+i
+
+’ ’(
+%235javax.swing.ImageIcon"__id*6
+
+__unknown_file (*
+
+main.Menu2"
+image4ÎË
+’ ’(
+%236void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
+
+__unknown_file (
+
+%234javax.swing.JMenuItem*;
+
+__unknown_file (
+
+%235javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)m
+k
+
+÷ ÷(
+%237javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore13çä
+÷ ÷(
+%238javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*=
+
+__unknown_file (!
+
+
+coloriTruejavax.swing.JMenu*;
+
+__unknown_file (
+
+%237javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)m
+k
+
+◊ ◊(
+%239javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore14çä
+◊ ◊(
+%240javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*=
+
+__unknown_file (!
+
+
+coloriTruejavax.swing.JMenu*;
+
+__unknown_file (
+
+%239javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)m
+k
+
+ÿ ÿ(
+%241javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore15çä
+ÿ ÿ(
+%242javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*=
+
+__unknown_file (!
+
+
+coloriTruejavax.swing.JMenu*;
+
+__unknown_file (
+
+%241javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)m
+k
+
+Ÿ Ÿ(
+%243javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore16çä
+Ÿ Ÿ(
+%244javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*=
+
+__unknown_file (!
+
+
+coloriTruejavax.swing.JMenu*;
+
+__unknown_file (
+
+%243javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)m
+k
+
+⁄ ⁄(
+%245javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore17çä
+⁄ ⁄(
+%246javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*=
+
+__unknown_file (!
+
+
+coloriTruejavax.swing.JMenu*;
+
+__unknown_file (
+
+%245javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)m
+k
+
+€ €(
+%247javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore18çä
+€ €(
+%248javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*=
+
+__unknown_file (!
+
+
+coloriTruejavax.swing.JMenu*;
+
+__unknown_file (
+
+%247javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)åâ
+‹ ‹(
+%249javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*9
+
+__unknown_file (
+
+colorijavax.swing.JMenu*>
+
+__unknown_file ("
+ 
+coloriFalsejavax.swing.JMenu2add(Ljavax/swing/JMenuItem;)m
+k
+
+› ›(
+%250javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore20éã
+› ›(
+%251javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*>
+
+__unknown_file ("
+ 
+coloriFalsejavax.swing.JMenu*;
+
+__unknown_file (
+
+%250javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)k
+i
+ﬁ ﬁ(
+%252javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore20k
+i
+
+ﬁ ﬁ(
+%253javax.swing.ImageIcon"__id*6
+
+__unknown_file (*
+
+main.Menu2"
+image4ÎË
+ﬁ ﬁ(
+%254void"7javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V*;
+
+__unknown_file (
+
+%252javax.swing.JMenuItem*;
+
+__unknown_file (
+
+%253javax.swing.ImageIcon2setIcon(Ljavax/swing/Icon;)m
+k
+
+ﬂ ﬂ(
+%255javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore21éã
+ﬂ ﬂ(
+%256javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*>
+
+__unknown_file ("
+ 
+coloriFalsejavax.swing.JMenu*;
+
+__unknown_file (
+
+%255javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)m
+k
+
+‡ ‡(
+%257javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore22éã
+‡ ‡(
+%258javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*>
+
+__unknown_file ("
+ 
+coloriFalsejavax.swing.JMenu*;
+
+__unknown_file (
+
+%257javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)m
+k
+
+· ·(
+%259javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore23éã
+· ·(
+%260javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*>
+
+__unknown_file ("
+ 
+coloriFalsejavax.swing.JMenu*;
+
+__unknown_file (
+
+%259javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)m
+k
+
+‚ ‚(
+%261javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore24éã
+‚ ‚(
+%262javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*>
+
+__unknown_file ("
+ 
+coloriFalsejavax.swing.JMenu*;
+
+__unknown_file (
+
+%261javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)m
+k
+
+„ „(
+%263javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore25éã
+„ „(
+%264javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*>
+
+__unknown_file ("
+ 
+coloriFalsejavax.swing.JMenu*;
+
+__unknown_file (
+
+%263javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)m
+k
+
+‰ ‰(
+%265javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore26éã
+‰ ‰(
+%266javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*>
+
+__unknown_file ("
+ 
+coloriFalsejavax.swing.JMenu*;
+
+__unknown_file (
+
+%265javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)m
+k
+
+Â Â(
+%267javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore27éã
+Â Â(
+%268javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*>
+
+__unknown_file ("
+ 
+coloriFalsejavax.swing.JMenu*;
+
+__unknown_file (
+
+%267javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)m
+k
+
+Ê Ê(
+%269javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+colore28éã
+Ê Ê(
+%270javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*>
+
+__unknown_file ("
+ 
+coloriFalsejavax.swing.JMenu*;
+
+__unknown_file (
+
+%269javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)e
+c
+Á Á(
+%271javax.swing.JMenu"__id*6
+
+__unknown_file (*
+
+main.Menu2"
+menu11m
+k
+
+Á Á(
+%272javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+REFRESH1áÑ
+Á Á(
+%273javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*7
+
+__unknown_file (
+
+%271javax.swing.JMenu*;
+
+__unknown_file (
+
+%272javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)e
+c
+Ë Ë(
+%274javax.swing.JMenu"__id*6
+
+__unknown_file (*
+
+main.Menu2"
+menu11j
+h
+
+Ë Ë(
+%275javax.swing.JMenuItem"__id*5
+
+__unknown_file (*
+
+main.Menu2"
+SAVE1áÑ
+Ë Ë(
+%276javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*7
+
+__unknown_file (
+
+%274javax.swing.JMenu*;
+
+__unknown_file (
+
+%275javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)e
+c
+È È(
+%277javax.swing.JMenu"__id*6
+
+__unknown_file (*
+
+main.Menu2"
+menu11p
+n
+
+È È(
+%278javax.swing.JMenuItem"__id*;
+
+__unknown_file (*
+
+main.Menu2"
+PROPERTIES1áÑ
+È È(
+%279javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*7
+
+__unknown_file (
+
+%277javax.swing.JMenu*;
+
+__unknown_file (
+
+%278javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)e
+c
+Í Í(
+%280javax.swing.JMenu"__id*6
+
+__unknown_file (*
+
+main.Menu2"
+menu11j
+h
+
+Í Í(
+%281javax.swing.JMenuItem"__id*5
+
+__unknown_file (*
+
+main.Menu2"
+EXIT1áÑ
+Í Í(
+%282javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*7
+
+__unknown_file (
+
+%280javax.swing.JMenu*;
+
+__unknown_file (
+
+%281javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)h
+f
+Î Î(	
+%283javax.swing.JMenu"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	helpmenu1j
+h
+
+Î Î(
+%284javax.swing.JMenuItem"__id*5
+
+__unknown_file (*
+
+main.Menu2"
+INFO1áÑ
+Î Î(
+%285javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*7
+
+__unknown_file (
+
+%283javax.swing.JMenu*;
+
+__unknown_file (
+
+%284javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)h
+f
+Ï Ï(	
+%286javax.swing.JMenu"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	helpmenu1m
+k
+
+Ï Ï(
+%287javax.swing.JMenuItem"__id*8
+
+__unknown_file (*
+
+main.Menu2"
+
+MANUALE1áÑ
+Ï Ï(
+%288javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*7
+
+__unknown_file (
+
+%286javax.swing.JMenu*;
+
+__unknown_file (
+
+%287javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)h
+f
+Ì Ì(	
+%289javax.swing.JMenu"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	helpmenu1j
+h
+
+Ì Ì(
+%290javax.swing.JMenuItem"__id*5
+
+__unknown_file (*
+
+main.Menu2"
+SITO1áÑ
+Ì Ì(
+%291javax.swing.JMenuItem"Ejavax.swing.JMenu#add(Ljavax/swing/JMenuItem;)Ljavax/swing/JMenuItem;*7
+
+__unknown_file (
+
+%289javax.swing.JMenu*;
+
+__unknown_file (
+
+%290javax.swing.JMenuItem2add(Ljavax/swing/JMenuItem;)g
+e
+
+Ô Ô(
+
+%292javax.swing.JMenu"__id*6
+
+__unknown_file (*
+
+main.Menu2"
+menu11ÈÊ
+Ô Ô(
+%293javax.swing.JMenu"@javax.swing.JMenuBar#add(Ljavax/swing/JMenu;)Ljavax/swing/JMenu;**
+
+__unknown_file (
+
+main.Menu2*7
+
+__unknown_file (
+
+%292javax.swing.JMenu2add(Ljavax/swing/JMenu;)j
+h
+
+ (
+%294javax.swing.JMenu"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	helpmenu1ÈÊ
+ (
+%295javax.swing.JMenu"@javax.swing.JMenuBar#add(Ljavax/swing/JMenu;)Ljavax/swing/JMenu;**
+
+__unknown_file (
+
+main.Menu2*7
+
+__unknown_file (
+
+%294javax.swing.JMenu2add(Ljavax/swing/JMenu;)*
+0*Ç
+2
+ê ê(Zl
+j
+
+ê ê(Z
+
+main.Menu2"	
+image10"__id*;
+
+__unknown_file (
+
+%111javax.swing.ImageIcon*
+1*¶
+5
+ê
+ ê(ZDB
+
+ê ê(
+%111javax.swing.ImageIcon"javax.swing.ImageIcon…
+∆
+
+ê
+ ê(Z
+%112"/javax.swing.ImageIcon#<init>(Ljava/awt/Image;)V*;
+
+__unknown_file (
+
+%111javax.swing.ImageIcon*B
+
+__unknown_file (&
+$
+%110java.awt.image.BufferedImage*
+2*Å
+6
+ê ê(YÍ
+Á
+
+ê ê(Y$
+%110java.awt.image.BufferedImage"Hjavax.imageio.ImageIO#read(Ljava/io/File;)Ljava/awt/image/BufferedImage;*5
+
+__unknown_file ("
+javax.imageio.ImageIO*2
+
+__unknown_file (
+
+%108java.io.File*
+5*æ
+7
+è è(Wk
+i
+
+è è(W
+
+main.Menu2"
+image9"__id*;
+
+__unknown_file (
+
+%100javax.swing.ImageIconi
+g
+
+ê0 ê(9
+%102java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorÑ
+Å
+
+ê. ê(9
+%103java.lang.String"__concat*%
+
+ê. ê(/
+
+ajava.lang.String*(
+
+ê0 ê(9
+
+%102java.lang.Stringt
+r
+
+ê. ê(@
+%104java.lang.String"__concat*(
+
+ê. ê(9
+
+%103java.lang.String*
+
+ê: ê(@
+Iconi
+g
+
+êA ê(J
+%105java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorá
+Ñ
+
+ê. ê(J
+%106java.lang.String"__concat*(
+
+ê. ê(@
+
+%104java.lang.String*(
+
+êA ê(J
+
+%105java.lang.Stringz
+x
+
+ê. ê(W
+%107java.lang.String"__concat*(
+
+ê. ê(J
+
+%106java.lang.String*
+
+êK ê(W
+
+unlock.png20
+
+ê) ê(-
+%108java.io.File"java.io.File≠
+™
+
+ê% ê(X
+%109"(java.io.File#<init>(Ljava/lang/String;)V*2
+
+__unknown_file (
+
+%108java.io.File*6
+
+__unknown_file (
+
+%107java.lang.String*
+6*•
+8
+è	 è(WDB
+
+è è(
+%100javax.swing.ImageIcon"javax.swing.ImageIcon»
+≈
+
+è	 è(W
+%101"/javax.swing.ImageIcon#<init>(Ljava/awt/Image;)V*;
+
+__unknown_file (
+
+%100javax.swing.ImageIcon*A
+
+__unknown_file (%
+#
+%99java.awt.image.BufferedImage*
+7*ˇ
+9
+è è(VË
+Â
+
+è è(V#
+%99java.awt.image.BufferedImage"Hjavax.imageio.ImageIO#read(Ljava/io/File;)Ljava/awt/image/BufferedImage;*5
+
+__unknown_file ("
+javax.imageio.ImageIO*1
+
+__unknown_file (
+
+%97java.io.File*
+8*§
+20
+ã	 ã(WCA
+
+ã ã(
+%56javax.swing.ImageIcon"javax.swing.ImageIcon∆
+√
+
+ã	 ã(W
+%57"/javax.swing.ImageIcon#<init>(Ljava/awt/Image;)V*:
+
+__unknown_file (
+
+%56javax.swing.ImageIcon*A
+
+__unknown_file (%
+#
+%55java.awt.image.BufferedImage*
+19*Å
+21
+ã ã(VË
+Â
+
+ã ã(V#
+%55java.awt.image.BufferedImage"Hjavax.imageio.ImageIO#read(Ljava/io/File;)Ljava/awt/image/BufferedImage;*5
+
+__unknown_file ("
+javax.imageio.ImageIO*1
+
+__unknown_file (
+
+%53java.io.File*
+20*≠
+22
+ä ä(Xj
+h
+
+ä ä(X
+
+main.Menu2"
+image4"__id*:
+
+__unknown_file (
+
+%45javax.swing.ImageIconh
+f
+
+ã/ ã(8
+%47java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorÅ
+
+
+ã- ã(8
+%48java.lang.String"__concat*%
+
+ã- ã(.
+
+ajava.lang.String*'
+
+ã/ ã(8
+
+%47java.lang.Stringr
+p
+
+ã- ã(?
+%49java.lang.String"__concat*'
+
+ã- ã(8
+
+%48java.lang.String*
+
+ã9 ã(?
+Iconh
+f
+
+ã@ ã(I
+%50java.lang.String"__id*9
+
+__unknown_file (*
+
+main.Menu2"
+	separetorÑ
+Å
+
+ã- ã(I
+%51java.lang.String"__concat*'
+
+ã- ã(?
+
+%49java.lang.String*'
+
+ã@ ã(I
+
+%50java.lang.Stringv
+t
+
+ã- ã(T
+%52java.lang.String"__concat*'
+
+ã- ã(I
+
+%51java.lang.String*
+
+ãJ ã(T
+
+exit.png1/
+
+ã( ã(,
+%53java.io.File"java.io.File™
+ß
+
+ã$ ã(U
+%54"(java.io.File#<init>(Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%53java.io.File*5
+
+__unknown_file (
+
+%52java.lang.String*
+21*§
+23
+ä	 ä(XCA
+
+ä ä(
+%45javax.swing.ImageIcon"javax.swing.ImageIcon∆
+√
+
+ä	 ä(X
+%46"/javax.swing.ImageIcon#<init>(Ljava/awt/Image;)V*:
+
+__unknown_file (
+
+%45javax.swing.ImageIcon*A
+
+__unknown_file (%
+#
+%44java.awt.image.BufferedImage*
+22B
 
 main.Menu2H

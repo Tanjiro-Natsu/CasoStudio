@@ -1,3 +1,1 @@
-main.GUI2#metadatisave()Ljava/lang/String;
-==
-toString main.MetaData#toString()Ljava/lang/String;
+main.GUI2#setcolor1(Ljava/awt/Color;)V

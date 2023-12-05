@@ -1,73 +1,15 @@
 
-"__sonar_lambda_125$main.MenuWriteri
-]/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/MenuWriter.java§ §(;"startingBlock*®
-startingBlock
-§ §(;v
-t
+Amain.WriteInformation#setColorForeground()Ljavax/swing/JTextPane;m
+c/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/WriteInformation.java ($"1*™
+1/ (3p
+n
+/ (3
+%0javax.swing.JTextPane"__id*?
 
-__unknown_file (
-djavax.swing.JTextPane"__id*6
-
-__unknown_file (*
-main.MenuWriter"
-dç
-ä
-
-__unknown_file ("
-MenuWriter.thismain.MenuWriter"__id*D
-
-__unknown_file ((*&
-main.MenuWriter"
-MenuWriter.this*
-1*¥
-1
-§ §(x
-v
-
-§/ §(1
-%494java.lang.String"__id*H
-
-__unknown_file (,**
-"
-MenuWriter.thismain.MenuWriter"
-yo42
-
-§* §(.
-%495java.awt.Font"java.awt.Font˘
-ˆ
-
-§& §(:
-%496"+java.awt.Font#<init>(Ljava/lang/String;II)V*3
-
-__unknown_file (
-
-%495java.awt.Font*6
-
-__unknown_file (
-
-%494java.lang.String*"
-
-__unknown_file (
-""*"
-
-__unknown_file (
-""ÿ’
-
-§ §(;
-%497void"0javax.swing.JComponent#setFont(Ljava/awt/Font;)V*8
-
-__unknown_file (
-
-djavax.swing.JTextPane*3
-
-__unknown_file (
-
-%495java.awt.Font2setFont(Ljava/awt/Font;)"
-
-§ §(;
-
-%497void:-
-
-§ §(
-ejava.awt.event.ActionEventB!
-java.awt.event.ActionListener
+__unknown_file (#*!
+main.WriteInformation"
+area")
+( (4
+
+%0javax.swing.JTextPaneB
+main.WriteInformationH

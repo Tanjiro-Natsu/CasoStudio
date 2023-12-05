@@ -8,6 +8,7 @@ import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
 import java.io.Serializable;
+import java.nio.charset.StandardCharsets;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -101,10 +102,10 @@ ss.add(dd);
 		  g.add(new JLabel("                                              "),BorderLayout.SOUTH);
 		  g.add(new JLabel("                        "),BorderLayout.EAST);
 		  g.add(new JLabel("                        "),BorderLayout.WEST);
-		  JScrollPane scrollPane = new JScrollPane(b);
+		  JScrollPane scrollPane = new JScrollPane(b1);
      	 g.add(scrollPane,BorderLayout.CENTER);
 		  
-	b1.setText(getext(v));
+b1.setText(getext(v));
 			
 		  g.setVisible(true);
 	}
@@ -126,7 +127,7 @@ ss.add(dd);
 			setJLabel(imgB,v);
 		} catch (IOException e) {
 			
-			e.printStackTrace();
+			System.out.println(e.getMessage());
 		}
 	
 		b.setJMenuBar(new ImageMenu(imgB,v,getbyteimg(v)));
@@ -142,7 +143,7 @@ ss.add(dd);
 		 s.setIcon(icon);
 	} catch (IOException e) {
 		
-		e.printStackTrace();
+		System.out.println(e.getMessage());
 	}}
 	public static void setJLabel(BufferedImage dd,String v) {
 		
@@ -169,8 +170,7 @@ ss.add(dd);
 		          String sqlPassword = Accesso.getPassword();
 		          String connectionUrl =Accesso.getjdbc()+";encrypt=false";
 		          Class.forName(jdbc);
-		           conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
-		         
+		           conn = DriverManager.getConnection(connectionUrl,sqlUser,sqlPassword);
 		          String query="SELECT file_stream FROM  Testo  WHERE name=?;";
 		     	  stmt=conn.prepareStatement(query);
 		     	 stmt.setString(1,v);
@@ -183,7 +183,7 @@ ss.add(dd);
 		        		 
 		        	 }
 		        	 
-		        	 dd=new  String(e);
+		        	 dd=new  String(e,StandardCharsets.UTF_8);
 		        	 
 		        	
 		          }
@@ -215,7 +215,7 @@ ss.add(dd);
 				 Class.forName(jdbc);
 				 
 		          String sqlUser = Accesso.getUser();
-		          String sqlPassword = Accesso.getPassword(); //passwrod sa account
+		          String sqlPassword = Accesso.getPassword();
 		          String connectionUrl =Accesso.getjdbc()+";encrypt=false";
 		          Class.forName(jdbc);
 

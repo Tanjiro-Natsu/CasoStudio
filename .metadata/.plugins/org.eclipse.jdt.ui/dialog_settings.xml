@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Program Files\Microsoft JDBC DRIVER 12.2 per SQL Server\sqljdbc_12.2\ita"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\Marco\Downloads\commons-io-2.15.1-bin\commons-io-2.15.1"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -42,13 +42,13 @@
 	</section>
 	<section name="ProblemSeveritiesConfigurationBlock">
 		<item key="expanded0" value="false"/>
-		<item key="expanded1" value="true"/>
+		<item key="expanded1" value="false"/>
 		<item key="expanded2" value="false"/>
 		<item key="expanded3" value="false"/>
 		<item key="expanded4" value="false"/>
 		<item key="expanded5" value="false"/>
 		<item key="expanded6" value="false"/>
-		<item key="expanded7" value="false"/>
+		<item key="expanded7" value="true"/>
 		<item key="expanded8" value="false"/>
 	</section>
 </section>

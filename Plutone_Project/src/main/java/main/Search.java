@@ -38,13 +38,13 @@ public class Search extends JFrame {
  public String getArgomento() {return argomento;}
  public String getFonte() {return fonte;}
 	private void sets() {s.setText("");}private void sets1() {s1.setText("");}
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		Search a=new Search();
 		a.ok();
 		
 		a.error(ARGOMENTO, "ciao",1);
 				
-	}
+	}*/
 	public Search() {
 		setTitle("Search");
 		setSize(400,250);
@@ -109,7 +109,8 @@ public class Search extends JFrame {
 		fonte=s.getText();
 		argomento=s1.getText();
 		int u=0;
-		Connection conn =null;
+		 Connection conn=null;
+		 
 		try {
 			 Class.forName(driver);
 			 
@@ -119,8 +120,8 @@ public class Search extends JFrame {
 	         
 
 	          
-	         
-	           conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
+	          
+	          conn= DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
 	          if(argomento.equals("")){
 	        	 u=split1(conn);   	
 	  		}

@@ -20,7 +20,7 @@ public class WriteInformation extends JFrame{
 	public WriteInformation() {
 		setTitle("Writer");
 		setSize(800,600);
-		  this.setLocation(350,100 );
+		  this.setLocation(350,100);
 		setLayout(new BorderLayout());
 		final JPanel s=new JPanel();
 		s.setLayout(new GridLayout(1,4));

@@ -1,1 +1,1 @@
-main.Accesso#instance-init#
+main.Accesso#getjdbc()Ljava/lang/String;

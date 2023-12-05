@@ -1,1 +1,1 @@
-main.GUI#setcolor1(Ljava/awt/Color;)V
+main.GUI#getresult()Z

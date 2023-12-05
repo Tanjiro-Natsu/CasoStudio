@@ -1,8 +1,8 @@
 
-!__sonar_lambda_81$main.MenuWriteri
-]/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/MenuWriter.javaø ø(-"startingBlock*¨
+!__sonar_lambda_82$main.MenuWriteri
+]/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/MenuWriter.javaú ú(-"startingBlock*¨
 startingBlock
-ø ø(-v
+ú ú(-v
 t
 
 __unknown_file (
@@ -21,19 +21,19 @@ t
 MenuWriter.this*
 1*
 1
-ø ø(v
+ú ú(v
 t
 
-ø* ø(,
-%214java.awt.Color"__id*H
+ú* ú(,
+%222java.awt.Color"__id*H
 
 __unknown_file (,**
 "
 MenuWriter.thismain.MenuWriter"
-q4çä
+q6çä
 
-ø ø(-
-%215void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*8
+ú ú(-
+%223void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*8
 
 __unknown_file (
 
@@ -41,12 +41,12 @@ t
 
 __unknown_file (
 
-%214java.awt.Color2setForeground(Ljava/awt/Color;)"
+%222java.awt.Color2setForeground(Ljava/awt/Color;)"
 
-ø ø(-
+ú ú(-
 
-%215void:-
+%223void:-
 
-ø ø(
+ú ú(
 ejava.awt.event.ActionEventB!
 java.awt.event.ActionListener

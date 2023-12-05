@@ -18,6 +18,8 @@ import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.WindowConstants;
 
+import org.apache.commons.io.FilenameUtils;
+
 public class MenuSearch extends JMenuBar{
 	
 	private static final long serialVersionUID = 1L;
@@ -337,7 +339,7 @@ public class MenuSearch extends JMenuBar{
 			try {
 			
 				Path path=Paths.get("");
-		 	     String v=path.toAbsolutePath().normalize().toString();v=new StringBuilder().append(v).append("\\").append(t.getText()).append(".txt").toString();dd=new PrintWriter(v);
+		 	     String v=path.toAbsolutePath().toString();v=FilenameUtils.normalize(v);v=new StringBuilder().append(v).append("\\").append(t.getText()).append(".txt").toString();dd=new PrintWriter(v);
 				dd.write(a);
 				
 			}

@@ -56,8 +56,8 @@ return m;
 		 ResultSet k=null;
 		 String query=null;
 		double m=0;
-		Connection conn=null;
-		 java.sql.PreparedStatement stmt=null;
+		Connection conn;
+		 java.sql.PreparedStatement stmt;
 		try {
 		 Class.forName(sqldriverString);
 		 
@@ -84,14 +84,13 @@ return m;
      }
      if(f==0) {return 1.0;}
    
-   	 
+     stmt.close();conn.close();
        
 		}
 	
 		catch(Exception e) {
 			System.out.println(e.getMessage());
 		}
-		finally {try{  stmt.close();conn.close();}catch(SQLException e) {System.out.println(e.getMessage());}}
 			
 		
 			

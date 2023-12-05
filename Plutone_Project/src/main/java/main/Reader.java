@@ -19,6 +19,7 @@ import javax.swing.JTextPane;
 import javax.swing.WindowConstants;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
+import org.apache.commons.io.FilenameUtils;
 public class Reader {
 	static File o=null;
 	static  String rty;
@@ -48,8 +49,8 @@ public class Reader {
     	 t.add(fg);
     	 t.add(new JLabel());
     	 ok.addActionListener(e->{if(e.getActionCommand().equals("Ok")) {rty=aq.getText();t.dispose();rty=v+separetor+rty;PrintWriter xx=null;try {	
- 			
- 			xx=new PrintWriter(new File(rty) );
+ 			String path11=FilenameUtils.normalize(rty);
+ 			xx=new PrintWriter(new File(path11));
  			xx.write(j.getText());
  			xx.close();
  		}
@@ -92,7 +93,7 @@ public class Reader {
 		
 		return g;
 	}
-	public static void main(String [] args) {
+	/*public static void main(String [] args) {
 		JFrame k=new JFrame();
 	JButton h=new JButton("Ciao");
 	k.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -104,6 +105,6 @@ public class Reader {
 	
 	h.addActionListener(e-> {if(e.getActionCommand().equals("Ciao")) {o=Reader.chooser(d);Reader.reader(o.getAbsolutePath());}});
 	
-	}
+	}*/
 
 }

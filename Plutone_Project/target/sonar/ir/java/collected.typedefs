@@ -63,11 +63,10 @@
 <init>main.VeerificaTesto#<init>()V%
 checkmain.VeerificaTesto#check()I-
 	confronto main.VeerificaTesto#confronto()D9
-reader/main.VeerificaTesto#reader(Ljava/lang/String;)Djava.lang.Object∞
+reader/main.VeerificaTesto#reader(Ljava/lang/String;)Djava.lang.ObjectÄ
 main.Reader
 <init>main.Reader#<init>()VB
-chooser7main.Reader#chooser(Ljavax/swing/JPanel;)Ljava/io/File;.
-main&main.Reader#main([Ljava/lang/String;)VB
+chooser7main.Reader#chooser(Ljavax/swing/JPanel;)Ljava/io/File;B
 reader8main.Reader#reader(Ljava/lang/String;)Ljava/lang/String;6
 writer,main.Reader#writer(Ljavax/swing/JTextPane;)Vjava.lang.Objectè
 main.MenuWriter:
@@ -135,7 +134,7 @@
 databaseconfermation*main.VerificaFonte#databaseconfermation()IB
 databasejpg3main.VerificaFonte#databasejpg(Ljava/lang/String;)D1
 databasetxt"main.VerificaFonte#databasetxt()[B[
-fonteverificataHmain.VerificaFonte#fonteverificata(Ljava/lang/String;)Ljava/lang/String;java.lang.Object¡
+fonteverificataHmain.VerificaFonte#fonteverificata(Ljava/lang/String;)Ljava/lang/String;java.lang.Objectî
 	main.GUI2
 <init>main.GUI2#<init>()V
 COLOR1main.GUI2#COLOR1()V
@@ -151,15 +150,14 @@
 metadatamain.GUI2#metadata()V:
 metadatisave*main.GUI2#metadatisave()Ljava/lang/String;)
 metav main.GUI2#metav(Ljava/io/File;)V
-refreshmain.GUI2#refresh()V
-runmain.GUI2#run()V3
+refreshmain.GUI2#refresh()V3
 	setcolor1&main.GUI2#setcolor1(Ljava/awt/Color;)V3
 	setcolor2&main.GUI2#setcolor2(Ljava/awt/Color;)V
 sett1main.GUI2#sett1()V
 sett2main.GUI2#sett2()V
 sett3main.GUI2#sett3()V
 sett4main.GUI2#sett4()V<
-verificaFonte+main.GUI2#verificaFonte()Ljava/lang/String;java.awt.event.ActionListenerjava.lang.Runnablejavax.swing.JFrameÎ
+verificaFonte+main.GUI2#verificaFonte()Ljava/lang/String;java.awt.event.ActionListenerjavax.swing.JFrameÎ
 main.Accesso 
 <init>main.Accesso#<init>()V;
 getPassword,main.Accesso#getPassword()Ljava/lang/String;3
@@ -181,10 +179,9 @@ getrifiuta+main.Menu#getrifiuta()Ljavax/swing/JButton;;
 main.VerificaImmagine)
 <init>main.VerificaImmagine#<init>()VE
 databaseconfermation-main.VerificaImmagine#databaseconfermation()I=
-imagec3main.VerificaImmagine#imagec(Ljava/lang/String;[B)Djava.lang.Objectu
+imagec3main.VerificaImmagine#imagec(Ljava/lang/String;[B)Djava.lang.ObjectD
 main.Chooser 
-<init>main.Chooser#<init>()V/
-main'main.Chooser#main([Ljava/lang/String;)Vjavax.swing.JFrame∞
+<init>main.Chooser#<init>()Vjavax.swing.JFrame∞
 
 main.Menu2
 <init>main.Menu2#<init>()VL
@@ -367,7 +364,7 @@ setcolor10main.ImageMenu#setcolor10()V(
 geta7)main.MetaData#geta7()Ljavax/swing/JLabel;2
 geta8)main.MetaData#geta8()Ljavax/swing/JLabel;2
 geta9)main.MetaData#geta9()Ljavax/swing/JLabel;6
-toString*main.MetaData#toString()Ljava/lang/String;javax.swing.JFrame∑
+toString*main.MetaData#toString()Ljava/lang/String;javax.swing.JFrameã
 main.GUI
 <init>main.GUI#<init>()V
 Color1main.GUI#Color1()V
@@ -384,15 +381,14 @@ setcolor10main.ImageMenu#setcolor10()V(
 metadatamain.GUI#metadata()V9
 metadatisave)main.GUI#metadatisave()Ljava/lang/String;(
 metavmain.GUI#metav(Ljava/io/File;)V
-refreshmain.GUI#refresh()V
-runmain.GUI#run()V2
+refreshmain.GUI#refresh()V2
 	setcolor1%main.GUI#setcolor1(Ljava/awt/Color;)V2
 	setcolor2%main.GUI#setcolor2(Ljava/awt/Color;)V
 sett1main.GUI#sett1()V
 sett2main.GUI#sett2()V
 sett3main.GUI#sett3()V
 sett4main.GUI#sett4()V;
-verificaFonte*main.GUI#verificaFonte()Ljava/lang/String;java.awt.event.ActionListenerjava.lang.Runnablejavax.swing.JFrame∏
+verificaFonte*main.GUI#verificaFonte()Ljava/lang/String;java.awt.event.ActionListenerjavax.swing.JFrameà
 main.Search
 <init>main.Search#<init>()VB
 error9main.Search#error(Ljava/lang/String;Ljava/lang/String;I)V!
@@ -401,8 +397,7 @@ setcolor10main.ImageMenu#setcolor10()V(
 
 getFileTxt(main.Search#getFileTxt()Ljava/util/List;:
 getFileimage*main.Search#getFileimage()Ljava/util/List;4
-getFonte(main.Search#getFonte()Ljava/lang/String;.
-main&main.Search#main([Ljava/lang/String;)V
+getFonte(main.Search#getFonte()Ljava/lang/String;
 okmain.Search#ok()V
 setsmain.Search#sets()V
 sets1main.Search#sets1()V4

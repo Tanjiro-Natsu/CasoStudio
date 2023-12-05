@@ -1,5 +1,1 @@
-main.MenuWriter#instance-init#
-java.awt.Font#<init>(Ljava/lang/String;II)V
-java.awt.Font#instance-init#
-javax.swing.JMenuItem#<init>(Ljava/lang/String;)V
-javax.swing.JMenuItem#instance-init#
+main.MenuWriter#getq1()Ljava/awt/Color;

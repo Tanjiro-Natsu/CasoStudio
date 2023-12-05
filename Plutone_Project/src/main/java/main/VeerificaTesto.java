@@ -1,10 +1,14 @@
 package main;
 
 import java.util.ArrayList;
+
+import org.junit.platform.commons.logging.LoggerFactory;
+
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 public class VeerificaTesto {
+	org.junit.platform.commons.logging.Logger logger = LoggerFactory.getLogger(this.getClass());
      private  static ArrayList<String> daverificare=new ArrayList<String>();
       private static ArrayList<String> listavero=new ArrayList<String>();
       
@@ -38,12 +42,8 @@ try{
      }
     
       k=confronto();
-     
      daverificare.clear();
      listavero.clear();
-     tot=0;
-     
-   
     }
    
      catch(Exception dd){

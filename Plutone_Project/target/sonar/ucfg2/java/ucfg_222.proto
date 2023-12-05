@@ -1,8 +1,8 @@
 
-"__sonar_lambda_102$main.MenuWriteri
-]/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/MenuWriter.javaç ç(9"startingBlock*®
+"__sonar_lambda_103$main.MenuWriteri
+]/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/MenuWriter.javaè è(9"startingBlock*®
 startingBlock
-ç ç(9v
+è è(9v
 t
 
 __unknown_file (
@@ -21,39 +21,39 @@ t
 MenuWriter.this*
 1*≤
 1
-ç ç(x
+è è(x
 v
 
-ç. ç(0
-%335java.lang.String"__id*H
+è. è(0
+%349java.lang.String"__id*H
 
 __unknown_file (,**
 "
 MenuWriter.thismain.MenuWriter"
 yo42
 
-ç) ç(-
-%336java.awt.Font"java.awt.Font˜
+è) è(-
+%350java.awt.Font"java.awt.Font˜
 Ù
 
-ç% ç(8
-%337"+java.awt.Font#<init>(Ljava/lang/String;II)V*3
+è% è(8
+%351"+java.awt.Font#<init>(Ljava/lang/String;II)V*3
 
 __unknown_file (
 
-%336java.awt.Font*6
+%350java.awt.Font*6
 
 __unknown_file (
 
-%335java.lang.String*"
+%349java.lang.String*"
 
 __unknown_file (
 ""* 
 
-__unknown_file (2*ÿ’
+__unknown_file (20ÿ’
 
-ç ç(9
-%338void"0javax.swing.JComponent#setFont(Ljava/awt/Font;)V*8
+è è(9
+%352void"0javax.swing.JComponent#setFont(Ljava/awt/Font;)V*8
 
 __unknown_file (
 
@@ -61,12 +61,12 @@ v
 
 __unknown_file (
 
-%336java.awt.Font2setFont(Ljava/awt/Font;)"
+%350java.awt.Font2setFont(Ljava/awt/Font;)"
 
-ç ç(9
+è è(9
 
-%338void:-
+%352void:-
 
-ç ç(
+è è(
 ejava.awt.event.ActionEventB!
 java.awt.event.ActionListener
