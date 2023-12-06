@@ -333,8 +333,8 @@ public class MenuSearch extends JMenuBar{
 		 t.setBorder(BorderFactory.createLineBorder(Color.black));
 		n.add(t);
 		n.add(new JLabel(""));
-		JButton y11=new JButton("Ok");JButton y21=new JButton("Cancel");
-		y11.addActionListener(e-> {
+		JButton y111=new JButton("Ok");JButton y21=new JButton("Cancel");
+		y111.addActionListener(e-> {
 			PrintWriter dd=null;
 			try {
 			
@@ -343,7 +343,7 @@ public class MenuSearch extends JMenuBar{
 				dd.write(a);
 				
 			}
-			catch(Exception e1) {}
+			catch(Exception e1) {System.out.println(e1.getMessage());}
 			dd.close();
 			n.dispose();
 		});
@@ -351,7 +351,7 @@ public class MenuSearch extends JMenuBar{
 		JPanel ff=new JPanel();
 		ff.setLayout(new GridLayout(1,5));
 		ff.add(new JLabel(""));
-		ff.add(y11);
+		ff.add(y111);
 		ff.add(new JLabel(""));
 		ff.add(y21);
 		ff.add(new JLabel(""));

@@ -1,4 +1,4 @@
-main.Search#error(Ljava/lang/String;Ljava/lang/String;I)V
+main.Search#errore1()V
 java.awt.GridLayout#<init>(II)V
 javax.swing.JPanel#<init>()V
 javax.swing.JButton#<init>(Ljava/lang/String;)V
@@ -8,7 +8,6 @@ javax.swing.JPanel#instance-init#
 java.awt.BorderLayout#<init>()V
 javax.swing.JLabel#<init>(Ljava/lang/String;)V
 javax.swing.JFrame#<init>(Ljava/lang/String;)V
-java.lang.String#equals(Ljava/lang/Object;)Z
 javax.swing.JLabel#instance-init#
 java.awt.Font#<init>(Ljava/lang/String;II)V
 java.awt.Font#instance-init#

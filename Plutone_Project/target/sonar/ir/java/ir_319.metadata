@@ -1,3 +1,1 @@
-main.GUI#metadata()V
-==
-dispose java.awt.Window#dispose()V
+main.GUI#setcolor2(Ljava/awt/Color;)V

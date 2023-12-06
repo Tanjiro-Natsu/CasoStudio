@@ -114,22 +114,22 @@ public class GUI2 extends JFrame  implements ActionListener {
 		a1.setIcon(ww);
 		
 		this.setJMenuBar(new Menu2());
-		JPanel a=new JPanel();
+		JPanel a3=new JPanel();
 
 	add(a1);
 	
-	a.setLayout(new GridLayout(5,2));
+	a3.setLayout(new GridLayout(5,2));
 	JLabel r=new JLabel("   Inserire la fonte ");
 	r.setFont(new Font(cooper,Font.PLAIN,14));
-	a.add(r);
-	a.add(new JLabel());
+	a3.add(r);
+	a3.add(new JLabel());
 	
 
 	 button=new JButton("Cerca..");
 	button.addActionListener(this);
 	
 	
-	a.add(t1);
+	a3.add(t1);
 	
 	JPanel u=new JPanel();
     u.setLayout(new GridLayout(3,9));
@@ -166,33 +166,29 @@ public class GUI2 extends JFrame  implements ActionListener {
    u.add(new JLabel());
    u.add(new JLabel());
    u.add(new JLabel());
-   a.add(u);
+   a3.add(u);
 
 	JLabel r1=new JLabel("   Inserire l'argomento");
 	r1.setFont(new Font(cooper,Font.PLAIN,14));
-	a.add(r1);
-	a.add(new JLabel());
+	a3.add(r1);
+	a3.add(new JLabel());
 	
 	
-	a.add(t2);
+	a3.add(t2);
 JPanel a2=new JPanel();
 a2.setLayout(new GridLayout(1,3));
 a2.add(new JLabel());
 a2.add(button);
 a2.add(new JLabel());
-	a.add(a2);
+	a3.add(a2);
 
 	
-	a.add(new JLabel());
+	a3.add(new JLabel());
 	
-	a.add(new JLabel());
+	a3.add(new JLabel());
 	
 	 
-	add(a);
-	
-	
-	
-	//Seconda Parte o Output
+	add(a3);
 	
 	JPanel b=new JPanel();
 	
@@ -262,7 +258,6 @@ a2.add(new JLabel());
     t4.setBackground(Color.WHITE);
 	t4.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.black),""));
 b2.add(t4,BorderLayout.CENTER);
-    //b2.add(scroll,BorderLayout.CENTER);
 b2.add(new JPanel(),BorderLayout.SOUTH);
    
     
@@ -309,7 +304,6 @@ new Thread(new Runnable() {public void run() {
     			JFileChooser chooser1=chooserr();
     			int returnVal1=chooser1.showOpenDialog(a);
             if(returnVal1==JFileChooser.APPROVE_OPTION){}
-                
                 t3.setText(chooser1.getSelectedFile().getName());
                 int s=chooser1.getSelectedFile().toString().length();
                 char q[]=new char [s];
@@ -338,13 +332,16 @@ new Thread(new Runnable() {public void run() {
                 
              
 	} 
+	
     public static String verificaFonte() {
    	 argomento=t2.getText();
 			argomento=argomento.replaceAll(blankSpace,"");
-			String ciao=VerificaFonte.fonteverificata(argomento);
-			String [] ciao1=ciao.split(" ");
 			int t=0;
 			int f1=0;
+			String ciao=VerificaFonte.fonteverificata(argomento);
+			if(ciao!=null) {
+			String [] ciao1=ciao.split(" ");
+			
 			String h=new StringBuilder().append("").append(t1.getText()).toString();
 			System.out.println(h.replaceAll(blankSpace,""));
 			for(int i=0;i<ciao1.length;i++) {
@@ -357,7 +354,8 @@ new Thread(new Runnable() {public void run() {
 						f1=1;
 					}
 					
-			}
+			}}
+    else {j1.setBackground(colore2);}
 			if(t==1) {
 				j1.setBackground(colore1);
 			}
@@ -366,12 +364,13 @@ new Thread(new Runnable() {public void run() {
 			}
 			return ciao;
     }   
-	public static void  metav(File a) {
-		 dc=new MetaData(a.toPath());
+	public static void  metav(File aaaa) {
+		 dc=new MetaData(aaaa.toPath());
 		   
  		
  		if(v.equalsIgnoreCase("txt")){
-             percentuale=VeerificaTesto.reader(a.getAbsolutePath())*100;
+ 			
+             percentuale=VeerificaTesto.reader(aaaa.getAbsolutePath())*100;
             
              if(percentuale>60.00) {
              	j2.setBackground(colore1);
@@ -383,9 +382,9 @@ new Thread(new Runnable() {public void run() {
              }}
          else if(v.equalsIgnoreCase("jpg")){
           	
-          	percentuale=VerificaFonte.databasejpg(a.getAbsolutePath());
+          	percentuale=VerificaFonte.databasejpg(aaaa.getAbsolutePath().toString());
           	
-              System.out.println(percentuale);
+            
               if(percentuale==0.00) {
               	j2.setBackground(colore1);
               	result=true;

@@ -1,16 +1,16 @@
 
  main.VeerificaTesto#confronto()Dk
-a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/VeerificaTesto.java8 8(%"11*ã
-5B B(#t
+a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/VeerificaTesto.java5 5(%"11*ã
+5> >(#t
 r
-B B(#
+> >(#
 %8java.util.ArrayList"__id*E
 
 __unknown_file ()*'
 main.VeerificaTesto"
 daverificareé
 ã
-B B(*
+> >(*
 %9java.lang.String"
 __arrayGet*7
 
@@ -21,14 +21,14 @@ __arrayGet*7
 __unknown_file (
 ""r
 p
-B< B(E
+>< >(E
 %10java.util.ArrayList"__id*B
 
 __unknown_file (&*$
 main.VeerificaTesto"
 	listaveroê
 ç
-B< B(L
+>< >(L
 %11java.lang.String"
 __arrayGet*8
 
@@ -38,7 +38,7 @@ __arrayGet*8
 
 __unknown_file (
 ""ËÂ
-B B(M
+> >(M
 %12boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*4
 
 __unknown_file (
@@ -49,22 +49,22 @@ __arrayGet*8
 
 %11java.lang.String2$equalsIgnoreCase(Ljava/lang/String;)*
 6*ô
-6A A(q
+6= =(q
 o
-A A('
+= =('
 %5java.util.ArrayList"__id*B
 
 __unknown_file (&*$
 main.VeerificaTesto"
 	listaverous
-A A(.	
+= =(.	
 %6int"java.util.ArrayList#size()I*7
 
 __unknown_file (
 
 %5java.util.ArrayList2size()ó
 î
-A A(.
+= =(.
 %7boolean"	__compare*!
 
 __unknown_file (
@@ -78,22 +78,22 @@ o
 %6int*
 5
 8*ú
-8@ @(t
+8< <(t
 r
-@ @(&
+< <(&
 %2java.util.ArrayList"__id*E
 
 __unknown_file ()*'
 main.VeerificaTesto"
 daverificareus
-@ @(-	
+< <(-	
 %3int"java.util.ArrayList#size()I*7
 
 __unknown_file (
 
 %2java.util.ArrayList2size()ó
 î
-@ @(-
+< <(-
 %4boolean"	__compare*!
 
 __unknown_file (
@@ -107,18 +107,18 @@ r
 %3int*
 6
 1*"
-10= =("
-= =(
+109 9("
+9 9(
 ""*ó
-11; ;(j
+117 7(j
 h
-; ;(	
+7 7(	
 %0int"main.VeerificaTesto#check()I*3
 
 __unknown_file ("
 main.VeerificaTestoë
 é
-< <(
+8 8(
 %1boolean"	__compare*"
 
 __unknown_file (
@@ -130,15 +130,15 @@ h
 __unknown_file (2*
 8
 10*˛
-1K K(u
+1G G(u
 s
-K& K(2
+G G( 
 %13java.util.ArrayList"__id*E
 
 __unknown_file ()*'
 main.VeerificaTesto"
 daverificarewu
-K& K(9
+G G('
 
 %14int"java.util.ArrayList#size()I*8
 
@@ -146,19 +146,19 @@ s
 
 %13java.util.ArrayList2size()r
 p
-K: K(C
+G( G(1
 %15java.util.ArrayList"__id*B
 
 __unknown_file (&*$
 main.VeerificaTesto"
 	listaverowu
-K: K(J
+G( G(8
 
 %16int"java.util.ArrayList#size()I*8
 
 __unknown_file (
 
 %15java.util.ArrayList2size()"
-K K(L
+G G(:
 ""B"
 main.VeerificaTestoX

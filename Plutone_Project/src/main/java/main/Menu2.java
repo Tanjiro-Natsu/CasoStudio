@@ -330,7 +330,7 @@ prova1.dispose();
 			try {
 				Desktop.getDesktop().open(file);
 			} catch (IOException e1) {
-				e1.printStackTrace();
+				System.out.println(e1.getMessage());
 			}
 		}
 		else {
@@ -607,7 +607,7 @@ public void pickacolor(ActionEvent e) {
 			String a=path.toAbsolutePath().toString();
 			File file1=new File(a+separetor+locked);
 			if(file1.isDirectory()) {
-				
+				System.out.println("Esiste");
 				
 			}
 			else {
@@ -624,7 +624,7 @@ public void split2() {
 		
 		PrintWriter xx=new PrintWriter(new FileOutputStream(new File(new StringBuilder().append(a).append(separetor).append(locked).append(separetor).append("FontiBloccate.txt").toString()),true));
 		
-		xx.printf(zzz.getText().replace("//s", "")+"\n");
+		xx.printf(new StringBuilder().append(zzz.getText().replace("//s", "")).append("\n").toString());
 		zzz.setText(" ");
 		xx.close();
 
@@ -672,8 +672,7 @@ public void split3() {
 public void split4() {
 	 Path path=Paths.get("");
 	    String a=path.toAbsolutePath().toString();
-	Scanner scanner=null;
-	PrintWriter writer=null;
+	
 	String delete=null;
 	
 	int gh=0;
@@ -687,8 +686,8 @@ public void split4() {
 		gh=2;
 	}
 	else {
-		scanner=new Scanner(file);
-		writer=new PrintWriter(file1);
+		Scanner scanner=new Scanner(file);
+		PrintWriter writer=new PrintWriter(file1);
 		String hl=null;
 		while(scanner.hasNext()) {
 			hl=scanner.next();
@@ -702,7 +701,7 @@ public void split4() {
 		}
 		
 		
-		
+		writer.close();scanner.close();
 		}
 	
 		String n1="";
@@ -735,16 +734,16 @@ public void split4() {
 	  	
 			try {
 				Files.copy(file1.toPath(), file.toPath(),StandardCopyOption.REPLACE_EXISTING);
-				file1.delete();
+				java.nio.file.Files.delete(file1.toPath());
 			} catch (IOException e1) {
 				System.out.println(e1.getMessage());
 			}
-	
+			
 	}
 	catch(Exception e44) {
 		System.out.println(e44.getMessage());
 	}
-	writer.close();scanner.close();
+	
 	
 	prova1.dispose();
 }
@@ -754,7 +753,7 @@ public void split5() {
 	
 	File file=new File(a+separetor+"Save");
 	if(file.isDirectory()) {
-		
+		System.out.println("esiste");
 	}
 	else {
 		file.mkdir();
@@ -772,7 +771,7 @@ public void split5() {
 		else {
 			risultato=" Non approvato ";
 		}
-		xx.printf("Risultato verifica:"+risultato+"\nFile selezionato: "+GUI.getText3()+"\nFonti certificate che ne parlano: "+GUI.getText4()+GUI.metadatisave());
+		xx.printf(new StringBuilder().append("Risultato verifica:").append(risultato).append("\nFile selezionato: ").append(GUI.getText3()).append("\nFonti certificate che ne parlano: ").append(GUI.getText4()).append(GUI.metadatisave()).toString());
 		xx.close();
 
 	} catch (FileNotFoundException e1) {

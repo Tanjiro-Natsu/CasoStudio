@@ -1,39 +1,10 @@
 
 main.VeerificaTesto#check()Ik
-a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/VeerificaTesto.javaO O("129*ı
-24
-\‰ \(ËŸ÷
+a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/VeerificaTesto.javaK K("126*ı
+25
+W≈ W(…Ÿ÷
 
-\‰ \(ˇ
-%58boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*"
-
-__unknown_file (
-di2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-22*˘
-68
-\Ö \(â›⁄
-
-\Ö \(§
-%36boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*&
-
-__unknown_file (
-
-mentre2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-66*ı
-26
-\≈ \(…Ÿ÷
-
-\≈ \(‡
+W≈ W(‡
 %57boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -42,26 +13,12 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (
 se2$equalsIgnoreCase(Ljava/lang/String;)*
-24
-8*¯
-28
-\£ \(ß‹Ÿ
+7
+23*˜
+69
+W‰ W(Ë€ÿ
 
-\£ \(¡
-%56boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*%
-
-__unknown_file (	
-delle2$equalsIgnoreCase(Ljava/lang/String;)*
-26
-8*˜
-70
-\‰ \(Ë€ÿ
-
-\‰ \(Å
+W‰ W(Å
 %35boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -70,12 +27,40 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (
 come2$equalsIgnoreCase(Ljava/lang/String;)*
-68
-8*˘
-72
-\¿ \(ƒ›⁄
+7
+67*¯
+27
+W£ W(ß‹Ÿ
 
-\¿ \(ﬂ
+W£ W(¡
+%56boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*%
+
+__unknown_file (	
+delle2$equalsIgnoreCase(Ljava/lang/String;)*
+25
+7*¯
+29
+WÅ W(Ö‹Ÿ
+
+WÅ W(ü
+%55boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*%
+
+__unknown_file (	
+degli2$equalsIgnoreCase(Ljava/lang/String;)*
+27
+7*˘
+71
+W¿ W(ƒ›⁄
+
+W¿ W(ﬂ
 %34boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -85,26 +70,12 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 __unknown_file (
 
 quindi2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-70*¯
-30
-\Å \(Ö‹Ÿ
+69
+7*¯
+73
+Wü W(£‹Ÿ
 
-\Å \(ü
-%55boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*%
-
-__unknown_file (	
-degli2$equalsIgnoreCase(Ljava/lang/String;)*
-28
-8*¯
-74
-\ü \(£‹Ÿ
-
-\ü \(º
+Wü W(º
 %33boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -113,12 +84,12 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (	
 cio√®2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-72*ˆ
-32
-\· \(Â⁄◊
+7
+71*ˆ
+31
+W· W(Â⁄◊
 
-\· \(˝
+W· W(˝
 %54boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -127,12 +98,12 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (
 dei2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-30*˙
-76
-\˚ \(ˇﬁ€
+29
+7*˙
+75
+W˚ W(ˇﬁ€
 
-\˚ \(õ
+W˚ W(õ
 %32boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -141,12 +112,26 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (	
 infatti2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-74*˚
-78
-\÷ \(⁄ﬂ‹
+7
+73*¯
+33
+Wø W(√‹Ÿ
 
-\÷ \(˜
+Wø W(›
+%53boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*%
+
+__unknown_file (	
+della2$equalsIgnoreCase(Ljava/lang/String;)*
+7
+31*˚
+77
+W÷ W(⁄ﬂ‹
+
+W÷ W(˜
 %31boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -156,113 +141,12 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 __unknown_file (
 
 tuttavia2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-76*¯
-34
-\ø \(√‹Ÿ
+7
+75*¯
+79
+W¥ W(∏‹Ÿ
 
-\ø \(›
-%53boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*%
-
-__unknown_file (	
-della2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-32*¯
-36
-\ù \(°‹Ÿ
-
-\ù \(ª
-%52boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*%
-
-__unknown_file (	
-dello2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-34*ˆ
-38
-\˝
- \(Å⁄◊
-
-\˝
- \(ô
-%51boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*#
-
-__unknown_file (
-del2$equalsIgnoreCase(Ljava/lang/String;)*
-36
-8*¸
-100
-\÷ \(⁄ﬂ‹
-
-\÷ \(ˆ
-%20boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*(
-
-__unknown_file (
-
-giacch√®2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-98*¸
-102
-\≥ \(∑ﬁ€
-
-\≥ \(“
-%19boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*'
-
-__unknown_file (	
-perch√®2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-100*˙
-104
-\ì \(ó‹Ÿ
-
-\ì \(∞
-%18boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*%
-
-__unknown_file (	
-per√≤2$equalsIgnoreCase(Ljava/lang/String;)*
-102
-8*˛
-106
-\Ô \(Û‡›
-
-\Ô \(ê
-%17boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*)
-
-__unknown_file (
-	allurch√®2$equalsIgnoreCase(Ljava/lang/String;)*
-104
-8*¯
-80
-\¥ \(∏‹Ÿ
-
-\¥ \(“
+W¥ W(“
 %30boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -271,58 +155,45 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (	
 ossia2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-78*¯
-108
-\œ \(”⁄◊
+7
+77*¯
+35
+Wù W(°‹Ÿ
 
-\œ \(Î
-%16boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+Wù W(ª
+%52boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*%
+
+__unknown_file (	
+dello2$equalsIgnoreCase(Ljava/lang/String;)*
+7
+33*ˆ
+37
+W˝
+ W(Å⁄◊
+
+W˝
+ W(ô
+%51boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
 
 ggggjava.lang.String*#
 
 __unknown_file (
-che2$equalsIgnoreCase(Ljava/lang/String;)*
-106
-8*˘
-82
-\ë \(ï›⁄
-
-\ë \(∞
-%29boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*&
-
-__unknown_file (
-
-ovvero2$equalsIgnoreCase(Ljava/lang/String;)*
-80
-8*Ù
-84
-\Û \(˜ÿ’
-
-\Û \(ç
-%28boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*!
-
-__unknown_file (
-o2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-82*ˆ
-40
-\‹
- \(‡
+del2$equalsIgnoreCase(Ljava/lang/String;)*
+35
+7*ˆ
+39
+W‹
+ W(‡
 ⁄◊
 
-\‹
- \(¯
+W‹
+ W(¯
 
 %50boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
@@ -332,12 +203,111 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (
 una2$equalsIgnoreCase(Ljava/lang/String;)*
-38
-8*˙
-86
-\œ \(”ﬁ€
+37
+7*˚
+101
+W≥ W(∑ﬁ€
 
-\œ \(Ô
+W≥ W(“
+%19boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*'
+
+__unknown_file (	
+perch√®2$equalsIgnoreCase(Ljava/lang/String;)*
+7
+99*˙
+103
+Wì W(ó‹Ÿ
+
+Wì W(∞
+%18boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*%
+
+__unknown_file (	
+per√≤2$equalsIgnoreCase(Ljava/lang/String;)*
+101
+7*˛
+105
+WÔ W(Û‡›
+
+WÔ W(ê
+%17boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*)
+
+__unknown_file (
+	allurch√®2$equalsIgnoreCase(Ljava/lang/String;)*
+103
+7*¯
+107
+Wœ W(”⁄◊
+
+Wœ W(Î
+%16boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*#
+
+__unknown_file (
+che2$equalsIgnoreCase(Ljava/lang/String;)*
+105
+7*˘
+81
+Wë W(ï›⁄
+
+Wë W(∞
+%29boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*&
+
+__unknown_file (
+
+ovvero2$equalsIgnoreCase(Ljava/lang/String;)*
+79
+7*˘
+109
+WÆ W(≤€ÿ
+
+WÆ W(À
+%15boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*$
+
+__unknown_file (
+anzi2$equalsIgnoreCase(Ljava/lang/String;)*
+7
+107*Ù
+83
+WÛ W(˜ÿ’
+
+WÛ W(ç
+%28boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*!
+
+__unknown_file (
+o2$equalsIgnoreCase(Ljava/lang/String;)*
+7
+81*˙
+85
+Wœ W(”ﬁ€
+
+Wœ W(Ô
 %27boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -346,15 +316,15 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (	
 neppure2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-84*ˆ
-42
-\º
- \(¿
+7
+83*ˆ
+41
+Wº
+ W(¿
 ⁄◊
 
-\º
- \(ÿ
+Wº
+ W(ÿ
 
 %49boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
@@ -364,12 +334,12 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (
 un 2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-40*˙
-88
-\¨ \(∞ﬁ€
+39
+7*˙
+87
+W¨ W(∞ﬁ€
 
-\¨ \(Ã
+W¨ W(Ã
 %26boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -378,15 +348,15 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (	
 neanche2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-86*ı
-44
-\ù
- \(°
+7
+85*ı
+43
+Wù
+ W(°
 Ÿ÷
 
-\ù
- \(∏
+Wù
+ W(∏
 
 %48boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
@@ -396,95 +366,12 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (
 le2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-42*ˆ
-46
-\˝	 \(Å
-⁄◊
+7
+41*˚
+89
+Wà W(åﬂ‹
 
-\˝	 \(ô
-
-%47boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*#
-
-__unknown_file (
-gli2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-44*Ù
-48
-\ﬂ	 \(„	ÿ’
-
-\ﬂ	 \(˘	
-%46boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*!
-
-__unknown_file (
-i2$equalsIgnoreCase(Ljava/lang/String;)*
-46
-8*˘
-110
-\Æ \(≤€ÿ
-
-\Æ \(À
-%15boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*$
-
-__unknown_file (
-anzi2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-108*˚
-112
-\ã \(è›⁄
-
-\ã \(™
-%14boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*&
-
-__unknown_file (
-
-dunque2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-110*Ù
-114\l \(pÿ’
-	\l \(á
-%13boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*"
-
-__unknown_file (
-ma2$equalsIgnoreCase(Ljava/lang/String;)*
-112
-8*¯
-116\H \(L‹Ÿ
-\H \(h
-%12boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*'
-
-__unknown_file (	
-inoltre2$equalsIgnoreCase(Ljava/lang/String;)*
-114
-8*˚
-90
-\à \(åﬂ‹
-
-\à \(®
+Wà W(®
 %25boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -494,10 +381,93 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 __unknown_file (
 
 dopoch√®2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-88*Û
-118\) \(-◊‘
-\) \(D
+7
+87*ˆ
+45
+W˝	 W(Å
+⁄◊
+
+W˝	 W(ô
+
+%47boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*#
+
+__unknown_file (
+gli2$equalsIgnoreCase(Ljava/lang/String;)*
+7
+43*Ù
+47
+Wﬂ	 W(„	ÿ’
+
+Wﬂ	 W(˘	
+%46boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*!
+
+__unknown_file (
+i2$equalsIgnoreCase(Ljava/lang/String;)*
+7
+45*ı
+49
+W¿	 W(ƒ	Ÿ÷
+
+W¿	 W(€	
+%45boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*"
+
+__unknown_file (
+la2$equalsIgnoreCase(Ljava/lang/String;)*
+47
+7*˚
+111
+Wã W(è›⁄
+
+Wã W(™
+%14boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*&
+
+__unknown_file (
+
+dunque2$equalsIgnoreCase(Ljava/lang/String;)*
+7
+109*Ù
+113Wl W(pÿ’
+	Wl W(á
+%13boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*"
+
+__unknown_file (
+ma2$equalsIgnoreCase(Ljava/lang/String;)*
+7
+111*¯
+115WH W(L‹Ÿ
+WH W(h
+%12boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*'
+
+__unknown_file (	
+inoltre2$equalsIgnoreCase(Ljava/lang/String;)*
+113
+7*Û
+117W) W(-◊‘
+W) W(D
 %11boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -506,12 +476,12 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (
 ne2$equalsIgnoreCase(Ljava/lang/String;)*
-116
-8*˘
-92
-\Â \(È›⁄
+115
+7*˘
+91
+WÂ W(È›⁄
 
-\Â \(Ñ
+WÂ W(Ñ
 %24boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -521,12 +491,31 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 __unknown_file (
 
 oppure2$equalsIgnoreCase(Ljava/lang/String;)*
-90
-8*˘
-94
-\¬ \(∆›⁄
+7
+89*÷
+119V V(b
+`
+V V(
+ggggjava.lang.String"__id*4
+
+__unknown_file (
+
+%9java.lang.String÷”
+W W(%
+%10boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*!
+
+__unknown_file (
+e2$equalsIgnoreCase(Ljava/lang/String;)*
+117
+7*˘
+93
+W¬ W(∆›⁄
 
-\¬ \(·
+W¬ W(·
 %23boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -536,26 +525,12 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 __unknown_file (
 
 eppure2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-92*ı
-50
-\¿	 \(ƒ	Ÿ÷
+7
+91*¸
+95
+Wù W(°‡›
 
-\¿	 \(€	
-%45boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*"
-
-__unknown_file (
-la2$equalsIgnoreCase(Ljava/lang/String;)*
-48
-8*¸
-96
-\ù \(°‡›
-
-\ù \(æ
+Wù W(æ
 %22boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -564,12 +539,12 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (
 	affinch√®2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-94*ı
-52
-\°	 \(•	Ÿ÷
+7
+93*ı
+51
+W°	 W(•	Ÿ÷
 
-\°	 \(º	
+W°	 W(º	
 %44boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -578,12 +553,12 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (
 lo2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-50*˙
-98
-\˙ \(˛ﬁ€
+49
+7*˙
+97
+W˙ W(˛ﬁ€
 
-\˙ \(ô
+W˙ W(ô
 %21boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -592,26 +567,12 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (	
 purch√®2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-96*ı
-10
-\¿ \(ƒ⁄◊
+7
+95*ı
+53
+WÇ	 W(Ü	Ÿ÷
 
-\¿ \(‹
-%65boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*#
-
-__unknown_file (
-fra2$equalsIgnoreCase(Ljava/lang/String;)*
-6
-8*ı
-54
-\Ç	 \(Ü	Ÿ÷
-
-\Ç	 \(ù	
+WÇ	 W(ù	
 %43boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -620,12 +581,27 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (
 il2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-52*˜
-12
-\ü \(£€ÿ
+7
+51*˚
+99
+W÷ W(⁄ﬂ‹
 
-\ü \(º
+W÷ W(ˆ
+%20boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*(
+
+__unknown_file (
+
+giacch√®2$equalsIgnoreCase(Ljava/lang/String;)*
+7
+97*ˆ
+11
+Wü W(£€ÿ
+
+Wü W(º
 %64boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -633,13 +609,13 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 ggggjava.lang.String*$
 
 __unknown_file (
-tra 2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-10*˚
-56
-\ﬁ \(‚ﬂ‹
+tra 2$equalsIgnoreCase(Ljava/lang/String;)*
+7
+9*˚
+55
+Wﬁ W(‚ﬂ‹
 
-\ﬁ \(˛
+Wﬁ W(˛
 %42boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -649,12 +625,12 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 __unknown_file (
 
 fuorch√®2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-54*ˆ
-14
-\ˇ \(É⁄◊
+7
+53*ˆ
+13
+Wˇ W(É⁄◊
 
-\ˇ \(õ
+Wˇ W(õ
 %63boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -663,12 +639,12 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (
 per2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-12*˙
-58
-\∫ \(æﬁ€
+7
+11*˙
+57
+W∫ W(æﬁ€
 
-\∫ \(⁄
+W∫ W(⁄
 %41boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -677,12 +653,12 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (	
 qualora2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-56*ı
-16
-\‡ \(‰Ÿ÷
+7
+55*ı
+15
+W‡ W(‰Ÿ÷
 
-\‡ \(˚
+W‡ W(˚
 %62boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -691,12 +667,27 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (
 su2$equalsIgnoreCase(Ljava/lang/String;)*
-14
-8*ˆ
-18
-\¿ \(ƒ⁄◊
+13
+7*˝
+59
+Wì W(ó·ﬁ
 
-\¿ \(‹
+Wì W(∂
+%40boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String**
+
+__unknown_file (
+
+quantunque2$equalsIgnoreCase(Ljava/lang/String;)*
+57
+7*ˆ
+17
+W¿ W(ƒ⁄◊
+
+W¿ W(‹
 %61boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -705,92 +696,58 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 
 __unknown_file (
 in 2$equalsIgnoreCase(Ljava/lang/String;)*
-16
-8*÷
-120[ [(b
-`
-[ [(
-ggggjava.lang.String"__id*4
-
-__unknown_file (
-
-%9java.lang.String÷”
-\ \(%
-%10boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+15
+7*ı
+19
+W° W(•Ÿ÷
+
+W° W(º
+%60boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
 
-ggggjava.lang.String*!
+ggggjava.lang.String*"
 
-__unknown_file (
-e2$equalsIgnoreCase(Ljava/lang/String;)*
-118
-8*&
-0 "
-p p(
-implicit return*©
-121[ [(êç
-[ [(
+__unknown_file (
+da2$equalsIgnoreCase(Ljava/lang/String;)*
+17
+7*©
+120V V(êç
+V V(
 %9java.lang.String"*java.util.Scanner#next()Ljava/lang/String;*5
 
 __unknown_file (
 
 qwjava.util.Scanner2next()*
-120*!
-1o o("
-o o(
-""*å
-2n n(us
-n n(
-%73void"java.util.Scanner#close()V*5
-
-__unknown_file (
-
-qwjava.util.Scanner2close()*
-0
-1*ñ
-123Y	 Y({y
-Y	 Y(
+119*!
+1h h("
+h h(
+""*ñ
+122T	 T({y
+T	 T(
 %8boolean"java.util.Scanner#hasNext()Z*5
 
 __unknown_file (
 
 qwjava.util.Scanner2	hasNext()*
-2
-121*z
-124X	 X(b
+5
+120*z
+123R
+ R(#b
 `
-X	 X(
+R
+ R(#
 qwjava.util.Scanner"__id*5
 
 __unknown_file (
 
 %6java.util.Scanner*
-123*Î
-3l l(&ÿ’
-l l(&
-%72void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
-
-__unknown_file (
-
-%70java.io.PrintStream*5
-
-__unknown_file (
-
-%71java.lang.String2println(Ljava/lang/String;)*
-2*‚
-125W	 W(:_
-]
-W	 W(:
-sjava.lang.String"__id*4
-
-__unknown_file (
-
-%4java.lang.String86
-X X(
+122*Å
+124R! R("86
+R R( 
 %6java.util.Scanner"java.util.ScannerÆ
 ´
-X X(
+R R(#
 %7"-java.util.Scanner#<init>(Ljava/lang/String;)V*5
 
 __unknown_file (
@@ -800,46 +757,31 @@ a/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/V
 __unknown_file (
 
 sjava.lang.String*
-124*·
-4k k(T
-R
-k k(
-edfrtjava.lang.Exception"__id*"
+123*ª
+125P P(r
+p
+P P(,
+%2byte[]""main.VerificaFonte#databasetxt()[B*2
 
-__unknown_file (
-""P
-N
-l l(
-
-%70java.io.PrintStream"__id*"
-
-__unknown_file (
-""§°
-l l(%
-%71java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*:
-
-__unknown_file (
-
-edfrtjava.lang.Exception2getMessage()*
-3*Ê
-126V	 V()N
+__unknown_file ("
+main.VerificaFonteN
 L
-V	 V()
+P P(,
 acdcbyte[]"__id**
 
 __unknown_file (
 
 %2byte[]V
 T
-W" W(8
+Q% Q(;
 %3java.nio.charset.Charset"__id*"
 
 __unknown_file (
 ""64
-W W(
+Q Q(
 %4java.lang.String"java.lang.StringÌ
 Í
-W W(9
+Q Q(<
 %5"6java.lang.String#<init>([BLjava/nio/charset/Charset;)V*4
 
 __unknown_file (
@@ -852,26 +794,59 @@ T
 
 __unknown_file ( 
 
-%3java.nio.charset.Charset*
-125*ä
-127V V(r
-p
-V V()
-%2byte[]""main.VerificaFonte#databasetxt()[B*2
+%3java.nio.charset.Charset_
+]
+Q Q(=
+sjava.lang.String"__id*4
+
+__unknown_file (
+
+%4java.lang.String*
+124*Ï
+126M M(F
+D
+M M(
+acdcbyte[]"__id*"
+
+__unknown_file (
+""w
+u
+N N(2	
+%0int"*main.VerificaFonte#databaseconfermation()I*2
 
 __unknown_file ("
-main.VerificaFonte*
-126*∆
-6a a(r
+main.VerificaFonteè
+å
+O O(
+%1boolean"	__compare*"
+
+__unknown_file (
+==*"
+
+__unknown_file (
+""*
+
+__unknown_file (2 *
+125
+1*â
+5b b(us
+b b(
+%70void"java.util.Scanner#close()V*5
+
+__unknown_file (
+
+qwjava.util.Scanner2close()*
+1*∆
+6\ \(r
 p
-a a(
+\ \(
 %68java.util.ArrayList"__id*B
 
 __unknown_file (&*$
 main.VeerificaTesto"
 	listaveroª
 ∏
-a a(
+\ \(
 %69boolean"
 __arrayAdd*8
 
@@ -884,72 +859,42 @@ __arrayAdd*8
 __unknown_file (
 
 ggggjava.lang.String*
-123*´
-128U	 U(
-è
-å
-U	 U(
-%1boolean"	__compare*"
+122*ø
+7X	 X(R
+P
+X	 X(
+%66java.io.PrintStream"__id*"
 
 __unknown_file (
-==*"
-
-__unknown_file (
-""*
-
-__unknown_file (2 *
-2
-127*®
-129P P(F
-D
-P P(
-acdcbyte[]"__id*"
-
-__unknown_file (
-""w
-u
-Q Q(2	
-%0int"*main.VerificaFonte#databaseconfermation()I*2
-
-__unknown_file ("
-main.VerificaFonteO
-M
-R R(
-qwjava.util.Scanner"__id*"
-
-__unknown_file (
-""*
-128*ø
-8] ](=;
-] ](
-%66java.lang.Exception"java.lang.Exceptionl
-j
-] ](
-%67"java.lang.Exception#<init>()V*8
+""‘—
+X	 X(.
+%67void"0java.io.PrintStream#println(Ljava/lang/String;)V*8
 
 __unknown_file (
 
-%66java.lang.Exception*
-4*˝
-60
-\ì \(ó·ﬁ
+%66java.io.PrintStream*/
+
+__unknown_file (
+non nella lista2println(Ljava/lang/String;)*
+122*Ù
+9
+W¿ W(ƒ⁄◊
 
-\ì \(∂
-%40boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+W¿ W(‹
+%65boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
 
-ggggjava.lang.String**
+ggggjava.lang.String*#
 
-__unknown_file (
+__unknown_file (
+fra2$equalsIgnoreCase(Ljava/lang/String;)*
+6
+7*˙
+61
+WÔ W(Ûﬁ€
 
-quantunque2$equalsIgnoreCase(Ljava/lang/String;)*
-58
-8*˙
-62
-\Ô \(Ûﬁ€
-
-\Ô \(è
+WÔ W(è
 %39boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -958,26 +903,12 @@ quantunque2$equalsIgnoreCase(Ljava/lang/String;)*
 
 __unknown_file (	
 sebbene2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-60*ı
-20
-\° \(•Ÿ÷
+59
+7*˙
+63
+WÀ W(œﬁ€
 
-\° \(º
-%60boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
-
-__unknown_file (
-
-ggggjava.lang.String*"
-
-__unknown_file (
-da2$equalsIgnoreCase(Ljava/lang/String;)*
-18
-8*˙
-64
-\À \(œﬁ€
-
-\À \(Î
+WÀ W(Î
 %38boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -986,12 +917,12 @@ quantunque2$equalsIgnoreCase(Ljava/lang/String;)*
 
 __unknown_file (	
 siccome2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-62*Ù
-22
-\É \(áÿ’
+7
+61*Ù
+21
+WÉ W(áÿ’
 
-\É \(ù
+WÉ W(ù
 %59boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -1000,12 +931,12 @@ quantunque2$equalsIgnoreCase(Ljava/lang/String;)*
 
 __unknown_file (
 a2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-20*˙
-66
-\® \(¨ﬁ€
+7
+19*˙
+65
+W® W(¨ﬁ€
 
-\® \(«
+W® W(«
 %37boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
 
 __unknown_file (
@@ -1014,6 +945,35 @@ quantunque2$equalsIgnoreCase(Ljava/lang/String;)*
 
 __unknown_file (	
 finch√®2$equalsIgnoreCase(Ljava/lang/String;)*
-8
-64B"
+7
+63*ı
+23
+W‰ W(ËŸ÷
+
+W‰ W(ˇ
+%58boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*"
+
+__unknown_file (
+di2$equalsIgnoreCase(Ljava/lang/String;)*
+7
+21*˘
+67
+WÖ W(â›⁄
+
+WÖ W(§
+%36boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*6
+
+__unknown_file (
+
+ggggjava.lang.String*&
+
+__unknown_file (
+
+mentre2$equalsIgnoreCase(Ljava/lang/String;)*
+7
+65B"
 main.VeerificaTestoX

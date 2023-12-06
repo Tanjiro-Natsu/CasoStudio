@@ -1,17 +1,17 @@
 
-,main.Menu2#getaccetta()Ljavax/swing/JButton;b
-X/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu2.javar r("1*ž
-1r$ r(+f
-d
-r$ r(+
-%0javax.swing.JButton"__id*7
+2main.Menu2#getImageIcon10()Ljavax/swing/ImageIcon;b
+X/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/Menu2.javaq q("1*¢
+1q* q(1h
+f
+q* q(1
+%0javax.swing.ImageIcon"__id*7
 
 __unknown_file (*
 
 main.Menu2"	
-accetta"'
-r r(,
-
-%0javax.swing.JButtonB
+image10")
+q# q(2
+
+%0javax.swing.ImageIconB
 
 main.Menu2H

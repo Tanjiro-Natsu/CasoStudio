@@ -1,0 +1,558 @@
+package main;
+
+import java.nio.file.*;
+import java.awt.Color;
+import java.awt.Desktop;
+import java.awt.Font;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.imageio.ImageIO;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.WindowConstants;
+
+import org.junit.platform.commons.logging.LoggerFactory;
+
+public class Menu extends JMenuBar implements ActionListener{
+	org.junit.platform.commons.logging.Logger logger = LoggerFactory.getLogger(this.getClass());
+	private static String separetor=File.separator;
+	private static final long serialVersionUID = 1L;
+	private JFrame prova=null;
+	private JFrame xc=null;
+	private JButton v=null; static int counter=1;
+private static String cooper="Cooper Blank";
+	private static JMenu menu1 ;
+	private static JMenu helpmenu;
+	private static JMenuItem refresh;
+	private static JMenuItem exit ;
+	private static JMenuItem properties;
+	private static JMenuItem save;
+	private static JMenuItem info;
+	private static JMenuItem manuale;
+	private static JMenuItem sito;
+	private JLabel versione;
+	private JMenuItem colore101=new JMenuItem("Rosso");
+	private  JMenuItem colore111=new JMenuItem("Blue");
+	private JMenuItem colore121=new JMenuItem("Verde");
+	private  JMenuItem colore131=new JMenuItem("Arancione");
+	private JMenuItem colore141=new JMenuItem("Giallo");
+	private  JMenuItem colore151=new JMenuItem("Magenta");
+	private JMenuItem colore161=new JMenuItem("Nero");
+	private JMenuItem colore171=new JMenuItem("Rosa");
+	private JMenuItem colore181=new JMenuItem("Grigio");
+	private JMenuItem colore201=new JMenuItem("Rosso");
+	private JMenuItem colore211=new JMenuItem("Blue");
+	private JMenuItem colore221=new JMenuItem("Verde");
+	private JMenuItem colore231=new JMenuItem("Arancione");
+	private JMenuItem colore241=new JMenuItem("Giallo");
+	private JMenuItem colore251=new JMenuItem("Magenta");
+	private JMenuItem colore261=new JMenuItem("Nero");
+	private JMenuItem colore271=new JMenuItem("Rosa");
+	private JMenuItem colore281=new JMenuItem("Grigio");
+	private ImageIcon IMAGE11=null;
+	private ImageIcon IMAGE21=null;
+	private ImageIcon IMAGE31=null;
+	private ImageIcon IMAGE41=null;
+	private ImageIcon IMAGE51=null;
+	private ImageIcon IMAGE61=null;
+	private ImageIcon IMAGE71=null;
+	private ImageIcon IMAGE81=null;
+	private ImageIcon IMAGE91=null;
+	private ImageIcon IMAGE101=null;
+	private JMenuItem bloccaFonte1;
+	private JMenuItem sbloccaFonte1;
+	private JButton accetta2=null;
+	private JButton accetta11=null;
+	private JButton rifiuta2=null;
+	private JButton rifiuta11=null;
+private String versioneprodotto="1.0.0";
+public ImageIcon getImageIcon10() {return IMAGE101;}
+public JButton getaccetta() {return accetta2;}
+public JButton getaccetta1() {return accetta11;}
+public JButton getrifiuta() {return rifiuta2;}
+public JButton getrifiuta1() {return rifiuta11;}
+
+public static void setSave(boolean a) {
+	 save.setEnabled(a);
+}
+
+
+	public Menu(){
+		
+		
+
+try {
+	
+
+	
+	  Path path=Paths.get("");
+    String a=path.toAbsolutePath().toString();
+   
+    IMAGE11=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"Refresh.png")));
+    IMAGE21=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"i.png")));
+    IMAGE31=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"save.png")));
+    IMAGE41=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"check.png")));
+    IMAGE51=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"exit.png")));
+    IMAGE61=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"info.png")));
+    IMAGE71=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"manuale.png")));
+    IMAGE81=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"web.png")));
+    IMAGE91=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"lock.png")));
+    IMAGE101=new ImageIcon(ImageIO.read(new File(a+separetor+"Icon"+separetor+"unlock.png")));
+	
+	
+	
+} catch (IOException e){
+	System.out.println(e.getMessage());
+}
+
+bloccaFonte1=new JMenuItem("Blocca Fonte");
+bloccaFonte1.setIcon(IMAGE91);
+sbloccaFonte1=new JMenuItem("Sblocca Fonte");
+sbloccaFonte1.setIcon(IMAGE101);
+menu1=new JMenu("File");
+helpmenu=new JMenu("Help");
+refresh=new JMenuItem("Refresh");
+refresh.setIcon(IMAGE11);
+save=new JMenuItem("Save");
+save.setIcon(IMAGE31);
+properties=new JMenu("Properties");
+properties.setIcon(IMAGE21);
+exit=new JMenuItem("Exit");
+exit.setIcon(IMAGE51);
+info=new JMenuItem("Info");
+info.setIcon(IMAGE61);
+manuale=new JMenuItem("Manuale");
+manuale.setIcon(IMAGE71);
+sito=new JMenuItem("Sito");
+sito.setIcon(IMAGE81);
+JMenu colori=new JMenu("Colori");
+JMenu coloriTrue=new JMenu("ColoriTrue");
+JMenu coloriFalse=new JMenu("ColoriFalse");
+
+
+
+refresh.addActionListener(this);
+save.addActionListener(this);
+properties.addActionListener(this);
+exit.addActionListener(this);
+info.addActionListener(this);
+manuale.addActionListener(this);
+sito.addActionListener(this);
+colore101.addActionListener(this);
+colore111.addActionListener(this);
+colore121.addActionListener(this);
+colore131.addActionListener(this);
+colore141.addActionListener(this);
+colore151.addActionListener(this);
+colore161.addActionListener(this);
+colore171.addActionListener(this);
+colore181.addActionListener(this);
+colore201.addActionListener(this);
+colore211.addActionListener(this);
+colore221.addActionListener(this);
+colore231.addActionListener(this);
+colore241.addActionListener(this);
+colore251.addActionListener(this);
+colore261.addActionListener(this);
+colore271.addActionListener(this);
+colore281.addActionListener(this);
+bloccaFonte1.addActionListener(this);
+sbloccaFonte1.addActionListener(this);
+
+
+
+properties.add(colori);
+colori.add(coloriTrue);
+coloriTrue.add(colore101);
+coloriTrue.add(colore111);
+coloriTrue.add(colore121);
+colore121.setIcon(IMAGE41);
+coloriTrue.add(colore131);
+coloriTrue.add(colore141);
+coloriTrue.add(colore151);
+coloriTrue.add(colore161);
+coloriTrue.add(colore171);
+coloriTrue.add(colore181);
+colori.add(coloriFalse);
+coloriFalse.add(colore201);
+colore201.setIcon(IMAGE41);
+coloriFalse.add(colore211);
+coloriFalse.add(colore221);
+coloriFalse.add(colore231);
+coloriFalse.add(colore241);
+coloriFalse.add(colore251);
+coloriFalse.add(colore261);
+coloriFalse.add(colore271);
+coloriFalse.add(colore281);
+menu1.add(refresh);
+menu1.add(save);
+menu1.add(properties);
+menu1.add(exit);
+helpmenu.add(info);
+helpmenu.add(manuale);
+helpmenu.add(sito);
+
+add(menu1);
+add(helpmenu);
+	}
+
+	public void actionPerformed(ActionEvent e) {
+		
+		
+
+
+if(e.getSource()==v) {
+	xc.dispose();
+}
+if(e.getSource()==rifiuta11) {
+prova.dispose();
+}
+		if(e.getSource()==refresh) {
+			GUI.sett1();
+			GUI.sett2();
+			GUI.sett3();
+			GUI.sett4();
+			GUI.refresh();
+			GUI.metadata();
+			 
+			
+			
+		}
+		else if(e.getSource()==exit) {
+			main.close();
+		}
+		else if(e.getSource()==save) {
+			split5();
+			
+		}
+		
+		else if(e.getSource()==info) {
+			JFrame a=new JFrame("Info");
+			a.setSize(500,200);
+			a.setLocation(650, 100);
+			a.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+			a.setVisible(true);
+			a.setLayout(new GridLayout(4,1));
+			a.add(new JLabel("  Misinformation for scienze disseminator "));
+			versione =new JLabel("  Versione : "+versioneprodotto);
+			a.add(versione);
+			a.add(new JLabel("  (c)Copyrights Misinformation contributors and other 2023,2023"));
+			a.add(new JLabel("  All right reserved.Misinformation and his logo are trademark of the Plutone_project"));
+			
+		}
+		else if(e.getSource()==manuale) {
+			JFrame a=new JFrame("Manuale");
+			a.setLocation(550, 200);
+			a.setSize(400,300);
+			a.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
+			
+			JTextArea b=new JTextArea(400,300);
+			b.setEditable(false);
+			b.setFont(new Font(cooper,Font.PLAIN,16));
+			b.setText("Per poter utilizzare l'applicazione bisogna      essere in possesso di un file txt,jpg ,  fonte e    argomento della notizia che si desidera           verificare.                                                                      Inserire i dati negli appositi contenitori, per abilitare il pulsante di ricerca del file.Dopo   aver inserito il file da verificare,                         il programma  colorerà il  box bianco affianco al box nel quale avete inserito la fonte .                            -GREEN fonte verificata                                          -RED fonte non verificata                        Il programma restiruira una lista con le           fonti certificate che trattano principalemte quell'argomento e riempirà il box affianco al file selezionato con la stessa tipologia di           colori precedenti ,per affermare o negare la verifica del file selezionato.                                     E' possibile cambiare i colori di verifica         dal menu nella sezione 'Properties'.                   E' possibile bloccare o sboccare una fonte        nella sezione 'Fonti.'");
+			b.setLineWrap(true);
+			JScrollPane c=new JScrollPane(b);
+			c.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants .VERTICAL_SCROLLBAR_ALWAYS);
+			a.add(c);
+			a.setVisible(true);
+		}
+		else if(e.getSource()==sito) {
+			Path path=Paths.get("");
+		    String a=path.toAbsolutePath().toString();
+			
+			File file=new File(a+separetor+"sito.bat");
+			try {
+				Desktop.getDesktop().open(file);
+			} catch (IOException e1) {
+				System.out.println(e1.getMessage());
+			}
+		}
+		else {
+			sceltacolore(e);
+		}
+		
+		
+	}
+
+private void sceltacolore(ActionEvent e ) {
+	 if(e.getSource()==colore101) {
+		colore101.setIcon(IMAGE41);
+		colore111.setIcon(null);
+		colore121.setIcon(null);
+		colore131.setIcon(null);
+		colore141.setIcon(null);
+		colore151.setIcon(null);
+		colore161.setIcon(null);
+		colore171.setIcon(null);
+		colore181.setIcon(null);
+	
+		
+		GUI.setcolor1(Color.RED);
+	}
+	else if(e.getSource()==colore111) {
+		colore101.setIcon(null);
+		colore111.setIcon(IMAGE41);
+		colore121.setIcon(null);
+		colore131.setIcon(null);
+		colore141.setIcon(null);
+		colore151.setIcon(null);
+		colore161.setIcon(null);
+		colore171.setIcon(null);
+		colore181.setIcon(null);
+		
+		GUI.setcolor1(Color.BLUE);
+	}
+	else if(e.getSource()==colore121) {
+		colore121.setIcon(IMAGE41);
+		colore101.setIcon(null);
+		colore111.setIcon(null);
+		colore131.setIcon(null);
+		colore141.setIcon(null);
+		colore151.setIcon(null);
+		colore161.setIcon(null);
+		colore171.setIcon(null);
+		colore181.setIcon(null);
+		colore201.setIcon(null);
+		colore211.setIcon(null);
+		colore221.setIcon(null);
+		colore231.setIcon(null);
+		colore241.setIcon(null);
+		colore251.setIcon(null);
+		colore261.setIcon(null);
+		colore271.setIcon(null);
+		colore281.setIcon(null);
+		GUI.setcolor1(Color.GREEN);
+	}
+	else if(e.getSource()==colore131) {
+		colore131.setIcon(IMAGE41);
+		colore101.setIcon(null);
+		colore111.setIcon(null);
+		colore121.setIcon(null);
+		colore141.setIcon(null);
+		colore151.setIcon(null);
+		colore161.setIcon(null);
+		colore171.setIcon(null);
+		colore181.setIcon(null);
+		
+		GUI.setcolor1(Color.ORANGE);
+	}
+	else if(e.getSource()==colore141) {
+		colore141.setIcon(IMAGE41);
+		colore101.setIcon(null);
+		colore111.setIcon(null);
+		colore121.setIcon(null);
+		colore131.setIcon(null);
+		colore151.setIcon(null);
+		colore161.setIcon(null);
+		colore171.setIcon(null);
+		colore181.setIcon(null);
+		
+		GUI.setcolor1(Color.YELLOW);
+	}
+	else if(e.getSource()==colore151) {
+		colore151.setIcon(IMAGE41);
+		colore101.setIcon(null);
+		colore111.setIcon(null);
+		colore121.setIcon(null);
+		colore131.setIcon(null);
+		colore141.setIcon(null);
+		colore161.setIcon(null);
+		colore171.setIcon(null);
+		colore181.setIcon(null);
+		
+		GUI.setcolor1(Color.MAGENTA);
+	}
+	else if(e.getSource()==colore161) {
+		colore161.setIcon(IMAGE41);
+		colore101.setIcon(null);
+		colore111.setIcon(null);
+		colore121.setIcon(null);
+		colore131.setIcon(null);
+		colore141.setIcon(null);
+		colore151.setIcon(null);
+		colore171.setIcon(null);
+		colore181.setIcon(null);
+		
+		GUI.setcolor1(Color.BLACK);
+	}
+	else if(e.getSource()==colore171) {
+		colore171.setIcon(IMAGE41);
+		colore101.setIcon(null);
+		colore111.setIcon(null);
+		colore121.setIcon(null);
+		colore131.setIcon(null);
+		colore141.setIcon(null);
+		colore151.setIcon(null);
+		colore161.setIcon(null);
+		colore181.setIcon(null);
+		
+		GUI.setcolor1(Color.PINK);
+	}else if(e.getSource()==colore181) {
+		colore181.setIcon(IMAGE41);
+		colore101.setIcon(null);
+		colore111.setIcon(null);
+		colore121.setIcon(null);
+		colore131.setIcon(null);
+		colore141.setIcon(null);
+		colore151.setIcon(null);
+		colore161.setIcon(null);
+		colore171.setIcon(null);
+		
+		GUI.setcolor1(Color.GRAY);
+	}
+	else if(e.getSource()==colore201) {
+		colore201.setIcon(IMAGE41);
+		colore211.setIcon(null);
+		colore221.setIcon(null);
+		colore231.setIcon(null);
+		colore241.setIcon(null);
+		colore251.setIcon(null);
+		colore261.setIcon(null);
+		colore271.setIcon(null);
+		colore281.setIcon(null);
+		GUI.setcolor2(Color.RED);
+	}
+	else if(e.getSource()==colore211) {
+		colore211.setIcon(IMAGE41);
+		colore201.setIcon(null);
+		colore221.setIcon(null);
+		colore231.setIcon(null);
+		colore241.setIcon(null);
+		colore251.setIcon(null);
+		colore261.setIcon(null);
+		colore271.setIcon(null);
+		colore281.setIcon(null);
+		GUI.setcolor2(Color.BLUE);
+	}
+	else if(e.getSource()==colore221) {
+		colore221.setIcon(IMAGE41);
+		colore201.setIcon(null);
+		colore211.setIcon(null);
+		colore231.setIcon(null);
+		colore241.setIcon(null);
+		colore251.setIcon(null);
+		colore261.setIcon(null);
+		colore271.setIcon(null);
+		colore281.setIcon(null);
+		GUI.setcolor2(Color.GREEN);
+	}
+	else if(e.getSource()==colore231) {
+		colore231.setIcon(IMAGE41);
+		colore201.setIcon(null);
+		colore211.setIcon(null);
+		colore221.setIcon(null);
+		colore241.setIcon(null);
+		colore251.setIcon(null);
+		colore261.setIcon(null);
+		colore271.setIcon(null);
+		colore281.setIcon(null);
+		GUI.setcolor2(Color.ORANGE);
+	}
+	else if(e.getSource()==colore241) {
+		colore241.setIcon(IMAGE41);
+		colore201.setIcon(null);
+		colore211.setIcon(null);
+		colore221.setIcon(null);
+		colore231.setIcon(null);
+		colore251.setIcon(null);
+		colore261.setIcon(null);
+		colore271.setIcon(null);
+		colore281.setIcon(null);
+		GUI.setcolor2(Color.YELLOW);
+	}
+	else if(e.getSource()==colore251) {
+		colore251.setIcon(IMAGE41);
+		colore201.setIcon(null);
+		colore211.setIcon(null);
+		colore221.setIcon(null);
+		colore231.setIcon(null);
+		colore241.setIcon(null);
+		colore261.setIcon(null);
+		colore271.setIcon(null);
+		colore281.setIcon(null);
+		GUI.setcolor2(Color.MAGENTA);
+	}
+	else if(e.getSource()==colore261) {
+		colore261.setIcon(IMAGE41);
+		colore201.setIcon(null);
+		colore211.setIcon(null);
+		colore221.setIcon(null);
+		colore231.setIcon(null);
+		colore241.setIcon(null);
+		colore251.setIcon(null);
+		colore271.setIcon(null);
+		colore281.setIcon(null);
+		GUI.setcolor2(Color.BLACK);
+	}
+	else if(e.getSource()==colore271) {
+		colore271.setIcon(IMAGE41);
+		colore201.setIcon(null);
+		colore211.setIcon(null);
+		colore221.setIcon(null);
+		colore231.setIcon(null);
+		colore241.setIcon(null);
+		colore251.setIcon(null);
+		colore261.setIcon(null);
+		colore281.setIcon(null);
+		GUI.setcolor2(Color.PINK);
+	}else if(e.getSource()==colore281) {
+		colore281.setIcon(IMAGE41);
+		colore201.setIcon(null);
+		colore211.setIcon(null);
+		colore221.setIcon(null);
+		colore231.setIcon(null);
+		colore241.setIcon(null);
+		colore251.setIcon(null);
+		colore261.setIcon(null);
+		colore271.setIcon(null);
+		GUI.setcolor2(Color.GRAY);
+	}
+}
+	
+public void split5() {
+	Path path=Paths.get("");
+    String a=path.toAbsolutePath().toString();
+	
+	File file=new File(a+separetor+"Save");
+	if(file.isDirectory()) {
+		System.out.println("esiste");
+	}
+	else {
+		file.mkdir();
+	}
+	
+	try {
+		
+		Integer z=(Integer)(counter);
+		PrintWriter xx=new PrintWriter(new File(a+separetor+"Save"+separetor+"Save"+z.toString()+".txt"));
+		counter++;
+		String risultato=null;
+		if(GUI.getresult()) {
+			risultato=" Approvato ";
+		}
+		else {
+			risultato=" Non approvato ";
+		}
+		xx.printf(new StringBuilder().append("Risultato verifica:").append(risultato).append("\nFile selezionato: ").append(GUI.getText3()).append("\nFonti certificate che ne parlano: ").append(GUI.getText4()).append(GUI.metadatisave()).toString());
+		xx.close();
+
+	} catch (FileNotFoundException e1) {
+		System.out.println(e1.getMessage());
+	}
+}
+
+	
+	}

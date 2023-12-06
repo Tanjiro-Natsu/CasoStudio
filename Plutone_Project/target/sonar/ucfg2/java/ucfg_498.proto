@@ -1,24 +1,19 @@
 
-)main.GUI#metadatisave()Ljava/lang/String;`
-V/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/GUI.java/ /(#"1*¢
-10	 0(Z
-X
-0	 0(
-%0main.MetaData"__id*1
+main.GUI#getMenu()Lmain/Menu;`
+V/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/GUI.java2 2("1*Ñ
+13
+ 3(V
+T
+3
+ 3(
+%0	main.Menu"__id*1
 
 __unknown_file (*
 
 main.GUI"
-dc1êç
-0	 0(
-%1java.lang.String"*main.MetaData#toString()Ljava/lang/String;*1
-
-__unknown_file (
-
-%0main.MetaData2
-toString()"$
-0 0(
-
-%1java.lang.StringB"
+ss1"
+3 3(
+
+%0	main.MenuB
 
 main.GUIH

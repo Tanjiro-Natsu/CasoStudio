@@ -18,13 +18,12 @@ public class main {
 	
 	 private static JFrame d;private static JFrame b;
 	 public static  GUI a=null;
-	 private static  GUI2 a1;
+	 
 	public static void close() {
 		a.dispose();
 	}
 	public JFrame getb(){return b;}
-	public GUI2 geta1() {return a1;}
-	public GUI  geta(){return a;}
+
 	
 
 	
@@ -45,9 +44,7 @@ public class main {
     	left.addActionListener(e-> {
     		if(e.getActionCommand().equals("Checker")) {
     			b.dispose();
-    			a1=new GUI2();
-    	
-    	    	a1.setVisible(true);
+    			new GUI2().setVisible(true);
     			
     		}
     	});
@@ -73,7 +70,7 @@ public class main {
     	    			b.dispose();
     	    			d.dispose();
     	    			a=new GUI();
-    	    	    	a.setVisible(true);
+    	    			a.setVisible(true);
     	    	    	
     	    		}
     	    		else {

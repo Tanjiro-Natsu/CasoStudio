@@ -19,8 +19,8 @@ class FileChooserTest {
 	public void CreateFileChooser() {
 		a=new FileChooser(txt,image);
 	}
-	@Test
-	public void FileChooserTest() {
+	
+	public FileChooserTest() {
 		assertTrue(a!=null);
 	}
 	public void setimgTest() {

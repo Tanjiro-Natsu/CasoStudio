@@ -1,15 +1,283 @@
 
-)main.MetaData#geta9()Ljavax/swing/JLabel;e
-[/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/MetaData.java" "("1*ö
-1" "( c
+*main.MetaData#toString()Ljava/lang/String;e
+[/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/MetaData.java$ $("1*ã"
+1%	 %(b
+`
+% %(
+%0java.nio.file.Path"__id*4
+
+__unknown_file (*
+main.MetaData"
+do
+m
+%	 %(
+%1java.lang.String"__concat*
+%	 %(	
+\nPath:*&
+% %(
+
+%0java.nio.file.Pathu
+s
+%	 %(&
+%2java.lang.String"__concat*$
+%	 %(
+
+%1java.lang.String*
+% %(&
+\nCreationTime:c
 a
-" "( 
-%0javax.swing.JLabel"__id*5
+%' %()
+%3javax.swing.JLabel"__id*5
 
 __unknown_file (*
 main.MetaData"
-a9"&
-" "(!
+a1òï
+%' %(3
+%4java.lang.String".javax.swing.JLabel#getText()Ljava/lang/String;*6
 
-%0javax.swing.JLabelB
+__unknown_file (
+
+%3javax.swing.JLabel2	getText()z
+x
+%	 %(3
+%5java.lang.String"__concat*$
+%	 %(&
+
+%2java.lang.String*$
+%' %(3
+
+%4java.lang.Stringw
+u
+%	 %(G
+%6java.lang.String"__concat*$
+%	 %(3
+
+%5java.lang.String*!
+%4 %(G
+\nLastAccessTime:c
+a
+%H %(J
+%7javax.swing.JLabel"__id*5
+
+__unknown_file (*
+main.MetaData"
+a2òï
+%H %(T
+%8java.lang.String".javax.swing.JLabel#getText()Ljava/lang/String;*6
+
+__unknown_file (
+
+%7javax.swing.JLabel2	getText()z
+x
+%	 %(T
+%9java.lang.String"__concat*$
+%	 %(G
+
+%6java.lang.String*$
+%H %(T
+
+%8java.lang.Stringz
+x
+%	 %(j
+%10java.lang.String"__concat*$
+%	 %(T
+
+%9java.lang.String*#
+%U %(j
+\nLastModifiedTime:d
+b
+%k %(m
+%11javax.swing.JLabel"__id*5
+
+__unknown_file (*
+main.MetaData"
+a3öó
+%k %(w
+%12java.lang.String".javax.swing.JLabel#getText()Ljava/lang/String;*7
+
+__unknown_file (
+
+%11javax.swing.JLabel2	getText()}
+{
+%	 %(w
+%13java.lang.String"__concat*%
+%	 %(j
+
+%10java.lang.String*%
+%k %(w
+
+%12java.lang.Stringx
+v
+	%	 %(à
+%14java.lang.String"__concat*%
+%	 %(w
+
+%13java.lang.String*
+	%x %(à
+\nIsDirectory:f
+d
+
+%â %(ã
+%15javax.swing.JLabel"__id*5
+
+__unknown_file (*
+main.MetaData"
+a4úô
+
+%â %(ï
+%16java.lang.String".javax.swing.JLabel#getText()Ljava/lang/String;*7
+
+__unknown_file (
+
+%15javax.swing.JLabel2	getText()Å
+
+	%	 %(ï
+%17java.lang.String"__concat*&
+	%	 %(à
+
+%14java.lang.String*'
+
+%â %(ï
+
+%16java.lang.Stringv
+t
+	%	 %(¢
+%18java.lang.String"__concat*&
+	%	 %(ï
+
+%17java.lang.String*
+
+%ñ %(¢
+
+\nisOther:f
+d
+
+%£ %(•
+%19javax.swing.JLabel"__id*5
+
+__unknown_file (*
+main.MetaData"
+a5úô
+
+%£ %(Ø
+%20java.lang.String".javax.swing.JLabel#getText()Ljava/lang/String;*7
+
+__unknown_file (
+
+%19javax.swing.JLabel2	getText()Å
+
+	%	 %(Ø
+%21java.lang.String"__concat*&
+	%	 %(¢
+
+%18java.lang.String*'
+
+%£ %(Ø
+
+%20java.lang.String|
+z
+	%	 %(¬
+%22java.lang.String"__concat*&
+	%	 %(Ø
+
+%21java.lang.String*"
+
+%∞ %(¬
+\nisRegularFile:f
+d
+
+%√ %(≈
+%23javax.swing.JLabel"__id*5
+
+__unknown_file (*
+main.MetaData"
+a6úô
+
+%√ %(œ
+%24java.lang.String".javax.swing.JLabel#getText()Ljava/lang/String;*7
+
+__unknown_file (
+
+%23javax.swing.JLabel2	getText()Å
+
+	%	 %(œ
+%25java.lang.String"__concat*&
+	%	 %(¬
+
+%22java.lang.String*'
+
+%√ %(œ
+
+%24java.lang.String}
+{
+	%	 %(„
+%26java.lang.String"__concat*&
+	%	 %(œ
+
+%25java.lang.String*#
+
+%– %(„
+\nisSymbolicLink:f
+d
+
+%‰ %(Ê
+%27javax.swing.JLabel"__id*5
+
+__unknown_file (*
+main.MetaData"
+a7úô
+
+%‰ %(
+%28java.lang.String".javax.swing.JLabel#getText()Ljava/lang/String;*7
+
+__unknown_file (
+
+%27javax.swing.JLabel2	getText()Å
+
+	%	 %(
+%29java.lang.String"__concat*&
+	%	 %(„
+
+%26java.lang.String*'
+
+%‰ %(
+
+%28java.lang.Strings
+q
+	%	 %(˙
+%30java.lang.String"__concat*&
+	%	 %(
+
+%29java.lang.String*
+
+%Ò %(˙	
+\nSize:f
+d
+
+%˚ %(˝
+%31javax.swing.JLabel"__id*5
+
+__unknown_file (*
+main.MetaData"
+a8úô
+
+%˚ %(á
+%32java.lang.String".javax.swing.JLabel#getText()Ljava/lang/String;*7
+
+__unknown_file (
+
+%31javax.swing.JLabel2	getText()Å
+
+	%	 %(á
+%33java.lang.String"__concat*&
+	%	 %(˙
+
+%30java.lang.String*'
+
+%˚ %(á
+
+%32java.lang.String"&
+	% %(à
+
+%33java.lang.StringB
 main.MetaDataH

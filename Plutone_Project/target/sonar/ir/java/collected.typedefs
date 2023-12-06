@@ -179,9 +179,10 @@ getrifiuta+main.Menu#getrifiuta()Ljavax/swing/JButton;;
 main.VerificaImmagine)
 <init>main.VerificaImmagine#<init>()VE
 databaseconfermation-main.VerificaImmagine#databaseconfermation()I=
-imagec3main.VerificaImmagine#imagec(Ljava/lang/String;[B)Djava.lang.ObjectD
+imagec3main.VerificaImmagine#imagec(Ljava/lang/String;[B)Djava.lang.Objectu
 main.Chooser 
-<init>main.Chooser#<init>()Vjavax.swing.JFrame°
+<init>main.Chooser#<init>()V/
+main'main.Chooser#main([Ljava/lang/String;)Vjavax.swing.JFrame°
 
 main.Menu2
 <init>main.Menu2#<init>()VL
@@ -346,12 +347,10 @@ setcolor10main.ImageMenu#setcolor10()V(
 	setcolor8main.ImageMenu#setcolor8()V(
 	setcolor9main.ImageMenu#setcolor9()V_
 violetUmain.ImageMenu#violet(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;_
-yellowUmain.ImageMenu#yellow(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;javax.swing.JMenuBarÒ
+yellowUmain.ImageMenu#yellow(IILjava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;javax.swing.JMenuBar‡
 	main.main
 <init>main.main#<init>()V
-closemain.main#close()V"
-getamain.main#geta()Lmain/GUI;%
-geta1main.main#geta1()Lmain/GUI2;,
+closemain.main#close()V,
 getb$main.main#getb()Ljavax/swing/JFrame;java.lang.Objectæ
 main.MetaData5
 <init>+main.MetaData#<init>(Ljava/nio/file/Path;)V2

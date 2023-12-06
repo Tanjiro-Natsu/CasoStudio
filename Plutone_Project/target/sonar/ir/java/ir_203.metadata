@@ -1,6 +1,3 @@
-main.Menu2#pickacolor(Ljava/awt/event/ActionEvent;)V
-main.GUI#setcolor1(Ljava/awt/Color;)V
-main.GUI#setcolor2(Ljava/awt/Color;)V
+main.Menu2#setSave(Z)V
 ==
-getSource java.util.EventObject#getSource()Ljava/lang/Object;
-setIcon javax.swing.AbstractButton#setIcon(Ljavax/swing/Icon;)V
+setEnabled javax.swing.JMenuItem#setEnabled(Z)V

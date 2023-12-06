@@ -311,7 +311,7 @@ new Thread(new Runnable() {public void run() {
         FileNameExtensionFilter filter1=new FileNameExtensionFilter("Text","txt","Image","jpg");
         chooser1.setFileFilter(filter1);
         int returnVal1=chooser1.showOpenDialog(a1);
-        if(returnVal1==JFileChooser.APPROVE_OPTION){}
+        if(returnVal1==JFileChooser.APPROVE_OPTION){System.out.println("approved");}
             
             t31.setText(chooser1.getSelectedFile().getName());
             int s=chooser1.getSelectedFile().toString().length();
@@ -323,8 +323,9 @@ new Thread(new Runnable() {public void run() {
             
             
 cicla(q,s);
-
+System.out.println(chooser1.getSelectedFile().getAbsolutePath().toString());
             metav(chooser1.getSelectedFile());
+            
  t41.setText(ciao);
 }        
             
@@ -381,6 +382,7 @@ cicla(q,s);
 			   
 	 		
 	 		if(v1.equalsIgnoreCase("txt")){
+	 			
 	             percentuale1=VeerificaTesto.reader(a.getAbsolutePath())*100;
 	            
 	             if(percentuale1>60.00) {
@@ -393,9 +395,8 @@ cicla(q,s);
 	             }}
 	         else if(v1.equalsIgnoreCase("jpg")){
 	          	
-	          	percentuale1=VerificaFonte.databasejpg(a.getAbsolutePath());
+	          	percentuale1=VerificaFonte.databasejpg(a.getAbsolutePath().toString());
 	          	
-	              System.out.println(percentuale1);
 	              if(percentuale1==0.00) {
 	              	j21.setBackground(COLORE11);
 	              	result1=true;

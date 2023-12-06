@@ -65,14 +65,14 @@ public class Reader {
 		  FileNameExtensionFilter filter1=new FileNameExtensionFilter("Text","txt");
 		  chooser1.setFileFilter(filter1);
          int returnVal1=chooser1.showOpenDialog(a);
-        if(returnVal1==JFileChooser.APPROVE_OPTION){}
+        if(returnVal1==JFileChooser.APPROVE_OPTION){System.out.println("approved");}
 		return chooser1.getSelectedFile();
 	}
 	
 	public static String reader(String z) {
-		Scanner b=null;
-		try {
-			b=new Scanner(new BufferedReader(new FileReader(z))); 
+		
+		try (Scanner b=new Scanner(new BufferedReader(new FileReader(z)));){
+			
 			int t=0;
 			while(b.hasNext()){
 				
@@ -85,26 +85,15 @@ public class Reader {
 				
 				t++;
 			}
+			b.close();
 		}
 		
 		
 		catch(Exception  e) {System.out.println(e.getMessage());}
-		finally {b.close();}
+		
 		
 		return g;
 	}
-	/*public static void main(String [] args) {
-		JFrame k=new JFrame();
-	JButton h=new JButton("Ciao");
-	k.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-	final JPanel d=new JPanel();
-	d.add(h);
-	k.add(d);
-	k.setSize(400,400);
-	k.setVisible(true);
 	
-	h.addActionListener(e-> {if(e.getActionCommand().equals("Ciao")) {o=Reader.chooser(d);Reader.reader(o.getAbsolutePath());}});
-	
-	}*/
 
 }

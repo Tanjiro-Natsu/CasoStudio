@@ -274,7 +274,7 @@ prova.dispose();
 			try {
 				Desktop.getDesktop().open(file);
 			} catch (IOException e1) {
-				e1.printStackTrace();
+				System.out.println(e1.getMessage());
 			}
 		}
 		else {
@@ -525,7 +525,7 @@ public void split5() {
 	
 	File file=new File(a+separetor+"Save");
 	if(file.isDirectory()) {
-		
+		System.out.println("esiste");
 	}
 	else {
 		file.mkdir();
@@ -543,7 +543,7 @@ public void split5() {
 		else {
 			risultato=" Non approvato ";
 		}
-		xx.printf("Risultato verifica:"+risultato+"\nFile selezionato: "+GUI.getText3()+"\nFonti certificate che ne parlano: "+GUI.getText4()+GUI.metadatisave());
+		xx.printf(new StringBuilder().append("Risultato verifica:").append(risultato).append("\nFile selezionato: ").append(GUI.getText3()).append("\nFonti certificate che ne parlano: ").append(GUI.getText4()).append(GUI.metadatisave()).toString());
 		xx.close();
 
 	} catch (FileNotFoundException e1) {

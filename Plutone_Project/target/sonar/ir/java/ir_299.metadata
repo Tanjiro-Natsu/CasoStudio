@@ -1,3 +1,1 @@
-main.main#close()V
-==
-dispose java.awt.Window#dispose()V
+main.main#instance-init#

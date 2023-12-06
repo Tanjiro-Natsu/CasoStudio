@@ -6,4 +6,5 @@ javax.swing.JFileChooser#instance-init#
 ==
 setFileFilter javax.swing.JFileChooser#setFileFilter(Ljavax/swing/filechooser/FileFilter;)V
 showOpenDialog javax.swing.JFileChooser#showOpenDialog(Ljava/awt/Component;)I
+println java.io.PrintStream#println(Ljava/lang/String;)V
 getSelectedFile javax.swing.JFileChooser#getSelectedFile()Ljava/io/File;

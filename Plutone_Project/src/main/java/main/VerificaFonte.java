@@ -13,37 +13,33 @@ public class VerificaFonte {
 		 ResultSet k=null;
 		 String query=null;
 		 byte[] m=null;
-		 Connection conn=null;
-		 PreparedStatement stmt=null;
-		try {
+		 String sqlUser = Accesso.getUser();
+         String sqlPassword = Accesso.getPassword();
+         String connectionUrl=new StringBuilder().append(Accesso.getjdbc()).append(encrypt).toString();
+         query="SELECT * FROM Testo WHERE name =any(SELECT T.name FROM News AS n JOIN Testo as T on T.stream_id=n.Stream_File  WHERE n.Argomento=?);";
+		try (Connection conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);PreparedStatement stmt=conn.prepareStatement(query);){
 		 Class.forName(sqldriverString);
 		 
-          String sqlUser = Accesso.getUser();
-          String sqlPassword = Accesso.getPassword();
-          String connectionUrl=new StringBuilder().append(Accesso.getjdbc()).append(encrypt).toString();
-      
-
-          
-         
-           conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
-         	 query="SELECT * FROM Testo WHERE name =any(SELECT T.name FROM News AS n JOIN Testo as T on T.stream_id=n.Stream_File  WHERE n.Argomento=?);";
-         	 stmt=conn.prepareStatement(query);
-         	stmt.setString(1, GUI.getargomento());
-         	 k=stmt.executeQuery(query);
+           
+         	
+         	 
+         	if(GUI2.getargomento()==null) { stmt.setString(1,GUI.getargomento());}
+         	if(GUI.getargomento()==null) { stmt.setString(1,GUI2.getargomento());}
+         	
+         	 k=stmt.executeQuery();
        	 if(k.next()==false){
        		 y=1;
        	 }
        	 else {
        	m= k.getBytes(2);}
        	
-          
+       	stmt.close();conn.close();
 		}
 		catch (Exception j) {
 			System.out.println(j.getMessage());
 		}
-		finally{ try {stmt.close();conn.close();} catch (SQLException e) {System.out.println(e.getMessage());
-		}
-      	}
+		
+      	
 			
 		
 			
@@ -67,7 +63,8 @@ return m;
           conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
         	 query="SELECT * FROM IMMAGINI WHERE name =any(SELECT I.name FROM News AS n JOIN IMMAGINI as I on I.stream_id=n.Stream_File  WHERE n.Argomento=?);"; 
         	stmt=conn.prepareStatement(query);
-        	 stmt.setString(1, GUI.getargomento());
+        	if(GUI.getargomento()==null) { stmt.setString(1,GUI2.getargomento());}
+        	if(GUI2.getargomento()==null) { stmt.setString(1,GUI.getargomento());}
         	 k=stmt.executeQuery();
         	 int f=0;
         	
@@ -76,7 +73,7 @@ return m;
     	 f++;
     	 
     	
-    	 m=VerificaImmagine.imagec(a, k.getBytes(2));
+    	 m=VerificaImmagine.imagec(a,k.getBytes(2));
     	 if(m==0) {
     		 break;
     	 }
@@ -117,9 +114,9 @@ return m;
           
         query="SELECT Fonte FROM Attendibilità WHERE  Argomento=? and Attendibilità='yes';";
         stmt =conn.prepareStatement(query) ;
-        stmt.setString(1, a);
+        stmt.setString(1,a);
         k=stmt.executeQuery();
-        
+       
         
         int f=0;
         while(k.next()){

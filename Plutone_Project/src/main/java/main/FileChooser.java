@@ -30,7 +30,7 @@ import javax.swing.WindowConstants;
 import javax.swing.border.TitledBorder;
 
 public class FileChooser extends JFrame implements Serializable{
-	
+	//org.junit.platform.commons.logging.Logger logger = LoggerFactory.getLogger(this.getClass());
 	private static final long serialVersionUID = 1L;
 	private JPanel k=null;
 	private JPanel k1=null;
@@ -159,52 +159,44 @@ b1.setText(getext(v));
 		
 	}
 	public String getext(String v) {
-		String dd = null;
+		String xx=null;
 		  byte []e=null;
-		  Connection conn=null;
-		  java.sql.PreparedStatement stmt=null;
-			try {
+		  String sqlUser = Accesso.getUser();
+          String sqlPassword = Accesso.getPassword();
+          String connectionUrl =Accesso.getjdbc()+";encrypt=false";
+          String query="SELECT file_stream FROM  Testo  WHERE name=?;";
+			try (Connection conn=DriverManager.getConnection(connectionUrl,sqlUser,sqlPassword);java.sql.PreparedStatement stmt=conn.prepareStatement(query);){
 				 Class.forName(jdbc);
-				 
-		          String sqlUser = Accesso.getUser();
-		          String sqlPassword = Accesso.getPassword();
-		          String connectionUrl =Accesso.getjdbc()+";encrypt=false";
-		          Class.forName(jdbc);
-		           conn = DriverManager.getConnection(connectionUrl,sqlUser,sqlPassword);
-		          String query="SELECT file_stream FROM  Testo  WHERE name=?;";
-		     	  stmt=conn.prepareStatement(query);
 		     	 stmt.setString(1,v);
-		          ResultSet k1=stmt.executeQuery();
+		          ResultSet k12=stmt.executeQuery();
 		      
 			        	
-		        	 while(k1.next()) {
+		        	 while(k12.next()) {
 		        		
-		        		e=k1.getBytes(1);
+		        		e=k12.getBytes(1);
 		        		 
 		        	 }
 		        	 
-		        	 dd=new  String(e,StandardCharsets.UTF_8);
+		        	 String dd=new  String(e,StandardCharsets.UTF_8);
 		        	 
-		        	
+		        	 stmt.close();conn.close();
+		        	 String []h=dd.split(" ");
+		 			 xx="";
+		 			int o=0;
+		 			for(int i=0;i<h.length;i++) {
+		 				if(o==14) {
+		 					xx=new StringBuilder().append(xx).append(" ").append(h[i]).append(" \n").toString();
+		 					o=0;
+		 				}
+		 				else {
+		 					xx=new StringBuilder().append(xx).append(" ").append(h[i]).toString();
+		 				}
+		 				o++;
+		 			}
+		 			
 		          }
 			catch(NullPointerException e2) {System.out.println(e2.getMessage());} catch (ClassNotFoundException e1) {System.out.println(e1.getMessage());} catch (SQLException e1) {System.out.println(e1.getMessage());
 			}
-			finally {try {stmt.close();conn.close();} catch (SQLException e1) {System.out.println(e1.getMessage());}}
-			
-			String []h=dd.split(" ");
-			String xx="";
-			int o=0;
-			for(int i=0;i<h.length;i++) {
-				if(o==14) {
-					xx=new StringBuilder().append(xx).append(" ").append(h[i]).append(" \n").toString();
-					o=0;
-				}
-				else {
-					xx=new StringBuilder().append(xx).append(" ").append(h[i]).toString();
-				}
-				o++;
-			}
-		
 			return xx;
 	}
 	

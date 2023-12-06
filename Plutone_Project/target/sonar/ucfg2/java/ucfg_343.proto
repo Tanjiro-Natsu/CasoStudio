@@ -1,15 +1,15 @@
 
-+main.FileChooser#getb()Ljavax/swing/JFrame;h
-^/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/FileChooser.javas s("1*œ
-1s s(e
-c
-s s(
-%0javax.swing.JFrame"__id*7
+7main.FileChooser#getbis()Ljava/io/ByteArrayInputStream;h
+^/C:/Users/Marco/Desktop/CasoStudio Qualita/Plutone_Project/src/main/java/main/FileChooser.javar r(#"1*²
+1r. r(1q
+o
+r. r(1"
+%0java.io.ByteArrayInputStream"__id*9
 
-__unknown_file (*
-main.FileChooser"
-b"&
-s s( 
-
-%0javax.swing.JFrameB
+__unknown_file (*
+main.FileChooser"
+bis"0
+r' r(2$
+"
+%0java.io.ByteArrayInputStreamB
 main.FileChooserH
