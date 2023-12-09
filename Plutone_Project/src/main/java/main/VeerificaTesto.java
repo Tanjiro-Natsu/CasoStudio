@@ -68,7 +68,7 @@ tot++;
 
         
         
-        return tot/(daverificare.size()+listavero.size());
+        return ((double)(tot))/((double)(daverificare.size()+listavero.size()));
 
     }
      

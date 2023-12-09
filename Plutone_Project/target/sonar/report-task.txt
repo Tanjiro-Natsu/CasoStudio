@@ -1,7 +1,7 @@
 organization=2023-mmqs-org1
 projectKey=2023-mmqs-org1_casostudio
 serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.51216
+serverVersion=8.0.0.51391
 dashboardUrl=https://sonarcloud.io/dashboard?id=2023-mmqs-org1_casostudio
-ceTaskId=AYw_188f_QFlcNE1dqmX
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYw_188f_QFlcNE1dqmX
+ceTaskId=AYxOI_bnGbVMQgptIlk2
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYxOI_bnGbVMQgptIlk2

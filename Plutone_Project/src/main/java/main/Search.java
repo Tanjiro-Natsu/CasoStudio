@@ -6,7 +6,6 @@ import java.awt.GridLayout;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,7 +27,7 @@ public class Search extends JFrame {
 	private  JTextField s=null;
 	private  JTextField s1=null;
 	private String argomento="";
-	private static String ARGOMENTO="argomento";
+	private static String ARGOMENTO2222="argomento";
 	private static String cooper="Cooper Black";
 	private String fonte="";
 	private static ResultSet k;
@@ -103,19 +102,13 @@ public class Search extends JFrame {
 		fonte=s.getText();
 		argomento=s1.getText();
 		int u=0;
-		 Connection conn=null;
+		  String sqlUser = Accesso.getUser();
+          String sqlPassword = Accesso.getPassword(); 
+          String connectionUrl =new StringBuilder().append(Accesso.getjdbc()).append(";encrypt=false").toString();
 		 
-		try {
+		try ( Connection conn= DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);){
 			 Class.forName(driver);
 			 
-	          String sqlUser = Accesso.getUser();
-	          String sqlPassword = Accesso.getPassword(); 
-	          String connectionUrl =new StringBuilder().append(Accesso.getjdbc()).append(";encrypt=false").toString();
-	         
-
-	          
-	          
-	          conn= DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
 	          if(argomento.equals("")){
 	        	 u=split1(conn);   	
 	  		}
@@ -129,19 +122,16 @@ public class Search extends JFrame {
 	  		}
 	         
 	        	
-	        	
+	        conn.close();
 	          }
 	
 		catch(Exception e) {System.out.println(e.getMessage());}
-		finally {try {conn.close();} catch (SQLException e) {System.out.println(e.getMessage());
-		}}
 		
 		for(int i=0;i<filetxt.size();i++) {System.out.println(filetxt.get(i));}
 		for(int y=0;y<fileimage.size();y++) {System.out.println(fileimage.get(y));}
 		if(u==0 ) {
 		new FileChooser(filetxt,fileimage);}
-			filetxt.removeAll(filetxt);
-			fileimage.removeAll(fileimage);
+			
 		
 	}
 	public void error(String b,String b1,int kk) {
@@ -152,12 +142,12 @@ public class Search extends JFrame {
 		a.add(new JLabel("     "));
 		JPanel a2=new JPanel();
 		a2.setLayout(new BorderLayout());
-		JLabel t=null;
+		JLabel t=new JLabel();
 		if(b.equals("argomento")) {
-			t=new JLabel("Errore:L'argomento \""+b1+"\" non e presente nella lista");	
+			
 		}
 		if(b.equals(stringafonte)) {
-		 t=new JLabel("Errore:La fonte  \""+b1+"\" non e presente nella lista");	
+			t.setText("Errore:La fonte  \""+b1+"\" non e presente nella lista");
 		
 		}
 		t.setFont(new Font(cooper,Font.PLAIN,14));
@@ -217,11 +207,11 @@ public class Search extends JFrame {
 
 	public int split1(Connection conn) {
 		int u=0;
-		try {
-			
-			 query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Fonte=?;"; 
-      	 java.sql.PreparedStatement stmt=conn.prepareStatement(query);
-      	 stmt.setString(1,fonte);
+		query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Fonte=?;"; 
+		String query2="SELECT t.name FROM Notizie as n JOIN IMMAGINI as t on n.Stream_File=t.stream_id WHERE  n.Fonte=?;"; 
+	    
+		try (java.sql.PreparedStatement stmt=conn.prepareStatement(query);java.sql.PreparedStatement stmt1=conn.prepareStatement(query2);){
+		stmt.setString(1,fonte);
 			k=stmt.executeQuery();
       	
       		
@@ -234,10 +224,9 @@ public class Search extends JFrame {
       	 }
       	
       	 k=null;
-      	 query="SELECT t.name FROM Notizie as n JOIN IMMAGINI as t on n.Stream_File=t.stream_id WHERE  n.Fonte=?;"; 
-    stmt=conn.prepareStatement(query);
-      	 stmt.setString(1,fonte);
-      	 k=stmt.executeQuery();
+      	 
+      	 stmt1.setString(1,fonte);
+      	 k=stmt1.executeQuery();
       	
       	 while(k.next()) {
       		 fileimage.add(k.getString(1));
@@ -247,6 +236,7 @@ public class Search extends JFrame {
       		 u=1;
       	 } 
       	stmt.close();
+      	stmt1.close();
       	}
 		catch(Exception e) {System.out.println(e.getMessage());}
 
@@ -254,29 +244,23 @@ public class Search extends JFrame {
 	}
 public int split2(Connection conn) {
 	int u=0;
-	
-	try{
+	  query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Argomento= ?;"; 
+	  String query2="SELECT t.name FROM Notizie as n JOIN IMMAGINI as t on n.Stream_File=t.stream_id WHERE n.Argomento=?;";
+	try(java.sql.PreparedStatement stmt= conn.prepareStatement(query);java.sql.PreparedStatement stmt1= conn.prepareStatement(query2);){
 		
-			  query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Argomento= ?;"; 
-			java.sql.PreparedStatement stmt= conn.prepareStatement(query);
 			 conn.setAutoCommit(false);
 			 stmt.setString(1,argomento);
 			 k=stmt.executeQuery();
-    	
-        	
     	 while(k.next()) {
     		 filetxt.add(k.getString(1));
     	 }
     	 if(filetxt.isEmpty()) {
-    		 error(ARGOMENTO,argomento,2);
+    		 error(ARGOMENTO2222,argomento,2);
     		 u=1;
     	 }
     	  k=null;
-    	 
-    	  query="SELECT t.name FROM Notizie as n JOIN IMMAGINI as t on n.Stream_File=t.stream_id WHERE n.Argomento=?;"; 
-    	  stmt= conn.prepareStatement(query);
-    	  stmt.setString(1,argomento);
-    	  k=stmt.executeQuery();
+    	  stmt1.setString(1,argomento);
+    	  k=stmt1.executeQuery();
     	
         	
     	 while(k.next()) {
@@ -284,10 +268,11 @@ public int split2(Connection conn) {
     		 
     	 }
     	 if(fileimage.isEmpty() || filetxt.isEmpty()) {
-    		 error(ARGOMENTO,argomento,2);
+    		 error(ARGOMENTO2222,argomento,2);
     		 u=1;
     	 }
     	 stmt.close();
+    	 stmt1.close();
 	}
 	catch(Exception e) {System.out.println(e.getMessage());}
 	return u;
@@ -295,11 +280,13 @@ public int split2(Connection conn) {
 	}
 public int split3(Connection conn) {
 	int u=0;
-	try {
+	 query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Fonte= ? and n.Argomento=?;"; 
+	String query2="SELECT t.name FROM Notizie as n JOIN IMMAGINI as t on n.Stream_File=t.stream_id WHERE n.Fonte=? and n.Argomento=?;"; 
+	try (java.sql.PreparedStatement stmt=conn.prepareStatement(query);java.sql.PreparedStatement stmt1=conn.prepareStatement(query2);){
 		
 			  
-		 query="SELECT t.name FROM Notizie as n JOIN TESTO as t on n.Stream_File=t.stream_id WHERE n.Fonte= ? and n.Argomento=?;"; 
-		java.sql.PreparedStatement stmt=conn.prepareStatement(query);
+		
+		
 		stmt.setString(1,fonte);
 		stmt.setString(2,argomento);
 		k=stmt.executeQuery();
@@ -312,12 +299,10 @@ public int split3(Connection conn) {
    		 u=1;
    	 }
    	 k=null;
-   	 
-   	 query="SELECT t.name FROM Notizie as n JOIN IMMAGINI as t on n.Stream_File=t.stream_id WHERE n.Fonte=? and n.Argomento=?;"; 
-    stmt=conn.prepareStatement(query);
-    stmt.setString(1,fonte);
-    stmt.setString(2,argomento);
-   	 k=stmt.executeQuery();
+   	
+    stmt1.setString(1,fonte);
+    stmt1.setString(2,argomento);
+   	 k=stmt1.executeQuery();
    	 while(k.next()) {
    		 fileimage.add(k.getString(1));
    	 }
@@ -326,6 +311,7 @@ public int split3(Connection conn) {
    		 u=1;
    	 }
    	stmt.close();
+   	stmt1.close();
 	}
 	catch(Exception e) {System.out.println(e.getMessage());}
 	return u;

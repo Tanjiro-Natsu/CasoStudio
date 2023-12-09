@@ -269,7 +269,10 @@ b2.add(new JPanel(),BorderLayout.SOUTH);
   
 add(b);
 new Thread(new Runnable() {public void run() {
-	while(true) {
+	boolean r=true;
+	int r1=0;
+	while(r) {
+		if(r1!=0) {r=false;}
 	if(t11.getText().equalsIgnoreCase(" ") || t21.getText().equalsIgnoreCase(" ")){button1.setEnabled(false);}
 	
 	

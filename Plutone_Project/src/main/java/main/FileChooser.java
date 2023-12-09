@@ -203,20 +203,13 @@ b1.setText(getext(v));
 	public static byte[] getbyteimg(String v) {
 		
 		  byte []e=null;
-			try {
+		  String sqlUser = Accesso.getUser();
+          String sqlPassword = Accesso.getPassword();
+          String connectionUrl =Accesso.getjdbc()+";encrypt=false";
+          String query="SELECT file_stream FROM  Immagini  WHERE name=?;"; 
+			try (Connection conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);  java.sql.PreparedStatement stmt=conn.prepareStatement(query);){
 				 Class.forName(jdbc);
-				 
-		          String sqlUser = Accesso.getUser();
-		          String sqlPassword = Accesso.getPassword();
-		          String connectionUrl =Accesso.getjdbc()+";encrypt=false";
-		          Class.forName(jdbc);
-
-		          
-		         
-		          Connection conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
-		          
-		          String query="SELECT file_stream FROM  Immagini  WHERE name=?;"; 
-		          java.sql.PreparedStatement stmt=conn.prepareStatement(query);
+		        
 		          stmt.setString(1, v);
 		          ResultSet k1=stmt.executeQuery();
 		      

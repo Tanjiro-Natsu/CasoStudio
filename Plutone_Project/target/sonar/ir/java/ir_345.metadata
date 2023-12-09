@@ -3,6 +3,7 @@ java.awt.GridLayout#<init>(II)V
 javax.swing.JPanel#<init>()V
 javax.swing.JButton#<init>(Ljava/lang/String;)V
 javax.swing.JFrame#instance-init#
+javax.swing.JLabel#<init>()V
 java.awt.GridLayout#instance-init#
 javax.swing.JPanel#instance-init#
 java.awt.BorderLayout#<init>()V
@@ -17,6 +18,7 @@ javax.swing.JButton#instance-init#
 ==
 setLocation java.awt.Window#setLocation(II)V
 add java.awt.Container#add(Ljava/awt/Component;)Ljava/awt/Component;
+setText javax.swing.JLabel#setText(Ljava/lang/String;)V
 setFont javax.swing.JComponent#setFont(Ljava/awt/Font;)V
 add java.awt.Container#add(Ljava/awt/Component;Ljava/lang/Object;)V
 setVisible java.awt.Window#setVisible(Z)V

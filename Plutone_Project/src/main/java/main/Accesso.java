@@ -19,8 +19,8 @@ public class Accesso extends JFrame {
 	}
 	public static String getPassword() {
 		String ret=null;
-		try {
-			Scanner a=new Scanner(new BufferedReader(new FileReader("Password.txt")));
+		try (Scanner a=new Scanner(new BufferedReader(new FileReader("Password.txt")));){
+			
 			ret=a.nextLine();
 			a.close();
 		}

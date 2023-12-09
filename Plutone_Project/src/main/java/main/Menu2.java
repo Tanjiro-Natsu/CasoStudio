@@ -620,9 +620,9 @@ public void split2() {
 	Path path=Paths.get("");
     String a=path.toAbsolutePath().toString();
 
-	try {
+	try (PrintWriter xx=new PrintWriter(new FileOutputStream(new File(new StringBuilder().append(a).append(separetor).append(locked).append(separetor).append("FontiBloccate.txt").toString()),true));){
 		
-		PrintWriter xx=new PrintWriter(new FileOutputStream(new File(new StringBuilder().append(a).append(separetor).append(locked).append(separetor).append("FontiBloccate.txt").toString()),true));
+		
 		
 		xx.printf(new StringBuilder().append(zzz.getText().replace("//s", "")).append("\n").toString());
 		zzz.setText(" ");
@@ -676,7 +676,7 @@ public void split4() {
 	String delete=null;
 	
 	int gh=0;
-	try {
+	
 		
 		File  file=new File(a+separetor+locked+separetor+"FontiBloccate.txt");
 		delete=a+separetor+locked+separetor+"FontiBloccate1.txt";
@@ -686,8 +686,8 @@ public void split4() {
 		gh=2;
 	}
 	else {
-		Scanner scanner=new Scanner(file);
-		PrintWriter writer=new PrintWriter(file1);
+		try (Scanner scanner=new Scanner(file);PrintWriter writer=new PrintWriter(file1);){
+		
 		String hl=null;
 		while(scanner.hasNext()) {
 			hl=scanner.next();
@@ -703,7 +703,10 @@ public void split4() {
 		
 		writer.close();scanner.close();
 		}
-	
+		catch(Exception e44) {
+			System.out.println(e44.getMessage());
+		}
+	}
 		String n1="";
 		String n2="";
 		if(gh==0) {
@@ -738,15 +741,13 @@ public void split4() {
 			} catch (IOException e1) {
 				System.out.println(e1.getMessage());
 			}
-			
-	}
-	catch(Exception e44) {
-		System.out.println(e44.getMessage());
+			prova1.dispose();	
 	}
 	
 	
-	prova1.dispose();
-}
+	
+	
+
 public void split5() {
 	Path path=Paths.get("");
     String a=path.toAbsolutePath().toString();
@@ -758,11 +759,9 @@ public void split5() {
 	else {
 		file.mkdir();
 	}
-	
-	try {
+	Integer z=(Integer)(counter1);
+	try (PrintWriter xx=new PrintWriter(new StringBuilder().append(a).append(separetor).append("Save").append(separetor).append("Save").append(z.toString()).append(".txt").toString());){
 		
-		Integer z=(Integer)(counter1);
-		PrintWriter xx=new PrintWriter(new StringBuilder().append(a).append(separetor).append("Save").append(separetor).append("Save").append(z.toString()).append(".txt").toString());
 		counter1++;
 		String risultato=null;
 		if(GUI.getresult()) {

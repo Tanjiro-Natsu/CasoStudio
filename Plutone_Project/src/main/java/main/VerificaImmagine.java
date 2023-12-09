@@ -59,7 +59,7 @@ public class VerificaImmagine {
                         difference+=Math.abs(greenA-greenB);
                         difference+=Math.abs(blueA-blueB);}}
 
-    double total_pixels=width1*height1*3;
+    double total_pixels=(double)(width1*height1*3);
     double avg=difference/total_pixels;
      percentuale=(avg/255)*100;
 

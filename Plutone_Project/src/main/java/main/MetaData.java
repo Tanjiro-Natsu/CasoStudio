@@ -41,6 +41,24 @@ public JLabel geta9() {return a9;}
 		BasicFileAttributes s=null;
 		try {
 			 s=Files.readAttributes(a,BasicFileAttributes.class);
+			 a1=new JLabel();
+			 a2=new JLabel();
+			 a3=new JLabel();
+			 a4=new JLabel();
+			 a5=new JLabel();
+			 a6=new JLabel();
+			 a7=new JLabel();
+			 a8=new JLabel();
+			 a9=new JLabel();
+			 a9.setText(a.toString());
+				a1.setText(s.creationTime().toString());
+				a2.setText(s.lastAccessTime().toString());
+				a3.setText(s.lastModifiedTime().toString());
+				a4.setText(String.valueOf(s.isDirectory()));
+				a5.setText(String.valueOf(s.isOther()));
+				a6.setText(String.valueOf(s.isRegularFile()));
+				a7.setText(String.valueOf(s.isSymbolicLink()));
+				a8.setText(Long.toString(s.size())+" bytes");
 		} catch (IOException e) {
 			System.out.println(e.getMessage());
 		}
@@ -66,25 +84,9 @@ public JLabel geta9() {return a9;}
 		j6.setFont(new Font(cooper,Font.PLAIN,14));
 		j7.setFont(new Font(cooper,Font.PLAIN,14));
 		j8.setFont(new Font(cooper,Font.PLAIN,14));
-		 a1=new JLabel();
-		 a2=new JLabel();
-		 a3=new JLabel();
-		 a4=new JLabel();
-		 a5=new JLabel();
-		 a6=new JLabel();
-		 a7=new JLabel();
-		 a8=new JLabel();
-		 a9=new JLabel();
+		
 	
-	a9.setText(a.toString());
-	a1.setText(s.creationTime().toString());
-	a2.setText(s.lastAccessTime().toString());
-	a3.setText(s.lastModifiedTime().toString());
-	a4.setText(String.valueOf(s.isDirectory()));
-	a5.setText(String.valueOf(s.isOther()));
-	a6.setText(String.valueOf(s.isRegularFile()));
-	a7.setText(String.valueOf(s.isSymbolicLink()));
-	a8.setText(Long.toString(s.size())+" bytes");
+	
 	
 	
 	add(new JLabel(""));

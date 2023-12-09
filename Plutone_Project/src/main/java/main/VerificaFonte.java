@@ -52,17 +52,13 @@ return m;
 		 ResultSet k=null;
 		 String query=null;
 		double m=0;
-		Connection conn;
-		 java.sql.PreparedStatement stmt;
-		try {
+		 String sqlUser = Accesso.getUser();
+         String sqlPassword = Accesso.getPassword();
+         String connectionUrl =new StringBuilder().append(Accesso.getjdbc()).append(encrypt).toString();
+         query="SELECT * FROM IMMAGINI WHERE name =any(SELECT I.name FROM News AS n JOIN IMMAGINI as I on I.stream_id=n.Stream_File  WHERE n.Argomento=?);"; 
+		try (Connection conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword); java.sql.PreparedStatement stmt=conn.prepareStatement(query);){
 		 Class.forName(sqldriverString);
 		 
-          String sqlUser = Accesso.getUser();
-          String sqlPassword = Accesso.getPassword();
-          String connectionUrl =new StringBuilder().append(Accesso.getjdbc()).append(encrypt).toString();
-          conn = DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
-        	 query="SELECT * FROM IMMAGINI WHERE name =any(SELECT I.name FROM News AS n JOIN IMMAGINI as I on I.stream_id=n.Stream_File  WHERE n.Argomento=?);"; 
-        	stmt=conn.prepareStatement(query);
         	if(GUI.getargomento()==null) { stmt.setString(1,GUI2.getargomento());}
         	if(GUI2.getargomento()==null) { stmt.setString(1,GUI.getargomento());}
         	 k=stmt.executeQuery();
@@ -105,15 +101,9 @@ return m;
         ResultSet k=null;
 		 String query=null;
         String result=null;
-        Connection conn=null;
-        java.sql.PreparedStatement stmt=null;
-		try {
-			Class.forName(sqldriverString);
-			conn= DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);
-        
-          
         query="SELECT Fonte FROM Attendibilità WHERE  Argomento=? and Attendibilità='yes';";
-        stmt =conn.prepareStatement(query) ;
+		try(Connection conn= DriverManager.getConnection(connectionUrl, sqlUser, sqlPassword);   java.sql.PreparedStatement stmt =conn.prepareStatement(query) ;) {
+			Class.forName(sqldriverString);
         stmt.setString(1,a);
         k=stmt.executeQuery();
        
@@ -132,12 +122,12 @@ return m;
         	
         }
         
-        
+        stmt.close();conn.close();
 		}
 		catch (Exception d) {
 			System.out.println(d.getMessage());
 		}
-		finally{ try {stmt.close();conn.close();} catch (SQLException e) {System.out.println(e.getMessage());}};
+		
        
 
 		return result;
